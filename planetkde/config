@@ -124,6 +124,8 @@ itemtemplate itemplate
 #outputfile output.html
 outputfile /home/jr/src/svn/sites/planetnew/website/index.html
 
+define outputxml /home/jr/src/svn/sites/planetnew/website/rss20.xml
+
 # Whether to use a <meta http-equiv="Refresh" ...> tag in the generated
 # HTML to indicate that the page should be refreshed automatically. If
 # this is turned on, then the page will refresh every N minutes, where N

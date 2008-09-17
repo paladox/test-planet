@@ -1,3 +1,18 @@
+Hopefully this will be the new Planet KDE soon.
+
+Edit planetkde/config and set outputfile and outputxml to the right directory.
+
+Run it with 
+
+ ./rawdog -d planetkde --update
+ ./rawdog -d planetkde --write
+
+will write to website/index.html and website/rss20.xml
+
+Jonathan Riddell, 10-2008
+
+---
+
 rawdog: RSS Aggregator Without Delusions Of Grandeur
 Adam Sampson <ats@offog.org>
 
