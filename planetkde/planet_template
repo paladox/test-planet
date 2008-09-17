@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="rawdog.css" type="text/css">
+    <title>Planet KDE</title>
+    <script type="text/javascript" src="http://franz.keferboeck.info/planet/scripts/mootools.v1.11.js" ></script>
+    <script type="text/javascript" src="http://franz.keferboeck.info/planet/scripts/planet.js" ></script>
+    <link rel="alternate" type="application/rss+xml" title="Planet KDE" href="http://planetKDE.org/rss20.xml" />
+
+    <script language="javascript"> 
+    function toggle() {
+        var ele = document.getElementById("feeddiv");
+        if(ele.style.display == "block") {
+                ele.style.display = "none";
+        }
+        else {
+                ele.style.display = "block";
+        }
+    } 
+    </script>
+</head>
+<body>
+
+<div id="page">
+	<div id="header">
+	    <!-- <h1>The lives of the people behind KDE</h1> -->
+            <img id="planetheader" src="images/planet-header-text.png" width="185" height="45" alt="Planet KDE" />
+            <div id="toplinks">
+                <a href="http://planetKDE.org/rss20.xml"><img src="images/akregator.png" height="22" width="22" alt="" /></a> 
+                <a href="http://planetKDE.org/rss20.xml">Planet RSS</a> 
+                <a href="javascript:toggle();"><img src="images/user-identity.png" height="22" width="22" alt="" /></a> 
+                <a href="javascript:toggle();">People aggregated</a> 
+                <a href="http://planetKDE.org/rss20.xml"><img src="images/akregator.png" height="22" width="22" alt="" /></a> 
+                <a href="">Add your blog</a>
+                <a href="http://dot.kde.org/"><img src="images/dot-news.png" height="16" width="16" alt="" /></a> 
+                <a href="http://dot.kde.org/">KDE Dot News</a></div>
+	</div>
+<!--
+    <div id="menu1">
+    </div>
+	<div id="menu2">
+	    <h2>About</h2>
+	    <p>
+	        <a href="http://planetKDE.org/">Planet KDE</a> is an aggregation of public weblogs written by contributors to the K Desktop Environment. The opinions expressed in these weblogs and hence this aggregation are those of the original authors.
+	    </p>
+	    <p>
+	        <a href="http://planetKDE.org/">Planet KDE</a> is not a product or publication of KDE e.V.; as such, it does not necessarily represent the views of the KDE project as a whole or the views of KDE e.V.
+	    </p>
+	    <p>
+	        <a href="http://planetKDE.org/">Planet KDE</a> is powered by <a href="http://offog.org/code/rawdog.html">rawdog</a> and is run by <a title="Send email to Chris Lee" href="mailto:clee@kde.org">Chris Lee</a>. Mail him with the full address of your RSS feed and a short description of what you hack on if you want your blog added to the subscription list.
+	    </p>
+            <p><a href="rss20.xml"><img src="akregator.png" width="22" height="22" alt="" /"></a><a href="rss20.xml">RSS</a></p>
+	</div>
+-->
+    <div id="content">
+        <div id="feeddiv">
+	    <h2>People Aggregated</h2>
+	    <p>
+         __feeds__
+		</p>
+        </div>
+
+
+__items__
+	</div>
+
+<div id="footer">
+Planet KDE is made from the blogs of KDE's contributors.  The opinions it contains are those of the contributor.  This site is powered by rawdog.
+
+</div>
+
+</div>
+
+</body>
+</html>

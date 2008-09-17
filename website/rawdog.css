@@ -1,0 +1,224 @@
+/**
+ * General page layout, moving all elements to the right position...
+ */
+html {
+    min-height: 101%;
+    font-size: 9pt;
+    font-family: "Liberation Sans", "Bitstream Vera Sans", sans-serif;
+    color: #374153;
+    /*background: #999999 url(images/bg-gradient.png) repeat-x;*/
+    background: #999999 url(images/bg.png);
+    text-align: justify;
+}
+
+body {
+/*    background: url(images/bg-page.png);*/
+    width: 810px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#page {
+    padding: 0;
+    margin: 0;
+    background: url(images/bg-menu2.png) no-repeat bottom right;
+}
+
+#header {
+    /*height: 145px;*/
+    height: 81px;
+    /*width: 810px;*/
+    width: 724px;
+    background: url(images/bg-header.png);
+    /*text-align: right;*/
+    font-size: 14px;
+    /*font-weight: bold;*/
+    /*padding: 33px 50px;*/
+    padding: 32px 43px;
+    margin: 0px 0px 0px 0px;
+}
+
+#menu1 {
+    height: 25px;
+    width: 800px;
+    margin: 0 auto;
+    background: url(images/bg-menu1.png) center;
+}
+
+#menu2 {
+    width: 160px;
+    float: right;
+    padding: 20px 40px 10px 20px;
+    margin: 0 20px 0 0;
+}
+
+#content {
+    /*width: 770px;*/
+    /*width: 810px;*/
+    /*margin: 0 0 0 20px;*/
+    /*margin: 0px 0px 0px 0px;*/
+    /*background: url(images/bg-content.png) no-repeat top right ;*/
+    background: url(images/bg-content.png) repeat-y top left ;
+    /*padding: 20px 20px 10px 18px;*/
+    min-height: 300px;
+    padding: 1px 0px 1px 0px; /*This stops a mysterious gap appearing.  HTML is weird*/
+}
+
+div.day h2 {
+    padding: 0px 0px 0px 20px;
+}
+
+#footer {
+    clear: both;
+    height: 107px;
+    width: 810px;
+    margin: 0px;
+    background: #ffffff url(images/bg-footer.png) no-repeat;
+    padding: 20px 0px 0px 0px;
+
+    text-align: center;
+/*    padding-top: 18px;*/
+}
+
+/**
+ * Header layout
+ */
+#header h1 {
+    font-style: normal;
+    font-size: 12.4pt;
+    font-weight: lighter;
+    font-stretch: narrower;
+    word-spacing: 0.27em;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+#header p {
+    margin: 0;
+    padding: 0;
+    font-size: 9pt;
+}
+
+#header #toplinks {
+    margin: 26px 0px 0px 0px;
+}
+
+#header #toplinks a {
+    color: #374153;
+}
+
+#feeddiv {
+    display: none;
+    padding: 0px 0px 0px 20px;
+}
+
+/**
+ * Menu2 layout
+ */
+#menu2 ul {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+#menu2 img {
+    margin: 0 5px 0 0;
+}
+
+/* Content Layout */
+.daygroup h2 {
+    text-align: right;
+    width: 100%;
+    margin-bottom: -30px;
+}
+
+.channelgroup {
+    /*background: url(images/default-face.png) no-repeat bottom left;*/
+    background: url(images/between-posts.png) no-repeat bottom center;
+    padding: 0px 0px 10px 0px;
+    /*margin: 0 0 12px 0;*/
+}
+.channelgroup h3 {
+    padding: 20px 0px 0px 20px;
+    margin: 0 29px 0 0;
+    /*
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #374153;
+    */
+}
+.channelgroup h3 a {
+    color: #333D4E; /*wee bit darker*/
+}
+.channelgroup h4 {
+    font-size: 240%;
+    font-weight: lighter;
+    margin: 0px;
+    text-align: left;
+}
+.channelgroup h4 a {
+    color: #455269; /*wee bit lighter*/
+}
+.entrygroup {
+    margin: 0px 18px 0px 28px;
+}
+.entry {
+    margin-left: 29px;
+}
+
+.entry p:first-child:first-letter {
+    font-size: 250%;
+}
+.entry hr {
+    width: 90%;
+    height: 0;
+    border: 1px dashed #374153;
+}
+.entry p.date {
+    font-size: 7pt;
+    text-align: right;
+}
+.entry img {
+    padding: 0;
+    margin: 5px;
+    max-width: 100%;
+}
+
+.entry blockquote {
+    border: 1px dashed #374153;
+    background-color: #cccccc;
+    margin: 7px 20px 7px 20px;
+    padding: 0px;
+    overflow: auto;
+}
+
+.entry blockquote p:first-child:first-letter {
+    font-size: 8pt;
+    margin: 0;
+    padding: 0;
+}
+.entry code {
+    margin: 0;
+    padding: 0;
+    display: block;
+    white-space: nowrap;
+}
+
+/**
+ * General textlayout
+ */
+a { cursor: pointer; color: #4a7ad8; text-decoration: none; border-bottom: 1px solid transparent;}
+a:hover { text-decoration: underline; }
+
+img { border: 0; }
+
+/**
+ * Hide dynamic controllers generally - unhide by javascript, so only when
+ * dynamic effects can be used anyway!
+ */
+*.dynamic {
+    visibility: hidden;
+    cursor: pointer;
+}
+
