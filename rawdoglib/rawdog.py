@@ -476,10 +476,12 @@ class Article:
 		if modified is not None:
 			try:
 				self.date = calendar.timegm(modified)
+				self.dateFromFeed = True
 			except OverflowError:
 				pass
-                else:
-                    self.date = now #added jriddell 2008-09, else it doesn't show blogs with no dates in the RSS
+		else:
+			self.date = now #added jriddell 2008-09, else it doesn't show blogs with no dates in the RSS
+			self.dateFromFeed = False
 
 		self.hash = self.compute_hash()
 
@@ -511,7 +513,8 @@ class Article:
 		might have other changes that aren't part of the hash)."""
 		self.entry_info = new_article.entry_info
 		self.sequence = new_article.sequence
-		self.date = new_article.date
+		if new_article.dateFromFeed: #jriddell, stop it updating for feeds without dates
+		    self.date = new_article.date
 		self.last_seen = now
 
 	def can_expire(self, now, config):
