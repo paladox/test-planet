@@ -224,7 +224,7 @@ def fill_template(template, bits):
 					if_stack.append(not if_stack.pop())
 			elif bits.has_key(key):
 				if type(bits[key]) == types.UnicodeType:
-					write(bits[key].encode(encoding))
+					write(bits[key].encode("UTF-8"))
 				else:
 					write(bits[key])
 		else:
