@@ -822,7 +822,7 @@ feed 1h http://paulgiannaros.blogspot.com/atom.xml
 feed 1h http://blog.jacobrideout.net/rss.xml
         define_name Jacob Rideout (rideout)
 
-feed 1h http://wadejolson.wordpress.com/feed/
+feed 1h http://wadejolson.wordpress.com/feed?mrss=off
         define_name Wade Olson
 
 feed 1h http://www.kdedevelopers.org/blog/2661/feed
@@ -897,7 +897,7 @@ feed 1h http://www.stepin.name/feed/
 feed 1h http://blog.cryos.net/feeds/index.rss2
         define_name Marcus Hanwell (cryos)
 
-feed 1h http://ksounds.wordpress.com/feed/
+feed 1h http://ksounds.wordpress.com/feed?mrss=off
         define_name Martyn Circus
 
 feed 1h http://rivolaks.blogspot.com/feeds/posts/default
@@ -906,7 +906,7 @@ feed 1h http://rivolaks.blogspot.com/feeds/posts/default
 feed 1h http://troy-at-kde.livejournal.com/data/rss
         define_name Troy Unrau
 
-feed 1h http://jaham.wordpress.com/feed/
+feed 1h http://jaham.wordpress.com/feed?mrss=off
         define_name Jan Hambrecht (jaham)
 
 feed 1h http://domseichter.blogspot.com/feeds/posts/default
@@ -930,7 +930,7 @@ feed 1h http://chehrlic.blogspot.com/rss.xml
 feed 1h http://neksa.blogspot.com/rss.xml
         define_name Alexandr Goncearenco
 
-feed 1h http://apaku.wordpress.com/feed/
+feed 1h http://apaku.wordpress.com/feed?mrss=off
         define_name Andreas Pakulat
 
 feed 1h http://blog.ruphy.org/?feed=rss2
@@ -939,10 +939,10 @@ feed 1h http://blog.ruphy.org/?feed=rss2
 feed 1h http://apachelog.blogspot.com/rss.xml
         define_name Harald Sitter (apachelogger)
 
-feed 1h http://fyanardi.wordpress.com/feed/
+feed 1h http://fyanardi.wordpress.com/feed?mrss=off
         define_name Fredy Yanardi
 
-feed 1h http://myrizio.wordpress.com/feed/
+feed 1h http://myrizio.wordpress.com/feed?mrss=off
         define_name Maurizio Monge
 
 feed 1h http://www.gustavoboiko.org/blog/category/kde/feed
@@ -960,7 +960,7 @@ feed 1h http://www.flavio.castelli.name/feed
 feed 1h http://franz.keferboeck.info/blog/?feed=rss2
         define_name Franz Keferboeck
 
-feed 1h http://meson10.wordpress.com/feed/
+feed 1h http://meson10.wordpress.com/feed?mrss=off
         define_name Piyush Verma
 
 feed 1h http://blog.loic.corbasson.fr/feed/tag/KDE/rss2
@@ -975,13 +975,13 @@ feed 1h http://lukaskrop.uttx.net/blog/index.php?/feeds/categories/7-planetKDE.r
 feed 1h http://www.digikam.org/?q=blog/133/feed
         define_name Arnd Baecker
 
-feed 1h http://darktears.wordpress.com/feed/
+feed 1h http://darktears.wordpress.com/feed?mrss=off
         define_name Alexis Menard (darktears)
 
-feed 1h http://freelancesamurai.wordpress.com/tag/kde/feed/
+feed 1h http://freelancesamurai.wordpress.com/tag/kde/feed?mrss=off
         define_name Nuno Povoa (npovoa)
 
-feed 1h http://amachu.wordpress.com/feed/?cat=804
+feed 1h http://amachu.wordpress.com/feed/?cat=804&mrss=off
         define_name Sri Ramadoss M (amachu)
 
 feed 1h http://bertjan.broeksemaatjes.nl/taxonomy/term/5/0/feed
@@ -990,13 +990,13 @@ feed 1h http://bertjan.broeksemaatjes.nl/taxonomy/term/5/0/feed
 feed 1h http://mikearthur.co.uk/feed/
         define_name Mike Arthur (mikearthur)
 
-feed 1h http://kdedmiller.wordpress.com/feed/
+feed 1h http://kdedmiller.wordpress.com/feed?mrss=off
         define_name David Miller
 
 feed 1h http://blog.hartwork.org/?feed=rss2&cat=23
         define_name Sebastian Pipping (sping)
 
-feed 1h http://pcapriotti.wordpress.com/category/kde/feed
+feed 1h http://pcapriotti.wordpress.com/category/kde/feed?mrss=off
         define_name Paolo Capriotti
 
 feed 1h http://jpwhiting.blogspot.com/feeds/posts/default?alt=rss
@@ -1287,7 +1287,7 @@ feed 1h http://www.confuego.org/feeds/categories/1-KDE.rss
 feed 1h http://drfav.wordpress.com/tag/KDE/feed?mrss=off
         define_name Dario Freddi (drf__)
 
-feed 1h http://blog.martin-graesslin.com/blog/?cat=7&feed=rss
+feed 1h http://blog.martin-graesslin.com/blog/?cat=7&feed=rss2
         define_name Martin Gräßlin
 
 feed 1h http://kdedevelopers.org/blog/6425/feed
