@@ -248,1049 +248,1049 @@ changeconfig true
 #feed 3h http://proxyfeed.example.com/proxied.rss http_proxy=http://localhost:1234/
 #feed 3h http://dupsfeed.example.com/duplicated.rss allowduplicates=true
 
-feed 1h http://c133.org/blog/index.rss
+feed 15m http://c133.org/blog/index.rss
         define_name Chris Lee (clee)
         define_face hackergotchi/clee.png
         define_facewidth 64
         define_faceheight 68
 
-feed 1h http://www.monroe.nu/feeds/categories/1-amaroK.rss
+feed 15m http://www.monroe.nu/feeds/categories/1-amaroK.rss
         define_name Ian Monroe (eean)
 
-feed 1h http://www.sebruiz.net/wp-rss2.php?cat=3
+feed 15m http://www.sebruiz.net/wp-rss2.php?cat=3
         define_name Seb Ruiz (sebr)
         define_face hackergotchi/sebr.png
         define_facewidth 64
         define_faceheight 90
 
-feed 1h http://feeds.feedburner.com/LateralOpinion
+feed 15m http://feeds.feedburner.com/LateralOpinion
         define_name Roberto Alsina (ralsina)
 
-feed 1h http://www.purinchu.net/wp/feed/
+feed 15m http://www.purinchu.net/wp/feed/
         define_name Michael Pyne (mpyne)
         define_face hackergotchi/mpyne.png
         define_facewidth 64
         define_faceheight 67
 
-feed 1h http://www.kdedevelopers.org/blog/11/feed
+feed 15m http://www.kdedevelopers.org/blog/11/feed
         define_name Maksim Orlovich (SadEagle)
 
-feed 1h http://www.valdyas.org/fading/index.cgi/index.rss
+feed 15m http://www.valdyas.org/fading/index.cgi/index.rss
         define_name Boudewijn Rempt (boud)
 
-feed 1h http://psnkde.blogspot.com/atom.xml
+feed 15m http://psnkde.blogspot.com/atom.xml
         define_name Peter Simonsson (psn)
 
-feed 1h http://digested.blogspot.com/atom.xml
+feed 15m http://digested.blogspot.com/atom.xml
         define_name Derek Kite (dkite)
 
-feed 1h http://annma.blogspot.com/atom.xml
+feed 15m http://annma.blogspot.com/atom.xml
         define_name Anne-Marie Mahfouf (annma)
 
-feed 1h http://caybro.blogspot.com/atom.xml
+feed 15m http://caybro.blogspot.com/atom.xml
         define_name Lukas Tinkl
 
-feed 1h http://www.kdedevelopers.org/blog/89/feed
+feed 15m http://www.kdedevelopers.org/blog/89/feed
         define_name Richard Dale
 
-feed 1h http://benjamin-meyer.blogspot.com/feeds/posts/default/-/KDE
+feed 15m http://benjamin-meyer.blogspot.com/feeds/posts/default/-/KDE
         define_name Benjamin Meyer (icefox)
 
-feed 1h http://www.kdedevelopers.org/blog/72/feed
+feed 15m http://www.kdedevelopers.org/blog/72/feed
         define_name Scott Wheeler (wheels)
         define_face hackergotchi/wheels.png
         define_facewidth 66
         define_faceheight 80
 
-feed 1h http://www.kdedevelopers.org/blog/9/feed
+feed 15m http://www.kdedevelopers.org/blog/9/feed
         define_name Richard Moore (rich)
 
-feed 1h http://www.kdedevelopers.org/blog/35/feed
+feed 15m http://www.kdedevelopers.org/blog/35/feed
         define_name Mathieu Chouinard (chouimat)
         define_face hackergotchi/chouimat.png
         define_facewidth 64
         define_faceheight 78
 
-feed 1h http://www.kdedevelopers.org/blog/2/feed
+feed 15m http://www.kdedevelopers.org/blog/2/feed
         define_name Ian Geiser (geiseri)
         define_face hackergotchi/geiseri.png
         define_facewidth 64
         define_faceheight 79
 
-feed 1h http://www.ugarro.com/blog/blog4.php?cat=14&tempskin=_rss2
+feed 15m http://www.ugarro.com/blog/blog4.php?cat=14&tempskin=_rss2
         define_name Unai Garro (uga)
 
-feed 1h http://tokoe-kde.blogspot.com/rss.xml
+feed 15m http://tokoe-kde.blogspot.com/rss.xml
         define_name Tobias Koenig (tokoe)
 
-feed 1h http://zrusin.blogspot.com/rss.xml
+feed 15m http://zrusin.blogspot.com/rss.xml
         define_name Zack Rusin (zrusin)
 
-feed 1h http://www.kdedevelopers.org/blog/74/feed
+feed 15m http://www.kdedevelopers.org/blog/74/feed
         define_name Helio Castro (heliocastro)
 
-feed 1h http://www.kdedevelopers.org/blog/70/feed
+feed 15m http://www.kdedevelopers.org/blog/70/feed
         define_name Waldo Bastian (zogje)
 
-feed 1h http://www.kdedevelopers.org/blog/54/feed
+feed 15m http://www.kdedevelopers.org/blog/54/feed
         define_name Cornelius Schumacher
         define_face hackergotchi/cornelius.png
         define_facewidth 59
         define_faceheight 85
 
-feed 1h http://www.kdedevelopers.org/blog/104/feed
+feed 15m http://www.kdedevelopers.org/blog/104/feed
         define_name Jaroslaw Staniek (js)
 
-feed 1h http://www.kdedevelopers.org/blog/395/feed
+feed 15m http://www.kdedevelopers.org/blog/395/feed
         define_name John Ratke
 
-feed 1h http://www.kdedevelopers.org/blog/57/feed
+feed 15m http://www.kdedevelopers.org/blog/57/feed
         define_name Jonathan Riddell (riddell)
         define_face hackergotchi/riddell.png
         define_facewidth 64
         define_faceheight 68
 
-feed 1h http://www.kdedevelopers.org/blog/432/feed
+feed 15m http://www.kdedevelopers.org/blog/432/feed
         define_name Till Adam
 
-feed 1h http://www.kdedevelopers.org/blog/457/feed
+feed 15m http://www.kdedevelopers.org/blog/457/feed
         define_name Stephan Binner (Beineri)
         define_face hackergotchi/beineri.png
         define_facewidth 70
         define_faceheight 70
 
-feed 1h http://daniel.molkentin.de/blog/index.php?/feeds/categories/21-English.rss
+feed 15m http://daniel.molkentin.de/blog/index.php?/feeds/categories/21-English.rss
         define_name Daniel Molkentin (danimo)
         define_face hackergotchi/danimo.png
         define_facewidth 64
         define_faceheight 77
 
-feed 1h http://aseigo.blogspot.com/rss.xml
+feed 15m http://aseigo.blogspot.com/rss.xml
         define_name Aaron Seigo (aseigo)
         define_face hackergotchi/aseigo.png
         define_facewidth 64
         define_faceheight 81
 
-feed 1h http://www.kdedevelopers.org/blog/102/feed
+feed 15m http://www.kdedevelopers.org/blog/102/feed
         define_name Brad Hards (bradh)
 
-feed 1h http://www.livejournal.com/users/cniehaus/data/rss
+feed 15m http://www.livejournal.com/users/cniehaus/data/rss
         define_name Carsten Niehaus (carsten)
 
-feed 1h http://www.kdedevelopers.org/blog/105/feed
+feed 15m http://www.kdedevelopers.org/blog/105/feed
         define_name Adam Treat (manyoso)
         define_face hackergotchi/manyoso.png
         define_facewidth 85
         define_faceheight 85
 
-feed 1h http://pdamsten.blogspot.com/atom.xml
+feed 15m http://pdamsten.blogspot.com/atom.xml
         define_name Petri Damsten
 
-feed 1h http://www.kdedevelopers.org/blog/418/feed
+feed 15m http://www.kdedevelopers.org/blog/418/feed
         define_name Kurt Pfeifle (pipitas)
 
-feed 1h http://amarok.kde.org/blog/feeds/categories/1-markey.rss
+feed 15m http://amarok.kde.org/blog/feeds/categories/1-markey.rss
         define_name Mark Kretschmann (markey)
 
-feed 1h http://www.kdedevelopers.org/blog/124/feed
+feed 15m http://www.kdedevelopers.org/blog/124/feed
         define_name Stephan Kulow (coolo)
 
-feed 1h http://adymo.blogspot.com/atom.xml
+feed 15m http://adymo.blogspot.com/atom.xml
         define_name Alexander Dymo (adymo)
 
-feed 1h http://nhasan.blogspot.com/atom.xml
+feed 15m http://nhasan.blogspot.com/atom.xml
         define_name Nadeem Hasan
         define_face hackergotchi/nadeem.png
         define_facewidth 64
         define_faceheight 80
 
-feed 1h http://accentgrave.blogspot.com/atom.xml
+feed 15m http://accentgrave.blogspot.com/atom.xml
         define_name Philip Rodrigues (PhilRod)
 
-feed 1h http://www.kdedevelopers.org/blog/1451/feed
+feed 15m http://www.kdedevelopers.org/blog/1451/feed
         define_name Allen Winter
 
-feed 1h http://www.kdedevelopers.org/blog/225/feed
+feed 15m http://www.kdedevelopers.org/blog/225/feed
         define_name Carlos Leonhard Woelz (cwoelz)
 
-feed 1h http://physos.org/wp-atom.php?cat=2
+feed 15m http://physos.org/wp-atom.php?cat=2
         define_name Rainer Endres (physos)
 
-feed 1h http://navindra.blogspot.com/atom.xml
+feed 15m http://navindra.blogspot.com/atom.xml
         define_name Navindra Umanee
 
-feed 1h http://www.kdedevelopers.org/blog/299/feed
+feed 15m http://www.kdedevelopers.org/blog/299/feed
         define_name Henrique Pinto
 
-feed 1h http://tsdgeos.blogspot.com/atom.xml
+feed 15m http://tsdgeos.blogspot.com/atom.xml
         define_name Albert Astals Cid (TSDgeos)
         define_face hackergotchi/TSDgeos.png
         define_facewidth 80
         define_faceheight 80
 
-feed 1h http://sirtaj.net/blog/?flav=rss
+feed 15m http://sirtaj.net/blog/?flav=rss
         define_name Sirtaj Singh Kang (taj)
 
-feed 1h http://fredemmott.co.uk/blog_rss.php
+feed 15m http://fredemmott.co.uk/blog_rss.php
         define_name Fred Emmott (fred87)
         define_face hackergotchi/fred87.png
         define_facewidth 64
         define_faceheight 80
 
-feed 1h http://www.derkarl.org/kdejournal.rss.php
+feed 15m http://www.derkarl.org/kdejournal.rss.php
         define_name Charles Samuels (njaard)
         define_face hackergotchi/njaard.png
         define_facewidth 64
         define_faceheight 70
 
-feed 1h http://duncan.mac-vicar.com/blog/archives/category/open-source/kde/feed
+feed 15m http://duncan.mac-vicar.com/blog/archives/category/open-source/kde/feed
         define_name Duncan Mac-Vicar (duncanmv)
 
-feed 1h http://www.kdedevelopers.org/blog/55/feed
+feed 15m http://www.kdedevelopers.org/blog/55/feed
         define_name Lucijan Busch (lucijan)
 
-feed 1h http://marccramdal.blogspot.com/atom.xml
+feed 15m http://marccramdal.blogspot.com/atom.xml
         define_name Marc Cramdal
 
-feed 1h http://www.kdedevelopers.org/blog/278/feed
+feed 15m http://www.kdedevelopers.org/blog/278/feed
         define_name Allan Sandfeld Jensen (carewolf)
 
-feed 1h http://ariya.blogspot.com/atom.xml
+feed 15m http://ariya.blogspot.com/atom.xml
         define_name Ariya Hidayat
 
-feed 1h http://theobromas.blogspot.com/atom.xml
+feed 15m http://theobromas.blogspot.com/atom.xml
         define_name Janet Theobroma (theobroma)
         define_face hackergotchi/theobroma.png
         define_facewidth 80
         define_faceheight 80
 
-feed 1h http://www.kdedevelopers.org/blog/460/feed
+feed 15m http://www.kdedevelopers.org/blog/460/feed
         define_name Kurt Hindenburg
 
-feed 1h http://canllaith.org/?feed=rss2&cat=2
+feed 15m http://canllaith.org/?feed=rss2&cat=2
         define_name Jes Hall (canllaith)
         define_face hackergotchi/canllaith.png
         define_facewidth 72
         define_faceheight 83
 
-feed 1h http://people.fruitsalad.org/adridg/bobulate/index.php?/feeds/index.rss2
+feed 15m http://people.fruitsalad.org/adridg/bobulate/index.php?/feeds/index.rss2
         define_name Adriaan de Groot (adridg)
 
-feed 1h http://www.kdedevelopers.org/blog/20/feed
+feed 15m http://www.kdedevelopers.org/blog/20/feed
         define_name Andras Mantia
 
-feed 1h http://www.kuarepoti-dju.net/wp-rss2.php?cat=3
+feed 15m http://www.kuarepoti-dju.net/wp-rss2.php?cat=3
         define_name Josef Spillner
 
-feed 1h http://www.kdedevelopers.org/blog/77/feed
+feed 15m http://www.kdedevelopers.org/blog/77/feed
         define_name Will Stephenson
 
-feed 1h http://www.christian-loose.de/atom.xml
+feed 15m http://www.christian-loose.de/atom.xml
         define_name Christian Loose
 
-feed 1h http://mattr.info:8080/blog/?feed=rss2
+feed 15m http://mattr.info:8080/blog/?feed=rss2
         define_name Matt Rogers (mattr)
         define_face hackergotchi/mattr.png
         define_facewidth 70
         define_faceheight 117
 
-feed 1h http://ellen.reitmayr.net/index.php/feed
+feed 15m http://ellen.reitmayr.net/index.php/feed
         define_name Ellen Reitmayr (el)
 
-feed 1h http://www.kdedevelopers.org/blog/938/feed
+feed 15m http://www.kdedevelopers.org/blog/938/feed
         define_name Jan Muehlig (janushead)
 
-feed 1h http://holehan.blogspot.com/atom.xml
+feed 15m http://holehan.blogspot.com/atom.xml
         define_name Florian Graessle (holehan)
         define_face hackergotchi/holehan.png
         define_facewidth 62
         define_faceheight 68
 
-feed 1h http://tina-t.blogspot.com/atom.xml
+feed 15m http://tina-t.blogspot.com/atom.xml
         define_name Tina Trillitzsch
         define_face hackergotchi/tina.png
         define_facewidth 74
         define_faceheight 76
 
-feed 1h http://www.methylblue.com/blog/wp-rss.php?cat=4
+feed 15m http://www.methylblue.com/blog/wp-rss.php?cat=4
         define_name Max Howell (mxcl)
 
-feed 1h http://www.kdedevelopers.org/blog/175/feed
+feed 15m http://www.kdedevelopers.org/blog/175/feed
         define_name Fabrice Mous (fab)
         define_face hackergotchi/fab.png
         define_facewidth 77
         define_faceheight 85
 
-feed 1h http://phantomsdad.blogspot.com/atom.xml
+feed 15m http://phantomsdad.blogspot.com/atom.xml
         define_name Gary Cramblitt (PhantomsDad)
 
-feed 1h http://www.omat.nl/drupal/?q=taxonomy/term/2/0/feed
+feed 15m http://www.omat.nl/drupal/?q=taxonomy/term/2/0/feed
         define_name Tom Albers
 
-feed 1h http://www.bramschoenmakers.nl/taxonomy/term/3/0/feed
+feed 15m http://www.bramschoenmakers.nl/taxonomy/term/3/0/feed
         define_name Bram Schoenmakers
 
-feed 1h http://blog.chris.de/feeds/categories/5-KDE.rss
+feed 15m http://blog.chris.de/feeds/categories/5-KDE.rss
         define_name Christian Muehlhaeuser (muesli)
 
-feed 1h http://www.kdedevelopers.org/blog/311/feed
+feed 15m http://www.kdedevelopers.org/blog/311/feed
         define_name Cristian Tibirna (Inorog)
 
-feed 1h http://www.kdedevelopers.org/blog/1088/feed
+feed 15m http://www.kdedevelopers.org/blog/1088/feed
         define_name Nikolas Zimmermann (WildFox)
 
-feed 1h http://www.kdedevelopers.org/blog/699/feed
+feed 15m http://www.kdedevelopers.org/blog/699/feed
         define_name Frank Osterfeld
 
-feed 1h http://www.kdedevelopers.org/blog/1089/feed
+feed 15m http://www.kdedevelopers.org/blog/1089/feed
         define_name Rob Buis (rwlbuis)
 
-feed 1h http://www.kdedevelopers.org/blog/39/feed
+feed 15m http://www.kdedevelopers.org/blog/39/feed
         define_name Christoph Cullmann (cullmann)
 
-feed 1h http://www.kdedevelopers.org/blog/16/feed
+feed 15m http://www.kdedevelopers.org/blog/16/feed
         define_name Reinhold Kainhofer
 
-feed 1h http://www.very-clever.com/kde-blog/feed/rss2
+feed 15m http://www.very-clever.com/kde-blog/feed/rss2
         define_name Ewald Kicker
 
-feed 1h http://labs.trolltech.com/blogs/author/thiago/feed
+feed 15m http://labs.trolltech.com/blogs/author/thiago/feed
         define_name Thiago Macieira (thiago)
 
-feed 1h http://liquidat.wordpress.com/feed/?mrss=off
+feed 15m http://liquidat.wordpress.com/feed/?mrss=off
         define_name Roland Wolters (liquidat)
 
-feed 1h http://jucato.org/blog/category/foss/feed/
+feed 15m http://jucato.org/blog/category/foss/feed/
         define_name Juan Carlos Torres (jucato)
 
-feed 1h http://www.kdedevelopers.org/blog/38/feed
+feed 15m http://www.kdedevelopers.org/blog/38/feed
         define_name Jason Harris (LMCboy)
 
-feed 1h http://www.kdedevelopers.org/blog/242/feed
+feed 15m http://www.kdedevelopers.org/blog/242/feed
         define_name Stefan Teleman
 
-feed 1h http://www.kdedevelopers.org/blog/1186/feed
+feed 15m http://www.kdedevelopers.org/blog/1186/feed
         define_name Antonio Larrosa Jimenez (antlarr)
 
-feed 1h http://www.kdedevelopers.org/blog/531/feed
+feed 15m http://www.kdedevelopers.org/blog/531/feed
         define_name Alexander Neundorf
 
-feed 1h http://www.kdedevelopers.org/blog/1192/feed
+feed 15m http://www.kdedevelopers.org/blog/1192/feed
         define_name Martijn Klingens
 
-feed 1h http://people.warp.es/~isaac/blog/index.php/category/free-software/feed/
+feed 15m http://people.warp.es/~isaac/blog/index.php/category/free-software/feed/
         define_name Isaac Clerencia
 
-feed 1h http://jahqueel.blogspot.com/atom.xml
+feed 15m http://jahqueel.blogspot.com/atom.xml
         define_name Ashley Winters
 
-feed 1h http://www.kdedevelopers.org/blog/1209/feed
+feed 15m http://www.kdedevelopers.org/blog/1209/feed
         define_name Danny Allen (dannya)
         define_face hackergotchi/dannya.png
         define_facewidth 73
         define_faceheight 80
 
-feed 1h http://www.kdedevelopers.org/blog/41/feed
+feed 15m http://www.kdedevelopers.org/blog/41/feed
         define_name Gregor Iaskievitch
 
-feed 1h http://pinheiro-kde.blogspot.com/rss.xml
+feed 15m http://pinheiro-kde.blogspot.com/rss.xml
         define_name Nuno Pinheiro (pinheiro)
 
-feed 1h http://taupter.blogspot.com/atom.xml
+feed 15m http://taupter.blogspot.com/atom.xml
         define_name Cl&aacute;udio da Silveira Pinheiro (Taupter)
 
-feed 1h http://erioll.blogspot.com/atom.xml
+feed 15m http://erioll.blogspot.com/atom.xml
         define_name Adrien Facelina
 
-feed 1h http://vizZzion.org/rss.php
+feed 15m http://vizZzion.org/rss.php
         define_name Sebastian Kuegler
 
-feed 1h http://amarok.kde.org/blog/feeds/categories/9-leinir.rss
+feed 15m http://amarok.kde.org/blog/feeds/categories/9-leinir.rss
         define_name Dan Jensen (leinir)
 
-feed 1h http://davigno.oxygen-icons.org/?feed=rss2
+feed 15m http://davigno.oxygen-icons.org/?feed=rss2
         define_name David Vignoni (davigno)
 
-feed 1h http://www.kdedevelopers.org/blog/507/feed
+feed 15m http://www.kdedevelopers.org/blog/507/feed
         define_name Marco Gulino (RockMan)
 
-feed 1h http://jamesots.blogspot.com/atom.xml
+feed 15m http://jamesots.blogspot.com/atom.xml
         define_name James Ots
 
-feed 1h http://ciesbreijs.blogspot.com/atom.xml
+feed 15m http://ciesbreijs.blogspot.com/atom.xml
         define_name Cies Breijs (cies)
 
-feed 1h http://www.kdedevelopers.org/blog/83/feed
+feed 15m http://www.kdedevelopers.org/blog/83/feed
         define_name Kevin Krammer
 
-feed 1h http://www.kdedevelopers.org/blog/1195/feed
+feed 15m http://www.kdedevelopers.org/blog/1195/feed
         define_name Simon Edwards
 
-feed 1h http://www.kdedevelopers.org/blog/838/feed
+feed 15m http://www.kdedevelopers.org/blog/838/feed
         define_name Dario Massarin
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author=1&cat=2,5
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=1&cat=2,5
         define_name Scott Collins
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author=2&cat=2,5
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=2&cat=2,5
         define_name Simon Hausmann (tronical)
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author=3&cat=2,5
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=3&cat=2,5
         define_name Harald Fernengel
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author=4
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=4
         define_name Roberto Raggi
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author=8&cat=2,5
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=8&cat=2,5
         define_name Espen Riskedal
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author=9&cat=2,5
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=9&cat=2,5
         define_name Matthias Ettrich
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author=11&cat=2,5
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=11&cat=2,5
         define_name Lorn Potter
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author=13&cat=2,5
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=13&cat=2,5
         define_name Andreas Aardal Hanssen (bibr)
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author=15&cat=2,5
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=15&cat=2,5
         define_name Lars Knoll
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author=21&cat=2,5
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=21&cat=2,5
         define_name Brad Hughes
 
-feed 1h http://mbroadst.blogspot.com/atom.xml
+feed 15m http://mbroadst.blogspot.com/atom.xml
         define_name Matt Broadstone
 
-feed 1h http://thelins.se/johan/rss.xml
+feed 15m http://thelins.se/johan/rss.xml
         define_name Johan Thelin
 
-feed 1h http://kwwii.blogspot.com/atom.xml
+feed 15m http://kwwii.blogspot.com/atom.xml
         define_name Kenneth Wimer (kwwii)
 
-feed 1h http://www.kdedevelopers.org/blog/280/feed
+feed 15m http://www.kdedevelopers.org/blog/280/feed
         define_name Lubos Lunak (Seli)
 
-feed 1h http://www.kdedevelopers.org/blog/952/feed
+feed 15m http://www.kdedevelopers.org/blog/952/feed
         define_name Martin Konold (Mortimer)
 
-feed 1h http://weblog.obso1337.org/feed/
+feed 15m http://weblog.obso1337.org/feed/
         define_name Celeste Paul (seele)
         define_face hackergotchi/seele.png
         define_facewidth 61
         define_faceheight 80
 
-feed 1h http://ingwa2.blogspot.com/atom.xml
+feed 15m http://ingwa2.blogspot.com/atom.xml
         define_name Inge Wallin (ingwa)
 
-feed 1h http://www.kdedevelopers.org/blog/1397/feed
+feed 15m http://www.kdedevelopers.org/blog/1397/feed
         define_name Jesper Pedersen (blackie)
 
-feed 1h http://www.kdedevelopers.org/blog/551/feed
+feed 15m http://www.kdedevelopers.org/blog/551/feed
         define_name Torsten Rahn (tackat)
 
-feed 1h http://ranger.befunk.com/blog/archives/kde.xml
+feed 15m http://ranger.befunk.com/blog/archives/kde.xml
         define_name Benjamin Reed (RangerRick)
 
-feed 1h http://blog.caffeinated.me.uk/?feed=atom&cat=5
+feed 15m http://blog.caffeinated.me.uk/?feed=atom&cat=5
         define_name Jeff Snyder (je4d)
         define_face hackergotchi/je4d.png
         define_facewidth 64
         define_faceheight 80
 
-feed 1h http://fredrikh.blogspot.com/atom.xml
+feed 15m http://fredrikh.blogspot.com/atom.xml
         define_name Fredrik H&ouml;glund
 
-feed 1h http://cyrilleberger.blogspot.com/atom.xml
+feed 15m http://cyrilleberger.blogspot.com/atom.xml
         define_name Cyrille Berger
 
-feed 1h http://www.jowenn.at/blog/feed_en.rdf
+feed 15m http://www.jowenn.at/blog/feed_en.rdf
         define_name Joseph Wenninger
 
-feed 1h http://clarencedang.blogspot.com/atom.xml
+feed 15m http://clarencedang.blogspot.com/atom.xml
         define_name Clarence Dang
 
-feed 1h http://vladimir_prus.blogspot.com/atom.xml
+feed 15m http://vladimir_prus.blogspot.com/atom.xml
         define_name Vladimir Prus
 
-feed 1h http://parrysblog.blogspot.com/atom.xml
+feed 15m http://parrysblog.blogspot.com/atom.xml
         define_name Luke Parry
 
-feed 1h http://agateau.wordpress.com/feed/?mrss=off
+feed 15m http://agateau.wordpress.com/feed/?mrss=off
         define_name Aurelien Gateau
 
-feed 1h http://blog.nouse.net/?feed=rss2
+feed 15m http://blog.nouse.net/?feed=rss2
         define_name Timo Hoenig
 
-feed 1h http://www.digikam.org/?q=blog/3/feed
+feed 15m http://www.digikam.org/?q=blog/3/feed
         define_name Gilles Caulier
 
-feed 1h http://delftblueramblings.blogspot.com/atom.xml
+feed 15m http://delftblueramblings.blogspot.com/atom.xml
         define_name Sander Koning
 
-feed 1h http://www.digikam.org/?q=taxonomy/term/21/0/feed
+feed 15m http://www.digikam.org/?q=taxonomy/term/21/0/feed
         define_name Joern Ahrens (jokele)
 
-feed 1h http://amarok.kde.org/blog/feeds/categories/13-jefferai.rss
+feed 15m http://amarok.kde.org/blog/feeds/categories/13-jefferai.rss
         define_name Jeff Mitchell (jefferai)
 
-feed 1h http://www.kdedevelopers.org/blog/1813/feed
+feed 15m http://www.kdedevelopers.org/blog/1813/feed
         define_name Mirko Boehm (miroslav)
 
-feed 1h http://www.kdedevelopers.org/blog/326/feed
+feed 15m http://www.kdedevelopers.org/blog/326/feed
         define_name David Faure (dfaure)
 
-feed 1h http://www.kdedevelopers.org/blog/1236/feed
+feed 15m http://www.kdedevelopers.org/blog/1236/feed
         define_name Casper Boemann
 
-feed 1h http://englich.wordpress.com/feed?mrss=off
+feed 15m http://englich.wordpress.com/feed?mrss=off
         define_name Frans Englich (FransE)
 
-feed 1h http://blog.bepointbe.be/rss-meta.php?key=tag&value=kde&lang=en
+feed 15m http://blog.bepointbe.be/rss-meta.php?key=tag&value=kde&lang=en
         define_name Olivier Goffart (Gof)
 
-feed 1h http://frinring.wordpress.com/category/kde/feed?mrss=off
+feed 15m http://frinring.wordpress.com/category/kde/feed?mrss=off
         define_name Friedrich Kossebau (frinring)
 
-feed 1h http://dhaumann.blogspot.com/atom.xml
+feed 15m http://dhaumann.blogspot.com/atom.xml
         define_name Dominik Haumann
 
-feed 1h http://sheldoncode.blogspot.com/atom.xml
+feed 15m http://sheldoncode.blogspot.com/atom.xml
         define_name Sheldon Cumming (sheldonc)
 
-feed 1h http://www.kdedevelopers.org/blog/477/feed
+feed 15m http://www.kdedevelopers.org/blog/477/feed
         define_name Sebastian Sauer (dipesh)
 
-feed 1h http://www.kdedevelopers.org/blog/1471/feed
+feed 15m http://www.kdedevelopers.org/blog/1471/feed
         define_name Bart Coppens (BCoppens)
 
-feed 1h http://piacentini.livejournal.com/data/rss
+feed 15m http://piacentini.livejournal.com/data/rss
         define_name Mauricio Piacentini (piacentini)
 
-feed 1h http://chani.wordpress.com/category/planet/feed?mrss=off
+feed 15m http://chani.wordpress.com/category/planet/feed?mrss=off
         define_name Chani Armitage (Chani)
 
-feed 1h http://www.kdedevelopers.org/blog/56/feed
+feed 15m http://www.kdedevelopers.org/blog/56/feed
         define_name Hamish Rodda (blackarrow)
 
-feed 1h http://www.kdedevelopers.org/blog/268/feed
+feed 15m http://www.kdedevelopers.org/blog/268/feed
         define_name Jos van den Oever (vandenoever)
 
-feed 1h http://kemistry-desktop.blogspot.com/atom.xml
+feed 15m http://kemistry-desktop.blogspot.com/atom.xml
         define_name Egon Willighagen
 
-feed 1h http://johann.pwsp.net/feed/atom/?cat=5
+feed 15m http://johann.pwsp.net/feed/atom/?cat=5
         define_name Johann Ollivier Lapeyre
 
-feed 1h http://bjacob.livejournal.com/data/rss
+feed 15m http://bjacob.livejournal.com/data/rss
         define_name Benoit Jacob (bjacob)
 
-feed 1h http://impul.se/~kling/blog/?feed=rss2
+feed 15m http://impul.se/~kling/blog/?feed=rss2
         define_name Andreas Kling (kling)
 
-feed 1h http://gis-blog.leonde.de/?feed=rss2
+feed 15m http://gis-blog.leonde.de/?feed=rss2
         define_name Carsten Pfeiffer (gis)
 
-feed 1h http://dkukawka.blogspot.com/atom.xml
+feed 15m http://dkukawka.blogspot.com/atom.xml
         define_name Danny Kukawka
 
-feed 1h http://basysblog.org/?author=2&feed=rss2
+feed 15m http://basysblog.org/?author=2&feed=rss2
         define_name Tobias Hunger
 
-feed 1h http://basysblog.org/?author=3&feed=rss2
+feed 15m http://basysblog.org/?author=3&feed=rss2
         define_name Stefan Eilers
 
-feed 1h http://basysblog.org/?author=4&feed=rss2
+feed 15m http://basysblog.org/?author=4&feed=rss2
         define_name Eva Brucherseifer
 
-feed 1h http://blog.gwright.org.uk/xml/rss20/feed.xml
+feed 15m http://blog.gwright.org.uk/xml/rss20/feed.xml
         define_name George Wright (gw280)
 
-feed 1h http://maxilys.blogspot.com/rss.xml
+feed 15m http://maxilys.blogspot.com/rss.xml
         define_name Remi Villatel
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author=20&cat=2,5
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=20&cat=2,5
         define_name Girish Ramakrishnan
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author=83
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=83
         define_name Kent Hansen
 
-feed 1h http://www.ereslibre.es/?feed=rss2&cat=2
+feed 15m http://www.ereslibre.es/?feed=rss2&cat=2
         define_name Rafael Fernandez Lopez (ereslibre)
 
-feed 1h http://paulgiannaros.blogspot.com/atom.xml
+feed 15m http://paulgiannaros.blogspot.com/atom.xml
         define_name Paul Giannaros (Cerulean)
 
-feed 1h http://blog.jacobrideout.net/rss.xml
+feed 15m http://blog.jacobrideout.net/rss.xml
         define_name Jacob Rideout (rideout)
 
-feed 1h http://wadejolson.wordpress.com/feed?mrss=off
+feed 15m http://wadejolson.wordpress.com/feed?mrss=off
         define_name Wade Olson
 
-feed 1h http://www.kdedevelopers.org/blog/2661/feed
+feed 15m http://www.kdedevelopers.org/blog/2661/feed
         define_name Pino Toscano (pinotree)
 
-feed 1h http://kdemonkey.blogspot.com/feeds/posts/default
+feed 15m http://kdemonkey.blogspot.com/feeds/posts/default
         define_name Robert Knight
 
-feed 1h http://blog.darkrazor.org/?feed=rss2
+feed 15m http://blog.darkrazor.org/?feed=rss2
         define_name Niels van Mourik (nielsvm)
 
-feed 1h http://feeds.feedburner.com/ivan-cukic-kde?format=xml
+feed 15m http://feeds.feedburner.com/ivan-cukic-kde?format=xml
         define_name Ivan Cukic
 
-feed 1h http://blog.froglogic.com/feed/atom/?author=2&cat=5,6
+feed 15m http://blog.froglogic.com/feed/atom/?author=2&cat=5,6
         define_name Frerich Raabe
 
-feed 1h http://blog.froglogic.com/feed/atom/?author=3&cat=5,6
+feed 15m http://blog.froglogic.com/feed/atom/?author=3&cat=5,6
         define_name Harri Porten
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author_name=Morten
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author_name=Morten
         define_name Morten S&oslash;rvig
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author=256&cat=2,5
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=256&cat=2,5
         define_name Bj&oslash;rn Erik Nilsen (bnilsen)
 
-feed 1h http://labs.trolltech.com/blogs/feed/atom/?author_name=tzander
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author_name=tzander
         define_name Thomas Zander (ThomasZ)
 
-feed 1h http://vir.homelinux.org/blog/index.php?/feeds/categories/3-for-Planet.rss
+feed 15m http://vir.homelinux.org/blog/index.php?/feeds/categories/3-for-Planet.rss
         define_name Matthias Kretz (Vir)
         define_face hackergotchi/vir.png
         define_facewidth 64
         define_faceheight 64
 
-feed 1h http://amarok.kde.org/blog/feeds/categories/18-freespirit.rss
+feed 15m http://amarok.kde.org/blog/feeds/categories/18-freespirit.rss
         define_name Nikolaj Hald Nielsen
 
-feed 1h http://ksvladimir.blogspot.com/atom.xml
+feed 15m http://ksvladimir.blogspot.com/atom.xml
         define_name Vladimir Kuznetsov
 
-feed 1h http://jarlesdraw-log.blogspot.com/atom.xml
+feed 15m http://jarlesdraw-log.blogspot.com/atom.xml
         define_name Jarle Akselsen
 
-feed 1h http://nowwhatthe.blogspot.com/atom.xml
+feed 15m http://nowwhatthe.blogspot.com/atom.xml
         define_name Jos Poortvliet
 
-feed 1h http://commonideas.blogspot.com/feeds/posts/default/-/KDE
+feed 15m http://commonideas.blogspot.com/feeds/posts/default/-/KDE
         define_name Bart Cerneels (Stecchino)
 
-feed 1h http://wendyvancraen.blogspot.com/feeds/posts/default/-/KDE
+feed 15m http://wendyvancraen.blogspot.com/feeds/posts/default/-/KDE
         define_name Wendy Van Craen
 
-feed 1h http://kbfx.org/index_main.php
+feed 15m http://kbfx.org/index_main.php
         define_name Mensur Zahirovic
 
-feed 1h http://elektron.et.tudelft.nl/~cmlot/rss.xml
+feed 15m http://elektron.et.tudelft.nl/~cmlot/rss.xml
         define_name Claire Lotion
 
-feed 1h http://ervin.ipsquad.net/feed
+feed 15m http://ervin.ipsquad.net/feed
         define_name Kevin Ottens (ervin)
 
-feed 1h http://www.proli.net/feed/
+feed 15m http://www.proli.net/feed/
         define_name Aleix Pol (apol)
 
-feed 1h http://www.codingdomain.com/blog/feeds/index.rss2
+feed 15m http://www.codingdomain.com/blog/feeds/index.rss2
         define_name Diederik van der Boor
 
-feed 1h http://www.stepin.name/feed/
+feed 15m http://www.stepin.name/feed/
         define_name Igor Stepin
 
-feed 1h http://blog.cryos.net/feeds/index.rss2
+feed 15m http://blog.cryos.net/feeds/index.rss2
         define_name Marcus Hanwell (cryos)
 
-feed 1h http://ksounds.wordpress.com/feed?mrss=off
+feed 15m http://ksounds.wordpress.com/feed?mrss=off
         define_name Martyn Circus
 
-feed 1h http://rivolaks.blogspot.com/feeds/posts/default
+feed 15m http://rivolaks.blogspot.com/feeds/posts/default
         define_name Rivo Laks
 
-feed 1h http://troy-at-kde.livejournal.com/data/rss
+feed 15m http://troy-at-kde.livejournal.com/data/rss
         define_name Troy Unrau
 
-feed 1h http://jaham.wordpress.com/feed?mrss=off
+feed 15m http://jaham.wordpress.com/feed?mrss=off
         define_name Jan Hambrecht (jaham)
 
-feed 1h http://domseichter.blogspot.com/feeds/posts/default
+feed 15m http://domseichter.blogspot.com/feeds/posts/default
         define_name Dominik Seichter
 
-feed 1h http://k3b.plainblack.com/k3b-news/blog/truegs-blog.rss
+feed 15m http://k3b.plainblack.com/k3b-news/blog/truegs-blog.rss
         define_name Sebastian Trueg
 
-feed 1h http://uwolfer.fwo.ch/blog/feed/
+feed 15m http://uwolfer.fwo.ch/blog/feed/
         define_name Urs Wolfer
 
-feed 1h http://milliams.com/index.php?option=com_jd-wp&Itemid=26&cat=13&feed=atom
+feed 15m http://milliams.com/index.php?option=com_jd-wp&Itemid=26&cat=13&feed=atom
         define_name Matt Williams
 
-feed 1h http://pinaraf.blogspot.com/rss.xml
+feed 15m http://pinaraf.blogspot.com/rss.xml
         define_name Pierre Ducroquet
 
-feed 1h http://chehrlic.blogspot.com/rss.xml
+feed 15m http://chehrlic.blogspot.com/rss.xml
         define_name Christian Ehrlicher
 
-feed 1h http://neksa.blogspot.com/rss.xml
+feed 15m http://neksa.blogspot.com/rss.xml
         define_name Alexandr Goncearenco
 
-feed 1h http://apaku.wordpress.com/feed?mrss=off
+feed 15m http://apaku.wordpress.com/feed?mrss=off
         define_name Andreas Pakulat
 
-feed 1h http://blog.ruphy.org/?feed=rss2
+feed 15m http://blog.ruphy.org/?feed=rss2
         define_name Riccardo Iaconelli
 
-feed 1h http://apachelog.blogspot.com/rss.xml
+feed 15m http://apachelog.blogspot.com/rss.xml
         define_name Harald Sitter (apachelogger)
 
-feed 1h http://fyanardi.wordpress.com/feed?mrss=off
+feed 15m http://fyanardi.wordpress.com/feed?mrss=off
         define_name Fredy Yanardi
 
-feed 1h http://myrizio.wordpress.com/feed?mrss=off
+feed 15m http://myrizio.wordpress.com/feed?mrss=off
         define_name Maurizio Monge
 
-feed 1h http://www.gustavoboiko.org/blog/category/kde/feed
+feed 15m http://www.gustavoboiko.org/blog/category/kde/feed
         define_name Gustavo Boiko
 
-feed 1h http://amarok.kde.org/blog/feeds/categories/20-lfranchi.rss
+feed 15m http://amarok.kde.org/blog/feeds/categories/20-lfranchi.rss
         define_name Leo Franchi (lfranchi)
 
-feed 1h http://blog.guillermoamaral.com/feed/
+feed 15m http://blog.guillermoamaral.com/feed/
         define_name Guillermo Amaral (gamaral)
 
-feed 1h http://www.flavio.castelli.name/feed
+feed 15m http://www.flavio.castelli.name/feed
         define_name Flavio Castelli
 
-feed 1h http://franz.keferboeck.info/blog/?feed=rss2
+feed 15m http://franz.keferboeck.info/blog/?feed=rss2
         define_name Franz Keferboeck
 
-feed 1h http://meson10.wordpress.com/feed?mrss=off
+feed 15m http://meson10.wordpress.com/feed?mrss=off
         define_name Piyush Verma
 
-feed 1h http://blog.loic.corbasson.fr/feed/tag/KDE/rss2
+feed 15m http://blog.loic.corbasson.fr/feed/tag/KDE/rss2
         define_name Loic Corbasson
 
-feed 1h http://jlp.holodeck1.com/blog/category/computers/software/kde/feed/
+feed 15m http://jlp.holodeck1.com/blog/category/computers/software/kde/feed/
         define_name Jure Repinc
 
-feed 1h http://lukaskrop.uttx.net/blog/index.php?/feeds/categories/7-planetKDE.rss
+feed 15m http://lukaskrop.uttx.net/blog/index.php?/feeds/categories/7-planetKDE.rss
         define_name Lukas Kropatschek
 
-feed 1h http://www.digikam.org/?q=blog/133/feed
+feed 15m http://www.digikam.org/?q=blog/133/feed
         define_name Arnd Baecker
 
-feed 1h http://darktears.wordpress.com/feed?mrss=off
+feed 15m http://darktears.wordpress.com/feed?mrss=off
         define_name Alexis Menard (darktears)
 
-feed 1h http://freelancesamurai.wordpress.com/tag/kde/feed?mrss=off
+feed 15m http://freelancesamurai.wordpress.com/tag/kde/feed?mrss=off
         define_name Nuno Povoa (npovoa)
 
-feed 1h http://amachu.wordpress.com/feed/?cat=804&mrss=off
+feed 15m http://amachu.wordpress.com/feed/?cat=804&mrss=off
         define_name Sri Ramadoss M (amachu)
 
-feed 1h http://bertjan.broeksemaatjes.nl/taxonomy/term/5/0/feed
+feed 15m http://bertjan.broeksemaatjes.nl/taxonomy/term/5/0/feed
         define_name Bertjan Broeksema
 
-feed 1h http://mikearthur.co.uk/feed/
+feed 15m http://mikearthur.co.uk/feed/
         define_name Mike Arthur (mikearthur)
 
-feed 1h http://kdedmiller.wordpress.com/feed?mrss=off
+feed 15m http://kdedmiller.wordpress.com/feed?mrss=off
         define_name David Miller
 
-feed 1h http://blog.hartwork.org/?feed=rss2&cat=23
+feed 15m http://blog.hartwork.org/?feed=rss2&cat=23
         define_name Sebastian Pipping (sping)
 
-feed 1h http://pcapriotti.wordpress.com/category/kde/feed?mrss=off
+feed 15m http://pcapriotti.wordpress.com/category/kde/feed?mrss=off
         define_name Paolo Capriotti
 
-feed 1h http://jpwhiting.blogspot.com/feeds/posts/default?alt=rss
+feed 15m http://jpwhiting.blogspot.com/feeds/posts/default?alt=rss
         define_name Jeremy Whiting (jpwhiting)
 
-feed 1h http://movingparts.net/feed/
+feed 15m http://movingparts.net/feed/
         define_name Jason Kasper (vanRijn)
 
-feed 1h http://www.kdedevelopers.org/blog/4267/feed
+feed 15m http://www.kdedevelopers.org/blog/4267/feed
         define_name Shawn Starr
 
-feed 1h http://daniel-duley.livejournal.com/data/rss
+feed 15m http://daniel-duley.livejournal.com/data/rss
         define_name Daniel Duley (mosfet)
 
-feed 1h http://wesley.debianbox.be/category/planets/planetkde/feed
+feed 15m http://wesley.debianbox.be/category/planets/planetkde/feed
         define_name Wesley Stessens
 
-feed 1h http://nodalpoint.madfire.net/feed/kde/
+feed 15m http://nodalpoint.madfire.net/feed/kde/
         define_name Stanislav Karchebny (berkus)
 
-feed 1h http://www.kdedevelopers.org/blog/4326/feed
+feed 15m http://www.kdedevelopers.org/blog/4326/feed
         define_name Frederik Gladhorn
 
-feed 1h http://zenithar.free.fr/index.php/post/category/kde/lang-pref/en/feed/
+feed 15m http://zenithar.free.fr/index.php/post/category/kde/lang-pref/en/feed/
         define_name Thibault Normand (tnormand)
 
-feed 1h http://psychobrain.blogspot.com/rss.xml
+feed 15m http://psychobrain.blogspot.com/rss.xml
         define_name Andreas Ramm (psychobrain)
 
-feed 1h http://segfault87.blogspot.com/rss.xml
+feed 15m http://segfault87.blogspot.com/rss.xml
         define_name Joon-Kyu Park
 
-feed 1h http://randomguy3.wordpress.com/category/kde/feed?mrss=off
+feed 15m http://randomguy3.wordpress.com/category/kde/feed?mrss=off
         define_name Alex Merry
 
-feed 1h http://groundferret.blogspot.com/rss.xml
+feed 15m http://groundferret.blogspot.com/rss.xml
         define_name Dan Borne
 
-feed 1h http://www.layt.net/john/taxonomy/term/4/0/feed
+feed 15m http://www.layt.net/john/taxonomy/term/4/0/feed
         define_name John Layt
 
-feed 1h http://www.sourceguru.net/feed
+feed 15m http://www.sourceguru.net/feed
         define_name Martin Meredith
 
-feed 1h http://wire.dattitu.de/rss.php?category=1
+feed 15m http://wire.dattitu.de/rss.php?category=1
         define_name Dirk Mueller
 
-feed 1h http://www.livejournal.com/users/pradeepto/data/rss
+feed 15m http://www.livejournal.com/users/pradeepto/data/rss
         define_name Pradeepto Bhattacharya
 
-feed 1h http://blog.lydiapintscher.de/category/PlanetKDE/feed
+feed 15m http://blog.lydiapintscher.de/category/PlanetKDE/feed
         define_name Lydia Pintscher (Nightrose)
         define_face hackergotchi/nightrose.png
         define_facewidth 78
         define_faceheight 76
 
-feed 1h http://toscalix.blogspot.com/feeds/posts/default?alt=rss
+feed 15m http://toscalix.blogspot.com/feeds/posts/default?alt=rss
         define_name Agustin Benito Bethencourt
 
-feed 1h http://elcuco2.blogspot.com/feeds/posts/default
+feed 15m http://elcuco2.blogspot.com/feeds/posts/default
         define_name Diego Iastrubni
 
-feed 1h http://blog.wysota.eu.org/index.php/feed/
+feed 15m http://blog.wysota.eu.org/index.php/feed/
         define_name Witold Wysota
 
-feed 1h http://www.datenex.de/index.php?/feeds/categories/1-KDE.rss
+feed 15m http://www.datenex.de/index.php?/feeds/categories/1-KDE.rss
         define_name Andreas Hartmetz
 
-feed 1h http://rdieter.livejournal.com/data/rss?tag=kde
+feed 15m http://rdieter.livejournal.com/data/rss?tag=kde
         define_name Rex Dieter
 
-feed 1h http://www.digikam.org/?q=blog/8/feed
+feed 15m http://www.digikam.org/?q=blog/8/feed
         define_name Marcel Wiesweg
 
-feed 1h http://zecke.blogspot.com/feeds/posts/full/-/KDE
+feed 15m http://zecke.blogspot.com/feeds/posts/full/-/KDE
         define_name Holger Freyther (zecke)
 
-feed 1h http://fboudra.free.fr/wordpress/wp-rss2.php?cat=6
+feed 15m http://fboudra.free.fr/wordpress/wp-rss2.php?cat=6
         define_name Fathi Boudra
 
-feed 1h http://pusling.com/blog/?feed=rss2&cat=4
+feed 15m http://pusling.com/blog/?feed=rss2&cat=4
         define_name Sune Vuorela (pusling)
 
-feed 1h http://zwabel.wordpress.com/feed?mrss=off
+feed 15m http://zwabel.wordpress.com/feed?mrss=off
         define_name David Nolden
 
-feed 1h http://jkt.flaska.net/blog/tags/kde/kde.rss
+feed 15m http://jkt.flaska.net/blog/tags/kde/kde.rss
         define_name Jan Kundrat (jkt)
 
-feed 1h http://boom1992.wordpress.com/feed?mrss=off
+feed 15m http://boom1992.wordpress.com/feed?mrss=off
         define_name Lukas Appelhans
 
-feed 1h http://yarpen.cz/rants/?feed=rss2
+feed 15m http://yarpen.cz/rants/?feed=rss2
         define_name Petr Vanek
 
-feed 1h http://francis.giannaros.org/blog//category/kde/feed
+feed 15m http://francis.giannaros.org/blog//category/kde/feed
         define_name Francis Giannaros
 
-feed 1h http://dimsuz.wordpress.com/feed?mrss=off
+feed 15m http://dimsuz.wordpress.com/feed?mrss=off
         define_name Dmitry Suzdalev (dimsuz)
 
-feed 1h http://www.jespersaur.com/drupal/taxonomy/term/21/0/feed
+feed 15m http://www.jespersaur.com/drupal/taxonomy/term/21/0/feed
         define_name Jesper Thomschutz
 
-feed 1h http://kde.blogsite.org/?q=rss.xml
+feed 15m http://kde.blogsite.org/?q=rss.xml
         define_name Christian Wellbach
 
-feed 1h http://www.piggz.co.uk/rss2.php
+feed 15m http://www.piggz.co.uk/rss2.php
         define_name Adam Pigg
 
-feed 1h http://rbitanga.blogspot.com/rss.xml
+feed 15m http://rbitanga.blogspot.com/rss.xml
         define_name Ryan Bitanga
 
-feed 1h http://vladcodrea.blogspot.com/rss.xml
+feed 15m http://vladcodrea.blogspot.com/rss.xml
         define_name Vlad Codrea
 
-feed 1h http://der-dakon.net/blog/kde.xml
+feed 15m http://der-dakon.net/blog/kde.xml
         define_name Rolf Eike Beer (Dakon)
 
-feed 1h http://introducingkde4.blogspot.com/feeds/posts/default
+feed 15m http://introducingkde4.blogspot.com/feeds/posts/default
         define_name Luis Augusto Fretas Cuevas
 
-feed 1h http://carloslicea.blogspot.com/feeds/posts/default
+feed 15m http://carloslicea.blogspot.com/feeds/posts/default
         define_name Carlos Licea
 
-feed 1h http://saroengels.blogspot.com/feeds/posts/default
+feed 15m http://saroengels.blogspot.com/feeds/posts/default
         define_name Patrick Spendrin (SaroEngels)
 
-feed 1h http://feeds.feedburner.com/LamersCorner
+feed 15m http://feeds.feedburner.com/LamersCorner
         define_name Bartosz Wadolowski
 
-feed 1h http://duncan.mac-vicar.com/blog/archives/category/open-source/KDE/feed
+feed 15m http://duncan.mac-vicar.com/blog/archives/category/open-source/KDE/feed
         define_name Duncan Mac-Vicar Prett
 
-feed 1h http://blog.nixternal.com/category/kde/feed
+feed 15m http://blog.nixternal.com/category/kde/feed
         define_name Richard Johnson
 
-feed 1h http://www.kdedevelopers.org/blog/2904/feed
+feed 15m http://www.kdedevelopers.org/blog/2904/feed
         define_name Sebastian Trueg
 
-feed 1h http://hemswell.lincoln.ac.uk/~padams/rss.php?c=7
+feed 15m http://hemswell.lincoln.ac.uk/~padams/rss.php?c=7
         define_name Paul Adams
 
-feed 1h http://www.notmart.org/phpwet/rss.php?tags=kde
+feed 15m http://www.notmart.org/phpwet/rss.php?tags=kde
         define_name Marco Martin
 
-feed 1h http://grundleborg.wordpress.com/feed?mrss=off
+feed 15m http://grundleborg.wordpress.com/feed?mrss=off
         define_name George Goldberg
 
-feed 1h http://ppenz.blogspot.com/rss.xml
+feed 15m http://ppenz.blogspot.com/rss.xml
         define_name Peter Penz
 
-feed 1h http://paul-pach.blogspot.com/rss.xml
+feed 15m http://paul-pach.blogspot.com/rss.xml
         define_name Paul Pacheco (paulpach)
 
-feed 1h http://blauzahl.livejournal.com/data/rss?tag=kde
+feed 15m http://blauzahl.livejournal.com/data/rss?tag=kde
         define_name A. L. Spehr (blauzahl)
 
-feed 1h http://www.gnuton.org/blog/category/kde-dev/atom
+feed 15m http://www.gnuton.org/blog/category/kde-dev/atom
         define_name Antonio Aloisio
 
-feed 1h http://arindamghosh.wordpress.com/category/kde/feed?mrss=off
+feed 15m http://arindamghosh.wordpress.com/category/kde/feed?mrss=off
         define_name Arindam Ghosh
 
-feed 1h http://pindablog.wordpress.com/feed?mrss=off
+feed 15m http://pindablog.wordpress.com/feed?mrss=off
         define_name Rob Scheepmaker (pinda)
 
-feed 1h http://codeincarnate.com/rss.xml
+feed 15m http://codeincarnate.com/rss.xml
         define_name Kyle Cunningham
 
-feed 1h http://edulix.wordpress.com/category/kde/feed?mrss=off
+feed 15m http://edulix.wordpress.com/category/kde/feed?mrss=off
         define_name Eduardo Robles Elvira (Edulix)
 
-feed 1h http://feeds.feedburner.com/UntangledBlog
+feed 15m http://feeds.feedburner.com/UntangledBlog
         define_name Alexandra Leisse
 
-feed 1h http://gregarei.com/?feed=rss2
+feed 15m http://gregarei.com/?feed=rss2
         define_name Greg Haynes
 
-feed 1h http://enricoros.wordpress.com/category/planetkde/feed?mrss=off
+feed 15m http://enricoros.wordpress.com/category/planetkde/feed?mrss=off
         define_name Enrico Ros
 
-feed 1h http://feeds.binaryhelix.net/binaryhelix-kde
+feed 15m http://feeds.binaryhelix.net/binaryhelix-kde
         define_name Lorenzo Villani
 
-feed 1h http://krishnaggk.blogspot.com/feeds/posts/default
+feed 15m http://krishnaggk.blogspot.com/feeds/posts/default
         define_name Gopala Krishna
 
-feed 1h http://ekaia.org/blog/category/english/kde/feed
+feed 15m http://ekaia.org/blog/category/english/kde/feed
         define_name Ana Guerrero (ana)
 
-feed 1h http://hamberg.no/erlend/index.php/category/kde/feed
+feed 15m http://hamberg.no/erlend/index.php/category/kde/feed
         define_name Erlend Hamberg
         define_face hackergotchi/erlend.png
         define_facewidth 80
         define_faceheight 82
 
-feed 1h http://www.freehackers.org/blogs/orzel/category/kde/feed
+feed 15m http://www.freehackers.org/blogs/orzel/category/kde/feed
         define_name Thomas Capricelli (orzel)
 
-feed 1h http://vtokarev.wordpress.com/feed?mrss=off
+feed 15m http://vtokarev.wordpress.com/feed?mrss=off
         define_name Vyacheslav Tokarev (vtokarev)
 
-feed 1h http://www.kdedevelopers.org/blog/2892/feed
+feed 15m http://www.kdedevelopers.org/blog/2892/feed
         define_name Marijn Kruisselbrink
 
-feed 1h http://blog.forwardbias.in/feeds/posts/full/-/girish/KDE
+feed 15m http://blog.forwardbias.in/feeds/posts/full/-/girish/KDE
         define_name Girish Ramakrishnan
 
-feed 1h http://blog.forwardbias.in/feeds/posts/full/-/roop/KDE
+feed 15m http://blog.forwardbias.in/feeds/posts/full/-/roop/KDE
         define_name Roopesh Chander
 
-feed 1h http://metelliuscode.wordpress.com/feed?mrss=off
+feed 15m http://metelliuscode.wordpress.com/feed?mrss=off
         define_name Harald Hvaal (metellius)
 
-feed 1h http://www.binaryelysium.com/blog/tag/amarok/feed/rss2/
+feed 15m http://www.binaryelysium.com/blog/tag/amarok/feed/rss2/
         define_name Casey Link (ramblurr)
 
-feed 1h http://amarok.kde.org/blog/feeds/categories/27-peterzl.rss
+feed 15m http://amarok.kde.org/blog/feeds/categories/27-peterzl.rss
         define_name Peter Zhou (peterzl)
 
-feed 1h http://irregularexpression.wordpress.com/category/kdeamarok/feed?mrss=off
+feed 15m http://irregularexpression.wordpress.com/category/kdeamarok/feed?mrss=off
         define_name William Viana (Liw-)
 
-feed 1h http://blog.danielwinter.de/archives/tag/kde/feed/rss2
+feed 15m http://blog.danielwinter.de/archives/tag/kde/feed/rss2
         define_name Daniel Winter (DanielW)
 
-feed 1h http://alediaferia.wordpress.com/feed/?mrss=off
+feed 15m http://alediaferia.wordpress.com/feed/?mrss=off
         define_name Alessandro Diaferia (alediaferia)
 
-feed 1h http://ssj-gz.blogspot.com/feeds/posts/default
+feed 15m http://ssj-gz.blogspot.com/feeds/posts/default
         define_name Simon St James (SSJ_GZ)
 
-feed 1h http://nienhueser.de/blog/?cat=3&feed=rss2
+feed 15m http://nienhueser.de/blog/?cat=3&feed=rss2
         define_name Dennis Nienhüser (Earthwings)
 
-feed 1h http://kopophex.blogspot.com/feeds/posts/default
+feed 15m http://kopophex.blogspot.com/feeds/posts/default
         define_name Daniel Jones
 
-feed 1h http://www.peterzl.net/en/?feed=rss2
+feed 15m http://www.peterzl.net/en/?feed=rss2
         define_name Peter Zhou
 
-feed 1h http://lignite.ccni.it/blog/wp-rss2.php?cat=3
+feed 15m http://lignite.ccni.it/blog/wp-rss2.php?cat=3
         define_name Teo Mrnjavac (teo_m)
 
-feed 1h http://awainzin-foss.blogspot.com/feeds/posts/default?alt=rss
+feed 15m http://awainzin-foss.blogspot.com/feeds/posts/default?alt=rss
         define_name Alejandro Wainzinger (xevix)
 
-feed 1h http://ktank.free.fr/wordpress/?feed=rss2
+feed 15m http://ktank.free.fr/wordpress/?feed=rss2
         define_name Sacha Schutz (DrIDK)
 
-feed 1h http://www.elpauer.org/?cat=6&feed=rss2
+feed 15m http://www.elpauer.org/?cat=6&feed=rss2
         define_name Pau Garcia i Quiles (pgquiles)
 
-feed 1h http://fmontesi.blogspot.com/feeds/posts/default
+feed 15m http://fmontesi.blogspot.com/feeds/posts/default
         define_name Fabrizio Montesi (fmontesi)
 
-feed 1h http://blog.uninstall.it/category/planetkde/feed/
+feed 15m http://blog.uninstall.it/category/planetkde/feed/
         define_name Davide Bettio (WindowsUninstall)
 
-feed 1h http://labs.morpheuz.eng.br/blog/category/kde/feed/
+feed 15m http://labs.morpheuz.eng.br/blog/category/kde/feed/
         define_name Artur Souza (MoRpHeUz)
 
-feed 1h http://www.undefinedfire.com/feeds/kde-planet/
+feed 15m http://www.undefinedfire.com/feeds/kde-planet/
         define_name Lucas Murray (Zarin)
 
-feed 1h http://web.mornfall.net/planet/kde.rss
+feed 15m http://web.mornfall.net/planet/kde.rss
         define_name Petr Rockai (mornfall)
 
-feed 1h http://blog.karlitschek.de/feeds/posts/default
+feed 15m http://blog.karlitschek.de/feeds/posts/default
         define_name Frank Karlitschek (karli)
 
-feed 1h http://majewsky.wordpress.com/feed?mrss=off
+feed 15m http://majewsky.wordpress.com/feed?mrss=off
         define_name Stefan Majewsky
 
-feed 1h http://kushaldas.in/?feed=rss2
+feed 15m http://kushaldas.in/?feed=rss2
         define_name Kushal Das
 
-feed 1h http://michael-jansen.biz/taxonomy/term/10/0/feed
+feed 15m http://michael-jansen.biz/taxonomy/term/10/0/feed
         define_name Michael Jansen
 
-feed 1h http://blog.froglogic.com/feed/atom/?author=6&cat=5,6
+feed 15m http://blog.froglogic.com/feed/atom/?author=6&cat=5,6
         define_name Koos Vriezen
 
-feed 1h http://www.confuego.org/feeds/categories/1-KDE.rss
+feed 15m http://www.confuego.org/feeds/categories/1-KDE.rss
         define_name Michael Leupold (lemma)
 
-feed 1h http://drfav.wordpress.com/tag/KDE/feed?mrss=off
+feed 15m http://drfav.wordpress.com/tag/KDE/feed?mrss=off
         define_name Dario Freddi (drf__)
 
-feed 1h http://blog.martin-graesslin.com/blog/?cat=7&feed=rss2
+feed 15m http://blog.martin-graesslin.com/blog/?cat=7&feed=rss2
         define_name Martin Gräßlin
 
-feed 1h http://kdedevelopers.org/blog/6425/feed
+feed 15m http://kdedevelopers.org/blog/6425/feed
         define_name Germain Garand
