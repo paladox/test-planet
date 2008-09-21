@@ -127,6 +127,10 @@ div.day h2 {
 }
 
 /* Content Layout */
+.face {
+    margin-right: 10px;
+}
+
 .daygroup h2 {
     text-align: right;
     width: 100%;
