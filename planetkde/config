@@ -1029,7 +1029,7 @@ feed 1h http://psychobrain.blogspot.com/rss.xml
 feed 1h http://segfault87.blogspot.com/rss.xml
         define_name Joon-Kyu Park
 
-feed 1h http://randomguy3.wordpress.com/category/kde/feed
+feed 1h http://randomguy3.wordpress.com/category/kde/feed?mrss=off
         define_name Alex Merry
 
 feed 1h http://groundferret.blogspot.com/rss.xml
@@ -1080,13 +1080,13 @@ feed 1h http://fboudra.free.fr/wordpress/wp-rss2.php?cat=6
 feed 1h http://pusling.com/blog/?feed=rss2&cat=4
         define_name Sune Vuorela (pusling)
 
-feed 1h http://zwabel.wordpress.com/feed/
+feed 1h http://zwabel.wordpress.com/feed?mrss=off
         define_name David Nolden
 
 feed 1h http://jkt.flaska.net/blog/tags/kde/kde.rss
         define_name Jan Kundrat (jkt)
 
-feed 1h http://boom1992.wordpress.com/feed/
+feed 1h http://boom1992.wordpress.com/feed?mrss=off
         define_name Lukas Appelhans
 
 feed 1h http://yarpen.cz/rants/?feed=rss2
@@ -1095,7 +1095,7 @@ feed 1h http://yarpen.cz/rants/?feed=rss2
 feed 1h http://francis.giannaros.org/blog//category/kde/feed
         define_name Francis Giannaros
 
-feed 1h http://dimsuz.wordpress.com/feed/
+feed 1h http://dimsuz.wordpress.com/feed?mrss=off
         define_name Dmitry Suzdalev (dimsuz)
 
 feed 1h http://www.jespersaur.com/drupal/taxonomy/term/21/0/feed
@@ -1143,7 +1143,7 @@ feed 1h http://hemswell.lincoln.ac.uk/~padams/rss.php?c=7
 feed 1h http://www.notmart.org/phpwet/rss.php?tags=kde
         define_name Marco Martin
 
-feed 1h http://grundleborg.wordpress.com/feed/
+feed 1h http://grundleborg.wordpress.com/feed?mrss=off
         define_name George Goldberg
 
 feed 1h http://ppenz.blogspot.com/rss.xml
@@ -1158,16 +1158,16 @@ feed 1h http://blauzahl.livejournal.com/data/rss?tag=kde
 feed 1h http://www.gnuton.org/blog/category/kde-dev/atom
         define_name Antonio Aloisio
 
-feed 1h http://arindamghosh.wordpress.com/category/kde/feed
+feed 1h http://arindamghosh.wordpress.com/category/kde/feed?mrss=off
         define_name Arindam Ghosh
 
-feed 1h http://pindablog.wordpress.com/feed/
+feed 1h http://pindablog.wordpress.com/feed?mrss=off
         define_name Rob Scheepmaker (pinda)
 
 feed 1h http://codeincarnate.com/rss.xml
         define_name Kyle Cunningham
 
-feed 1h http://edulix.wordpress.com/category/kde/feed
+feed 1h http://edulix.wordpress.com/category/kde/feed?mrss=off
         define_name Eduardo Robles Elvira (Edulix)
 
 feed 1h http://feeds.feedburner.com/UntangledBlog
@@ -1176,7 +1176,7 @@ feed 1h http://feeds.feedburner.com/UntangledBlog
 feed 1h http://gregarei.com/?feed=rss2
         define_name Greg Haynes
 
-feed 1h http://enricoros.wordpress.com/category/planetkde/feed
+feed 1h http://enricoros.wordpress.com/category/planetkde/feed?mrss=off
         define_name Enrico Ros
 
 feed 1h http://feeds.binaryhelix.net/binaryhelix-kde
@@ -1197,7 +1197,7 @@ feed 1h http://hamberg.no/erlend/index.php/category/kde/feed
 feed 1h http://www.freehackers.org/blogs/orzel/category/kde/feed
         define_name Thomas Capricelli (orzel)
 
-feed 1h http://vtokarev.wordpress.com/feed
+feed 1h http://vtokarev.wordpress.com/feed?mrss=off
         define_name Vyacheslav Tokarev (vtokarev)
 
 feed 1h http://www.kdedevelopers.org/blog/2892/feed
@@ -1209,7 +1209,7 @@ feed 1h http://blog.forwardbias.in/feeds/posts/full/-/girish/KDE
 feed 1h http://blog.forwardbias.in/feeds/posts/full/-/roop/KDE
         define_name Roopesh Chander
 
-feed 1h http://metelliuscode.wordpress.com/feed/
+feed 1h http://metelliuscode.wordpress.com/feed?mrss=off
         define_name Harald Hvaal (metellius)
 
 feed 1h http://www.binaryelysium.com/blog/tag/amarok/feed/rss2/
@@ -1218,13 +1218,13 @@ feed 1h http://www.binaryelysium.com/blog/tag/amarok/feed/rss2/
 feed 1h http://amarok.kde.org/blog/feeds/categories/27-peterzl.rss
         define_name Peter Zhou (peterzl)
 
-feed 1h http://irregularexpression.wordpress.com/category/kdeamarok/feed
+feed 1h http://irregularexpression.wordpress.com/category/kdeamarok/feed?mrss=off
         define_name William Viana (Liw-)
 
 feed 1h http://blog.danielwinter.de/archives/tag/kde/feed/rss2
         define_name Daniel Winter (DanielW)
 
-feed 1h http://alediaferia.wordpress.com/feed/
+feed 1h http://alediaferia.wordpress.com/feed/?mrss=off
         define_name Alessandro Diaferia (alediaferia)
 
 feed 1h http://ssj-gz.blogspot.com/feeds/posts/default
@@ -1269,7 +1269,7 @@ feed 1h http://web.mornfall.net/planet/kde.rss
 feed 1h http://blog.karlitschek.de/feeds/posts/default
         define_name Frank Karlitschek (karli)
 
-feed 1h http://majewsky.wordpress.com/feed/
+feed 1h http://majewsky.wordpress.com/feed?mrss=off
         define_name Stefan Majewsky
 
 feed 1h http://kushaldas.in/?feed=rss2
