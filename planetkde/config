@@ -125,6 +125,8 @@ itemtemplate itemplate
 outputfile ../website/index.html
 
 define outputxml ../website/rss20.xml
+define outputfoaf ../website/foafroll.xml
+define outputopml ../website/opml.xml
 
 # Whether to use a <meta http-equiv="Refresh" ...> tag in the generated
 # HTML to indicate that the page should be refreshed automatically. If
