@@ -426,7 +426,7 @@ class Feed:
 
 		return True
 
-	def get_html_name(self, config):
+	def get_html_name(self, config):		
 		if self.feed_info.has_key("title_detail"):
 			r = detail_to_html(self.feed_info["title_detail"], True, config)
 		elif self.feed_info.has_key("link"):
@@ -436,6 +436,13 @@ class Feed:
 		if r is None:
 			r = ""
 		return r
+
+        def get_blog_owner_name(self, config):
+            if self.args.has_key("define_name"):
+                r = string_to_html(self.args["define_name"], config)
+            if r is None:
+		r = ""
+	    return r
 
 	def get_html_link(self, config):
 		s = self.get_html_name(config)
@@ -1290,7 +1297,7 @@ __description__
 <th>Feed</th><th>RSS</th>
 </tr>"""
 		feeds = self.feeds.values()
-		feeds.sort(lambda a, b: cmp(a.get_html_name(config).lower(), b.get_html_name(config).lower()))
+		feeds.sort(lambda a, b: cmp(a.get_blog_owner_name(config).lower(), b.get_blog_owner_name(config).lower()))
 		for feed in feeds:
 			print >>f, '<tr class="feedsrow">'
 			print >>f, '<td>' + feed.get_html_link(config) + '</td>'
