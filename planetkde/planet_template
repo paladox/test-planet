@@ -64,7 +64,7 @@ __items__
 	</div>
 
 <div id="footer">
-Planet KDE is made from the blogs of KDE's contributors.  The opinions it contains are those of the contributor.  This site is powered by <a href="http://offog.org/code/rawdog.html">Rawdog</a> and <a href="https://launchpad.net/rawdog-rss">Rawdog RSS</a>.
+Planet KDE is made from the blogs of KDE's contributors.  The opinions it contains are those of the contributor.  This site is powered by <a href="http://offog.org/code/rawdog.html">Rawdog</a> and <a href="https://launchpad.net/rawdog-rss">Rawdog RSS</a>.  Feed readers can read Planet KDE with <a href="rss20.xml">RSS</a>, <a href="foafroll.xml">FOAF</a> or <a href="opml.xml">OPML</a>.
 
 </div>
 
