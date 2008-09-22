@@ -997,8 +997,11 @@ feed 15m http://amachu.wordpress.com/feed/?cat=804&mrss=off
 feed 15m http://bertjan.broeksemaatjes.nl/taxonomy/term/5/0/feed
         define_name Bertjan Broeksema
 
-feed 15m http://mikearthur.co.uk/feed/
+feed 15m http://mikearthur.co.uk/category/software-development/feed/
         define_name Mike Arthur (mikearthur)
+        define_face hackergotchi/mikearthur.png
+        define_facewidth 64
+        define_faceheight 64
 
 feed 15m http://kdedmiller.wordpress.com/feed?mrss=off
         define_name David Miller
