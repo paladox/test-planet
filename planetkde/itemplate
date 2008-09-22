@@ -9,7 +9,7 @@
 				__description__
 			</div>
 			<p class="date">
-				<a href="__url__">__date__</a>
+				<a href="__url__">__date__ UTC</a>
 			</p>
 		</div>
 	</div>
