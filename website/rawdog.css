@@ -108,6 +108,17 @@ div.day h2 {
     color: #374153;
 }
 
+#addme {
+    display: none;
+    padding: 0px 20px 0px 20px;
+}
+
+#addmebox {
+    white-space: pre; 
+    border: thin solid grey; 
+    width: 80%;
+}
+
 #feeddiv {
     display: none;
     padding: 0px 0px 0px 20px;
