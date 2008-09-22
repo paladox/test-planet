@@ -30,7 +30,7 @@
                 <a href="javascript:toggle();"><img src="images/user-identity.png" height="22" width="22" alt="" /></a> 
                 <a href="javascript:toggle();">People aggregated</a> 
                 <a href="http://planetKDE.org/rss20.xml"><img src="images/akregator.png" height="22" width="22" alt="" /></a> 
-                <a href="https://bugs.launchpad.net/planetkde/+filebug">Add your blog</a>
+                <a href="http://bugs.kde.org/enter_bug.cgi?product=planet%20kde">Add your blog</a>
                 <a href="http://dot.kde.org/"><img src="images/dot-news.png" height="16" width="16" alt="" /></a> 
                 <a href="http://dot.kde.org/">KDE Dot News</a></div>
 	</div>
