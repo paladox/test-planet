@@ -135,7 +135,6 @@ class RSS_Feed:
 
     def shutdown(self, rawdog, config):
         for feed in config["feedslist"]:
-            print str(feed)
             member = self.foaf_articles.newChild(None, 'foaf:member', None)
             agent = member.newChild(None, 'foaf:Agent', None)
             agent.newChild(None, 'foaf:name', feed[2]['define_name'])
