@@ -1016,7 +1016,10 @@ feed 15m http://movingparts.net/feed/
         define_name Jason Kasper (vanRijn)
 
 feed 15m http://www.kdedevelopers.org/blog/4267/feed
-        define_name Shawn Starr
+        define_name Shawn Starr (spstarr)
+        define_face hackergotchi/spstarr.png
+        define_facewidth 59
+        define_faceheight 85
 
 feed 15m http://daniel-duley.livejournal.com/data/rss
         define_name Daniel Duley (mosfet)
