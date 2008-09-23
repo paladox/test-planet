@@ -6,6 +6,18 @@
     <title>Planet KDE</title>
     <link rel="alternate" type="application/rss+xml" title="Planet KDE" href="http://planetKDE.org/rss20.xml" />
 
+	<!--[if IE 6]>
+	<style type="text/css">
+	#header, #content, #footer, #planetheader
+	{
+	background-image: none;
+	}
+	#header {  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg-header.png', sizingMethod='crop'); }
+	#content {  padding-right: 13px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg-content.png', sizingMethod='scale') }
+
+	#footer { padding: 10px 25px 0 25px; width: 750px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg-footer.png', sizingMethod='scale'); }
+	</style>
+	<![endif]-->
     <script language="javascript"> 
     function toggle() {
         var ele = document.getElementById("feeddiv");
@@ -32,16 +44,15 @@
 <div id="page">
 	<div id="header">
 	    <!-- <h1>The lives of the people behind KDE</h1> -->
-            <img id="planetheader" src="images/planet-header-text.png" width="185" height="45" alt="Planet KDE" />
-            <div id="toplinks">
-                <a href="http://planetKDE.org/rss20.xml"><img src="images/akregator.png" height="22" width="22" alt="" /></a> 
-                <a href="http://planetKDE.org/rss20.xml">Planet RSS</a> 
-                <a href="javascript:toggle();"><img src="images/user-identity.png" height="22" width="22" alt="" /></a> 
-                <a href="javascript:toggle();">People aggregated</a> 
-                <a href="javascript:toggleaddme();"><img src="images/akregator.png" height="22" width="22" alt="" /></a> 
-                <a href="javascript:toggleaddme();">Add your blog</a>
-                <a href="http://dot.kde.org/"><img src="images/dot-news.png" height="16" width="16" alt="" /></a> 
-                <a href="http://dot.kde.org/">KDE Dot News</a></div>
+		<a href="http://kde.org" id="kdehome" title="Kde Homepage"></a>
+		<a href="http://planetkde.org" id="planetheader"><img  src="Planet%20KDE_files/planet-header-text.png" alt="Planet KDE" width="185" height="45" /></a>
+		
+		<div id="toplinks">
+			<a href="http://planetkde.org/rss20.xml">Planet RSS<img src="images/akregator.png" alt="" width="22" height="22" /></a> 
+			<a href="javascript:toggle();">People aggregated<img src="images/user-identity.png" alt="" width="22" height="22" /></a> 
+			<a href="javascript:toggleaddme();">Add your blog<img src="images/addrss.png" alt="" width="22" height="22" /></a> 
+			<a href="http://dot.kde.org/">KDE Dot News<img src="images/dot-news.png" alt="" width="22" height="22" /></a> 
+		</div>
 	</div>
 <!--
     <div id="menu1">

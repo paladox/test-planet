@@ -6,16 +6,35 @@ html {
     font-size: 9pt;
     font-family: "Liberation Sans", "Bitstream Vera Sans", sans-serif;
     color: #374153;
-    /*background: #999999 url(images/bg-gradient.png) repeat-x;*/
-    background: #999999 url(images/bg.png);
+    background: #d6d7d8 url(images/bgtop.png) repeat-x;
     text-align: justify;
 }
 
 body {
-/*    background: url(images/bg-page.png);*/
     width: 810px;
     margin: 0 auto;
     padding: 0;
+}
+
+/**
+ * General textlayout
+ */
+a , a:link, a:visited { cursor: pointer; color: #4a7ad8; text-decoration: none; border-bottom: 0;}
+a:hover { text-decoration: underline; }
+
+img { border: 0; }
+
+h2 
+{
+margin-top: 10px;
+}
+/**
+ * Hide dynamic controllers generally - unhide by javascript, so only when
+ * dynamic effects can be used anyway!
+ */
+*.dynamic {
+    visibility: hidden;
+    cursor: pointer;
 }
 
 #page {
@@ -25,17 +44,18 @@ body {
 }
 
 #header {
-    /*height: 145px;*/
-    height: 81px;
-    /*width: 810px;*/
-    width: 724px;
-    background: url(images/bg-header.png);
-    /*text-align: right;*/
-    font-size: 14px;
-    /*font-weight: bold;*/
-    /*padding: 33px 50px;*/
-    padding: 32px 43px;
-    margin: 0px 0px 0px 0px;
+    height: 95px;
+    width: 800px;
+    background: url(images/bg-header.png) transparent top left no-repeat;
+	padding: 45px 0 0 8px;
+    margin: 0;
+	display: block;
+	float: left;
+}
+
+#planetheader
+{
+	margin: 0 0 0 25px;
 }
 
 #menu1 {
@@ -53,31 +73,30 @@ body {
 }
 
 #content {
-    /*width: 770px;*/
-    /*width: 810px;*/
-    /*margin: 0 0 0 20px;*/
-    /*margin: 0px 0px 0px 0px;*/
-    /*background: url(images/bg-content.png) no-repeat top right ;*/
-    background: url(images/bg-content.png) repeat-y top left ;
-    /*padding: 20px 20px 10px 18px;*/
+
+    background: url(images/bg-content.png) transparent repeat-y top left ;
+	width: 776px;
     min-height: 300px;
-    padding: 1px 0px 1px 0px; /*This stops a mysterious gap appearing.  HTML is weird*/
+	margin: 0 0 0 0;
+	padding: 0 24px 0 8px;
+	float: left;
 }
 
 div.day h2 {
-    padding: 0px 0px 0px 20px;
+	margin: 10px 0;
+    padding: 0 0 0 20px;
 }
 
 #footer {
     clear: both;
-    height: 107px;
-    width: 810px;
-    margin: 0px;
-    background: #ffffff url(images/bg-footer.png) no-repeat;
-    padding: 5px 0px 0px 0px;
-
+    height: 130px;
+    width: 770px;
+    margin: 0;
+	font-size: 0.9em;
+	padding: 15px 10px 0 10px;
+    background: url(images/bg-footer.png) top left no-repeat;
     text-align: center;
-/*    padding-top: 18px;*/
+	float: left;
 }
 
 /**
@@ -100,12 +119,34 @@ div.day h2 {
     font-size: 9pt;
 }
 
-#header #toplinks {
-    margin: 26px 0px 0px 0px;
+#toplinks {
+	padding: 0 0 0 20px;
+    margin: 22px 0 0 0;
 }
 
-#header #toplinks a {
+#kdehome
+{
+	float: right;
+	width: 50px;
+	height: 50px;
+	display: block;
+	right: 58px;
+	top: 23px;
+	position: relative;
+}
+
+#toplinks a {
     color: #374153;
+	font-size: 0.9em;
+	line-height: 22px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+#toplinks a img
+{
+	margin: -3px 0 0 3px;
+	vertical-align: middle;
 }
 
 #addme {
@@ -154,6 +195,11 @@ div.day h2 {
     padding: 0px 0px 10px 0px;
     /*margin: 0 0 12px 0;*/
 }
+
+.channelgroup:last-child
+{
+background: none;
+}
 .channelgroup h3 {
     padding: 20px 0px 0px 20px;
     margin: 0 29px 0 0;
@@ -176,10 +222,10 @@ div.day h2 {
     color: #455269; /*wee bit lighter*/
 }
 .entrygroup {
-    margin: 0px 18px 0px 28px;
+    margin: 0px 38px 0px 28px;
 }
 .entry {
-    margin-left: 29px;
+    margin-left: 20px;
 }
 
 .entry p:first-child:first-letter {
@@ -218,22 +264,5 @@ div.day h2 {
     padding: 0;
     display: block;
     white-space: nowrap;
-}
-
-/**
- * General textlayout
- */
-a { cursor: pointer; color: #4a7ad8; text-decoration: none; border-bottom: 1px solid transparent;}
-a:hover { text-decoration: underline; }
-
-img { border: 0; }
-
-/**
- * Hide dynamic controllers generally - unhide by javascript, so only when
- * dynamic effects can be used anyway!
- */
-*.dynamic {
-    visibility: hidden;
-    cursor: pointer;
 }
 
