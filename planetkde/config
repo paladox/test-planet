@@ -1311,5 +1311,5 @@ feed 15m http://blog.martin-graesslin.com/blog/?cat=7&feed=rss2
 feed 15m http://kdedevelopers.org/blog/6425/feed
         define_name Germain Garand
 
-feed 15m http://http://packadal.blogspot.com/feeds/posts/default?alt=rss
+feed 15m http://packadal.blogspot.com/feeds/posts/default?alt=rss
 	define_name Charles huet (Packadal)
