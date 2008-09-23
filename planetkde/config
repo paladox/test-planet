@@ -978,9 +978,8 @@ feed 15m http://blog.loic.corbasson.fr/feed/tag/KDE/rss2
 feed 15m http://jlp.holodeck1.com/blog/category/computers/software/kde/feed/
         define_name Jure Repinc
 
-#disappeared
-#feed 15m http://lukaskrop.uttx.net/blog/index.php?/feeds/categories/7-planetKDE.rss
-#        define_name Lukas Kropatschek
+feed 15m http://blog.lukrop.bplaced.net/feeds/categories/planetKDE.rss
+        define_name Lukas Kropatschek
 
 feed 15m http://www.digikam.org/?q=blog/133/feed
         define_name Arnd Baecker
