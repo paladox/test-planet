@@ -480,8 +480,9 @@ feed 15m http://people.fruitsalad.org/adridg/bobulate/index.php?/feeds/index.rss
 feed 15m http://www.kdedevelopers.org/blog/20/feed
         define_name Andras Mantia
 
-feed 15m http://www.kuarepoti-dju.net/wp-rss2.php?cat=3
-        define_name Josef Spillner
+#blog changed
+#feed 15m http://www.kuarepoti-dju.net/wp-rss2.php?cat=3
+#        define_name Josef Spillner
 
 feed 15m http://www.kdedevelopers.org/blog/77/feed
         define_name Will Stephenson
@@ -1191,8 +1192,9 @@ feed 15m http://feeds.feedburner.com/UntangledBlog
 feed 15m http://gregarei.com/?feed=rss2
         define_name Greg Haynes
 
-feed 15m http://enricoros.wordpress.com/category/planetkde/feed?mrss=off
-        define_name Enrico Ros
+#can't wget this
+#feed 15m http://enricoros.wordpress.com/category/planetkde/feed?mrss=off
+#        define_name Enrico Ros
 
 feed 15m http://feeds.binaryhelix.net/binaryhelix-kde
         define_name Lorenzo Villani
