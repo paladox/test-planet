@@ -1316,3 +1316,7 @@ feed 15m http://kdedevelopers.org/blog/6425/feed
 
 feed 15m http://packadal.blogspot.com/feeds/posts/default?alt=rss
 	define_name Charles huet (Packadal)
+
+feed 15m http://shaforostoff.blogspot.com/atom.xml
+	define_name Nick Shaforostoff (shaforostoff)
+
