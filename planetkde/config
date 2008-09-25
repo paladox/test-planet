@@ -1327,7 +1327,7 @@ feed 15m http://shaforostoff.blogspot.com/atom.xml
 	define_name Nick Shaforostoff (shaforostoff)
 
 feed 15m http://braincore.blogspot.com/atom.xml
-        define_name Ruurd Pels
+        define_name Ruurd Pels (ruurd)
         define_face hackergotchiruurd.png
         define_facewidth 68
         define_faceheight 66
