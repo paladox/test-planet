@@ -1332,6 +1332,9 @@ feed 15m http://braincore.blogspot.com/atom.xml
         define_facewidth 68
         define_faceheight 66
 
+feed 15m http://lydgate.org/blogs/?feed=rss2&tag=kde
+        define_name Anne Wilson (annew)
+
 feed 15m http://qashapp.blogspot.com/feeds/posts/default/-/KDE
         define_name Michael Krog
         define_face hackergotchi/michael-krog.png
