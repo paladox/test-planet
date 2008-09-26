@@ -1008,7 +1008,7 @@ feed 15m http://bertjan.broeksemaatjes.nl/taxonomy/term/5/0/feed
 
 feed 15m http://mikearthur.co.uk/feed/
         define_name Mike Arthur (mikearthur)
-        define_face hackergotchi/mikearthur.png
+        define_face hackergotchi/mikearthur.jpg
         define_facewidth 64
         define_faceheight 64
 
