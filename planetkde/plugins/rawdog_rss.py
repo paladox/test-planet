@@ -94,7 +94,12 @@ class RSS_Feed:
 
     def __article_sync(self, xml_article, rawdog, config, article):
         entry_info = article.entry_info
-        guid = xml_article.newChild(None, 'guid', article.hash)
+        if entry_info.has_key('id'):
+            guid = xml_article.newChild(None, 'guid', entry_info.id)
+        elif:
+            guid = xml_article.newChild(None, 'guid', entry_info.link)
+        else:
+            guid = xml_article.newChild(None, 'guid', article.hash)
         guid.setProp('isPermaLink', 'false')
         try:
             title = entry_info['title_raw'].encode('utf8', 'ignore')
