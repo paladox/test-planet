@@ -96,7 +96,7 @@ class RSS_Feed:
         entry_info = article.entry_info
         if entry_info.has_key('id'):
             guid = xml_article.newChild(None, 'guid', entry_info.id)
-        elif:
+        elif entry_info.has_key('link'):
             guid = xml_article.newChild(None, 'guid', entry_info.link)
         else:
             guid = xml_article.newChild(None, 'guid', article.hash)
