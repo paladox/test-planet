@@ -1201,8 +1201,8 @@ feed 15m http://edulix.wordpress.com/category/kde/feed?mrss=off
 feed 15m http://feeds.feedburner.com/UntangledBlog
         define_name Alexandra Leisse
 
-feed 15m http://gregarei.com/?feed=rss2
-        define_name Greg Haynes
+feed 15m http://blog.greghaynes.net/index.php?/feeds/categories/7-KDE.rss
+        define_name Gregory Haynes
 
 #can't wget this
 #feed 15m http://enricoros.wordpress.com/category/planetkde/feed?mrss=off
