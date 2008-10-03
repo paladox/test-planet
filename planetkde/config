@@ -1342,5 +1342,5 @@ feed 15m http://socceroosd.blogspot.com/feeds/posts/full/-/kde
         define_name Sam Duff (Socceroos)
 
 feed 15m http://my.opera.com/it-s/xml/rss/blog/kde
-	defind_name it-s
+	define_name it-s
 	define_face hackergotchi/kdegames.png
