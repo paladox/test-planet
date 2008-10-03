@@ -111,6 +111,44 @@ feed 15m http://path.to/my/feed.rss
              <li><em>svn commit</em></li>
           </ul>
 
+       <h2>Planet KDE Guidelines</h2>
+
+<p>Planet KDE is one of the public faces of the KDE project and is
+read by millions of users and potential contributors.  The content
+aggregated at Planet KDE is the opinions of its authors, but the sum
+of that content gives an impression of the project.  Please keep in
+mind the following guidelines for your blog content and read the
+[http://www.kde.org/code-of-conduct/ KDE Code of Conduct].  The KDE
+project reserves the right to remove an inappropriate blog from the
+Planet. If that happens multiple times, the Community Working Group
+can be asked to consider what needs to happen to get your blog
+aggregated again.</p>
+
+<p>If you are unsure or have queries about what is appropriate contact the KDE Community Working Group.</p>
+
+<h3>Blogs should be KDE themed</h3>
+
+<p>The majority of content in your blog should be about KDE and your
+work on KDE.  Blog posts about personal subjects are also encouraged
+since Planet KDE is a chance to learn more about the developers behind
+KDE.  However blog feeds should not be entirely personal, if in doubt
+set up a tag for Planet KDE and subscribe the feed from that tag so
+you can control what gets posted.</p>
+
+<h3>Posts should be constructive</h3>
+
+<p>Posts can be positive and promote KDE, they can be constructive and lay out issues which need to be addressed, but blog feeds should not contain useless, destructive and negative material.  Constructive criticism is welcome and the occasional rant is understandable, but a feed where every post is critical and negative is unsuitable.  This helps to keep KDE overall a happy project.</p>
+
+<h3>You must be a KDE contributor</h3>
+
+<p>Only have your blog on Planet KDE if you actively contribute to KDE, for example through code, user support, documentation etc.</p>
+
+<h3>Do not inflame</h3>
+
+<p>KDE covers a wide variety of people and cultures.  Profanities, prejudice, lewd comments and content likely to offend are to be avoided.  Do not make personal attacks or attacks against other projects on your blog.</p>
+
+<p>For further guidance on good practice see the <a href="http://www.kde.org/code-of-conduct/">KDE Code of Conduct</a>.
+
         </div>
         <div id="feeddiv">
 	    <h2>People Aggregated</h2>
