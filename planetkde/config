@@ -774,6 +774,9 @@ feed 15m http://www.kdedevelopers.org/blog/1471/feed
 
 feed 15m http://piacentini.livejournal.com/data/rss
         define_name Mauricio Piacentini (piacentini)
+        define_face hackergotchi/piacentini.png
+        define_facewidth 75
+        define_faceheight 80 
 
 feed 15m http://chani.wordpress.com/category/planet/feed?mrss=off
         define_name Chani Armitage (Chani)
