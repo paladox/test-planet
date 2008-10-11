@@ -123,6 +123,7 @@ itemtemplate itemplate
 # to a file in your ~/.rawdog directory.)
 #outputfile output.html
 outputfile ../website/index.html
+outputfileold ../website/old.html
 
 define outputxml ../website/rss20.xml
 define outputfoaf ../website/foafroll.xml

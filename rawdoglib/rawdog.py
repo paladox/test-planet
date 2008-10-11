@@ -626,6 +626,7 @@ class Config:
 			"feeddefaults" : {},
 			"defines" : {},
 			"outputfile" : "output.html",
+			"outputfileold" : "old.html",
 			"maxarticles" : 200,
 			"maxage" : 0,
 			"expireage" : 24 * 60 * 60,
@@ -718,6 +719,8 @@ class Config:
 				plugins.load_plugins(dir, self)
 		elif l[0] == "outputfile":
 			self["outputfile"] = l[1]
+		elif l[0] == "outputfileold":
+			self["outputfileold"] = l[1]
 		elif l[0] == "maxarticles":
 			self["maxarticles"] = int(l[1])
 		elif l[0] == "maxage":
@@ -1317,7 +1320,7 @@ __description__
 
 		return bits
 
-	def write_output_file(self, articles, article_dates, config):
+	def write_output_file(self, articles, article_dates, config, old=False):
 		"""Write a regular rawdog HTML output file."""
 		f = StringIO()
 		dw = DayWriter(f, config)
@@ -1331,13 +1334,18 @@ __description__
 
 		dw.close()
 		plugins.call_hook("output_items_end", self, config, f)
+                if not old:
+                    f.write('<p style="text-align: right; margin-right: 2ex;"><a href="old.html">Older blog entries</a></p>')
 
 		bits = self.get_main_template_bits(config)
 		bits["items"] = f.getvalue()
 		bits["num_items"] = str(len(self.articles))
 		plugins.call_hook("output_bits", self, config, bits)
 		s = fill_template(self.get_template(config), bits)
-		outputfile = config["outputfile"]
+		if old:
+			outputfile = config["outputfileold"]
+		else:
+			outputfile = config["outputfile"]
 		if outputfile == "-":
 			write_ascii(sys.stdout, s, config)
 		else:
@@ -1386,7 +1394,9 @@ __description__
 		plugins.call_hook("output_sort", self, config, articles)
 
 		if config["maxarticles"] != 0:
-			articles = articles[:config["maxarticles"]]
+                        maxarticles = config["maxarticles"]
+			articlesOlder = articles[maxarticles:maxarticles*2]
+			articles = articles[:maxarticles]
 
 		plugins.call_hook("output_write", self, config, articles)
 
@@ -1399,6 +1409,8 @@ __description__
 
 		if not plugins.call_hook("output_write_files", self, config, articles, article_dates):
 			self.write_output_file(articles, article_dates, config)
+
+		self.write_output_file(articlesOlder, article_dates, config, True)
 
 		config.log("Finished write")
 
