@@ -1319,6 +1319,9 @@ feed 15m http://www.confuego.org/feeds/categories/1-KDE.rss
 
 feed 15m http://drfav.wordpress.com/tag/KDE/feed?mrss=off
         define_name Dario Freddi (drf__)
+        define_face hackergotchi/drf.png
+        define_facewidth 80
+        define_faceheight 86
 
 feed 15m http://blog.martin-graesslin.com/blog/?cat=7&feed=rss2
         define_name Martin Gräßlin
