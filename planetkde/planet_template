@@ -61,7 +61,7 @@
 			<a href="javascript:toggle();">People aggregated<img src="images/user-identity.png" alt="" width="22" height="22" /></a> 
 			<a href="javascript:toggleaddme();">Add your blog<img src="images/addrss.png" alt="" width="22" height="22" /></a> 
 			<a href="http://dot.kde.org/">KDE Dot News<img src="images/dot-news.png" alt="" width="22" height="22" /></a> 
-			<a href="javascript:togglemicroblog();">New: MicroBlogging<img src="images/microblog.png" alt="" width="22" height="22" /></a> 
+			<a href="javascript:togglemicroblog();">New: Microblogging<img src="images/microblog.png" alt="" width="22" height="22" /></a> 
 		</div>
 	</div>
 <!--
@@ -120,6 +120,12 @@ feed 15m http://path.to/my/feed.rss
 
              <li><em>svn commit</em></li>
           </ul>
+
+       <p>If you want to add a Twitter microblog to the Microblogging
+       sidebar add <em>define_microblog true</em>.  Currently only
+       Twitter is known to work, please contact Jonathan Riddell
+       before adding non-Twitter microblogs to check it works.</p>
+
 
        <h2>Planet KDE Guidelines</h2>
 
