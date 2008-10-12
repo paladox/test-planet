@@ -1413,3 +1413,11 @@ feed 15m http://twitter.com/statuses/user_timeline/11408342.rss
 feed 15m http://twitter.com/statuses/user_timeline/15076277.rss
 	define_name Dario Freddi
 	define_microblog true
+
+feed 15m http://twitter.com/statuses/user_timeline/16671317.rss
+	define_name Thomas Zander
+	define_microblog true
+
+feed 15m http://twitter.com/statuses/user_timeline/8721352.rss
+	define_name Nikolaj Hald Nielsen
+	define_microblog true
