@@ -1355,69 +1355,69 @@ feed 15m http://my.opera.com/it-s/xml/rss/blog/kde
 	define_face hackergotchi/kdegames.png
 
 feed 15m http://twitter.com/statuses/user_timeline/16697511.rss
-	define_name Jonathan Riddell
+	define_name Jonathan Riddell [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/7626542.rss
-	define_name aseigo
+	define_name Aaron Seigo [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/6328522.rss
-	define_name sebr
+	define_name Seb Ruiz [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/7668782.rss
-	define_name sebasje
+	define_name Sebastian Kuegler [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8721292.rss
-	define_name markey
+	define_name Mark Kretschmann [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8725472.rss
-	define_name apachelogger
+	define_name Harald Sitter [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8725472.rss
-	define_name chanika
+	define_name Chani Armitage [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8719472.rss
-	define_name Nightrose
+	define_name Lydia Pintscher [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/7764312.rss
-	define_name lfranchi
+	define_name Leo Franchi [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8728462.rss
-	define_name myriamRS
+	define_name Myriam Schweingruber [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8826002.rss
-	define_name eean
+	define_name Ian Monroe [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/12533432.rss
-	define_name ivan
+	define_name Ivan Čukić [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/15173651.rss
-	define_name Cornelius Schumacher
+	define_name Cornelius Schumacher [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/11408342.rss
-	define_name Marco Martin
+	define_name Marco Martin [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/15076277.rss
-	define_name Dario Freddi
+	define_name Dario Freddi [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/16671317.rss
-	define_name Thomas Zander
+	define_name Thomas Zander [twitter]
 	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8721352.rss
-	define_name Nikolaj Hald Nielsen
+	define_name Nikolaj Hald Nielsen [twitter]
 	define_microblog true
