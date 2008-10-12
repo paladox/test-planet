@@ -1421,3 +1421,7 @@ feed 15m http://twitter.com/statuses/user_timeline/16671317.rss
 feed 15m http://twitter.com/statuses/user_timeline/8721352.rss
 	define_name Nikolaj Hald Nielsen [twitter]
 	define_microblog true
+
+feed 15m http://twitter.com/statuses/user_timeline/6323052.rss
+	define_name Alexandra Leisse [twitter]
+	define_microblog true
