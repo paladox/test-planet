@@ -1402,3 +1402,7 @@ feed 15m http://twitter.com/statuses/user_timeline/12533432.rss
 feed 15m http://twitter.com/statuses/user_timeline/15173651.rss
 	define_name Cornelius Schumacher
 	define_microblog true
+
+feed 15m http://twitter.com/statuses/user_timeline/11408342.rss
+	define_name Marco Martin
+	define_microblog true
