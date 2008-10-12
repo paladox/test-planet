@@ -1398,3 +1398,7 @@ feed 15m http://twitter.com/statuses/user_timeline/8826002.rss
 feed 15m http://twitter.com/statuses/user_timeline/12533432.rss
 	define_name ivan
 	define_microblog true
+
+feed 15m http://twitter.com/statuses/user_timeline/15173651.rss
+	define_name Cornelius Schumacher
+	define_microblog true
