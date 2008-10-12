@@ -1353,44 +1353,44 @@ feed 15m http://my.opera.com/it-s/xml/rss/blog/kde
 
 feed 15m http://twitter.com/statuses/user_timeline/16697511.rss
 	define_name Jonathan Riddell
-	define_twitter true
+	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/7626542.rss
 	define_name aseigo
-	define_twitter true
+	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/6328522.rss
 	define_name sebr
-	define_twitter true
+	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/7668782.rss
 	define_name sebasje
-	define_twitter true
+	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8721292.rss
 	define_name markey
-	define_twitter true
+	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8725472.rss
 	define_name apachelogger
-	define_twitter true
+	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8725472.rss
 	define_name chanika
-	define_twitter true
+	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8719472.rss
 	define_name Nightrose
-	define_twitter true
+	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/7764312.rss
 	define_name lfranchi
-	define_twitter true
+	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8728462.rss
 	define_name myriamRS
-	define_twitter true
+	define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8826002.rss
 	define_name eean
-	define_twitter true
+	define_microblog true

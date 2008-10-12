@@ -407,7 +407,7 @@ class Feed:
 			article = Article(feed, entry_info, now, sequence)
                         for feedconfig in config["feedslist"]:
                             if feedconfig[0] == feed:
-                                if feedconfig[2].has_key("define_twitter") and feedconfig[2]["define_twitter"] == "true":
+                                if feedconfig[2].has_key("define_microblog") and feedconfig[2]["define_microblog"] == "true":
                                     article.twitter = True
 			ignore = plugins.Box(False)
 			plugins.call_hook("article_seen", rawdog, config, article, ignore)
