@@ -37,6 +37,15 @@
                 ele.style.display = "block";
         }
     } 
+    function togglemicroblog() {
+        var ele = document.getElementById("twitterdiv");
+        if(ele.style.display == "block") {
+                ele.style.display = "none";
+        }
+        else {
+                ele.style.display = "block";
+        }
+    } 
     </script>
 </head>
 <body>
@@ -52,6 +61,7 @@
 			<a href="javascript:toggle();">People aggregated<img src="images/user-identity.png" alt="" width="22" height="22" /></a> 
 			<a href="javascript:toggleaddme();">Add your blog<img src="images/addrss.png" alt="" width="22" height="22" /></a> 
 			<a href="http://dot.kde.org/">KDE Dot News<img src="images/dot-news.png" alt="" width="22" height="22" /></a> 
+			<a href="javascript:togglemicroblog();">New: MicroBlogging<img src="images/microblog.png" alt="" width="22" height="22" /></a> 
 		</div>
 	</div>
 <!--
@@ -156,9 +166,13 @@ you can control what gets posted.</p>
          __feeds__
 		</p>
         </div>
-
+        <div id="twitterdiv">
+        <h2 id="microbloghead">Microblogging from KDE</h2>
+        __twitter__
+        </div>
 
 __items__
+
 	</div>
 
 <div id="footer">

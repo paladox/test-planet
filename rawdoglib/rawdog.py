@@ -405,6 +405,10 @@ class Feed:
 		sequence = 0
 		for entry_info in p["entries"]:
 			article = Article(feed, entry_info, now, sequence)
+                        for feedconfig in config["feedslist"]:
+                            if feedconfig[0] == feed:
+                                if feedconfig[2].has_key("define_twitter") and feedconfig[2]["define_twitter"] == "true":
+                                    article.twitter = True
 			ignore = plugins.Box(False)
 			plugins.call_hook("article_seen", rawdog, config, article, ignore)
 			if ignore.value:
@@ -477,6 +481,7 @@ class Article:
 		self.feed = feed
 		self.entry_info = entry_info
 		self.sequence = sequence
+                self.twitter = False
 
 		modified = entry_info.get("modified_parsed")
 		self.date = None
@@ -596,15 +601,15 @@ def parse_feed_args(argparams, arglines):
 	"""Parse a list of feed arguments. Raise ConfigError if the syntax is invalid."""
 	args = {}
 	for a in argparams:
-		as = a.split("=", 1)
-		if len(as) != 2:
+		asplit = a.split("=", 1)
+		if len(asplit) != 2:
 			raise ConfigError("Bad feed argument in config: " + a)
-		args[as[0]] = as[1]
+		args[asplit[0]] = asplit[1]
 	for a in arglines:
-		as = a.split(None, 1)
-		if len(as) != 2:
+		asplit = a.split(None, 1)
+		if len(asplit) != 2:
 			raise ConfigError("Bad argument line in config: " + a)
-		args[as[0]] = as[1]
+		args[asplit[0]] = asplit[1]
 	if "maxage" in args:
 		args["maxage"] = parse_time(args["maxage"])
 	return args
@@ -1193,7 +1198,20 @@ __description__
 			else:
 				title = "Link"
 
-		itembits["title_no_link"] = title
+		if article.twitter:
+			split = title.split(":", 1)
+			text = split[0] + "</a>"
+			split[1] = split[1].lstrip()
+			if split[1].startswith("@"):
+				atSplit = split[1].split(" ", 1)
+				link = atSplit[0].lstrip("@")
+				link = link.rstrip(":")
+				text = text + " <a href='http://twitter.com/"+ link + "'>" + atSplit[0] + "</a>" + " " + atSplit[1]
+			else:
+				text = text + " " + split[1]
+			itembits["title_no_link"] = text
+		else:
+			itembits["title_no_link"] = title
 		if link is not None:
 			itembits["url"] = string_to_html(link, config)
 		else:
@@ -1238,7 +1256,10 @@ __description__
 			itembits["date"] = ""
 
 		plugins.call_hook("output_item_bits", self, config, feed, article, itembits)
-		itemtemplate = self.get_itemtemplate(config)
+                if article.twitter:
+			itemtemplate = load_file("microblogitemtemplate")
+		else:
+			itemtemplate = self.get_itemtemplate(config)
 		f.write(fill_template(itemtemplate, itembits))
 
 	def write_remove_dups(self, articles, config, now):
@@ -1320,7 +1341,7 @@ __description__
 
 		return bits
 
-	def write_output_file(self, articles, article_dates, config, old=False):
+	def write_output_file(self, articles, twitterArticles, article_dates, config, old=False):
 		"""Write a regular rawdog HTML output file."""
 		f = StringIO()
 		dw = DayWriter(f, config)
@@ -1340,6 +1361,19 @@ __description__
 		bits = self.get_main_template_bits(config)
 		bits["items"] = f.getvalue()
 		bits["num_items"] = str(len(self.articles))
+
+                #TWITTER
+		f = StringIO()
+		dw = DayWriter(f, config)
+
+		for article in twitterArticles:
+			self.write_article(f, article, config)
+
+		dw.close()
+
+		bits["twitter"] = f.getvalue()
+                #end of TWITTER
+
 		plugins.call_hook("output_bits", self, config, bits)
 		s = fill_template(self.get_template(config), bits)
 		if old:
@@ -1393,10 +1427,20 @@ __description__
 		articles.sort(compare)
 		plugins.call_hook("output_sort", self, config, articles)
 
+		twitterArticles = []
+                normalArticles = []
+		for article in articles:
+			if article.twitter == True:
+				twitterArticles.append(article)
+			else:
+				normalArticles.append(article)
+		articles = normalArticles
+
 		if config["maxarticles"] != 0:
                         maxarticles = config["maxarticles"]
 			articlesOlder = articles[maxarticles:maxarticles*2]
 			articles = articles[:maxarticles]
+			twitterArticles = twitterArticles[:maxarticles]
 
 		plugins.call_hook("output_write", self, config, articles)
 
@@ -1408,9 +1452,12 @@ __description__
 		config.log("Selected ", len(articles), " of ", numarticles, " articles to write; ignored ", dup_count, " duplicates")
 
 		if not plugins.call_hook("output_write_files", self, config, articles, article_dates):
-			self.write_output_file(articles, article_dates, config)
+			self.write_output_file(articles, twitterArticles, article_dates, config)
 
-		self.write_output_file(articlesOlder, article_dates, config, True)
+		self.write_output_file(articlesOlder, [], article_dates, config, True)
+
+		config["outputfile"] = "../website/twitter.html"
+		self.write_output_file(twitterArticles, [], article_dates, config)
 
 		config.log("Finished write")
 

@@ -1226,7 +1226,7 @@ feed 15m http://hamberg.no/erlend/index.php/category/kde/feed
         define_facewidth 80
         define_faceheight 82
 
-feed 15m http://www.freehackers.org/blogs/orzel/category/kde/feed
+feed 15m http://www.freehackers.org/thomas/category/kde/feed
         define_name Thomas Capricelli (orzel)
 
 feed 15m http://vtokarev.wordpress.com/feed?mrss=off
@@ -1350,3 +1350,47 @@ feed 15m http://socceroosd.blogspot.com/feeds/posts/full/-/kde
 feed 15m http://my.opera.com/it-s/xml/rss/blog/kde
 	define_name it-s
 	define_face hackergotchi/kdegames.png
+
+feed 15m http://twitter.com/statuses/user_timeline/16697511.rss
+	define_name Jonathan Riddell
+	define_twitter true
+
+feed 15m http://twitter.com/statuses/user_timeline/7626542.rss
+	define_name aseigo
+	define_twitter true
+
+feed 15m http://twitter.com/statuses/user_timeline/6328522.rss
+	define_name sebr
+	define_twitter true
+
+feed 15m http://twitter.com/statuses/user_timeline/7668782.rss
+	define_name sebasje
+	define_twitter true
+
+feed 15m http://twitter.com/statuses/user_timeline/8721292.rss
+	define_name markey
+	define_twitter true
+
+feed 15m http://twitter.com/statuses/user_timeline/8725472.rss
+	define_name apachelogger
+	define_twitter true
+
+feed 15m http://twitter.com/statuses/user_timeline/8725472.rss
+	define_name chanika
+	define_twitter true
+
+feed 15m http://twitter.com/statuses/user_timeline/8719472.rss
+	define_name Nightrose
+	define_twitter true
+
+feed 15m http://twitter.com/statuses/user_timeline/7764312.rss
+	define_name lfranchi
+	define_twitter true
+
+feed 15m http://twitter.com/statuses/user_timeline/8728462.rss
+	define_name myriamRS
+	define_twitter true
+
+feed 15m http://twitter.com/statuses/user_timeline/8826002.rss
+	define_name eean
+	define_twitter true

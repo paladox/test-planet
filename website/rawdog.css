@@ -266,3 +266,20 @@ background: none;
     white-space: nowrap;
 }
 
+.twitter a {
+    color: black;
+    text-decoration: none;
+}
+
+#twitterdiv {
+   display: none;
+   border: solid thin grey;
+   float: right;
+   width: 200px;
+   padding: 8px;
+   margin: 8px;
+}
+
+#microbloghead {
+   font-size: 9pt;
+}
