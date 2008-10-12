@@ -28,6 +28,7 @@
                 ele.style.display = "block";
         }
     } 
+
     function toggleaddme() {
         var ele = document.getElementById("addme");
         if(ele.style.display == "block") {
@@ -37,18 +38,37 @@
                 ele.style.display = "block";
         }
     } 
+
     function togglemicroblog() {
         var ele = document.getElementById("twitterdiv");
         if(ele.style.display == "block") {
                 ele.style.display = "none";
+                var today = new Date();
+                var expire = new Date();
+                expire.setTime(today.getTime() + 3600000*24*100)
+                document.cookie = "twitter=none;expires="+expire.toGMTString();
         }
         else {
                 ele.style.display = "block";
+                var today = new Date();
+                var expire = new Date();
+                expire.setTime(today.getTime() + 3600000*24*100)
+                document.cookie = "twitter=block;expires="+expire.toGMTString();
         }
     } 
+
+    /*onLoad show microblog block if it was shown before*/
+    function showTwitter() {
+        var ele = document.getElementById("twitterdiv");
+        if (document.cookie == "twitter=block") {
+            ele.style.display = "block";
+        } else {
+            ele.style.display = "none";
+        }
+    }
     </script>
 </head>
-<body>
+<body onLoad="javascript:showTwitter();">
 
 <div id="page">
 	<div id="header">
