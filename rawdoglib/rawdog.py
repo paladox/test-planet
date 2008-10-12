@@ -1204,9 +1204,9 @@ __description__
 			split[1] = split[1].lstrip()
 			if split[1].startswith("@"):
 				atSplit = split[1].split(" ", 1)
-				link = atSplit[0].lstrip("@")
-				link = link.rstrip(":")
-				text = text + " <a href='http://twitter.com/"+ link + "'>" + atSplit[0] + "</a>" + " " + atSplit[1]
+				twitterLink = atSplit[0].lstrip("@")
+				twitterLink = twitterLink.rstrip(":")
+				text = text + " <a href='http://twitter.com/"+ twitterLink + "'>" + atSplit[0] + "</a>" + " " + atSplit[1]
 			else:
 				text = text + " " + split[1]
 			itembits["title_no_link"] = text
