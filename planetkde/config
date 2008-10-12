@@ -776,7 +776,7 @@ feed 15m http://piacentini.livejournal.com/data/rss
         define_name Mauricio Piacentini (piacentini)
         define_face hackergotchi/piacentini.png
         define_facewidth 75
-        define_faceheight 80 
+        define_faceheight 80
 
 feed 15m http://chani.wordpress.com/category/planet/feed?mrss=off
         define_name Chani Armitage (Chani)
@@ -855,7 +855,7 @@ feed 15m http://www.nielsvm.org/?feed=rss2
         define_faceheight 80
 
 feed 15m http://feeds.feedburner.com/ivan-cukic-kde?format=xml
-        define_name Ivan Cukic
+        define_name Ivan Cukic (ivan)
 
 feed 15m http://blog.froglogic.com/feed/atom/?author=2&cat=5,6
         define_name Frerich Raabe
@@ -1393,4 +1393,8 @@ feed 15m http://twitter.com/statuses/user_timeline/8728462.rss
 
 feed 15m http://twitter.com/statuses/user_timeline/8826002.rss
 	define_name eean
+	define_microblog true
+
+feed 15m http://twitter.com/statuses/user_timeline/12533432.rss
+	define_name ivan
 	define_microblog true
