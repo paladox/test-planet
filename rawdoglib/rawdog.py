@@ -1198,7 +1198,7 @@ __description__
 			else:
 				title = "Link"
 
-		if article.twitter:
+		if 'twitter' in dir(article) and article.twitter:
 			split = title.split(":", 1)
 			text = split[0] + "</a>"
 			split[1] = split[1].lstrip()
@@ -1256,7 +1256,7 @@ __description__
 			itembits["date"] = ""
 
 		plugins.call_hook("output_item_bits", self, config, feed, article, itembits)
-                if article.twitter:
+                if 'twitter' in dir(article) and article.twitter:
 			itemtemplate = load_file("microblogitemtemplate")
 		else:
 			itemtemplate = self.get_itemtemplate(config)
