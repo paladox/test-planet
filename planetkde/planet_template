@@ -122,9 +122,10 @@ feed 15m http://path.to/my/feed.rss
           </ul>
 
        <p>If you want to add a Twitter microblog to the Microblogging
-       sidebar add <em>define_microblog true</em>.  Currently only
-       Twitter is known to work, please contact Jonathan Riddell
-       before adding non-Twitter microblogs to check it works.</p>
+       sidebar add <em>define_microblog true</em> and follow your name
+       with [twitter].  Currently only Twitter is known to work,
+       please contact Jonathan Riddell before adding non-Twitter
+       microblogs to check it works.</p>
 
 
        <h2>Planet KDE Guidelines</h2>
