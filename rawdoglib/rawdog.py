@@ -1430,7 +1430,7 @@ __description__
 		twitterArticles = []
                 normalArticles = []
 		for article in articles:
-			if article.twitter == True:
+			if 'twitter' in dir(article) and article.twitter == True:
 				twitterArticles.append(article)
 			else:
 				normalArticles.append(article)
