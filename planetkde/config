@@ -976,8 +976,11 @@ feed 15m http://www.gustavoboiko.org/blog/category/kde/feed
 feed 15m http://amarok.kde.org/blog/feeds/categories/20-lfranchi.rss
         define_name Leo Franchi (lfranchi)
 
-feed 15m http://blog.guillermoamaral.com/feed/
-        define_name Guillermo Amaral (gamaral)
+feed 15m http://blog.guillermoamaral.com/tag/kde/
+        define_name Guillermo Antonio Amaral (gamaral)
+        define_face hackergotchi/gamaral.png
+        define_facewidth 64
+        define_faceheight 64
 
 feed 15m http://www.flavio.castelli.name/feed
         define_name Flavio Castelli
@@ -1440,4 +1443,8 @@ feed 15m http://twitter.com/statuses/user_timeline/1984201.rss
 
 feed 15m http://twitter.com/statuses/user_timeline/7668782.rss
 	define_name Sebastian Kügler [twitter]
+	define_microblog true
+
+feed 15m http://twitter.com/statuses/user_timeline/8888712.rss
+	define_name Guillermo Antonio Amaral [twitter]
 	define_microblog true
