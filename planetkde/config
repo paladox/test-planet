@@ -959,7 +959,7 @@ feed 15m http://apaku.wordpress.com/feed?mrss=off
         define_name Andreas Pakulat
 
 feed 15m http://blog.ruphy.org/?feed=rss2
-        define_name Riccardo Iaconelli
+        define_name Riccardo Iaconelli (ruphy)
 
 feed 15m http://apachelog.blogspot.com/rss.xml
         define_name Harald Sitter (apachelogger)
@@ -1393,6 +1393,10 @@ feed 15m http://twitter.com/statuses/user_timeline/7764312.rss
 feed 15m http://twitter.com/statuses/user_timeline/8728462.rss
 	define_name Myriam Schweingruber [twitter]
 	define_microblog true
+
+feed 15m http://twitter.com/statuses/user_timeline/7655662.rss
+        define_name Riccardo Iaconelli [twitter]
+        define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8826002.rss
 	define_name Ian Monroe [twitter]
