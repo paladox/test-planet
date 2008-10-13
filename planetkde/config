@@ -1437,3 +1437,7 @@ feed 15m http://twitter.com/statuses/user_timeline/16695645.rss
 feed 15m http://twitter.com/statuses/user_timeline/1984201.rss
 	define_name Lucas Murray [twitter]
 	define_microblog true
+
+feed 15m http://twitter.com/statuses/user_timeline/7668782.rss
+	define_name Sebastian Kügler [twitter]
+	define_microblog true
