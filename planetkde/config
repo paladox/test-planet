@@ -1430,6 +1430,10 @@ feed 15m http://twitter.com/statuses/user_timeline/6323052.rss
 	define_name Alexandra Leisse [twitter]
 	define_microblog true
 
+feed 15m http://twitter.com/statuses/user_timeline/16695645.rss
+	define_name Agustín Benito Bethencourt [twitter]
+	define_microblog true
+
 feed 15m http://twitter.com/statuses/user_timeline/1984201.rss
 	define_name Lucas Murray [twitter]
 	define_microblog true
