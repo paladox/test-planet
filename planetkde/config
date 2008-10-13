@@ -1448,3 +1448,9 @@ feed 15m http://twitter.com/statuses/user_timeline/7668782.rss
 feed 15m http://twitter.com/statuses/user_timeline/8888712.rss
 	define_name Guillermo Antonio Amaral [twitter]
 	define_microblog true
+
+feed 15m http://twitter.com/statuses/user_timeline/16517459.rss
+	define_name Frederik Gladhorn [twitter]
+	define_microblog true
+
+
