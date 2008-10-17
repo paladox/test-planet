@@ -899,8 +899,9 @@ feed 15m http://commonideas.blogspot.com/feeds/posts/default/-/KDE
 feed 15m http://wendyvancraen.blogspot.com/feeds/posts/default/-/KDE
         define_name Wendy Van Craen
 
-feed 15m http://kbfx.org/index_main.php
-        define_name Mensur Zahirovic
+#disappeared
+#feed 15m http://kbfx.org/index_main.php
+#        define_name Mensur Zahirovic
 
 #disappeared
 #feed 15m http://elektron.et.tudelft.nl/~cmlot/rss.xml
