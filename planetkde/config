@@ -1171,6 +1171,9 @@ feed 15m http://feeds.feedburner.com/LamersCorner
 
 feed 15m http://blog.nixternal.com/category/kde/feed
         define_name Richard Johnson
+        define_face hackergotchi/nixternal.png
+        define_facewidth 67
+        define_faceheight 80
 
 feed 15m http://www.kdedevelopers.org/blog/2904/feed
         define_name Sebastian Trueg
@@ -1463,3 +1466,7 @@ feed 15m http://twitter.com/statuses/user_timeline/8694172.rss
 
 feed 15m http://drwxr-xr-x.blogspot.com/feeds/posts/default/-/planetkde
         define_name Evgeniy Ivanov (powerfox/pfx) 
+
+feed 15m http://twitter.com/statuses/user_timeline/10486242.rss
+    define_name Richard Johnson [twitter]
+    define_microblog true
