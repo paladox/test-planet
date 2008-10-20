@@ -999,7 +999,10 @@ feed 15m http://blog.loic.corbasson.fr/feed/tag/KDE/rss2
         define_name Loic Corbasson
 
 feed 15m http://jlp.holodeck1.com/blog/category/computers/software/kde/feed/
-        define_name Jure Repinc
+        define_name Jure Repinc (JLP)
+        define_face hackergotchi/jlp.png
+        define_facewidth 85
+        define_faceheight 85
 
 feed 15m http://blog.lukrop.bplaced.net/feeds/categories/planetKDE.rss
         define_name Lukas Kropatschek
@@ -1471,5 +1474,9 @@ feed 15m http://drwxr-xr-x.blogspot.com/feeds/posts/default/-/planetkde
         define_name Evgeniy Ivanov (powerfox/pfx) 
 
 feed 15m http://twitter.com/statuses/user_timeline/10486242.rss
-    define_name Richard Johnson [twitter]
-    define_microblog true
+        define_name Richard Johnson [twitter]
+        define_microblog true
+
+feed 15m http://twitter.com/statuses/user_timeline/8131402.rss
+        define_name Jure Repinc [twitter]
+        define_microblog true
