@@ -1366,6 +1366,12 @@ feed 15m http://qashapp.blogspot.com/feeds/posts/default/-/KDE
 feed 15m http://socceroosd.blogspot.com/feeds/posts/full/-/kde
         define_name Sam Duff (Socceroos)
 
+feed 15m http://jakob.petsovits.at/taxonomy/term/3/0/feed
+        define_name Jakob Petsovits (jpetso)
+        define_face hackergotchi/jpetso.png
+        define_facewidth 55
+        define_faceheight 80
+
 feed 15m http://my.opera.com/it-s/xml/rss/blog/kde
 	define_name it-s
 	define_face hackergotchi/kdegames.png
