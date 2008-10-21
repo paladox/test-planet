@@ -1486,3 +1486,8 @@ feed 15m http://twitter.com/statuses/user_timeline/10486242.rss
 feed 15m http://twitter.com/statuses/user_timeline/8131402.rss
         define_name Jure Repinc [twitter]
         define_microblog true
+
+feed 15m http://twitter.com/statuses/user_timeline/16880978.rss
+	define_name Matt Rogers [twitter]
+	define_microblog true
+
