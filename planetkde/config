@@ -1266,9 +1266,6 @@ feed 15m http://metelliuscode.wordpress.com/feed?mrss=off
 feed 15m http://www.binaryelysium.com/blog/tag/amarok/feed/rss2/
         define_name Casey Link (ramblurr)
 
-feed 15m http://amarok.kde.org/blog/feeds/categories/27-peterzl.rss
-        define_name Peter Zhou (peterzl)
-
 feed 15m http://irregularexpression.wordpress.com/category/kdeamarok/feed?mrss=off
         define_name William Viana (Liw-)
 
@@ -1288,7 +1285,7 @@ feed 15m http://kopophex.blogspot.com/feeds/posts/default
         define_name Daniel Jones
 
 feed 15m http://www.peterzl.net/en/?feed=rss2
-        define_name Peter Zhou
+        define_name Peter Zhou (peterzl)
 
 #timing out
 #feed 15m http://lignite.ccni.it/blog/wp-rss2.php?cat=3
