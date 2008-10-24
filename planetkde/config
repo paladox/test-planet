@@ -256,10 +256,10 @@ feed 15m http://c133.org/blog/index.rss
         define_faceheight 68
 
 feed 15m http://www.kdedevelopers.org/blog/6504/feed
-        define_name Jason Donenfeld (zx2c4/jdonenfeld)
+        define_name Jason A. Donenfeld (zx2c4/jdonenfeld)
         define_face hackergotchi/jdonenfeld.png
-        define_facewidth 70
-        define_faceheight 71
+        define_facewidth 61
+        define_faceheight 70
 
 feed 15m http://www.monroe.nu/feeds/categories/1-amaroK.rss
         define_name Ian Monroe (eean)
