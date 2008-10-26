@@ -1379,6 +1379,9 @@ feed 15m http://my.opera.com/it-s/xml/rss/blog/kde
 	define_name it-s
 	define_face hackergotchi/kdegames.png
 
+feed 15m http://gkmeyer.com/worpress/?feed=rss2
+	define_name Greg Meyer (oggb4mp3)
+
 feed 15m http://twitter.com/statuses/user_timeline/16697511.rss
 	define_name Jonathan Riddell [twitter]
 	define_microblog true
