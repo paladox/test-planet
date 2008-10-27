@@ -1293,9 +1293,8 @@ feed 15m http://kopophex.blogspot.com/feeds/posts/default
 feed 15m http://www.peterzl.net/en/?feed=rss2
         define_name Peter Zhou (peterzl)
 
-#timing out
-#feed 15m http://lignite.ccni.it/blog/wp-rss2.php?cat=3
-#        define_name Teo Mrnjavac (teo_m)
+feed 15m http://lignite.ccni.it/blog/wp-rss2.php?cat=3
+        define_name Teo Mrnjavac (teo_m)
 
 feed 15m http://awainzin-foss.blogspot.com/feeds/posts/default?alt=rss
         define_name Alejandro Wainzinger (xevix)
