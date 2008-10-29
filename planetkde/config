@@ -1232,9 +1232,8 @@ feed 15m http://feeds.feedburner.com/UntangledBlog
 feed 15m http://blog.greghaynes.net/index.php?/feeds/categories/7-KDE.rss
         define_name Gregory Haynes
 
-#can't wget this
-#feed 15m http://enricoros.wordpress.com/category/planetkde/feed?mrss=off
-#        define_name Enrico Ros
+feed 15m http://enricoros.wordpress.com/category/planetkde/feed?mrss=off
+        define_name Enrico Ros
 
 feed 15m http://feeds.binaryhelix.net/binaryhelix-kde
         define_name Lorenzo Villani
