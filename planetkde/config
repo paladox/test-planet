@@ -1390,6 +1390,12 @@ feed 15m http://kstars.wordpress.com/tag/kde/feed
 	define_facewidth 80
 	define_faceheight 80
 
+feed 15m http://techfreaks4u.com/blog/?feed=rss&tag=forplanetkde
+     	define_name Shashank Singh (ssingh)
+	define_face hackergotchi/shashankSingh.png
+	define_facewidth 80
+	define_faceheight 80
+
 feed 15m http://twitter.com/statuses/user_timeline/16697511.rss
 	define_name Jonathan Riddell [twitter]
 	define_microblog true
@@ -1507,4 +1513,8 @@ feed 15m http://twitter.com/statuses/user_timeline/16880978.rss
 
 feed 15m http://twitter.com/statuses/user_timeline/15219398.rss
 	define_name Akarsh Simha [twitter]
+	define_microblog true
+
+feed 15m http://twitter.com/statuses/user_timeline/14086063.rss
+	define_name Shashank Singh [twitter]
 	define_microblog true
