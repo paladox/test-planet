@@ -1227,7 +1227,7 @@ feed 15m http://edulix.wordpress.com/category/kde/feed?mrss=off
         define_name Eduardo Robles Elvira (Edulix)
 
 feed 15m http://feeds.feedburner.com/UntangledBlog
-        define_name Alexandra Leisse
+        define_name Alexandra Leisse (troubalex)
 
 feed 15m http://blog.greghaynes.net/index.php?/feeds/categories/7-KDE.rss
         define_name Gregory Haynes
