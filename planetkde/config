@@ -1395,7 +1395,7 @@ feed 15m http://techfreaks4u.com/blog/?feed=rss&tag=forplanetkde
 	define_facewidth 80
 	define_faceheight 80
 
-feed 15m http://xvello.wordpress.com/category/kde/feed/
+feed 15m http://xvello.wordpress.com/tag/kde/feed/
         define_name Xavier Vello (xvello)
 
 feed 15m http://twitter.com/statuses/user_timeline/16697511.rss
