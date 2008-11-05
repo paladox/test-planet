@@ -1018,6 +1018,15 @@ feed 15m http://www.digikam.org/?q=blog/133/feed
 
 feed 15m http://darktears.wordpress.com/feed?mrss=off
         define_name Alexis Menard (darktears)
+	define_face hackergotchi/alexis-menard.jpg
+        define_facewidth 80
+        define_faceheight 80
+
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=767&cat=2,5
+        define_name Alexis Menard (Qt Software)
+        define_face hackergotchi/alexis-menard.jpg
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m http://freelancesamurai.wordpress.com/tag/kde/feed?mrss=off
         define_name Nuno Povoa (npovoa)
