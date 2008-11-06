@@ -764,6 +764,9 @@ feed 15m http://blog.bepointbe.be/rss-meta.php?key=tag&value=kde&lang=en
 
 feed 15m http://frinring.wordpress.com/category/kde/feed?mrss=off
         define_name Friedrich Kossebau (frinring)
+        define_face hackergotchi/frinring.png
+        define_facewidth 64
+        define_faceheight 64
 
 feed 15m http://dhaumann.blogspot.com/atom.xml
         define_name Dominik Haumann
