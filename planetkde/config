@@ -1553,3 +1553,9 @@ feed 15m http://www.digikam.org/?q=blog/135/feed
         define_face hackergotchi/aclemens.png
         define_facewidth 80
         define_faceheight 80 
+
+feed 15m http://estan.dose.se/tag/planetkde/feed
+        define_name Elvis Stansvik (estan)
+        define_face hackergotchi/estan.png
+        define_facewidth 77
+        define_faceheight 80
