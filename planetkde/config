@@ -1422,7 +1422,7 @@ feed 15m http://illogic-al.org/blog/1/feed
     define_facewidth 80
     define_faceheight 80
 
-feed 15m http://saschpe.wordpress.com/category/opensource/kde/feed/
+feed 15m http://saschpe.wordpress.com/category/opensource/kde/feed?mrss=off
     define_name Sascha Peilicke (saschpe)
 
 feed 15m http://twitter.com/statuses/user_timeline/16697511.rss
