@@ -1424,6 +1424,13 @@ feed 15m http://illogic-al.org/blog/1/feed
 
 feed 15m http://saschpe.wordpress.com/category/opensource/kde/feed?mrss=off
     define_name Sascha Peilicke (saschpe)
+    define_face hackergotchi/saschpe.png
+    define_facewidth 67
+    define_faceheight 80
+
+feed 15m http://twitter.com/statuses/user_timeline/17066665.rss
+    define_name Sascha Peilicke [twitter]
+    define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/16697511.rss
 	define_name Jonathan Riddell [twitter]
