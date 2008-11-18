@@ -1058,7 +1058,7 @@ feed 15m http://blog.hartwork.org/?feed=rss2&cat=23
 feed 15m http://pcapriotti.wordpress.com/category/kde/feed?mrss=off
         define_name Paolo Capriotti
 
-feed 15m http://jpwhiting.blogspot.com/feeds/posts/default?alt=rss
+feed 15m http://jpwhiting.blogspot.com/feeds/posts/default/-/kde
         define_name Jeremy Whiting (jpwhiting)
 
 feed 15m http://movingparts.net/feed/
