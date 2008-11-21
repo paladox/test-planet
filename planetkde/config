@@ -1566,3 +1566,6 @@ feed 15m http://estan.dose.se/tag/planetkde/feed
         define_face hackergotchi/estan.png
         define_facewidth 77
         define_faceheight 80
+
+feed 15m http://shield008.blogspot.com/feeds/posts/default/-/KDE
+        define_name John-Paul Stanford (jp)
