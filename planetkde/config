@@ -1575,6 +1575,6 @@ feed 15m http://cazou.blogspot.com/feeds/posts/default/-/KDE
 
 feed 15m http://borntobeopen.blogspot.com/feeds/posts/default/
         define_name Jaroslav Řezník (jreznik)
-        define_face hackergotchi/rezza.png
+        define_face hackergotchi/rezza.jpg
         define_facewidth 80
         define_faceheight 80
