@@ -619,8 +619,11 @@ feed 15m http://vizZzion.org/rss.php
 feed 15m http://amarok.kde.org/blog/feeds/categories/9-leinir.rss
         define_name Dan Jensen (leinir)
 
-feed 15m http://davigno.oxygen-icons.org/?feed=rss2
+feed 15m http://www.icon-king.com/tag/kde/feed/
         define_name David Vignoni (davigno)
+	define_face hackergotchi/davigno.png
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m http://www.kdedevelopers.org/blog/507/feed
         define_name Marco Gulino (RockMan)
