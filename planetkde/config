@@ -1581,3 +1581,7 @@ feed 15m http://borntobeopen.blogspot.com/feeds/posts/default/
         define_face hackergotchi/rezza.jpg
         define_facewidth 80
         define_faceheight 80
+
+feed 15m http://labs.trolltech.com/blogs/author/sroedal/feed
+        define_name Samuel Rødal
+
