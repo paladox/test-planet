@@ -1587,3 +1587,10 @@ feed 15m http://labs.trolltech.com/blogs/author/sroedal/feed
 
 feed 15m http://community.ir/~emilsedgh/blog/?q=blog/1/feed
         define_name Emil Sedgh (emilsedgh)
+
+feed 15m http://lizards.opensuse.org/?feed=rss&author=19&cat=5
+        define_name Klaas Freitag (dragotin) 
+        define_face hackergotchi/freitag75.png
+        define_facewidth 75 
+        define_faceheight 75 
+
