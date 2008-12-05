@@ -1585,3 +1585,5 @@ feed 15m http://borntobeopen.blogspot.com/feeds/posts/default/
 feed 15m http://labs.trolltech.com/blogs/author/sroedal/feed
         define_name Samuel Rødal
 
+feed 15m http://community.ir/~emilsedgh/blog/?q=blog/1/feed
+        define_name Emil Sedgh (emilsedgh)
