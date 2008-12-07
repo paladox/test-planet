@@ -1594,3 +1594,6 @@ feed 15m http://lizards.opensuse.org/?feed=rss&author=19&cat=5
         define_facewidth 75 
         define_faceheight 75 
 
+feed 15m http://amarok.kde.org/en/blog/7/feed
+        define_name Daniel Meltzer (hydrogen)
+        
