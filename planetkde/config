@@ -765,7 +765,7 @@ feed 15m http://englich.wordpress.com/feed?mrss=off
 feed 15m http://blog.bepointbe.be/rss-meta.php?key=tag&value=kde&lang=en
         define_name Olivier Goffart (Gof)
 
-feed 15m http://frinring.wordpress.com/category/kde/feed?mrss=off
+feed 15m http://frinring.wordpress.com/category/kde/feed/?mrss=off
         define_name Friedrich Kossebau (frinring)
         define_face hackergotchi/frinring.png
         define_facewidth 64
@@ -790,7 +790,7 @@ feed 15m http://piacentini.livejournal.com/data/rss
         define_facewidth 75
         define_faceheight 80
 
-feed 15m http://chani.wordpress.com/category/planet/feed?mrss=off
+feed 15m http://chani.wordpress.com/category/planet/feed/?mrss=off
         define_name Chani Armitage (Chani)
 
 feed 15m http://www.kdedevelopers.org/blog/56/feed
@@ -854,7 +854,7 @@ feed 15m http://paulgiannaros.blogspot.com/atom.xml
 feed 15m http://blog.jacobrideout.net/rss.xml
         define_name Jacob Rideout (rideout)
 
-feed 15m http://wadejolson.wordpress.com/feed?mrss=off
+feed 15m http://wadejolson.wordpress.com/feed/?mrss=off
         define_name Wade Olson
 
 feed 15m http://www.kdedevelopers.org/blog/2661/feed
@@ -938,7 +938,7 @@ feed 15m http://www.codingdomain.com/blog/feeds/index.rss2
 feed 15m http://blog.cryos.net/feeds/index.rss2
         define_name Marcus Hanwell (cryos)
 
-feed 15m http://ksounds.wordpress.com/feed?mrss=off
+feed 15m http://ksounds.wordpress.com/feed/?mrss=off
         define_name Martyn Circus
 
 feed 15m http://rivolaks.blogspot.com/feeds/posts/default
@@ -971,7 +971,7 @@ feed 15m http://chehrlic.blogspot.com/rss.xml
 feed 15m http://neksa.blogspot.com/rss.xml
         define_name Alexandr Goncearenco
 
-feed 15m http://apaku.wordpress.com/feed?mrss=off
+feed 15m http://apaku.wordpress.com/feed/?mrss=off
         define_name Andreas Pakulat
 
 feed 15m http://blog.ruphy.org/?feed=rss2
@@ -1022,7 +1022,7 @@ feed 15m http://blog.lukrop.bplaced.net/feeds/categories/planetKDE.rss
 feed 15m http://www.digikam.org/?q=blog/133/feed
         define_name Arnd Baecker
 
-feed 15m http://darktears.wordpress.com/feed?mrss=off
+feed 15m http://darktears.wordpress.com/feed/?mrss=off
         define_name Alexis Menard (darktears)
 	define_face hackergotchi/alexis-menard.jpg
         define_facewidth 80
@@ -1034,10 +1034,10 @@ feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=767&cat=2,5
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://freelancesamurai.wordpress.com/tag/kde/feed?mrss=off
+feed 15m http://freelancesamurai.wordpress.com/tag/kde/feed/?mrss=off
         define_name Nuno Povoa (npovoa)
 
-feed 15m http://amachu.wordpress.com/feed/?cat=804&mrss=off
+feed 15m http://amachu.wordpress.com/category/kde/feed/?mrss=off
         define_name Sri Ramadoss M (amachu)
 
 feed 15m http://bertjan.broeksemaatjes.nl/blog/1/feed
@@ -1095,7 +1095,7 @@ feed 15m http://psychobrain.blogspot.com/rss.xml
 feed 15m http://segfault87.blogspot.com/rss.xml
         define_name Joon-Kyu Park
 
-feed 15m http://randomguy3.wordpress.com/category/kde/feed?mrss=off
+feed 15m http://randomguy3.wordpress.com/category/kde/feed/?mrss=off
         define_name Alex Merry
 
 #disappeared
@@ -1147,13 +1147,13 @@ feed 15m http://fboudra.free.fr/wordpress/wp-rss2.php?cat=6
 feed 15m http://pusling.com/blog/?feed=rss2&cat=4
         define_name Sune Vuorela (pusling)
 
-feed 15m http://zwabel.wordpress.com/feed?mrss=off
+feed 15m http://zwabel.wordpress.com/feed/?mrss=off
         define_name David Nolden
 
 feed 15m http://jkt.flaska.net/blog/tags/kde/kde.rss
         define_name Jan Kundrat (jkt)
 
-feed 15m http://boom1992.wordpress.com/feed?mrss=off
+feed 15m http://boom1992.wordpress.com/feed/?mrss=off
         define_name Lukas Appelhans
 
 feed 15m http://yarpen.cz/rants/?feed=rss2
@@ -1229,16 +1229,16 @@ feed 15m http://blauzahl.livejournal.com/data/rss?tag=kde
 feed 15m http://www.gnuton.org/blog/category/kde-dev/atom
         define_name Antonio Aloisio
 
-feed 15m http://arindamghosh.wordpress.com/category/kde/feed?mrss=off
+feed 15m http://arindamghosh.wordpress.com/category/kde/feed/?mrss=off
         define_name Arindam Ghosh
 
-feed 15m http://pindablog.wordpress.com/feed?mrss=off
+feed 15m http://pindablog.wordpress.com/feed/?mrss=off
         define_name Rob Scheepmaker (pinda)
 
 feed 15m http://codeincarnate.com/rss.xml
         define_name Kyle Cunningham
 
-feed 15m http://edulix.wordpress.com/category/kde/feed?mrss=off
+feed 15m http://edulix.wordpress.com/category/kde/feed/?mrss=off
         define_name Eduardo Robles Elvira (Edulix)
 
 feed 15m http://feeds.feedburner.com/UntangledBlog
@@ -1247,7 +1247,7 @@ feed 15m http://feeds.feedburner.com/UntangledBlog
 feed 15m http://blog.greghaynes.net/index.php?/feeds/categories/7-KDE.rss
         define_name Gregory Haynes
 
-feed 15m http://enricoros.wordpress.com/category/planetkde/feed?mrss=off
+feed 15m http://enricoros.wordpress.com/category/planetkde/feed/?mrss=off
         define_name Enrico Ros
 
 feed 15m http://feeds.binaryhelix.net/binaryhelix-kde
@@ -1259,7 +1259,7 @@ feed 15m http://krishnaggk.blogspot.com/feeds/posts/default
 feed 15m http://ekaia.org/blog/category/english/kde/feed
         define_name Ana Guerrero (ana)
 
-feed 15m http://hamberg.no/erlend/index.php/category/kde/feed
+feed 15m http://hamberg.no/erlend/category/kde/feed/
         define_name Erlend Hamberg
         define_face hackergotchi/ehamberg.png
         define_facewidth 80
@@ -1268,7 +1268,7 @@ feed 15m http://hamberg.no/erlend/index.php/category/kde/feed
 feed 15m http://www.freehackers.org/thomas/category/kde/feed
         define_name Thomas Capricelli (orzel)
 
-feed 15m http://vtokarev.wordpress.com/feed?mrss=off
+feed 15m http://vtokarev.wordpress.com/feed/?mrss=off
         define_name Vyacheslav Tokarev (vtokarev)
 
 feed 15m http://www.kdedevelopers.org/blog/2892/feed
@@ -1280,13 +1280,13 @@ feed 15m http://blog.forwardbias.in/feeds/posts/full/-/girish/KDE
 feed 15m http://blog.forwardbias.in/feeds/posts/full/-/roop/KDE
         define_name Roopesh Chander
 
-feed 15m http://metelliuscode.wordpress.com/feed?mrss=off
+feed 15m http://metelliuscode.wordpress.com/feed/?mrss=off
         define_name Harald Hvaal (metellius)
 
 feed 15m http://www.binaryelysium.com/blog/tag/amarok/feed/rss2/
         define_name Casey Link (ramblurr)
 
-feed 15m http://irregularexpression.wordpress.com/category/kdeamarok/feed?mrss=off
+feed 15m http://irregularexpression.wordpress.com/category/kdeamarok/feed/?mrss=off
         define_name William Viana (Liw-)
 
 feed 15m http://blog.danielwinter.de/archives/tag/kde/feed/rss2
@@ -1337,7 +1337,7 @@ feed 15m http://web.mornfall.net/planet/kde.rss
 feed 15m http://blog.karlitschek.de/feeds/posts/default
         define_name Frank Karlitschek (karli)
 
-feed 15m http://majewsky.wordpress.com/feed?mrss=off
+feed 15m http://majewsky.wordpress.com/feed/?mrss=off
         define_name Stefan Majewsky
 
 feed 15m http://kushaldas.in/?feed=rss2
@@ -1431,7 +1431,7 @@ feed 15m http://illogic-al.org/blog/1/feed
     define_facewidth 80
     define_faceheight 80
 
-feed 15m http://saschpe.wordpress.com/category/opensource/kde/feed?mrss=off
+feed 15m http://saschpe.wordpress.com/category/opensource/kde/feed/?mrss=off
     define_name Sascha Peilicke (saschpe)
     define_face hackergotchi/saschpe.png
     define_facewidth 67
