@@ -959,7 +959,7 @@ feed 15m http://k3b.plainblack.com/k3b-news/blog/truegs-blog.rss
 feed 15m http://uwolfer.fwo.ch/blog/feed/
         define_name Urs Wolfer
 
-feed 15m http://milliams.com/index.php?option=com_jd-wp&Itemid=26&cat=13&feed=atom
+feed 15m http://milliams.com/?q=rss.xml
         define_name Matt Williams
 
 feed 15m http://pinaraf.blogspot.com/rss.xml
