@@ -1250,7 +1250,7 @@ feed 15m http://blog.greghaynes.net/index.php?/feeds/categories/7-KDE.rss
 feed 15m http://enricoros.wordpress.com/category/planetkde/feed/?mrss=off
         define_name Enrico Ros
 
-feed 15m http://feeds.binaryhelix.net/binaryhelix-kde
+feed 15m http://people.binaryhelix.net/lvillani/category/kde/feed/
         define_name Lorenzo Villani
 
 feed 15m http://krishnaggk.blogspot.com/feeds/posts/default
