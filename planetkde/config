@@ -1313,8 +1313,11 @@ feed 15m http://lignite.ccni.it/blog/wp-rss2.php?cat=3
 feed 15m http://awainzin-foss.blogspot.com/feeds/posts/default?alt=rss
         define_name Alejandro Wainzinger (xevix)
 
-feed 15m http://ktank.free.fr/wordpress/?feed=rss2
+feed 15m http://dridk.blogspot.com/feeds/posts/default?alt=rss
         define_name Sacha Schutz (DrIDK)
+	define_face hackergotchi/sacha.png 
+	define_facewidth 60
+	define_faceheight 60
 
 feed 15m http://www.elpauer.org/?cat=6&feed=rss2
         define_name Pau Garcia i Quiles (pgquiles)
