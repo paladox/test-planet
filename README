@@ -1,6 +1,8 @@
-Hopefully this will be the new Planet KDE soon.
+Planet KDE uses rawdog
 
-Edit planetkde/config and set outputfile and outputxml to the right directory.
+To add your blog edit planetkde/config and add your photo head to website/hackergotchi/myname.png
+
+To run locally edit planetkde/config and set outputfile and outputxml to the right directory.
 
 Run it with 
 

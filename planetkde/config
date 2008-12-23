@@ -1,8 +1,87 @@
-# Sample rawdog config file. Copy this into your ~/.rawdog/ directory, and edit
-# it to suit your preferences.
-# All paths in this file should be either absolute, or relative to your .rawdog
-# directory.
-# If you want to include another config file, then use "include FILENAME".
+# Planet KDE config file
+
+# Add your blog
+
+#If you are a KDE contributor you can have your blog on Planet
+#KDE. Blog content should be mostly KDE themed, English language and
+#not liable to offend. If you have a general blog you may want to set
+#up a tag and subscribe the feed for that tag only to Planet KDE.
+
+#To have your blog added file a bug in Bugzilla listing your name, svn
+#account (if you have one), IRC nick (if you have one), RSS or Atom
+#feed and what you do in KDE. Attach a photo of your face for
+#hackergotchi.
+
+#Alternatively, Planet KDE is kept in KDE's SVN. If you have an
+#account you can add or edit your own feed:
+
+#svn checkout svn+ssh://@svn.kde.org/home/kde/trunk/www/sites/planet/
+#Put your hackergotchi in website/hackergotchi/. A hackergotchi should be a photo of your face smaller than 80x80 pixels with a transparent background. svn add the file.
+#At the end of the planetkde/config file add your details (the name in brackets is your IRC nick):
+
+#feed 15m http://path.to/my/feed.rss
+#        define_name Konqi Konqueror (konqi)
+#        define_face hackergotchi/konqi.png
+#        define_facewidth 80
+#        define_faceheight 80
+
+#svn commit
+
+#If you want to add a Twitter microblog to the Microblogging sidebar
+#add define_microblog true and follow your name with
+#[twitter]. Currently only Twitter is known to work, please contact
+#Jonathan Riddell before adding non-Twitter microblogs to check it
+#works.
+
+#Planet KDE Guidelines
+
+#Planet KDE is one of the public faces of the KDE project and is read
+#by millions of users and potential contributors. The content
+#aggregated at Planet KDE is the opinions of its authors, but the sum
+#of that content gives an impression of the project. Please keep in
+#mind the following guidelines for your blog content and read the
+#[http://www.kde.org/code-of-conduct/ KDE Code of Conduct]. The KDE
+#project reserves the right to remove an inappropriate blog from the
+#Planet. If that happens multiple times, the Community Working Group
+#can be asked to consider what needs to happen to get your blog
+#aggregated again.
+
+#If you are unsure or have queries about what is appropriate contact
+#the KDE Community Working Group.
+
+#Blogs should be KDE themed
+
+#The majority of content in your blog should be about KDE and your
+#work on KDE. Blog posts about personal subjects are also encouraged
+#since Planet KDE is a chance to learn more about the developers
+#behind KDE. However blog feeds should not be entirely personal, if in
+#doubt set up a tag for Planet KDE and subscribe the feed from that
+#tag so you can control what gets posted.
+
+#Posts should be constructive
+
+#Posts can be positive and promote KDE, they can be constructive and
+#lay out issues which need to be addressed, but blog feeds should not
+#contain useless, destructive and negative material. Constructive
+#criticism is welcome and the occasional rant is understandable, but a
+#feed where every post is critical and negative is unsuitable. This
+#helps to keep KDE overall a happy project.
+
+#You must be a KDE contributor
+
+#Only have your blog on Planet KDE if you actively contribute to KDE,
+#for example through code, user support, documentation etc.
+
+#Do not inflame
+
+#KDE covers a wide variety of people and cultures. Profanities,
+#prejudice, lewd comments and content likely to offend are to be
+#avoided. Do not make personal attacks or attacks against other
+#projects on your blog.
+
+#For further guidance on good practice see the KDE Code of Conduct.
+
+####################################
 
 # Times in this file are specified as a value and a unit (for instance,
 # "4h").  Units available are "s" (seconds), "m" (minutes), "h" (hours),
