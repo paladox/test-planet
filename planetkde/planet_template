@@ -84,7 +84,7 @@
 			<a href="javascript:toggle();">People aggregated<img src="images/user-identity.png" alt="" width="22" height="22" /></a> 
 			<a href="javascript:toggleaddme();">Add your blog<img src="images/addrss.png" alt="" width="22" height="22" /></a> 
 			<a href="http://dot.kde.org/">KDE Dot News<img src="images/dot-news.png" alt="" width="22" height="22" /></a> 
-			<a href="javascript:togglemicroblog();">New: Microblogging<img src="images/microblog.png" alt="" width="22" height="22" /></a> 
+			<a href="javascript:togglemicroblog();">Microblogging<img src="images/microblog.png" alt="" width="22" height="22" /></a> 
 		</div> <!--toplinks-->
 	</div> <!--header-->
 	</div> <!--headerleft-->
