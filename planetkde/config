@@ -1254,7 +1254,7 @@ feed 15m http://twitter.com/statuses/user_timeline/2978031.rss
         define_name Jesper Thomschutz [twitter]
         define_microblog true
 
-fee 15m hdttpkde.blogsite.org/?q=rss.xml
+feed 15m http://kde.blogsite.org/?q=rss.xml
         define_name Christian Wellbach
 
 feed 15m http://www.piggz.co.uk/rss2.php
