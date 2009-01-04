@@ -200,7 +200,7 @@ div.day h2 {
 {
 background: none;
 }
-.channelgroup h3 {
+.channelgroup h3 .namehead {
     padding: 20px 0px 0px 20px;
     margin: 0 29px 0 0;
     /*
@@ -209,16 +209,16 @@ background: none;
     border-color: #374153;
     */
 }
-.channelgroup h3 a {
+.channelgroup h3 .namehead a {
     color: #333D4E; /*wee bit darker*/
 }
-.channelgroup h4 {
+.channelgroup h4 .blogtitle {
     font-size: 240%;
     font-weight: lighter;
     margin: 0px;
     text-align: left;
 }
-.channelgroup h4 a {
+.channelgroup h4 .blogtitle a {
     color: #455269; /*wee bit lighter*/
 }
 .entrygroup {
