@@ -572,7 +572,7 @@ feed 15m http://www.kdedevelopers.org/blog/77/feed
 feed 15m http://www.christian-loose.de/atom.xml
         define_name Christian Loose
 
-feed 15m http://mattr.info/blog/?feed=rss2
+feed 15m http://mattr.info:8080/blog/?feed=rss2
         define_name Matt Rogers (mattr)
         define_face hackergotchi/mattr.png
         define_facewidth 70
