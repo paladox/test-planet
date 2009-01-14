@@ -1720,3 +1720,8 @@ feed 15m http://blog.sayakbanerjee.com/?cat=6&feed=rss2
 
 feed 15m http://lukast.mediablog.sk/log/?feed=rss2
         define_name Lukas Tvrdy (lukast)
+
+feed 15m http://twitter.com/statuses/user_timeline/15533183.rss
+        define_name Celeste Lyn Paul [twitter]
+        define_microblog true
+
