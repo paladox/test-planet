@@ -1725,3 +1725,5 @@ feed 15m http://twitter.com/statuses/user_timeline/15533183.rss
         define_name Celeste Lyn Paul [twitter]
         define_microblog true
 
+feed 15m http://slangkamp.wordpress.com/feed?mrss=off
+        define_name Sven Langkamp (slangkamp)
