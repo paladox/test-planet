@@ -1727,3 +1727,6 @@ feed 15m http://twitter.com/statuses/user_timeline/15533183.rss
 
 feed 15m http://slangkamp.wordpress.com/feed?mrss=off
         define_name Sven Langkamp (slangkamp)
+
+feed 15m http://blog.rakekniven.de/category/planetkde/feed/
+        define_name Mark Ziegler (rakekniven)
