@@ -120,6 +120,8 @@ class RSS_Feed:
                 content = content['value']
         elif entry_info.has_key('summary_detail'):
             content = entry_info['summary_detail']['value']
+        else:
+            content = ""
         content = cgi.escape(content).encode('utf8', 'ignore')
         self.describe(xml_article, content)
 
