@@ -1657,7 +1657,7 @@ feed 15m http://twitter.com/statuses/user_timeline/14086063.rss
 	define_name Shashank Singh [twitter]
 	define_microblog true
 
-feed 15m http://twitter.com/statuses/friends_timeline/7746192.rss 
+feed 15m http://twitter.com/statuses/user_timeline/7746192.rss
         define_name Daniel Molkentin [twitter]
         define_microblog true
 
