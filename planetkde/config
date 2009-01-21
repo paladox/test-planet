@@ -1737,3 +1737,6 @@ feed 15m http://blog.chatonka.com/category/planetkde/feed/
         define_facewidth 47
         define_faceheight 80
 
+feed 15m http://twitter.com/statuses/user_timeline/17786106.rss
+        define_name Gran Canaria Desktop Summit [twitter]
+        define_microblog true
