@@ -1740,3 +1740,6 @@ feed 15m http://blog.chatonka.com/category/planetkde/feed/
 feed 15m http://twitter.com/statuses/user_timeline/17786106.rss
         define_name Gran Canaria Desktop Summit [twitter]
         define_microblog true
+
+feed 15m http://www.dennogumi.org/category/KDE/feed
+	define_name Luca Beltrame (einar77)
