@@ -1742,7 +1742,7 @@ feed 15m http://twitter.com/statuses/user_timeline/17786106.rss
         define_microblog true
 
 feed 15m http://www.dennogumi.org/category/KDE/feed
-	define_name Luca Beltrame (einar77)
+        define_name Luca Beltrame (einar77)
 
 feed 15m http://neverendingo.blogspot.com/feeds/posts/default
-	define_name Ingo Malchow (neverendingo)
+        define_name Ingo Malchow (neverendingo)
