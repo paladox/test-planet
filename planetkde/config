@@ -1661,6 +1661,10 @@ feed 15m http://twitter.com/statuses/user_timeline/7746192.rss
         define_name Daniel Molkentin [twitter]
         define_microblog true
 
+feed 15m http://twitter.com/statuses/user_timeline/19499911.rss
+        define_name Casey Link [twitter]
+        define_microblog true
+
 feed 15m http://www.digikam.org/?q=blog/135/feed
         define_name Andi Clemens (aclemens)
         define_face hackergotchi/aclemens.png
