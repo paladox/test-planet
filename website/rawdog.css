@@ -46,7 +46,7 @@ margin-top: 10px;
 #header {
     height: 95px;
     width: 800px;
-    background: url(images/bg-header.png) transparent top left no-repeat;
+    background: url(images/42banner.png) transparent top left no-repeat;
 	padding: 45px 0 0 8px;
     margin: 0;
 	display: block;
@@ -94,7 +94,7 @@ div.day h2 {
     margin: 0;
 	font-size: 0.9em;
 	padding: 15px 10px 0 10px;
-    background: url(images/bg-footer.png) top left no-repeat;
+    background: url(images/42footer.png) top left no-repeat;
     text-align: center;
 	float: left;
 }
