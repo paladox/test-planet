@@ -1753,3 +1753,7 @@ feed 15m http://www.dennogumi.org/category/KDE/feed
 
 feed 15m http://neverendingo.blogspot.com/feeds/posts/default
         define_name Ingo Malchow (neverendingo)
+
+feed 15m http://www.tictric.net/tag/planet-kde/feed
+        define_name Manfred Mislik (tictric)
+
