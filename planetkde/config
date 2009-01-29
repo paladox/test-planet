@@ -572,6 +572,10 @@ feed 15m http://www.kuarepoti-dju.net/tags/community:desktop/index.rss
 feed 15m http://www.kdedevelopers.org/blog/77/feed
         define_name Will Stephenson
 
+feed 15m http://twitter.com/statuses/user_timeline/7768822.rss
+    define_name Will Stephenson [twitter]
+    define_microblog true
+
 feed 15m http://www.christian-loose.de/atom.xml
         define_name Christian Loose
 
