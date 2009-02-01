@@ -1767,3 +1767,10 @@ feed 15m http://www.tictric.net/tag/planet-kde/feed
 feed 15m http://identi.ca/tomalbers/rss
 	define_name Tom Albers [identi.ca]
 	define_microblog true
+
+feed 15m http://adjamblog.wordpress.com/category/international/feed/?mrss=off
+    define_name Andrea Diamantini (adjam)
+    define_face hackergotchi/adjam.png
+    define_facewidth 46
+    define_faceheight 48
+
