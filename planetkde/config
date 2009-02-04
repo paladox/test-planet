@@ -1647,8 +1647,8 @@ feed 15m http://twitter.com/statuses/user_timeline/10486242.rss
         define_name Richard Johnson [twitter]
         define_microblog true
 
-feed 15m http://twitter.com/statuses/user_timeline/8131402.rss
-        define_name Jure Repinc [twitter]
+feed 15m http://identi.ca/jrepin/rss
+        define_name Jure Repinc [identi.ca]
         define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/16880978.rss
