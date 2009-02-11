@@ -406,6 +406,9 @@ feed 15m http://www.ugarro.com/blog/blog4.php?cat=14&tempskin=_rss2
 feed 15m http://tokoe-kde.blogspot.com/rss.xml
         define_name Tobias Koenig (tokoe)
 
+feed 15m http://labs.trolltech.com/blogs/author/tokoe/feed
+        define_name Tobias Koenig (tokoe)
+
 feed 15m http://zrusin.blogspot.com/rss.xml
         define_name Zack Rusin (zrusin)
 
