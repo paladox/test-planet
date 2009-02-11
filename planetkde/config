@@ -1783,3 +1783,8 @@ feed 15m http://plagioastral.wordpress.com/feed/?mrss=off
 	define_facewidth 80
 	define_faceheight 80
 	
+feed 15m http://amroth.coldshock.net/kmess/blog/feed/
+	define_name Valerio Pilo (Amroth)
+	define_face hackergotchi/valerio-pilo.jpg
+	define_facewidth 67
+	define_faceheight 80
