@@ -1799,6 +1799,6 @@ feed 15m http://wm161.net/browse/linux/kde-linux/feed/
         #define_facewidth 80
         #define_faceheight 80
 
-feed 15m feed 15m http://twitter.com/statuses/user_timeline/6983012.rss
+feed 15m http://twitter.com/statuses/user_timeline/6983012.rss
         define_name Trever Fischer [twitter]
         define_microblog true
