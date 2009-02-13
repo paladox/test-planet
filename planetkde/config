@@ -1789,6 +1789,6 @@ feed 15m http://amroth.coldshock.net/kmess/blog/feed/
         define_facewidth 67
         define_faceheight 80
 
-feed 15m http://looksblo.wordpress.com/category/kde/feed/
+feed 15m http://looksblo.wordpress.com/category/kde/feed/atom/
         define_name Frederik Schwarzer
 
