@@ -1409,7 +1409,7 @@ feed 15m http://www.peterzl.net/en/?feed=rss2
 feed 15m http://lignite.ccni.it/blog/wp-rss2.php?cat=3
         define_name Teo Mrnjavac (teo_m)
 
-feed 15m http://awainzin-foss.blogspot.com/feeds/posts/default?alt=rss
+feed 15m http://awainzin-foss.blogspot.com/feeds/posts/default/-/KDE?alt=rss
         define_name Alejandro Wainzinger (xevix)
 
 feed 15m http://dridk.blogspot.com/feeds/posts/default?alt=rss
