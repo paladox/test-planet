@@ -1248,6 +1248,10 @@ feed 15m http://jkt.flaska.net/blog/tags/kde/kde.rss
 feed 15m http://boom1992.wordpress.com/feed/?mrss=off
         define_name Lukas Appelhans
 
+feed 15m http://twitter.com/statuses/user_timeline/15063949.rss
+        define_name Lukas Appelhans [twitter]
+        define_microblog true
+
 feed 15m http://yarpen.cz/rants/?feed=rss2
         define_name Petr Vanek
 
