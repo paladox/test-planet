@@ -1318,7 +1318,11 @@ feed 15m http://www.notmart.org/phpwet/rss.php?tags=kde
         define_faceheight 80
 
 feed 15m http://grundleborg.wordpress.com/feed?mrss=off
-        define_name George Goldberg
+        define_name George Goldberg (grundleborg)
+
+feed 15m http://twitter.com/statuses/user_timeline/13551252.rss
+        define_name George Goldberg [twitter]
+        define_microblog true
 
 feed 15m http://ppenz.blogspot.com/rss.xml
         define_name Peter Penz
