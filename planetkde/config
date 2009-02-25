@@ -1331,8 +1331,7 @@ feed 15m http://paul-pach.blogspot.com/rss.xml
         define_name Paul Pacheco (paulpach)
 
 feed 15m http://blauzahl.livejournal.com/data/rss?tag=kde
-        define_name A. L. Spehr (blauzahl) [twitter]
-	define_microblog true
+        define_name A. L. Spehr (blauzahl)
 
 feed 15m http://www.gnuton.org/blog/category/kde-dev/atom
         define_name Antonio Aloisio
@@ -1826,4 +1825,8 @@ feed 15m http://trueg.wordpress.com/feed/?mrss=off
 	define_face hackergotchi/trueg.jpg
         define_facewidth 80
         define_faceheight 80
+
+feed 15m http://twitter.com/statuses/user_timeline/13798202.rss
+	define_name A. L. Spehr (blauzahl) [twitter]
+	define_microblog true
 
