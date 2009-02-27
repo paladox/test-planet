@@ -1832,3 +1832,6 @@ feed 15m http://twitter.com/statuses/user_timeline/13798202.rss
 
 feed 15m http://blusrcu.ba/nookie/?feed=rss2
 	define_name Mensur Zahirovic (Nookie)
+
+feed 15m http://f4l3.net/taxonomy/term/1/0/feed
+        define_name Fabio A. Locati (flocati)
