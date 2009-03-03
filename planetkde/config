@@ -1836,6 +1836,9 @@ feed 15m http://blusrcu.ba/nookie/?feed=rss2
 feed 15m http://f4l3.net/taxonomy/term/1/0/feed
         define_name Fabio A. Locati (flocati)
 
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=1186&cat=2,5
+        define_name Jason McDonald (Qt Software)
+
 feed 15m http://milianw.de/tag/kde/feed
         define_name Milian Wolff (milianw)
         define_face hackergotchi/mwolff.png
