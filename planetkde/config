@@ -1140,9 +1140,9 @@ feed 15m http://bertjan.broeksemaatjes.nl/blog/1/feed
 
 feed 15m http://mikearthur.co.uk/feed/
         define_name Mike Arthur (mikearthur)
-        define_face hackergotchi/mikearthur.jpg
-        define_facewidth 64
-        define_faceheight 64
+        define_face http://www.gravatar.com/avatar/9bab8e092570baf4e05b376260b29ed2?s=80&d=identicon&r=G
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m http://kdedmiller.wordpress.com/feed?mrss=off
         define_name David Miller
