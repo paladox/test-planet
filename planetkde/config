@@ -1834,8 +1834,11 @@ feed 15m http://twitter.com/statuses/user_timeline/13798202.rss
 feed 15m http://blusrcu.ba/nookie/?feed=rss2
         define_name Mensur Zahirovic (Nookie)
 
-feed 15m http://f4l3.net/taxonomy/term/1/0/feed
+feed 15m http://f4l3.net/?q=taxonomy/term/1/0/feed
         define_name Fabio A. Locati (flocati)
+        define_face hackergotchi/flocati.png
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=1186&cat=2,5
         define_name Jason McDonald (Qt Software)
