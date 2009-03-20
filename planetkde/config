@@ -1866,3 +1866,10 @@ feed 15m http://zrchrn.blogspot.com/feeds/posts/default
         define_face hackergotchi/ahmed-ghonim.png
         define_facewidth 80
         define_faceheight 76
+
+feed 15m http://introducingkde4.blogspot.com/feeds/posts/default
+        define_name Luis Augusto Fretes Cuevas
+        define_face hackergotchi/luis-augusto-fretes-cuevas.jpg
+        define_facewidth 80
+        define_faceheight 54
+
