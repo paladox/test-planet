@@ -1860,3 +1860,6 @@ feed 15m http://joselb.blogspot.com/rss.xml
 
 feed 15m http://mauroiazzi.blogspot.com/feeds/posts/default/-/KDE
 	define_name Mauro Iazzi (iazzi)
+
+feed 15m http://zrchrn.blogspot.com/feeds/posts/default
+       define_name Ahmed Ghonim
