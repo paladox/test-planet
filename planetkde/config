@@ -1873,3 +1873,6 @@ feed 15m http://introducingkde4.blogspot.com/feeds/posts/default
         define_facewidth 80
         define_faceheight 54
 
+feed 15m http://labs.trolltech.com/blogs/author/lcunha/feed
+        define_name Leonardo Sobral Cunha (lsobral)
+
