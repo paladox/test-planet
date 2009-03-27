@@ -1705,7 +1705,7 @@ feed 15m http://estan.dose.se/tag/planetkde/feed
 feed 15m http://shield008.blogspot.com/feeds/posts/default/-/KDE
         define_name John-Paul Stanford (jp)
 
-feed 15m http://cazou.blogspot.com/feeds/posts/default/-/KDE
+feed 15m http://cazou.blogspot.com/feeds/posts/default/-/kde
         define_name Detlev Casanova (Cazou)
 
 feed 15m http://borntobeopen.blogspot.com/feeds/posts/default/
