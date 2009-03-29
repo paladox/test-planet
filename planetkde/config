@@ -1615,8 +1615,8 @@ feed 15m http://twitter.com/statuses/user_timeline/11408342.rss
         define_name Marco Martin [twitter]
         define_microblog true
 
-feed 15m http://twitter.com/statuses/user_timeline/15076277.rss
-        define_name Dario Freddi [twitter]
+feed 15m http://identi.ca/drf/rss
+        define_name Dario Freddi [identi.ca]
         define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/16671317.rss
