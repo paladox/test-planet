@@ -1878,6 +1878,6 @@ feed 15m http://labs.trolltech.com/blogs/author/lcunha/feed
 
 feed 15m http://kashthealien.wordpress.com/feed/
 	define_name Kashyap Puranik (kashthealien)
-	define_face hackergotchi/kash.jpg
+	define_face hackergotchi/kash.png4
 	define_facewidth 80
 	define_faceheight 80 
