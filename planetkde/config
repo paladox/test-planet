@@ -1880,4 +1880,10 @@ feed 15m http://kashthealien.wordpress.com/feed/
 	define_name Kashyap Puranik (kashthealien)
 	define_face hackergotchi/kash.png4
 	define_facewidth 80
-	define_faceheight 80 
+	define_faceheight 80
+
+feed 15m http://jtechinda.blogspot.com/feeds/posts/default
+	define_name Jonathan Thomas (JontheEchidna)
+	define_face hackergotchi/echidnaman.png
+	define_facewidth 80
+	define_faceheight 80
