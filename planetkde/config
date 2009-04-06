@@ -1318,7 +1318,7 @@ feed 15m http://www.notmart.org/phpwet/rss.php?tags=kde
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://grundleborg.wordpress.com/feed?mrss=off
+feed 15m http://grundleborg.wordpress.com/category/kde/feed?mrss=off
         define_name George Goldberg (grundleborg)
 
 feed 15m http://twitter.com/statuses/user_timeline/13551252.rss
