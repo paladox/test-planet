@@ -1443,7 +1443,7 @@ feed 15m http://fmontesi.blogspot.com/feeds/posts/default
 feed 15m http://blog.uninstall.it/category/planetkde/feed/
         define_name Davide Bettio (WindowsUninstall)
 
-feed 15m http://labs.morpheuz.eng.br/blog/category/kde/feed/
+feed 15m http://blog.morpheuz.cc/?cat=kde&feed=rss2
         define_name Artur Souza (MoRpHeUz)
 
 feed 15m http://www.undefinedfire.com/feeds/kde-planet/
