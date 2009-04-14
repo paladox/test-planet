@@ -1904,3 +1904,8 @@ feed 15m http://aikesommer.name/site/taxonomy/term/11/0/feed
 feed 15m http://steveire.wordpress.com/feed/?mrss=off
         define_name Stephen Kelly (steveire)
 
+feed 15m http://ungethym.blogspot.com/feeds/posts/default/-/planetkde
+        define_name Thomas Thym (ungethym)
+        define_face hackergotchi/thomas-thum.jpg
+        define_facewidth 80
+        define_faceheight 80
