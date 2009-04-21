@@ -457,6 +457,10 @@ feed 15m http://aseigo.blogspot.com/rss.xml
         define_facewidth 64
         define_faceheight 81
 
+feed 15m http://identi.ca/aseigo/rss
+        define_name Aaron Seigo [identi.ca]
+        define_microblog true
+
 feed 15m http://www.kdedevelopers.org/blog/102/feed
         define_name Brad Hards (bradh)
 
@@ -1911,7 +1915,7 @@ feed 15m http://ungethym.blogspot.com/feeds/posts/default/-/planetkde
         define_faceheight 80
 
 feed 15m http://www.wouwlabs.com/blogs/anniec/?feed=rss2
-        define_name Ana Cecilia Martins
+        define_name Ana Cecilia Martins (annieC)
         define_face hackergotchi/anniec.jpg
         define_facewidth 80
         define_faceheight 80
