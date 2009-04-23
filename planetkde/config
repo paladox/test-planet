@@ -1233,9 +1233,6 @@ feed 15m http://blog.wysota.eu.org/index.php/feed/
 feed 15m http://www.datenex.de/index.php?/feeds/categories/1-KDE.rss
         define_name Andreas Hartmetz
 
-feed 15m http://rdieter.livejournal.com/data/rss?tag=kde
-        define_name Rex Dieter
-
 feed 15m http://www.digikam.org/?q=blog/8/feed
         define_name Marcel Wiesweg
 
