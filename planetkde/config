@@ -1930,3 +1930,6 @@ feed 15m http://liveblue.wordpress.com/category/planetkde-sandroandrade/feed/?mr
 
 feed 15m http://gkiagia.wordpress.com/category/kde/feed/?mrss=off
         define_name George Kiagiadakis (gkiagia)
+
+feed 15m http://www.kdedevelopers.org/blog/6843/feed
+	define_name Bastian Holst (bholst)
