@@ -1955,7 +1955,7 @@ feed 15m http://andrewcoles.blogspot.com/feeds/posts/default
         define_faceheight 80
 
 feed 15m http://praksh.wordpress.com/category/gsoc/feed/?mrss=off
-        define_name Roland Wolters (praksh)
+        define_name Prakash Mohan (praksh)
         define_face hackergotchi/prakash.png
         define_facewidth 70
         define_faceheight 80
