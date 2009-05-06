@@ -626,9 +626,6 @@ feed 15m http://phantomsdad.blogspot.com/atom.xml
 feed 15m http://www.omat.nl/drupal/?q=taxonomy/term/2/0/feed
         define_name Tom Albers
 
-feed 15m http://www.bramschoenmakers.nl/taxonomy/term/3/0/feed
-        define_name Bram Schoenmakers
-
 feed 15m http://blog.chris.de/feeds/categories/5-KDE.rss
         define_name Christian Muehlhaeuser (muesli)
 
