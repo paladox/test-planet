@@ -1957,3 +1957,6 @@ feed 15m http://praksh.wordpress.com/category/gsoc/feed/?mrss=off
         define_facewidth 70
         define_faceheight 80
 
+feed 15m http://labs.trolltech.com/blogs/author/tavestbo/feed
+        define_name Tor Arne Vestbø
+
