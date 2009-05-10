@@ -1960,3 +1960,5 @@ feed 15m http://praksh.wordpress.com/category/gsoc/feed/?mrss=off
 feed 15m http://labs.trolltech.com/blogs/author/tavestbo/feed
         define_name Tor Arne Vestbø
 
+feed 15m http://sreich.blogspot.com/rss.xml
+        define_name Shaun Reich (sreich)
