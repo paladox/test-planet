@@ -1387,10 +1387,10 @@ feed 15m http://vtokarev.wordpress.com/feed/?mrss=off
 feed 15m http://www.kdedevelopers.org/blog/2892/feed
         define_name Marijn Kruisselbrink
 
-feed 15m http://blog.forwardbias.in/feeds/posts/full/-/girish/KDE
+feed 15m http://feeds.forwardbias.in/fb/girish/kde
         define_name Girish Ramakrishnan
 
-feed 15m http://blog.forwardbias.in/feeds/posts/full/-/roop/KDE
+feed 15m http://feeds.forwardbias.in/fb/roop/kde
         define_name Roopesh Chander
 
 feed 15m http://metelliuscode.wordpress.com/feed/?mrss=off
