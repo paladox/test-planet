@@ -568,7 +568,7 @@ feed 15m http://canllaith.org/?feed=rss2&cat=2
         define_facewidth 72
         define_faceheight 83
 
-feed 15m http://people.fruitsalad.org/adridg/bobulate/index.php?/feeds/index.rss2
+feed 15m http://blogs.fsfe.org/adridg/?feed=rss2
         define_name Adriaan de Groot (adridg)
 
 feed 15m http://www.kdedevelopers.org/blog/20/feed
