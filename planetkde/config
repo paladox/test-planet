@@ -1971,3 +1971,7 @@ feed 15m http://gdebure.blogspot.com/feeds/posts/default
 
 feed 15m http://www.thekidder.net/tag/kde/feed/
 	define_name Adam Kidder (thekidder)
+
+feed 15m http://algebraicallyclosed.blogspot.com/feeds/posts/default
+	define_name Jeremias Epperlein
+
