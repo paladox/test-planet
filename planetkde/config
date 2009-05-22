@@ -854,6 +854,10 @@ feed 15m http://www.kdedevelopers.org/blog/1813/feed
 feed 15m http://www.kdedevelopers.org/blog/326/feed
         define_name David Faure (dfaure)
 
+feed 15m http://identi.ca/dfaure/rss
+        define_name David Faure [identi.ca]
+        define_microblog true
+
 feed 15m http://www.kdedevelopers.org/blog/1236/feed
         define_name Casper Boemann
 
