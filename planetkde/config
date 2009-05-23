@@ -1943,7 +1943,7 @@ feed 15m http://gkiagia.wordpress.com/category/kde/feed/?mrss=off
 feed 15m http://www.kdedevelopers.org/blog/6843/feed
 	define_name Bastian Holst (bholst)
 
-feed 15m http://www.chimera-bellerofonte.eu/category/soc/feed/
+feed 15m http://www.chimera-bellerofonte.eu/tag/gsoc/feed/
         define_name Alessandro Sivieri (Siv)
         define_face hackergotchi/alessandro-sivieri.png.jpg
         define_facewidth 80
