@@ -2022,3 +2022,5 @@ feed 15m http://takahani.wordpress.com/feed/?mrss=off
 	define_facewidth 80
 	define_faceheight 80
 
+feed 15m http://thomasmcguire.wordpress.com/feed/?mrss=off
+	define_name Thomas McGuire
