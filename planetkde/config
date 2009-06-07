@@ -2016,7 +2016,7 @@ feed 15m http://twitter.com/statuses/user_timeline/15063603.rss
         define_name Martin Sandsmark [twitter]
         define_microblog true
 
-feed 15m http://forum.kde.org/syndication.php?fid=100
+feed 15m http://forum.kde.org/staffblog/syndication.php?fid=100
 	define_name KDE Forum Staff (forum.kde.org)
 	define_face hackergotchi/kdeforum.png
 	define_facewidth 70
