@@ -2030,3 +2030,6 @@ feed 15m http://takahani.wordpress.com/feed/?mrss=off
 
 feed 15m http://thomasmcguire.wordpress.com/feed/?mrss=off
 	define_name Thomas McGuire
+
+feed 15m http://dimula73.blogspot.com/feeds/posts/default/-/KDE
+	define_name Dmitry Kazakov (dmitryK)
