@@ -2040,3 +2040,6 @@ feed 15m http://dimula73.blogspot.com/feeds/posts/default/-/KDE
 
 feed 15m http://machine-crusade.net/blog/category/kde/feed/
         define_name Steve Stalcup (vorian)
+
+feed 15m http://zekecoma.blogspot.com/feeds/posts/default/-/kde
+	define_name Keith Rusler (comawhite)
