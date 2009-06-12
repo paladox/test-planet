@@ -2043,3 +2043,7 @@ feed 15m http://machine-crusade.net/blog/category/kde/feed/
 
 feed 15m http://zekecoma.blogspot.com/feeds/posts/default/-/kde
 	define_name Keith Rusler (comawhite)
+
+feed 15m http://identi.ca/sayakb/rss
+        define_name Sayak Banerjee [identi.ca]
+        define_microblog true
