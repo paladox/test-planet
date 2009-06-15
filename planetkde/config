@@ -656,6 +656,9 @@ feed 15m http://www.kdedevelopers.org/blog/16/feed
 feed 15m http://www.very-clever.com/kde-blog/feed/rss2
         define_name Ewald Kicker
 
+feed 15m http://miwi.bsdcrew.de/category/kde/feed/
+        define_name Martin Wilke (miwi)
+
 feed 15m http://labs.trolltech.com/blogs/author/thiago/feed
         define_name Thiago Macieira (thiago)
 
