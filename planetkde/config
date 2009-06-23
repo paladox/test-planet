@@ -2066,3 +2066,6 @@ feed 15m http://realate.blogspot.com/feeds/posts/default
 	define_facewidth 80
 	define_faceheight 83
 
+feed 15m http://www.jmata.co.cc/get_feeds.php
+        define_name Jorge Mata (mata)
+
