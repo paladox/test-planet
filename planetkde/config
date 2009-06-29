@@ -753,7 +753,7 @@ feed 15m http://www.kdedevelopers.org/blog/838/feed
 feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=1&cat=2,5
         define_name Scott Collins
 
-feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=2&cat=2,5
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=2
         define_name Simon Hausmann (tronical)
 
 feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=3&cat=2,5
