@@ -424,7 +424,7 @@ feed 15m http://www.kdedevelopers.org/blog/74/feed
 feed 15m http://www.kdedevelopers.org/blog/70/feed
         define_name Waldo Bastian (zogje)
 
-feed 15m http://www.kdedevelopers.org/blog/54/feed
+feed 15m http://blog.cornelius-schumacher.de/feeds/posts/default
         define_name Cornelius Schumacher
         define_face hackergotchi/cornelius.png
         define_facewidth 59
