@@ -1194,8 +1194,11 @@ feed 15m http://wesley.debianbox.be/category/planets/planetkde/feed
 #feed 15m http://nodalpoint.madfire.net/feed/kde/
 #        define_name Stanislav Karchebny (berkus)
 
+feed 15m http://blogs.fsfe.org/gladhorn/?feed=rss2
+        define_name Frederik Gladhorn (fregl)
+
 feed 15m http://www.kdedevelopers.org/blog/4326/feed
-        define_name Frederik Gladhorn
+        define_name Frederik Gladhorn (fregl)
 
 #feed 15m http://zenithar.free.fr/index.php/post/category/kde/lang-pref/en/feed/
 #        define_name Thibault Normand (tnormand)
