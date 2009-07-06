@@ -2074,3 +2074,7 @@ feed 15m http://www.jmata.co.cc/get_feeds.php
 
 feed 15m http://aloogobi.nl/?feed=rss2
         define_name Casper van Donderen (cvandonderen)
+
+feed 15m http://mat69.wordpress.com/feed/?mrss=off
+        define_name Matthias Fuchs (mat69)
+
