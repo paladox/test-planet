@@ -2080,3 +2080,6 @@ feed 15m http://mat69.wordpress.com/feed/?mrss=off
 
 feed 15m http://arnorehn.de/cgi-bin/weblog_basic/index.php?feed=rss2
         define_name Arno Rehn (pumphaus)
+
+feed 15m http://www.kdedevelopers.org/blog/7020/feed
+	define_name Ramon Zarazua (_killerfox_)
