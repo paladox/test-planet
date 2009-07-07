@@ -1275,6 +1275,10 @@ feed 15m http://twitter.com/statuses/user_timeline/19177581.rss
         define_name Sujith H [twitter]
         define_microblog true
 
+feed 15m http://twitter.com/statuses/user_timeline/15390117.rss
+        define_name Pradeepto [twitter]
+        define_microblog true
+
 feed 15m http://yarpen.cz/rants/?feed=rss2
         define_name Petr Vanek
 
