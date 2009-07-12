@@ -1483,9 +1483,6 @@ feed 15m http://blog.karlitschek.de/feeds/posts/default
 feed 15m http://majewsky.wordpress.com/feed/?mrss=off
         define_name Stefan Majewsky
 
-feed 15m http://kushaldas.in/?feed=rss2
-        define_name Kushal Das
-
 feed 15m http://michael-jansen.biz/taxonomy/term/10/0/feed
         define_name Michael Jansen
 
