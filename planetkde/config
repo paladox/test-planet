@@ -2063,7 +2063,7 @@ feed 15m http://blogs.freebsdish.org/tabthorpe/category/kde/feed/
 
 feed 15m http://realate.blogspot.com/feeds/posts/default
 	define_name Andrew Manson ( mansona aka real_ate )
-	define_face kackergotchi/mansona.png
+	define_face hackergotchi/mansona.png
 	define_facewidth 80
 	define_faceheight 83
 
