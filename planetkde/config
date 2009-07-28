@@ -2106,3 +2106,6 @@ feed 15m http://enricoros.wordpress.com/tag/planetkde/feed/?mrss=off
 
 feed 15m http://blog.daniel-laidig.de/category/planetkde/feed/
 	define_name Daniel Laidig (dani_l)
+
+feed 15m http://kodeclutz.blogspot.com/feeds/posts/default/-/kde
+    define_name Nikhil Marathe (nsm)
