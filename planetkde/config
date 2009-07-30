@@ -2109,3 +2109,7 @@ feed 15m http://blog.daniel-laidig.de/category/planetkde/feed/
 
 feed 15m http://kodeclutz.blogspot.com/feeds/posts/default/-/kde
     define_name Nikhil Marathe (nsm)
+
+feed 15m http://twitter.com/statuses/user_timeline/60855732.rss
+        define_name Stephan Binner [twitter]
+        define_microblog true
