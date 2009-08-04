@@ -2113,3 +2113,6 @@ feed 15m http://kodeclutz.blogspot.com/feeds/posts/default/-/kde
 feed 15m http://twitter.com/statuses/user_timeline/60855732.rss
         define_name Stephan Binner [twitter]
         define_microblog true
+
+feed 15m http://thinkmoult.com/tag/planetkde/feed/
+    define_name Dion Moult (Moult)
