@@ -203,21 +203,5 @@ Planet KDE is made from the blogs of KDE's contributors.  The opinions it contai
 </div><!--footerright-->
 
 </div><!--page-->
-<!-- Piwik -->
-<script type="text/javascript">
-	var pkBaseURL = "http://webstats.kde.org/";
-	document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-	piwik_action_name = '';
-	piwik_idsite = 7;
-	piwik_url = pkBaseURL + "piwik.php";
-	piwik_log(piwik_action_name, piwik_idsite, piwik_url);
-</script>
-<object>
-	<noscript><p><img src="http://webstats.kde.org/piwik.php?idsite=7" style="border:0" alt=""/>
-	</p></noscript>
-</object>
-<!-- End Piwik Tag -->
 </body>
 </html>
