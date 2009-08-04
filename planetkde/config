@@ -1481,6 +1481,10 @@ feed 15m http://blog.uninstall.it/category/planetkde/feed/
 feed 15m http://blog.morpheuz.cc/?cat=kde&feed=rss2
         define_name Artur Souza (MoRpHeUz)
 
+feed 15m http://identi.ca/morpheuz/rss
+        define_name Artur Souza (MoRpHeUz) [identi.ca]
+        define_microblog true
+
 feed 15m http://www.undefinedfire.com/feeds/kde-planet/
         define_name Lucas Murray (Zarin)
 
