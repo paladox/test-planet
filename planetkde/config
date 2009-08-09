@@ -2120,3 +2120,6 @@ feed 15m http://twitter.com/statuses/user_timeline/60855732.rss
 
 feed 15m http://thinkmoult.com/tag/planetkde/feed/
     define_name Dion Moult (Moult)
+
+feed 15m http://ascending.wordpress.com/tag/planetkde/feed/?mrss=off
+    define_name Constantin Berzan (exit)
