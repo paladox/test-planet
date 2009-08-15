@@ -377,7 +377,7 @@ feed 15m http://www.kdedevelopers.org/blog/11/feed
 feed 15m http://www.valdyas.org/fading/index.cgi/index.rss
         define_name Boudewijn Rempt (boud)
 
-feed 15m http://psnkde.blogspot.com/atom.xml
+feed 15m http://ramblingsofpsn.blogspot.com/feeds/posts/default
         define_name Peter Simonsson (psn)
 
 feed 15m http://digested.blogspot.com/atom.xml
