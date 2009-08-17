@@ -1496,6 +1496,9 @@ feed 15m http://blog.karlitschek.de/feeds/posts/default
 
 feed 15m http://majewsky.wordpress.com/feed/?mrss=off
         define_name Stefan Majewsky
+        define_face hackergotchi/majewsky.png
+        define_facewidth 59
+        define_faceheight 80
 
 feed 15m http://michael-jansen.biz/taxonomy/term/10/0/feed
         define_name Michael Jansen
