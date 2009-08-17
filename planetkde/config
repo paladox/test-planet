@@ -1495,7 +1495,7 @@ feed 15m http://blog.karlitschek.de/feeds/posts/default
         define_name Frank Karlitschek (karli)
 
 feed 15m http://majewsky.wordpress.com/feed/?mrss=off
-        define_name Stefan Majewsky
+        define_name Stefan Majewsky (majewsky)
         define_face hackergotchi/majewsky.png
         define_facewidth 59
         define_faceheight 80
