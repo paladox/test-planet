@@ -1068,7 +1068,7 @@ feed 15m http://rivolaks.blogspot.com/feeds/posts/default
 feed 15m http://troy-at-kde.livejournal.com/data/rss
         define_name Troy Unrau
 
-feed 15m http://jaham.wordpress.com/feed/?mrss=off
+feed 15m http://jaham.wordpress.com/category/kde/feed/?mrss=off
         define_name Jan Hambrecht (jaham)
 
 feed 15m http://domseichter.blogspot.com/feeds/posts/default
