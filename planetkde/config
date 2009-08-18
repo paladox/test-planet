@@ -369,7 +369,7 @@ feed 15m http://www.purinchu.net/wp/feed/
         define_name Michael Pyne (mpyne)
         define_face hackergotchi/mpyne.png
         define_facewidth 64
-        define_faceheight 67
+        define_faceheight 80
 
 feed 15m http://www.kdedevelopers.org/blog/11/feed
         define_name Maksim Orlovich (SadEagle)
