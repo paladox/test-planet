@@ -395,6 +395,9 @@ feed 15m http://www.kdedevelopers.org/blog/89/feed
 feed 15m http://benjamin-meyer.blogspot.com/feeds/posts/default/-/KDE
         define_name Benjamin Meyer (icefox)
 
+feed 15m http://greeneg.blogspot.com/feeds/posts/default/-/KDE
+        define_name Gary Greene (greeneg)
+
 feed 15m http://www.kdedevelopers.org/blog/72/feed
         define_name Scott Wheeler (wheels)
         define_face hackergotchi/wheels.png
