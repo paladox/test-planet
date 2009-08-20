@@ -1442,7 +1442,7 @@ feed 15m http://irregularexpression.wordpress.com/category/kdeamarok/feed/?mrss=
 feed 15m http://blog.danielwinter.de/archives/tag/kde/feed/rss2
         define_name Daniel Winter (DanielW)
 
-feed 15m http://alediaferia.wordpress.com/feed/?mrss=off
+feed 15m http://alediaferia.blogspot.com/feeds/posts/default
         define_name Alessandro Diaferia (alediaferia)
 
 feed 15m http://ssj-gz.blogspot.com/feeds/posts/default
