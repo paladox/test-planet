@@ -2129,3 +2129,6 @@ feed 15m http://thinkmoult.com/tag/planetkde/feed/
 
 feed 15m http://ascending.wordpress.com/tag/planetkde/feed/?mrss=off
     define_name Constantin Berzan (exit)
+
+feed 15m http://blog.cynapses.org/category/kde/feed/
+    define_name Andreas Schneider (gladiac)
