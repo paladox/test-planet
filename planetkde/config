@@ -2010,7 +2010,7 @@ feed 15m http://gdebure.blogspot.com/feeds/posts/default
 	define_facewidth 80
 	define_faceheight 80
 
-feed 15m http://www.thekidder.net/tag/kde/feed/
+feed 15m http://www.thekidder.com/tag/kde/feed/
 	define_name Adam Kidder (thekidder)
 
 feed 15m http://algebraicallyclosed.blogspot.com/feeds/posts/default
