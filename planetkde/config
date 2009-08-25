@@ -655,7 +655,7 @@ feed 15m http://www.kdedevelopers.org/blog/1088/feed
         define_name Nikolas Zimmermann (WildFox)
 
 feed 15m http://www.kdedevelopers.org/blog/699/feed
-        define_name Frank Osterfeld
+        define_name Frank Osterfeld (fosterfeld)
 
 feed 15m http://identi.ca/frankosterfeld/rss
         define_name Frank Osterfeld [identi.ca]
