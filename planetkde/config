@@ -657,6 +657,10 @@ feed 15m http://www.kdedevelopers.org/blog/1088/feed
 feed 15m http://www.kdedevelopers.org/blog/699/feed
         define_name Frank Osterfeld
 
+feed 15m http://identi.ca/frankosterfeld/rss
+        define_name Frank Osterfeld [identi.ca]
+        define_microblog true
+
 feed 15m http://www.kdedevelopers.org/blog/1089/feed
         define_name Rob Buis (rwlbuis)
 
