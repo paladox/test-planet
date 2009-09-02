@@ -606,11 +606,6 @@ feed 15m http://twitter.com/statuses/user_timeline/7768822.rss
 feed 15m http://www.christian-loose.de/atom.xml
         define_name Christian Loose
 
-#feed 15m http://mattr.info:8080/blog/?feed=rss2
-#        define_name Matt Rogers (mattr)
-#        define_face hackergotchi/mattr.png
-#        define_facewidth 70
-#        define_faceheight 117
 
 feed 15m http://ellen.reitmayr.net/index.php/feed
         define_name Ellen Reitmayr (el)
@@ -1729,10 +1724,6 @@ feed 15m http://twitter.com/statuses/user_timeline/10486242.rss
 
 feed 15m http://identi.ca/jrepin/rss
         define_name Jure Repinc [identi.ca]
-        define_microblog true
-
-feed 15m http://twitter.com/statuses/user_timeline/16880978.rss
-        define_name Matt Rogers [twitter]
         define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/15219398.rss
