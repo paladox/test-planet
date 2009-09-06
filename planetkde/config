@@ -665,8 +665,10 @@ feed 15m http://www.kdedevelopers.org/blog/39/feed
 feed 15m http://www.kdedevelopers.org/blog/16/feed
         define_name Reinhold Kainhofer
 
-feed 15m http://www.very-clever.com/kde-blog/feed/rss2
-        define_name Ewald Kicker
+# Disabled due to spam see 
+# http://www.very-clever.com/kde-blog/2009/09/06/15/
+#feed 15m http://www.very-clever.com/kde-blog/feed/rss2
+#        define_name Ewald Kicker
 
 feed 15m http://miwi.bsdcrew.de/category/kde/feed/
         define_name Martin Wilke (miwi)
