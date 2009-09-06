@@ -637,8 +637,8 @@ feed 15m http://www.kdedevelopers.org/blog/175/feed
 feed 15m http://phantomsdad.blogspot.com/atom.xml
         define_name Gary Cramblitt (PhantomsDad)
 
-#feed 15m http://www.omat.nl/drupal/?q=taxonomy/term/2/0/feed
-#        define_name Tom Albers
+feed 15m http://www.omat.nl/category/english/feed/
+        define_name Tom Albers
 
 feed 15m http://blog.chris.de/feeds/categories/5-KDE.rss
         define_name Christian Muehlhaeuser (muesli)
