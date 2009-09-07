@@ -840,6 +840,10 @@ feed 15m http://fredrikh.blogspot.com/atom.xml
 feed 15m http://cyrilleberger.blogspot.com/atom.xml
         define_name Cyrille Berger
 
+feed 15m http://identi.ca/cyrille/rss
+        define_name Cyrille Berger
+        define_microblog true
+
 feed 15m http://www.jowenn.at/blog/feed_en.rdf
         define_name Joseph Wenninger
 
