@@ -2151,3 +2151,7 @@ feed 15m http://momeny.wordpress.com/category/planetkde/feed/?mrss=off
         define_face hackergotchi/momeny.png
         define_facewidth 68
         define_faceheight 80
+
+feed 15m http://blogs.fsfe.org/mario/?feed=rss2&tag=kde
+        define_name Mario Fux (unormal)
+
