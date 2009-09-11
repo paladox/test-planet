@@ -2161,3 +2161,9 @@ feed 15m http://kamoso.wordpress.com/tag/kamoso/feed/
 feed 15m http://blogs.fsfe.org/mario/?feed=rss2&tag=kde
         define_name Mario Fux (unormal)
 
+feed 15m http://mattr.info:8080/blog/category/kde/feed/
+    define_name Matt Rogers (mattr)
+    define_face hackergotchi/mattr.png
+    define_facewidth 70
+    define_faceheight 117
+
