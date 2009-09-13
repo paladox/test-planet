@@ -2167,3 +2167,5 @@ feed 15m http://mattr.info:8080/blog/category/kde/feed/
     define_facewidth 70
     define_faceheight 117
 
+feed 15m http://www.w00teh.com/index.php?page=Main&action=RSS&section=27
+        define_name Robin Burchell (w00t)
