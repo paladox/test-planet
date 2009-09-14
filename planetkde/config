@@ -665,7 +665,7 @@ feed 15m http://www.kdedevelopers.org/blog/39/feed
 feed 15m http://www.kdedevelopers.org/blog/16/feed
         define_name Reinhold Kainhofer
 
-# Disabled due to spam see 
+# Disabled due to spam see
 # http://www.very-clever.com/kde-blog/2009/09/06/15/
 #feed 15m http://www.very-clever.com/kde-blog/feed/rss2
 #        define_name Ewald Kicker
@@ -1986,7 +1986,7 @@ feed 15m http://mahfuz062.wordpress.com/feed/
         define_name Mahfuz062
 	define_face hackergotchi/mahfuz.png
         define_facewidth 80 define_faceheight 80
-       
+
 feed 15m http://gkiagia.wordpress.com/category/kde/feed/?mrss=off
         define_name George Kiagiadakis (gkiagia)
 
@@ -2156,7 +2156,7 @@ feed 15m http://kamoso.wordpress.com/tag/kamoso/feed/
   define_name Kamoso
   define_face hackergotchi/webcamreceive.png
   define_facewidth 80
-  define_faceheight 80 
+  define_faceheight 80
 
 feed 15m http://blogs.fsfe.org/mario/?feed=rss2&tag=kde
         define_name Mario Fux (unormal)
@@ -2169,3 +2169,6 @@ feed 15m http://mattr.info:8080/blog/category/kde/feed/
 
 feed 15m http://www.w00teh.com/index.php?page=Main&action=RSS&section=27
         define_name Robin Burchell (w00t)
+
+feed 15m http://hobbyblobby.wordpress.com/feed/?mrss=off
+        define_name Felix Lemke (HobbyBlobby)
