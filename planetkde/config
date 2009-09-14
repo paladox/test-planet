@@ -2170,5 +2170,5 @@ feed 15m http://mattr.info:8080/blog/category/kde/feed/
 feed 15m http://www.w00teh.com/index.php?page=Main&action=RSS&section=27
         define_name Robin Burchell (w00t)
 
-feed 15m http://hobbyblobby.wordpress.com/feed/?mrss=off
+feed 15m http://hobbyblobby.wordpress.com/category/planet/feed/?mrss=off
         define_name Felix Lemke (HobbyBlobby)
