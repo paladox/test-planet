@@ -1581,7 +1581,7 @@ feed 15m http://my.opera.com/it-s/xml/rss/blog/kde
 feed 15m http://gkmeyer.com/wordpress/?feed=rss2
         define_name Greg Meyer (oggb4mp3)
 
-feed 15m http://amarok.kde.org/blog/feeds/categories/23-mamarok.rss
+feed 15m http://blogs.fsfe.org/myriam/?feed=rss2
         define_name Myriam Schweingruber (Mamarok)
 
 feed 15m http://kstars.wordpress.com/category/gnulinuxfoss/kde/planetkde-kde-gnulinuxfoss/feed/?mrss=off
