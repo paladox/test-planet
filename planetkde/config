@@ -2178,3 +2178,6 @@ feed 15m http://saigkill.wordpress.com/category/computer/kde/
 	define_face hackergotchi/sascha-manns.png
 	define_facewidth 64
 	define_faceheight 105
+
+feed 15m http://blog.ricodigo.com/authors/Patrick/foss.atom
+        define_name Patrick Aljord (patcito)
