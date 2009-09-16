@@ -2177,7 +2177,7 @@ feed 15m http://identi.ca/w00t/rss
 feed 15m http://hobbyblobby.wordpress.com/category/planet/feed/?mrss=off
 	define_name Felix Lemke (HobbyBlobby)
 
-feed 15m http://saigkill.wordpress.com/category/computer/kde/
+feed 15m http://saigkill.wordpress.com/category/computer/kde/feed/
 	define_name Sascha Manns (saigkill)
 	define_face hackergotchi/sascha-manns.png
 	define_facewidth 64
