@@ -1022,11 +1022,11 @@ feed 15m http://labs.trolltech.com/blogs/feed/atom/?author_name=tzander
         define_facewidth 70
         define_faceheight 80
 
-feed 15m http://www.koffice.org/author/zander/feed/
-        define_name Thomas Zander (ThomasZ)
-        define_face hackergotchi/zander.png
-        define_facewidth 70
-        define_faceheight 80
+# feed 15m http://www.koffice.org/author/zander/feed/
+#         define_name Thomas Zander (ThomasZ)
+#         define_face hackergotchi/zander.png
+#         define_facewidth 70
+#         define_faceheight 80
 
 feed 15m http://vir.homelinux.org/blog/index.php?/feeds/categories/3-for-Planet.rss
         define_name Matthias Kretz (Vir)
