@@ -2185,3 +2185,10 @@ feed 15m http://saigkill.wordpress.com/category/computer/kde/feed/
 
 feed 15m http://blog.ricodigo.com/authors/Patrick/foss.atom
         define_name Patrick Aljord (patcito)
+
+feed 15m http://zajec.net/blog/atom/kde
+	define_name Rafał Miłecki (Zajec)
+	define_face hackergotchi/zajec.png
+	define_facewidth 77
+	define_faceheight 80
+
