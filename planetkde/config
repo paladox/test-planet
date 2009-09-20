@@ -1704,8 +1704,8 @@ feed 15m http://twitter.com/statuses/user_timeline/16695645.rss
         define_name Agustin Benito Bethencourt [twitter]
         define_microblog true
 
-feed 15m http://twitter.com/statuses/user_timeline/1984201.rss
-        define_name Lucas Murray [twitter]
+feed 15m http://identi.ca/zarin/rss
+        define_name Lucas Murray [identi.ca]
         define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/7668782.rss
