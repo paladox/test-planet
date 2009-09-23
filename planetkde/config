@@ -444,7 +444,7 @@ feed 15m http://blog.cornelius-schumacher.de/feeds/posts/default
         define_faceheight 85
 
 feed 15m http://www.kdedevelopers.org/blog/104/feed
-        define_name Jaroslaw Staniek (js)
+        define_name Jarosław Staniek (jstaniek)
 
 feed 15m http://www.kdedevelopers.org/blog/395/feed
         define_name John Ratke
