@@ -842,6 +842,9 @@ feed 15m http://fredrikh.blogspot.com/atom.xml
 
 feed 15m http://cyrilleberger.blogspot.com/atom.xml
         define_name Cyrille Berger
+	define_face hackergotchi/cberger.png
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m http://identi.ca/cyrille/rss
         define_name Cyrille Berger
