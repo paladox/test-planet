@@ -807,7 +807,7 @@ feed 15m http://kwwii.blogspot.com/atom.xml
         define_name Kenneth Wimer (kwwii)
 
 feed 15m http://www.kdedevelopers.org/blog/280/feed
-        define_name Lubos Lunak (Seli)
+        define_name Lubos Lunak (llunak)
 
 feed 15m http://www.kdedevelopers.org/blog/952/feed
         define_name Martin Konold (Mortimer)
@@ -1512,7 +1512,7 @@ feed 15m http://identi.ca/morpheuz/rss
         define_microblog true
 
 feed 15m http://www.undefinedfire.com/feeds/kde-planet/
-        define_name Lucas Murray (Zarin)
+        define_name Lucas Murray (lmurray)
 
 feed 15m http://web.mornfall.net/planet/kde.rss
         define_name Petr Rockai (mornfall)
