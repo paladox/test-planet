@@ -1405,6 +1405,9 @@ feed 15m http://paul-pach.blogspot.com/rss.xml
 
 feed 15m http://blauzahl.livejournal.com/data/rss?tag=kde
         define_name A. L. Spehr (blauzahl)
+	define_face hackergotchi/zahl.png
+        define_facewidth 58
+        define_faceheight 80
 
 feed 15m http://www.gnuton.org/blog/category/kde-dev/atom
         define_name Antonio Aloisio
