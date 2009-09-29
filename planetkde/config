@@ -2129,7 +2129,7 @@ feed 15m http://realate.blogspot.com/feeds/posts/default
 feed 15m http://www.jmata.co.cc/get_feeds.php
         define_name Jorge Mata (mata)
 
-feed 15m http://aloogobi.nl/feed/
+feed 15m http://aloogobi.nl/blog/feed/
         define_name Casper van Donderen (cvandonderen)
 
 feed 15m http://mat69.wordpress.com/feed/?mrss=off
