@@ -1529,6 +1529,9 @@ feed 15m http://web.mornfall.net/planet/kde.rss
 
 feed 15m http://blog.karlitschek.de/feeds/posts/default
         define_name Frank Karlitschek (karli)
+        define_face hackergotchi/karli.jpg
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m http://majewsky.wordpress.com/feed/?mrss=off
         define_name Stefan Majewsky (majewsky)
