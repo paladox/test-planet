@@ -1911,8 +1911,8 @@ feed 15m http://trueg.wordpress.com/feed/?mrss=off
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://twitter.com/statuses/user_timeline/13798202.rss
-        define_name A. L. Spehr (blauzahl) [twitter]
+feed 15m http://twitter.com/blauzahl/rss
+        define_name A. L. Spehr (blauzahl) [identi.ca]
         define_microblog true
 
 feed 15m http://blusrcu.ba/nookie/?feed=rss2
