@@ -531,9 +531,8 @@ feed 15m http://www.kdedevelopers.org/blog/1451/feed
 feed 15m http://www.kdedevelopers.org/blog/225/feed
         define_name Carlos Leonhard Woelz (cwoelz)
 
-#in process to be replaced
-#feed 15m http://physos.org/wp-atom.php?cat=2
-#        define_name Rainer Endres (physos)
+feed 15m http://physos.org/category/kde/feed/
+        define_name Rainer Endres (physos)
 
 feed 15m http://navindra.blogspot.com/atom.xml
         define_name Navindra Umanee
