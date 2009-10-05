@@ -2238,7 +2238,7 @@ feed 15m http://savago.wordpress.com/feed/?mrss=off
 feed 15m http://hackersramblings.wordpress.com/tag/planetkde/feed/?mrss=off
 	define_name Ryan Rix (PhrkOnLsh)
 
-eed 15m http://labs.qt.nokia.com/blogs/author/danimo/feed
+feed 15m http://labs.qt.nokia.com/blogs/author/danimo/feed
 	define_name Daniel Molkentin [Qt Labs] (danimo)
 	define_face hackergotchi/danimo-qt.jpg
 	define_facewidth 80
