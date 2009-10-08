@@ -2243,3 +2243,9 @@ feed 15m http://labs.qt.nokia.com/blogs/author/danimo/feed
 	define_face hackergotchi/danimo-qt.jpg
 	define_facewidth 80
 	define_faceheight 80
+
+feed 15m http://bangarangkde.wordpress.com/feed/?mrss=off
+        define_name Andrew Lake (Jamboarder)
+        define_face hackergotchi/jamboarder.png
+        define_facewidth 80
+        define_faceheight 80
