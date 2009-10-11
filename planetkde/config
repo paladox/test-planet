@@ -2264,3 +2264,6 @@ feed 15m http://aliencoder.blogspot.com/feeds/posts/default/-/planetkde
         define_face hackergotchi/alan-alvarez.png
         define_facewidth 75
         define_faceheight 75
+
+feed 15m http://nikosams.blogspot.com/feeds/posts/default
+        define_name Niko Sams (nsams)
