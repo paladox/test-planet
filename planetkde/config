@@ -2267,3 +2267,9 @@ feed 15m http://aliencoder.blogspot.com/feeds/posts/default/-/planetkde
 
 feed 15m http://nikosams.blogspot.com/feeds/posts/default
         define_name Niko Sams (nsams)
+
+feed 15m http://colin.guthr.ie/tag/kde/feed/
+        define_name Colin Guthrie (coling)
+        define_face hackergotchi/coling.png
+        define_facewidth 80
+        define_faceheight 80
