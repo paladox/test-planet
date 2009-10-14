@@ -1217,6 +1217,10 @@ feed 15m http://pcapriotti.wordpress.com/category/kde/feed/?mrss=off
 feed 15m http://jpwhiting.blogspot.com/feeds/posts/default/-/kde
         define_name Jeremy Whiting (jpwhiting)
 
+feed 15m http://identi.ca/jpwhiting/rss
+        define_name Jeremy Whiting [identi.ca]
+        define_microblog true
+
 feed 15m http://movingparts.net/feed/
         define_name Jason Kasper (vanRijn)
 
