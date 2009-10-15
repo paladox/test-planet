@@ -2280,4 +2280,8 @@ feed 15m http://colin.guthr.ie/tag/kde/feed/
 
 feed 15m http://dantti.wordpress.com/feed/
         define_name Daniel Nicoletti (dantti)
+        define_face hackergotchi/dantti.png
+        define_facewidth 96
+        define_faceheight 96
+
 
