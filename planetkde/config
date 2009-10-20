@@ -2284,4 +2284,11 @@ feed 15m http://dantti.wordpress.com/feed/
         define_facewidth 96
         define_faceheight 96
 
+feed 15m http://www.asinen.org/blog/feed/
+	define_name Stuart Jarvis
+	define_face hackergotchi/stuart-jarvis.png
+	define_facewidth 67
+	define_faceheight 80
 
+feed 15m http://arieder.wordpress.com/feed/?mrss=off
+	define_name Alexander Rieder (arieder)
