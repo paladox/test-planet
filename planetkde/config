@@ -2292,3 +2292,6 @@ feed 15m http://www.asinen.org/blog/feed/
 
 feed 15m http://arieder.wordpress.com/feed/?mrss=off
 	define_name Alexander Rieder (arieder)
+
+feed 15m http://blog.heimr.nl/taxonomy/term/1/0/feed
+    define_name Arjen Hiemstra (ahiemstra)
