@@ -338,11 +338,11 @@ feed 15m http://identi.ca/afiestas/rss
         define_name Alex Fiestas [identi.ca]
         define_microblog true
 
-feed 15m http://sujithh.info/feed/rss/?tag=KDE%2CPlasma
-        define_name Sujith H (sujith_h)
-        define_face hackergotchi/sujithh.png
-        define_facewidth 64
-        define_faceheight 81
+#feed 15m http://sujithh.info/feed/rss/?tag=KDE%2CPlasma
+#        define_name Sujith H (sujith_h)
+#        define_face hackergotchi/sujithh.png
+#        define_facewidth 64
+#        define_faceheight 81
 
 feed 15m http://c133.org/blog/index.rss
         define_name Chris Lee (clee)
@@ -708,7 +708,7 @@ feed 15m http://www.kdedevelopers.org/blog/531/feed
 feed 15m http://www.kdedevelopers.org/blog/1192/feed
         define_name Martijn Klingens
 
-feed 15m http://people.warp.es/~isaac/blog/index.php/category/free-software/feed/
+feed 15m http://people.warp.es/~isaac/blog/index.php/category/free-software/feed
         define_name Isaac Clerencia
 
 feed 15m http://jahqueel.blogspot.com/atom.xml
@@ -735,7 +735,7 @@ feed 15m http://taupter.blogspot.com/atom.xml
 feed 15m http://erioll.blogspot.com/atom.xml
         define_name Adrien Facelina
 
-feed 15m http://vizZzion.org/blog/feed
+feed 15m http://vizZzion.org/blog/feed/
         define_name Sebastian Kügler (sebas)
         define_face hackergotchi/sebascolor.png
         define_facewidth 80
@@ -1240,7 +1240,7 @@ feed 15m http://wesley.debianbox.be/category/planets/planetkde/feed
 #feed 15m http://nodalpoint.madfire.net/feed/kde/
 #        define_name Stanislav Karchebny (berkus)
 
-feed 15m http://blogs.fsfe.org/gladhorn/category/KDE/feed
+feed 15m http://blogs.fsfe.org/gladhorn/category/KDE/feed/
         define_name Frederik Gladhorn (fregl)
 
 feed 15m http://www.kdedevelopers.org/blog/4326/feed
@@ -1472,13 +1472,13 @@ feed 15m http://feeds.forwardbias.in/fb/roop/kde
 feed 15m http://metelliuscode.wordpress.com/feed/?mrss=off
         define_name Harald Hvaal (metellius)
 
-feed 15m http://www.binaryelysium.com/blog/tag/amarok/feed/rss2/
+feed 15m http://www.binaryelysium.com/blog/tag/amarok/feed/
         define_name Casey Link (ramblurr)
 
 feed 15m http://irregularexpression.wordpress.com/category/kdeamarok/feed/?mrss=off
         define_name William Viana (Liw-)
 
-feed 15m http://blog.danielwinter.de/archives/tag/kde/feed/rss2
+feed 15m http://blog.danielwinter.de/archives/tag/kde/feed
         define_name Daniel Winter (DanielW)
 
 feed 15m http://alediaferia.blogspot.com/feeds/posts/default
@@ -1560,7 +1560,7 @@ feed 15m http://drfav.wordpress.com/tag/KDE/feed/?mrss=off
         define_facewidth 80
         define_faceheight 86
 
-feed 15m http://blog.martin-graesslin.com/blog/?cat=7&feed=rss2
+feed 15m http://blog.martin-graesslin.com/blog/kategorien/kde/planetkde/feed/
         define_name Martin Gräßlin
 
 feed 15m http://kdedevelopers.org/blog/6425/feed
@@ -1606,7 +1606,7 @@ feed 15m http://my.opera.com/it-s/xml/rss/blog/kde
 feed 15m http://gkmeyer.com/wordpress/?feed=rss2
         define_name Greg Meyer (oggb4mp3)
 
-feed 15m http://blogs.fsfe.org/myriam/?feed=rss2
+feed 15m http://blogs.fsfe.org/myriam/feed/
         define_name Myriam Schweingruber (Mamarok)
         define_face hackergotchi/mamarok.png
         define_facewidth 80
@@ -1752,7 +1752,7 @@ feed 15m http://twitter.com/statuses/user_timeline/8694172.rss
         define_name Mike Arthur [twitter]
         define_microblog true
 
-feed 15m http://drwxr-xr-x.blogspot.com/feeds/posts/default/-/planetkde
+feed 15m http://www.eivanov.com/feeds/posts/default/-/planetkde
         define_name Evgeniy Ivanov (powerfox/pfx)
 
 feed 15m http://twitter.com/statuses/user_timeline/10486242.rss
