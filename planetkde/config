@@ -1182,7 +1182,7 @@ feed 15m http://darktears.wordpress.com/feed/?mrss=off
         define_faceheight 80
 
 feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=767&cat=2,5
-        define_name Alexis Menard (Qt Software)
+        define_name Alexis Menard (Qt Development Frameworks)
         define_face hackergotchi/alexis-menard.jpg
         define_facewidth 80
         define_faceheight 80
@@ -1934,7 +1934,7 @@ feed 15m http://f4l3.net/?q=taxonomy/term/1/0/feed
         define_faceheight 80
 
 feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=1186&cat=2,5
-        define_name Jason McDonald (Qt Software)
+        define_name Jason McDonald (Qt Development Frameworks)
 
 feed 15m http://milianw.de/tag/kde/feed
         define_name Milian Wolff (milianw)
