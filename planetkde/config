@@ -2298,3 +2298,6 @@ feed 15m http://arieder.wordpress.com/feed/?mrss=off
 
 feed 15m http://blog.heimr.nl/taxonomy/term/1/0/feed
     define_name Arjen Hiemstra (ahiemstra)
+
+feed 15m http://www.anselmolsm.org/blog/category/planet_kde/feed/
+	define_name Anselmo Lacerda S. de Melo (anselmolsm)
