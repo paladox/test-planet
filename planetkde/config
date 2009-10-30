@@ -2301,3 +2301,6 @@ feed 15m http://blog.heimr.nl/taxonomy/term/1/0/feed
 
 feed 15m http://www.anselmolsm.org/blog/category/planet_kde/feed/
 	define_name Anselmo Lacerda S. de Melo (anselmolsm)
+
+feed 15m http://monkeyiq.blogspot.com/feeds/posts/default/-/kde
+	define_name Ben Martin (monkeyiq)
