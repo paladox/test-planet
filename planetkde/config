@@ -2304,3 +2304,6 @@ feed 15m http://www.anselmolsm.org/blog/category/planet_kde/feed/
 
 feed 15m http://monkeyiq.blogspot.com/feeds/posts/default/-/kde
 	define_name Ben Martin (monkeyiq)
+
+feed 15m http://vonami.wordpress.com/feed/
+        define_name Dmitry Ivanov (vonami)
