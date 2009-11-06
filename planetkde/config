@@ -1424,9 +1424,6 @@ feed 15m http://arindamghosh.wordpress.com/category/kde/feed/?mrss=off
 feed 15m http://pindablog.wordpress.com/feed/?mrss=off
         define_name Rob Scheepmaker (pinda)
 
-feed 15m http://codeincarnate.com/rss.xml
-        define_name Kyle Cunningham
-
 feed 15m http://edulix.wordpress.com/category/kde/feed/?mrss=off
         define_name Eduardo Robles Elvira (Edulix)
 
