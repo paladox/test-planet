@@ -2305,7 +2305,7 @@ feed 15m http://monkeyiq.blogspot.com/feeds/posts/default/-/kde
 feed 15m http://vonami.wordpress.com/feed/
         define_name Dmitry Ivanov (vonami)
 
-feed 15m http://yuenhoe.co.cc/blog/category/open-source-dev/kde-dev/
+feed 15m http://yuenhoe.co.cc/blog/category/kde/feed/?tag=dev
         define_name Lim Yuen Hoe (moofang)
 
 feed 15m http://www.kdedevelopers.org/blog/7305/feed
