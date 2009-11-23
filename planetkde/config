@@ -948,9 +948,6 @@ feed 15m http://kemistry-desktop.blogspot.com/atom.xml
 feed 15m http://johann.pwsp.net/feed/atom/?cat=5
         define_name Johann Ollivier Lapeyre
 
-feed 15m http://bjacob.livejournal.com/data/rss
-        define_name Benoit Jacob (bjacob)
-
 #disappeared
 #feed 15m http://impul.se/~kling/blog/?feed=rss2
 #        define_name Andreas Kling (kling)
