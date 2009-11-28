@@ -2327,5 +2327,5 @@ feed 15m http://krita.org/index.php?format\x3dfeed\x26type\x3drss
 feed 15m http://roideuniverse.blogspot.com/feeds/posts/default/-/kde
 	define_name Kaushik Saurabh (roide)
 
-feed 15m http://michalm.wordpress.com/feed/?mrss=off
+feed 15m http://michalm.wordpress.com/tag/kde/feed/?mrss=off
         define_name Michal Malek (mmalek)
