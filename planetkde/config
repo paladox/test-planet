@@ -338,11 +338,11 @@ feed 15m http://identi.ca/afiestas/rss
         define_name Alex Fiestas [identi.ca]
         define_microblog true
 
-#feed 15m http://sujithh.info/feed/rss/?tag=KDE%2CPlasma
-#        define_name Sujith H (sujith_h)
-#        define_face hackergotchi/sujithh.png
-#        define_facewidth 64
-#        define_faceheight 81
+feed 15m http://sujithh.info/feed/rss/?tag=KDE%2CPlasma
+        define_name Sujith H (sujith_h)
+        define_face hackergotchi/sujithh.png
+        define_facewidth 64
+        define_faceheight 81
 
 feed 15m http://c133.org/blog/index.rss
         define_name Chris Lee (clee)
