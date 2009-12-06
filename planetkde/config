@@ -2330,7 +2330,7 @@ feed 15m http://www.opensource-usability-labs.com/projects/kde/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://darioandreskde.wordpress.com/feed/
+feed 15m http://darioandreskde.wordpress.com/feed/?mrss=off
         define_name Dario Andres Rodriguez (Dario_Andres)
         define_face hackergotchi/darioandresr.png
         define_facewidth 80
