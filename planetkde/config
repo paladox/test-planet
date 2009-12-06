@@ -2322,7 +2322,7 @@ feed 15m http://roideuniverse.blogspot.com/feeds/posts/default/-/kde
 	define_name Kaushik Saurabh (roide)
 
 feed 15m http://michalm.wordpress.com/tag/kde/feed/?mrss=off
-        define_name Michal Malek (mmalek)
+        define_name Michał Małek (mmalek)
 
 feed 15m http://www.opensource-usability-labs.com/projects/kde/feed/
         define_name Björn Balazs
