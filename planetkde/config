@@ -1184,6 +1184,9 @@ feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=767&cat=2,5
         define_facewidth 80
         define_faceheight 80
 
+feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=66&cat=2,5
+        define_name Marius Bugge Monsen (Qt Development Frameworks)
+
 feed 15m http://freelancesamurai.wordpress.com/tag/kde/feed/?mrss=off
         define_name Nuno Povoa (npovoa)
 
