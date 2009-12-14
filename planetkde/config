@@ -2351,3 +2351,5 @@ feed 15m http://stephanie.randomink.org/feed/
         define_faceheight 78
         define_facewidth 80
 
+feed 15m http://eng.i-iter.org/taxonomy/term/114/0/feed
+        define_name Sabine Emmy Eller
