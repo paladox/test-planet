@@ -2353,3 +2353,9 @@ feed 15m http://stephanie.randomink.org/feed/
 
 feed 15m http://eng.i-iter.org/taxonomy/term/114/0/feed
         define_name Sabine Emmy Eller
+
+feed 15m http://c2143.blogspot.com/feeds/posts/default/-/KDE
+        define_name Romain Pokrzywka (kromain)
+        define_face hackergotchi/kromain.jpg
+        define_facewidth 70
+        define_faceheight 80
