@@ -2345,7 +2345,7 @@ feed 15m http://midi-clorianos.blogspot.com/feeds/posts/default/-/KDE
         define_facewidth 57
         define_faceheight 80
 
-feed 15m http://stephanie.randomink.org/feed/
+feed 15m http://stephanie.randomink.org/tag/kde/feed/
         define_name Stephanie Das Gupta (stephdg)
         define_face hackergotchi/stephanie.jpg
         define_faceheight 78
