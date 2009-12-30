@@ -2359,3 +2359,7 @@ feed 15m http://c2143.blogspot.com/feeds/posts/default/-/KDE
         define_face hackergotchi/kromain.jpg
         define_facewidth 70
         define_faceheight 80
+
+feed 15m http://blog.m-hias.de/feed/
+        define_name Mathias Kraus (hias)
+
