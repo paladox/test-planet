@@ -1072,7 +1072,7 @@ feed 15m http://wendyvancraen.blogspot.com/feeds/posts/default/-/KDE
 #feed 15m http://elektron.et.tudelft.nl/~cmlot/rss.xml
 #        define_name Claire Lotion
 
-feed 15m http://ervin.ipsquad.net/feed
+feed 15m http://ervin.ipsquad.net/feed/
         define_name Kevin Ottens (ervin)
 
 feed 15m http://www.proli.net/feed/
@@ -1415,7 +1415,7 @@ feed 15m http://blauzahl.livejournal.com/data/rss?tag=kde
         define_facewidth 58
         define_faceheight 80
 
-feed 15m http://www.gnuton.org/blog/category/kde-dev/atom
+feed 15m http://www.gnuton.org/blog/category/kde-dev/feed/atom/
         define_name Antonio Aloisio
 
 feed 15m http://arindamghosh.wordpress.com/category/kde/feed/?mrss=off
@@ -1575,7 +1575,7 @@ feed 15m http://lydgate.org/blogs/?feed=rss2&tag=kde
         define_facewidth 79
         define_faceheight 79
 
-feed 15m http://qashapp.blogspot.com/feeds/posts/default/-/KDE
+feed 15m http://blog.qash.dk/feeds/posts/default/-/KDE
         define_name Michael Krog
         define_face hackergotchi/michael-krog.png
         define_facewidth 129
@@ -2278,7 +2278,7 @@ feed 15m http://dantti.wordpress.com/feed/?mrss=off
         define_facewidth 96
         define_faceheight 96
 
-feed 15m http://www.asinen.org/blog/feed/
+feed 15m http://www.asinen.org/feed/
 	define_name Stuart Jarvis
 	define_face hackergotchi/stuart-jarvis.png
 	define_facewidth 67
