@@ -338,7 +338,7 @@ feed 15m http://identi.ca/afiestas/rss
         define_name Alex Fiestas [identi.ca]
         define_microblog true
 
-feed 15m http://sujithh.info/feed/rss/?tag=KDE%2CPlasma
+feed 15m http://sujithh.info/feed/?tag=KDE%2CPlasma
         define_name Sujith H (sujith_h)
         define_face hackergotchi/sujithh.png
         define_facewidth 64
