@@ -456,7 +456,10 @@ class Feed:
                         name = unicode(feed[2]["define_name"], 'utf-8')
                         break
 
-		if self.feed_info.has_key("link"):
+                if name is None:
+                    name = ""
+
+                if self.feed_info.has_key("link"):
 			return '<a href="' + string_to_html(self.feed_info["link"], config) + '">' + name + '</a>'
 		else:
 			return name
