@@ -1562,6 +1562,9 @@ feed 15m http://packadal.blogspot.com/feeds/posts/default/-/kglengine
 
 feed 15m http://shaforostoff.blogspot.com/atom.xml
         define_name Nick Shaforostoff (shaforostoff)
+        define_face hackergotchi/shaforostoff.png
+        define_facewidth 65
+        define_faceheight 80
 
 feed 15m http://lydgate.org/blogs/?feed=rss2&tag=kde
         define_name Anne Wilson (annew)
