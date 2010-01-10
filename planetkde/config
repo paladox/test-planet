@@ -1363,7 +1363,7 @@ feed 15m http://der-dakon.net/blog/kde.xml
 #feed 15m http://introducingkde4.blogspot.com/feeds/posts/default
 #        define_name Luis Augusto Fretas Cuevas
 
-feed 15m http://carloslicea.blogspot.com/feeds/posts/default
+feed 15m http://carloslicea.blogspot.com/feeds/posts/default/-/planetkde
         define_name Carlos Licea
 
 feed 15m http://saroengels.blogspot.com/feeds/posts/default
