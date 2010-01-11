@@ -2377,3 +2377,9 @@ feed 15m http://www.tm-travolta.net/cat/kde/feed
         define_face hackergotchi/tmt.png
         define_facewidth 64
         define_faceheight 64
+
+feed 15m http://liveblue.wordpress.com/category/planetkde-vinicius/feed/?mrss=off
+        define_name Vinicius Azevedo (stdcout)
+        define_face hackergotchi/viniciusazevedo.jpg
+        define_facewidth 80
+        define_faceheight 80
