@@ -781,6 +781,9 @@ feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=2
 feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=3&cat=2,5
         define_name Harald Fernengel
 
+feed 15m http://www.kdedevelopers.org/blog/7440/feed
+        define_name Robert Mathias Marmorstein (robertm)
+
 feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=4
         define_name Roberto Raggi
 
