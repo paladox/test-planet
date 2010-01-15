@@ -408,7 +408,7 @@ feed 15m http://www.kdedevelopers.org/blog/72/feed
         define_faceheight 80
 
 feed 15m http://www.kdedevelopers.org/blog/9/feed
-        define_name Richard Moore (rich)
+        define_name Richard Moore (richmoore2)
 
 feed 15m http://www.kdedevelopers.org/blog/35/feed
         define_name Mathieu Chouinard (chouimat)
