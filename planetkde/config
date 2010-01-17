@@ -714,12 +714,6 @@ feed 15m http://people.warp.es/~isaac/blog/index.php/category/free-software/feed
 feed 15m http://jahqueel.blogspot.com/atom.xml
         define_name Ashley Winters
 
-feed 15m http://www.kdedevelopers.org/blog/1209/feed
-        define_name Danny Allen (dannya)
-        define_face hackergotchi/dannya.png
-        define_facewidth 73
-        define_faceheight 80
-
 feed 15m http://www.kdedevelopers.org/blog/41/feed
         define_name Gregor Iaskievitch
 
