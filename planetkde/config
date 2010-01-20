@@ -2380,3 +2380,6 @@ feed 15m http://liveblue.wordpress.com/category/planetkde-vinicius/feed/?mrss=of
 
 feed 15m http://jmho4.wordpress.com/category/kde/feed/?mrss=off
         define_name Jens-Michael Hoffmann (jmho)
+
+feed 15m http://buscher.zxq.net/category/kde/feed/
+        define_name Bernd Buschinski (buscher)
