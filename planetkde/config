@@ -2383,3 +2383,6 @@ feed 15m http://jmho4.wordpress.com/category/kde/feed/?mrss=off
 
 feed 15m http://buscher.zxq.net/category/kde/feed/
         define_name Bernd Buschinski (buscher)
+
+feed 15m http://en.peremen.name/atom
+	define_name Park Shinjo (peremen)
