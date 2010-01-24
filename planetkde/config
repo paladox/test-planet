@@ -2386,3 +2386,9 @@ feed 15m http://buscher.zxq.net/category/kde/feed/
 
 feed 15m http://en.peremen.name/atom
 	define_name Park Shinjo (peremen)
+
+feed 15m http://feeds.feedburner.com/HadesBlagPlanetKDE
+        define_name Edward Toroshchin (hades)
+        define_face hackergotchi/hades.png
+        define_facewidth 80
+        define_faceheight 80
