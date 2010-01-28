@@ -723,8 +723,9 @@ feed 15m http://pinheiro-kde.blogspot.com/rss.xml
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://taupter.blogspot.com/atom.xml
-        define_name Cl&aacute;udio da Silveira Pinheiro (Taupter)
+# Not updated since 2008
+#feed 15m http://taupter.blogspot.com/atom.xml
+#        define_name Cl&aacute;udio da Silveira Pinheiro (Taupter)
 
 feed 15m http://erioll.blogspot.com/atom.xml
         define_name Adrien Facelina
