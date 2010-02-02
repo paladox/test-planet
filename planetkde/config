@@ -2446,14 +2446,17 @@ feed 15m http://www.digikam.org/?q=blog/11/feed
         define_facewidth 80
         define_faceheight 80
 
+feed 15m http://www.digikam.org/?q=blog/133/feed
+        define_name Arnd Baecker (abaecker)
+        define_face hackergotchi/abaecker.png
+        define_facewidth 80
+        define_faceheight 80
+
 feed 15m http://www.digikam.org/drupal/blog/138/feed
         define_name Mikolaj Machowski (mikmach)
 
 feed 15m http://www.digikam.org/?q=taxonomy/term/21/0/feed
         define_name Joern Ahrens (jokele)
-
-feed 15m http://www.digikam.org/?q=blog/133/feed
-        define_name Arnd Baecker
 
 # End of digiKam team entries.
 ###############################################################
