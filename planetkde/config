@@ -875,17 +875,8 @@ feed 15m http://agateau.wordpress.com/feed/?mrss=off
 feed 15m http://blog.nouse.net/?feed=rss2
         define_name Timo Hoenig
 
-feed 15m http://www.digikam.org/?q=blog/3/feed
-        define_name Gilles Caulier (cgilles)
-        define_face hackergotchi/cgilles.png
-        define_facewidth 80
-        define_faceheight 80
-
 feed 15m http://delftblueramblings.blogspot.com/atom.xml
         define_name Sander Koning
-
-feed 15m http://www.digikam.org/?q=taxonomy/term/21/0/feed
-        define_name Joern Ahrens (jokele)
 
 feed 15m http://jefferai.org/category/kde/feed/
         define_name Jeff Mitchell (jefferai)
@@ -1170,9 +1161,6 @@ feed 15m http://jlp.holodeck1.com/blog/category/computers/software/kde/feed/
 feed 15m http://blog.lukrop.bplaced.net/feeds/categories/planetKDE.rss
         define_name Lukas Kropatschek
 
-feed 15m http://www.digikam.org/?q=blog/133/feed
-        define_name Arnd Baecker
-
 feed 15m http://darktears.wordpress.com/feed/?mrss=off
         define_name Alexis Menard (darktears)
         define_face hackergotchi/alexis-menard.jpg
@@ -1292,9 +1280,6 @@ feed 15m http://blog.wysota.eu.org/index.php/feed/
 
 feed 15m http://www.datenex.de/index.php?/feeds/categories/1-KDE.rss
         define_name Andreas Hartmetz
-
-feed 15m http://www.digikam.org/?q=blog/8/feed
-        define_name Marcel Wiesweg
 
 feed 15m http://zecke.blogspot.com/feeds/posts/full/-/KDE
         define_name Holger Freyther (zecke)
@@ -1784,18 +1769,6 @@ feed 15m http://twitter.com/statuses/user_timeline/19499911.rss
         define_name Casey Link [twitter]
         define_microblog true
 
-feed 15m http://www.digikam.org/?q=blog/135/feed
-        define_name Andi Clemens (aclemens)
-        define_face hackergotchi/aclemens.png
-        define_facewidth 80
-        define_faceheight 80
-        
-feed 15m http://www.digikam.org/?q=blog/143/feed
-        define_name Johannes Wienke (languitar)
-        define_face hackergotchi/languitar.png
-        define_facewidth 65
-        define_faceheight 80
-
 feed 15m http://estan.dose.se/tag/planetkde/feed
         define_name Elvis Stansvik (estan)
         define_face hackergotchi/estan.png
@@ -2063,9 +2036,6 @@ feed 15m http://www.thekidder.com/tag/kde/feed/
 
 feed 15m http://algebraicallyclosed.blogspot.com/feeds/posts/default
 	define_name Jeremias Epperlein
-
-feed 15m http://www.digikam.org/drupal/blog/138/feed
-	define_name Mikolaj Machowski (mikmach)
 
 feed 15m http://soliverez.com.ar/drupal/?q=taxonomy/term/17/all/feed
 	define_name Alvaro Soliverez (Hei_Ku)
@@ -2417,3 +2387,40 @@ feed 15m http://salout.github.com/kde.xml
         define_face hackergotchi/salout.png 
         define_facewidth 80
         define_faceheight 80
+
+###############################################################
+# digiKam team entries.
+
+feed 15m http://www.digikam.org/?q=blog/3/feed
+        define_name Gilles Caulier (cgilles)
+        define_face hackergotchi/cgilles.png
+        define_facewidth 80
+        define_faceheight 80
+
+feed 15m http://www.digikam.org/?q=blog/135/feed
+        define_name Andi Clemens (aclemens)
+        define_face hackergotchi/aclemens.png
+        define_facewidth 80
+        define_faceheight 80
+        
+feed 15m http://www.digikam.org/?q=blog/143/feed
+        define_name Johannes Wienke (languitar)
+        define_face hackergotchi/languitar.png
+        define_facewidth 65
+        define_faceheight 80
+
+feed 15m http://www.digikam.org/?q=blog/8/feed
+        define_name Marcel Wiesweg
+
+feed 15m http://www.digikam.org/drupal/blog/138/feed
+        define_name Mikolaj Machowski (mikmach)
+
+feed 15m http://www.digikam.org/?q=taxonomy/term/21/0/feed
+        define_name Joern Ahrens (jokele)
+
+feed 15m http://www.digikam.org/?q=blog/133/feed
+        define_name Arnd Baecker
+
+# End of digiKam team entries.
+###############################################################
+
