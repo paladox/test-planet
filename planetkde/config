@@ -2458,6 +2458,12 @@ feed 15m http://www.digikam.org/?q=blog/134/feed
         define_facewidth 50
         define_faceheight 50
 
+feed 15m http://www.digikam.org/drupal/blog/130/feed
+        define_name Angelo Naselli (anaselli)
+        define_face hackergotchi/anaselli.png
+        define_facewidth 59
+        define_faceheight 60
+
 feed 15m http://www.digikam.org/drupal/blog/138/feed
         define_name Mikolaj Machowski (mikmach)
 
