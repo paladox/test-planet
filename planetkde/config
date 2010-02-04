@@ -2394,6 +2394,12 @@ feed 15m http://johnflux.blogspot.com/atom.xml
         define_facewidth 63
         define_faceheight 80
 
+feed 15m http://gsteinert.is-a-geek.net/blog/index.php?/feeds/index.rss2
+        define_name Gary Steinert (gsteinert)
+        define_face hackergotchi/gsteinert.png
+        define_facewidth 54
+        define_faceheight 80
+
 
 ###############################################################
 # digiKam team entries.
@@ -2409,7 +2415,7 @@ feed 15m http://www.digikam.org/?q=blog/135/feed
         define_face hackergotchi/aclemens.png
         define_facewidth 80
         define_faceheight 80
-        
+
 feed 15m http://www.digikam.org/?q=blog/143/feed
         define_name Johannes Wienke (languitar)
         define_face hackergotchi/languitar.png
@@ -2477,17 +2483,11 @@ feed 15m http://www.digikam.org/drupal/blog/145/feed
         define_name Jens Muller (jmueller)
 
 feed 15m http://www.digikam.org/drupal/blog/146/feed
-        define_name Gianluca Urgese
+        define_name Gianluca Urgese (gurgese)
 
 feed 15m http://www.digikam.org/?q=taxonomy/term/21/0/feed
         define_name Joern Ahrens (jokele)
 
 # End of digiKam team entries.
 ###############################################################
-
-feed 15m http://gsteinert.is-a-geek.net/blog/index.php?/feeds/index.rss2
-        define_name Gary Steinert (gsteinert)
-        define_face hackergotchi/gsteinert.png
-        define_facewidth 54
-        define_faceheight 80
 
