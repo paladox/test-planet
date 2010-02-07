@@ -2344,7 +2344,7 @@ feed 15m http://blog.m-hias.de/feed/
         define_name Mathias Kraus (hias)
 
 feed 15m http://jussi01.com/?cat=16&feed=rss2
-        define_name Jussi Schultinkm (jussi01)
+        define_name Jussi Schultink (jussi01)
         define_face hackergotchi/jussi.jpg
         define_facewidth 122
         define_faceheight 130
