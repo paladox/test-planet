@@ -228,7 +228,7 @@ showfeeds true
 # the same time.  If you have a lot of feeds, setting this to be 20 or
 # so will significantly speed up updates. If this is set to 0, rawdog
 # will not use threads at all.
-numthreads 4
+numthreads 3
 
 # The time that rawdog will wait before considering a feed unreachable
 # when trying to connect. If you're getting lots of timeout errors and
@@ -1421,9 +1421,6 @@ feed 15m http://feeds.feedburner.com/UntangledBlog
 feed 15m http://blog.greghaynes.net/index.php?/feeds/categories/7-KDE.rss
         define_name Gregory Haynes
 
-feed 15m http://people.binaryhelix.net/lvillani/category/kde/feed/
-        define_name Lorenzo Villani
-
 feed 15m http://krishnaggk.wordpress.com/category/planetkde/feed/?mrss=off
         define_name Gopala Krishna
         define_face hackergotchi/gopala.png
@@ -1644,10 +1641,6 @@ feed 15m http://twitter.com/statuses/user_timeline/16697511.rss
         define_name Jonathan Riddell [twitter]
         define_microblog true
 
-feed 15m http://twitter.com/statuses/user_timeline/7626542.rss
-        define_name Aaron Seigo [twitter]
-        define_microblog true
-
 feed 15m http://twitter.com/statuses/user_timeline/6328522.rss
         define_name Seb Ruiz [twitter]
         define_microblog true
@@ -1718,10 +1711,6 @@ feed 15m http://twitter.com/statuses/user_timeline/6323052.rss
 
 feed 15m http://twitter.com/statuses/user_timeline/16695645.rss
         define_name Agustin Benito Bethencourt [twitter]
-        define_microblog true
-
-feed 15m http://identi.ca/zarin/rss
-        define_name Lucas Murray [identi.ca]
         define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/7668782.rss
@@ -1809,12 +1798,6 @@ feed 15m http://rdieter.livejournal.com/data/rss?tag=kde
         define_face hackergotchi/rdieter.png
         define_facewidth 80
         define_faceheight 80
-
-feed 15m http://popey.com/taxonomy/term/9/0/feed
-        define_name Alan Pope (popey)
-        define_face hackergotchi/alanpope.png
-        define_facewidth 56
-        define_faceheight 45
 
 feed 15m http://www.sayakbanerjee.com/category/planet-kde/feed/atom/
         define_name Sayak Banerjee (sayakb)
