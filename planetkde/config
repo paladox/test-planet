@@ -1205,6 +1205,7 @@ feed 15m http://pcapriotti.wordpress.com/category/kde/feed/?mrss=off
 
 feed 15m http://jpwhiting.blogspot.com/feeds/posts/default/-/kde
         define_name Jeremy Whiting (jpwhiting)
+        define_face hackergotchi/jpwhiting.png
 
 feed 15m http://identi.ca/jpwhiting/rss
         define_name Jeremy Whiting [identi.ca]
