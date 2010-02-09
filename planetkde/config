@@ -2299,8 +2299,8 @@ feed 15m http://identi.ca/neomantra/rss
         define_name Justin Kirby [identi.ca]
         define_microblog true
 
-feed 15m http://krita.org/index.php?format\x3dfeed\x26type\x3drss
-        define_name Boudewijn Rempt et al.
+feed 15m http://feeds.feedburner.com/ThisWeekInKrita
+        define_name Boudewijn Rempt's Krita blog
 
 feed 15m http://roideuniverse.blogspot.com/feeds/posts/default/-/kde
 	define_name Kaushik Saurabh (roide)
