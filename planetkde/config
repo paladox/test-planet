@@ -2385,6 +2385,11 @@ feed 15m http://gsteinert.is-a-geek.net/blog/index.php?/feeds/index.rss2
         define_facewidth 54
         define_faceheight 80
 
+feed 15m http://thezeroth.net/tag/kde/feed/
+        define_name Abhishek Patil (_abhishek)
+        define_face hackergotchi/abhishek.png
+        define_facewidth 47
+        define_faceheight 80
 
 ###############################################################
 # digiKam team entries.
