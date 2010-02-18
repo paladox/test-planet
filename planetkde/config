@@ -2475,6 +2475,9 @@ feed 15m http://www.digikam.org/drupal/blog/145/feed
 feed 15m http://www.digikam.org/drupal/blog/138/feed
         define_name Mikolaj Machowski (mikmach)
 
+feed 15m http://www.digikam.org/drupal/blog/147/feed
+        define_name Frederic Coiffier (fcoiffier)
+
 feed 15m http://www.digikam.org/drupal/blog/146/feed
         define_name Gianluca Urgese (gurgese)
         define_face hackergotchi/gurgese.png
