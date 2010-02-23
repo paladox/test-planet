@@ -1391,8 +1391,11 @@ feed 15m http://twitter.com/statuses/user_timeline/13551252.rss
         define_name George Goldberg [twitter]
         define_microblog true
 
-feed 15m http://ppenz.blogspot.com/rss.xml
+feed 15m http://ppenz.blogspot.com/rss.xml?tag=KDE
         define_name Peter Penz
+        define_face hackergotchi/ppenz.png
+        define_facewidth 64
+        define_faceheight 64
 
 feed 15m http://paul-pach.blogspot.com/rss.xml
         define_name Paul Pacheco (paulpach)
