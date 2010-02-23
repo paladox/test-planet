@@ -425,9 +425,6 @@ feed 15m http://www.kdedevelopers.org/blog/2/feed
         define_facewidth 64
         define_faceheight 79
 
-feed 15m http://www.ugarro.com/blog/blog4.php?cat=14&tempskin=_rss2
-        define_name Unai Garro (uga)
-
 feed 15m http://tokoe-kde.blogspot.com/rss.xml
         define_name Tobias Koenig (tokoe)
 
