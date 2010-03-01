@@ -673,7 +673,7 @@ feed 15m http://www.kdedevelopers.org/blog/39/feed
 feed 15m http://www.kdedevelopers.org/blog/16/feed
         define_name Reinhold Kainhofer
 
-feed 15m http://kamikazow.wordpress.com/feed/
+feed 15m http://kamikazow.wordpress.com/feed/?mrss=off
         define_name Markus Slopianka (markuss)
 
 # Disabled due to spam see
