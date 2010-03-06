@@ -1656,8 +1656,8 @@ feed 15m http://twitter.com/statuses/user_timeline/8721292.rss
         define_name Mark Kretschmann [twitter]
         define_microblog true
 
-feed 15m http://twitter.com/statuses/user_timeline/8725472.rss
-        define_name Harald Sitter [twitter]
+feed 15m http://identi.ca/apachelogger/rss
+        define_name Harald Sitter [identi.ca]
         define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8725472.rss
