@@ -1119,7 +1119,7 @@ feed 15m http://apaku.wordpress.com/feed/?mrss=off
 feed 15m http://blog.ruphy.org/?feed=rss2
         define_name Riccardo Iaconelli (ruphy)
 
-feed 15m http://apachelog.blogspot.com/rss.xml
+feed 15m http://apachelog.wordpress.com/tag/kde/feed/?mrss=off
         define_name Harald Sitter (apachelogger)
 
 feed 15m http://fyanardi.wordpress.com/feed/?mrss=off
