@@ -1818,9 +1818,6 @@ feed 15m http://twitter.com/statuses/user_timeline/15533183.rss
 feed 15m http://slangkamp.wordpress.com/feed/?mrss=off
         define_name Sven Langkamp (slangkamp)
 
-feed 15m http://www.rakekniven.de/taxonomy/term/39/0/feed
-        define_name Mark Ziegler (rakekniven)
-
 feed 15m http://blog.chatonka.com/category/planetkde/feed/
         define_name Andrew Stromme (astromme)
         define_face hackergotchi/astromme.png
