@@ -2128,7 +2128,7 @@ feed 15m http://arnorehn.de/cgi-bin/weblog_basic/index.php?feed=rss2
 feed 15m http://www.kdedevelopers.org/blog/7020/feed
 	define_name Ramon Zarazua (_killerfox_)
 
-feed 15m http://hanswchen.wordpress.com/category/planetkde/feed/?mrss=off
+feed 15m http://hanschen.org/category/planetkde/feed/?mrss=off
 	define_name Hans Chen (Mogger)
 
 feed 15m http://www.enricoros.com/blog/tag/planetkde/feed/
