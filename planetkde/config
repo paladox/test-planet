@@ -2515,3 +2515,5 @@ feed 15m http://blog.tampakrap.gr/category/planets/planet-kde/feed/
         define_facewidth 90
         define_faceheight 128
 
+feed 15m http://owncloudtest.blogspot.com/feeds/posts/default
+	define_name Aaron Reichman (areichman)
