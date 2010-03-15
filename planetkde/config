@@ -2503,6 +2503,12 @@ feed 15m http://www.digikam.org/drupal/blog/144/feed
         define_facewidth 80
         define_faceheight 80
 
+feed 15m http://www.digikam.org/drupal/blog/148/feed
+        define_name Holger Foerster (foerster)
+        define_face hackergotchi/foerster.png
+        define_facewidth 48
+        define_faceheight 80
+
 feed 15m http://www.digikam.org/?q=taxonomy/term/21/0/feed
         define_name Joern Ahrens (jokele)
 
