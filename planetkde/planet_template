@@ -19,6 +19,7 @@
 	#footer { padding: 10px 25px 0 25px; width: 750px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg-footer.png', sizingMethod='scale'); }
 	</style>
 	<![endif]-->
+    <script language="javascript" src="amor.user.js"></script>
     <script language="javascript"> 
     function toggle() {
         var ele = document.getElementById("feeddiv");
