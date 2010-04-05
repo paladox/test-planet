@@ -2541,3 +2541,10 @@ feed 15m http://linuxgrandma.blogspot.com/feeds/posts/default
         define_face hackergotchi/valorie.png
         define_facewidth 65
         define_faceheight 100
+
+feed 15m https://btux1984.wordpress.com/
+        define_name Björn Ruberg (ruberg)
+        define_face hackergotchi/ruberg.jpg
+        define_facewidth 70
+        define_faceheight 80
+
