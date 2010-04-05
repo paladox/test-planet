@@ -2548,3 +2548,7 @@ feed 15m https://btux1984.wordpress.com/
         define_facewidth 70
         define_faceheight 80
 
+feed 15m http://liveblue.wordpress.com/category/planetkde-araceletorres/feed/?mrss=off
+        define_name Aracele Torres (araceletorres)
+        define_face hackergotchi/araceletorres.jpg
+        define_facewidth 75 define_faceheight 80
