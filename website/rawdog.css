@@ -22,6 +22,16 @@ body {
 a , a:link, a:visited { cursor: pointer; color: #4a7ad8; text-decoration: none; border-bottom: 0;}
 a:hover { text-decoration: underline; }
 
+/**
+ * Support wordpress classes for wrapping text around images
+ */
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
 img { border: 0; }
 
 h2 
