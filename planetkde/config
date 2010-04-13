@@ -2559,4 +2559,8 @@ feed 15m http://kders.wordpress.com/category/planetkde-wagner/feed/?mrss=off
         define_facewidth 80
         define_faceheight 80
 
+feed 15m http://liveblue.wordpress.com/category/planetkde-alexraymond/feed/?mrss=off
+        define_name Alex Raymond (alexraymond)
+        define_face hackergotchi/alexraymond.jpg
+        define_facewidth 80 define_faceheight 80
 
