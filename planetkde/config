@@ -711,7 +711,7 @@ feed 15m http://www.kdedevelopers.org/blog/531/feed
 feed 15m http://www.kdedevelopers.org/blog/1192/feed
         define_name Martijn Klingens
 
-feed 15m http://people.warp.es/~isaac/blog/index.php/category/free-software/feed
+feed 15m http://isaac.warp.es/index.php/category/free-software/feed
         define_name Isaac Clerencia
 
 feed 15m http://jahqueel.blogspot.com/atom.xml
@@ -818,8 +818,8 @@ feed 15m http://www.kdedevelopers.org/blog/280/feed
 feed 15m http://www.kdedevelopers.org/blog/952/feed
         define_name Martin Konold (Mortimer)
 
-feed 15m http://weblog.obso1337.org/feed/
-        define_name Celeste Paul (seele)
+feed 15m http://www.obso1337.org/feed
+        define_name Celeste Lyn Paul (seele)
         define_face hackergotchi/seele.png
         define_facewidth 61
         define_faceheight 80
@@ -1126,7 +1126,7 @@ feed 15m http://apaku.wordpress.com/feed/?mrss=off
 feed 15m http://blog.ruphy.org/?feed=rss2
         define_name Riccardo Iaconelli (ruphy)
 
-feed 15m http://apachelog.wordpress.com/tag/kde/feed/?mrss=off
+feed 15m http://apachelog.wordpress.com/category/kde/feed/?mrss=off
         define_name Harald Sitter (apachelogger)
 
 feed 15m http://fyanardi.wordpress.com/feed/?mrss=off
@@ -1135,7 +1135,7 @@ feed 15m http://fyanardi.wordpress.com/feed/?mrss=off
 feed 15m http://myrizio.wordpress.com/feed/?mrss=off
         define_name Maurizio Monge
 
-feed 15m http://www.gustavoboiko.org/blog/category/kde/feed
+feed 15m http://gustavoboiko.org/blog/category/kde/feed/
         define_name Gustavo Boiko
 
 feed 15m http://amarok.kde.org/blog/feeds/categories/20-lfranchi.rss
@@ -1278,7 +1278,7 @@ feed 15m http://blog.lydiapintscher.de/category/PlanetKDE/feed/
         define_facewidth 78
         define_faceheight 76
 
-feed 15m http://roozbeh.us/?feed=rss2
+feed 15m http://roozbeh.us/feed/
 	define_name Roozbeh Shafiee
         define_face hackergotchi/roozbeh.jpeg
         define_facewidth 96
@@ -1329,7 +1329,7 @@ feed 15m http://twitter.com/statuses/user_timeline/15390117.rss
 feed 15m http://yarpen.cz/rants/?feed=rss2
         define_name Petr Vanek
 
-feed 15m http://francis.giannaros.org/blog//category/kde/feed
+feed 15m http://francis.giannaros.org/blog//category/kde/feed/
         define_name Francis Giannaros (apokryphos)
         define_face hackergotchi/apokryphos.png
         define_facewidth 64
@@ -1962,7 +1962,7 @@ feed 15m http://jontheechidna.wordpress.com/category/kde/feed/?mrss=off
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://aikesommer.name/site/taxonomy/term/11/0/feed
+feed 15m http://aike.me/site/taxonomy/term/11/0/feed
         define_name Aike Sommer
         define_face hackergotchi/asommer.png
         define_facewidth 80
@@ -2286,7 +2286,7 @@ feed 15m http://www.kdedevelopers.org/blog/7305/feed
     define_facewidth 80
     define_faceheight 80
 
-feed 15m http://www.neomantra.org/?feed=rss2&cat=8
+feed 15m http://neomantra.org/?feed=rss2&cat=8
     define_name Justin Kirby (neomantra)
     define_face hackergotchi/neomantra.jpeg
     define_facewidth 96
