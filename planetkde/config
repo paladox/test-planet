@@ -878,7 +878,7 @@ feed 15m http://blog.nouse.net/?feed=rss2
 feed 15m http://delftblueramblings.blogspot.com/atom.xml
         define_name Sander Koning
 
-feed 15m http://jefferai.org/category/kde/feed/
+feed 15m http://jefferai.org/feed/
         define_name Jeff Mitchell (jefferai)
 
 feed 15m http://www.kdedevelopers.org/blog/1813/feed
