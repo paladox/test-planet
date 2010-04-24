@@ -2588,3 +2588,8 @@ feed 15m http://liveblue.wordpress.com/category/planetkde-filipesaraiva/feed/?mr
 
 feed 15m http://igortrindade.wordpress.com/category/KDE/feed/?mrss=off
         define_name Igor Trindade Oliveira
+
+feed 15m http://liveblue.wordpress.com/category/planetkde-vitochiarella/feed/?mrss=off
+        define_name Vito Chiarella (vitochiarella)
+        define_face hackergotchi/vitochiarella.jpg
+        define_facewidth 80 define_faceheight 80
