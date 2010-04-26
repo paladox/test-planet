@@ -2604,3 +2604,6 @@ feed 15m http://www.infinityperl.org/feed/tag/KDE/atom
         define_face hackergotchi/arnaud-dupuis.jpg
         define_facewidth 80
         define_faceheight 113
+
+feed 15m http://www.kusa.fr/?feed=rss2
+        define_name Vavelin Kevin (Kusa)
