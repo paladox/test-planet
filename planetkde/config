@@ -806,7 +806,7 @@ feed 15m http://labs.trolltech.com/blogs/feed/atom/?author=21&cat=2,5
 feed 15m http://mbroadst.blogspot.com/atom.xml
         define_name Matt Broadstone
 
-feed 15m http://thelins.se/johan/rss.xml
+feed 15m http://www.thelins.se/johan/blog/feed/
         define_name Johan Thelin
 
 feed 15m http://kwwii.blogspot.com/atom.xml
