@@ -2551,7 +2551,8 @@ feed 15m https://btux1984.wordpress.com/
 feed 15m http://liveblue.wordpress.com/category/planetkde-araceletorres/feed/?mrss=off
         define_name Aracele Torres (araceletorres)
         define_face hackergotchi/araceletorres.jpg
-        define_facewidth 75 define_faceheight 80
+        define_facewidth 75 
+        define_faceheight 80
 
 feed 15m http://kders.wordpress.com/category/planetkde-wagner/feed/?mrss=off 
         define_name Wagner Reck (wiglot)
@@ -2562,12 +2563,14 @@ feed 15m http://kders.wordpress.com/category/planetkde-wagner/feed/?mrss=off
 feed 15m http://liveblue.wordpress.com/category/planetkde-alexraymond/feed/?mrss=off
         define_name Alex Raymond (alexraymond)
         define_face hackergotchi/alexraymond.jpg
-        define_facewidth 80 define_faceheight 80
+        define_facewidth 80 
+        define_faceheight 80
 
 feed 15m http://liveblue.wordpress.com/category/planetkde-luizromario/feed/?mrss=off
         define_name Luiz Romário (luizromario)
         define_face hackergotchi/luizromario.jpg
-        define_facewidth 80 define_faceheight 80
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m http://developer.pardus.org.tr/people/ozan/blog/?feed=rss2&tag=kde
         define_name Ozan Çağlayan (ozancaglayan)
@@ -2584,7 +2587,8 @@ feed 15m http://kders.wordpress.com/category/planetkde-camila/feed/?mrss=off
 feed 15m http://liveblue.wordpress.com/category/planetkde-filipesaraiva/feed/?mrss=off
         define_name Filipe Saraiva (filipesaraiva)
         define_face hackergotchi/filipesaraiva.jpg
-        define_facewidth 80 define_faceheight 80
+        define_facewidth 80 
+        define_faceheight 80
 
 feed 15m http://igortrindade.wordpress.com/category/KDE/feed/?mrss=off
         define_name Igor Trindade Oliveira
@@ -2592,4 +2596,11 @@ feed 15m http://igortrindade.wordpress.com/category/KDE/feed/?mrss=off
 feed 15m http://liveblue.wordpress.com/category/planetkde-vitochiarella/feed/?mrss=off
         define_name Vito Chiarella (vitochiarella)
         define_face hackergotchi/vitochiarella.jpg
-        define_facewidth 80 define_faceheight 80
+        define_facewidth 80 
+        define_faceheight 80
+
+feed 15m http://www.infinityperl.org/feed/tag/KDE/atom
+        define_name Arnaud Dupuis (Arno[Slack])
+        define_face hackergotchi/arnaud-dupuis.jpg
+        define_facewidth 80
+        define_faceheight 113
