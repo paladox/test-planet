@@ -2622,3 +2622,9 @@ feed 15m http://aorotos.wordpress.com/tag/kde-planet/feed/?mrss=off
         define_face hackergotchi/vhanda.png
         define_facewidth 80
         define_faceheight 80
+
+feed 15m http://ronnyml.wordpress.com/category/planet-kde/feed/?mrss=off
+        define_name Ronny Yabar (ronnyml)
+        define_face hackergotchi/ronnyml.png
+        define_facewidth 80
+        define_faceheight 80
