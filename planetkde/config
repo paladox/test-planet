@@ -2542,7 +2542,7 @@ feed 15m http://linuxgrandma.blogspot.com/feeds/posts/default
         define_facewidth 65
         define_faceheight 100
 
-feed 15m http://btux1984.wordpress.com/
+feed 15m http://btux1984.wordpress.com/feed/
         define_name Björn Ruberg (ruberg)
         define_face hackergotchi/ruberg.jpg
         define_facewidth 70
