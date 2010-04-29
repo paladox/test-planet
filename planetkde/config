@@ -2634,3 +2634,9 @@ feed 15m http://saidinesh5.wordpress.com/tag/kde-planet/feed/?mrss=off
         define_face hackergotchi/saidinesh5.png
         define_facewidth 79
         define_faceheight 72
+
+feed 15m http://www.shantanutushar.com/taxonomy/term/87/0/feed
+        define_name Shantanu Tushar (shantanu)
+        define_face hackergotchi/shantanu.png
+        define_facewidth 64
+        define_faceheight 80
