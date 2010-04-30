@@ -2512,6 +2512,9 @@ feed 15m http://www.digikam.org/drupal/blog/148/feed
 feed 15m http://www.digikam.org/?q=taxonomy/term/21/0/feed
         define_name Joern Ahrens (jokele)
 
+feed 15m http://www.digikam.org/drupal/blog/149/feed
+        define_name Martin Klapetek
+
 # End of digiKam team entries.
 ###############################################################
 
