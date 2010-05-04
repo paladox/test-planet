@@ -2680,3 +2680,6 @@ feed 15m http://blog.binarylooks.com/tag/kde/feed
         define_face hackergotchi/colinger.png
         define_facewidth 59
         define_faceheight 80
+
+feed 15m http://siddharthgsoc.blogspot.com/feeds/posts/default?alt=rss
+        define_name Siddharth Srivastava (akssps011)
