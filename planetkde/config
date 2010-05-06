@@ -2527,7 +2527,7 @@ feed 15m http://adityabhatt.wordpress.com/tag/kde-planet/feed/?mrss=off
         define_faceheight 104
 
 feed 15m http://www.digikam.org/drupal/blog/150/feed
-        define_name Gabriel Voicu
+        define_name Gabriel Voicu (gvoicu)
 
 # End of digiKam team entries.
 ###############################################################
