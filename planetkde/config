@@ -1788,7 +1788,7 @@ feed 15m http://shield008.blogspot.com/feeds/posts/default/-/KDE
 feed 15m http://cazou.blogspot.com/feeds/posts/default/-/kde
         define_name Detlev Casanova (Cazou)
 
-feed 15m http://borntobeopen.blogspot.com/feeds/posts/default/
+feed 15m http://borntobeopen.blogspot.com/feeds/posts/default/-/KDE
         define_name Jaroslav Řezník (jreznik)
         define_face hackergotchi/rezza.jpg
         define_facewidth 80
