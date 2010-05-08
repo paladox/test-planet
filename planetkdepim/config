@@ -376,3 +376,6 @@ feed 15m http://trueg.wordpress.com/feed/?mrss=off
 
 feed 15m http://steveire.wordpress.com/feed/?mrss=off
         define_name Stephen Kelly (steveire)
+
+feed 15m http://ronnyml.wordpress.com/category/planet-kde/feed/?mrss=off
+        define_name Ronny Yabar (ronnyml)
