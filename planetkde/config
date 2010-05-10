@@ -1267,9 +1267,6 @@ feed 15m http://randomguy3.wordpress.com/category/kde/feed/?mrss=off
 feed 15m http://www.layt.net/john/taxonomy/term/4/0/feed
         define_name John Layt
 
-feed 15m http://feeds2.feedburner.com/SourceGuru
-        define_name Martin Meredith
-
 feed 15m http://wire.dattitu.de/rss.php?category=1
         define_name Dirk Mueller
 
