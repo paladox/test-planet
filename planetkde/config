@@ -2535,9 +2535,9 @@ feed 15m http://www.digikam.org/drupal/blog/150/feed
 
 feed 15m http://feeds.feedburner.com/Kunalghosh
         define_name kunal ghosh (kunalghosh)
-#        define_face hackergotchi/gvoicu.png
-#        define_facewidth 65
-#        define_faceheight 80
+        define_face hackergotchi/kunalghosh.png
+        define_facewidth 62
+        define_faceheight 80
 
 # End of digiKam team entries.
 ###############################################################
