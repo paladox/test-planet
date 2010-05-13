@@ -1515,6 +1515,9 @@ feed 15m http://www.elpauer.org/?cat=6&feed=rss2
 
 feed 15m http://fmontesi.blogspot.com/feeds/posts/default
         define_name Fabrizio Montesi (fmontesi)
+	define_face hackergotchi/fmontesi.png
+	define_facewidth 64
+	define_faceheight 80
 
 feed 15m http://blog.uninstall.it/category/planetkde/feed/
         define_name Davide Bettio (WindowsUninstall)
