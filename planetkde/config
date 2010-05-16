@@ -1488,6 +1488,9 @@ feed 15m http://ssj-gz.blogspot.com/feeds/posts/default
 
 feed 15m http://nienhueser.de/blog/?cat=3&feed=rss2
         define_name Dennis Nienhüser (Earthwings)
+        define_face hackergotchi/nienhueser.png
+        define_facewidth 72
+        define_faceheight 89 
 
 feed 15m http://kopophex.blogspot.com/feeds/posts/default
         define_name Daniel Jones
