@@ -2708,3 +2708,6 @@ feed 15m http://lamarque-lvs.blogspot.com/feeds/posts/default/-/kde
         define_face hackergotchi/lamarque.png
         define_facewidth 74
         define_faceheight 80
+
+feed 15m http://acetonik.blogspot.com/feeds/posts/default/-/KDE
+        define_name Peter Schiffer (aceton)
