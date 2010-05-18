@@ -1626,6 +1626,9 @@ feed 15m http://kstars.wordpress.com/category/gnulinuxfoss/kde/planetkde-kde-gnu
         define_facewidth 80
         define_faceheight 80
 
+feed 15m http://karbonix.blogspot.com/feeds/posts/default/-/KDE
+	define_name Victor Carbune (carbonix)
+
 feed 15m http://tejasd.livejournal.com/data/rss?tag=kde
         define_name Tejas Dinkar (gja)
         define_face hackergotchi/dinkar.png
