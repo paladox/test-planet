@@ -818,7 +818,7 @@ feed 15m http://www.kdedevelopers.org/blog/280/feed
 feed 15m http://www.kdedevelopers.org/blog/952/feed
         define_name Martin Konold (Mortimer)
 
-feed 15m http://www.obso1337.org/feed
+feed 15m http://obso1337.org/feed/
         define_name Celeste Lyn Paul (seele)
         define_face hackergotchi/seele.png
         define_facewidth 61
@@ -1629,7 +1629,7 @@ feed 15m http://kstars.wordpress.com/category/gnulinuxfoss/kde/planetkde-kde-gnu
 feed 15m http://karbonix.blogspot.com/feeds/posts/default/-/KDE
 	define_name Victor Carbune (carbonix)
 
-feed 15m http://hdevalence.wordpress.com/category/KDE/feed/
+feed 15m http://hdevalence.wordpress.com/category/KDE/feed/?mrss=off
 	define_name Henry de Valence (hdevalence)
 
 feed 15m http://tejasd.livejournal.com/data/rss?tag=kde
@@ -2697,7 +2697,7 @@ feed 15m http://identi.ca/drdanz/rss
         define_name Daniele E. Domenichelli [identi.ca]
         define_microblog true
 
-feed 15m http://blog.binarylooks.com/tag/kde/feed
+feed 15m http://blog.binarylooks.com/tag/kde/feed/
         define_name Christophe Olinger (binarylooks)
         define_face hackergotchi/colinger.png
         define_facewidth 59
