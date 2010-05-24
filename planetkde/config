@@ -980,8 +980,9 @@ feed 15m http://www.ereslibre.es/?feed=rss2&cat=2
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://paulgiannaros.blogspot.com/atom.xml
-        define_name Paul Giannaros (Cerulean)
+#blog access now restricted
+#feed 15m http://paulgiannaros.blogspot.com/atom.xml
+#        define_name Paul Giannaros (Cerulean)
 
 feed 15m http://blog.jacobrideout.net/rss.xml
         define_name Jacob Rideout (rideout)
@@ -1319,9 +1320,9 @@ feed 15m http://twitter.com/statuses/user_timeline/15063949.rss
         define_name Lukas Appelhans [twitter]
         define_microblog true
 
-feed 15m http://twitter.com/statuses/user_timeline/19177581.rss
-        define_name Sujith H [twitter]
-        define_microblog true
+#feed 15m http://twitter.com/statuses/user_timeline/19177581.rss
+#        define_name Sujith H [twitter]
+#        define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/15390117.rss
         define_name Pradeepto [twitter]
@@ -1495,8 +1496,9 @@ feed 15m http://nienhueser.de/blog/?cat=3&feed=rss2
 feed 15m http://kopophex.blogspot.com/feeds/posts/default
         define_name Daniel Jones
 
-feed 15m http://www.peterzl.net/en/?feed=rss2
-        define_name Peter Zhou (peterzl)
+#domain dead
+#feed 15m http://www.peterzl.net/en/?feed=rss2
+#        define_name Peter Zhou (peterzl)
 
 feed 15m http://teom.wordpress.com/category/kde/feed/?mrss=off
         define_name Téo Mrnjavac (Teo`)
@@ -1726,9 +1728,10 @@ feed 15m http://identi.ca/drf/rss
         define_name Dario Freddi [identi.ca]
         define_microblog true
 
-feed 15m http://twitter.com/statuses/user_timeline/16671317.rss
-        define_name Thomas Zander [twitter]
-        define_microblog true
+#restricted access
+#feed 15m http://twitter.com/statuses/user_timeline/16671317.rss
+#        define_name Thomas Zander [twitter]
+#        define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8721352.rss
         define_name Nikolaj Hald Nielsen [twitter]
@@ -2519,8 +2522,8 @@ feed 15m http://www.digikam.org/drupal/blog/148/feed
         define_facewidth 48
         define_faceheight 80
 
-feed 15m http://www.digikam.org/?q=taxonomy/term/21/0/feed
-        define_name Joern Ahrens (jokele)
+#feed 15m http://www.digikam.org/?q=taxonomy/term/21/0/feed
+#        define_name Joern Ahrens (jokele)
 
 # digiKam GSoC 2010 contributors
 
