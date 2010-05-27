@@ -2530,7 +2530,7 @@ feed 15m http://www.digikam.org/drupal/blog/148/feed
 feed 15m http://www.digikam.org/drupal/blog/149/feed
         define_name Martin Klapetek (mklapetek)
         define_face hackergotchi/mklapetek.png
-        define_facewidth 78
+        define_facewidth 69
         define_faceheight 80
 
 feed 15m http://adityabhatt.wordpress.com/tag/kde-planet/feed/?mrss=off
