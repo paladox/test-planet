@@ -2551,6 +2551,12 @@ feed 15m http://feeds.feedburner.com/Kunalghosh
         define_facewidth 62
         define_faceheight 80
 
+feed 15m http://dev.exiv2.org/projects/activity?format=atom&show_news=1&user_id=53
+        define_name Andreas Huggel (ahuggel)
+        define_face hackergotchi/ahuggel.png
+        define_facewidth 65
+        define_faceheight 80
+
 # End of digiKam team entries.
 ###############################################################
 
