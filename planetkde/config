@@ -2736,3 +2736,9 @@ feed 15m http://www.usic.org.ua/~elfy/feed/public+kde
 	define_facewidth 	80
 	define_faceheight 	80
 
+feed 15m http://lizards.opensuse.org/author/rwooninck/feed/
+	define_name 		Raymond Wooninck (tittiatcoke)
+	define_face 		hackergotchi/tittiatcoke.jpg
+	define_facewidth 	80
+	define_faceheight 	80
+
