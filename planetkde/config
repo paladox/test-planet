@@ -1064,6 +1064,10 @@ feed 15m http://twitter.com/statuses/user_timeline/107838271.rss
 feed 15m http://commonideas.blogspot.com/feeds/posts/default/-/KDE
         define_name Bart Cerneels (Stecchino)
 
+feed 15m http://identi.ca/stecchino/rss
+	define_name Bart Cerneels (Stecchino) [identi.ca]
+	define_microblog true
+
 feed 15m http://wendyvancraen.blogspot.com/feeds/posts/default/-/KDE
         define_name Wendy Van Craen
 
