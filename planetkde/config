@@ -2142,7 +2142,7 @@ feed 15m http://aloogobi.nl/blog/feed/
 feed 15m http://mat69.wordpress.com/feed/?mrss=off
         define_name Matthias Fuchs (mat69)
 
-feed 15m http://arnorehn.de/cgi-bin/weblog_basic/index.php?feed=rss2
+feed 15m http://www.arnorehn.de/blog/feed/
         define_name Arno Rehn (pumphaus)
 
 feed 15m http://www.kdedevelopers.org/blog/7020/feed
