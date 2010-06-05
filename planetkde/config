@@ -2760,3 +2760,9 @@ feed 15m http://blog.volker-lanz.de/category/planetkde/feed/?mrss=off
 	
 feed 15m http://kdeatopensuse.wordpress.com/feed/?mrss=off
 	define_name 	        openSUSE KDE team (rabauke or wstephenson)
+	
+feed 15m http://ingomar.wesp.name/feeds/posts/default/-/planetkde
+        define_name Ingomar Wesp (iwesp)
+        define_face hackergotchi/iwesp.jpg
+        define_facewidth 80
+        define_faceheight 80
