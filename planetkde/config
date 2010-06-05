@@ -2734,7 +2734,7 @@ feed 15m http://pentalis.org/kritablog/?feed=rss2
 feed 15m http://tridactyla.org/tags/gsoc2010.xml
         define_name Michael Forney (tridactyla)
 
-feed 15m http://celarek.at/wp/category/kde/feed/
+feed 15m http://celarek.at/category/kde/feed/
         define_name Adam Celarek (adamce)
         define_face hackergotchi/adamc.jpg
         define_facewidth 80
