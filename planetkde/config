@@ -2766,3 +2766,6 @@ feed 15m http://ingomar.wesp.name/feeds/posts/default/-/planetkde
         define_face hackergotchi/iwesp.jpg
         define_facewidth 80
         define_faceheight 80
+
+feed 15m http://noughmad.wordpress.com/feed/
+        define_name Miha Čančula (Noughmad)
