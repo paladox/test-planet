@@ -1632,7 +1632,7 @@ feed 15m http://kstars.wordpress.com/category/gnulinuxfoss/kde/planetkde-kde-gnu
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://karbonix.blogspot.com/feeds/posts/default/-/KDE
+feed 15m http://karbonix.blogspot.com/feeds/posts/default/-/KDE?max-results=1
 	define_name Victor Carbune (carbonix)
 
 feed 15m http://hdevalence.wordpress.com/category/KDE/feed/?mrss=off
