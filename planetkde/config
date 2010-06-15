@@ -2758,10 +2758,9 @@ feed 15m http://blog.volker-lanz.de/category/planetkde/feed/?mrss=off
 	define_facewidth	80
 	define_faceheight	100
 
-#project blog, not currently allowed on planet
-#feed 15m http://kdeatopensuse.wordpress.com/feed/?mrss=off
-#	define_name 	        openSUSE KDE team (rabauke or wstephenson)
-	
+feed 15m http://kdeatopensuse.wordpress.com/category/kde/feed/?mrss=off
+	define_name Sven Burmeister (rabauke)
+
 feed 15m http://ingomar.wesp.name/feeds/posts/default/-/planetkde
         define_name Ingomar Wesp (iwesp)
         define_face hackergotchi/iwesp.jpg
