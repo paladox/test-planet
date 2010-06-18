@@ -2795,7 +2795,7 @@ feed 15m http://hugo-kde.blogspot.com/rss.xml
         define_faceheight 80
 
 
-#feed 15m http://path.to/my/feed.rss
+feed 15m http://hackerdood.wordpress.com/
         define_name Siddharth Sharma (h4xordood)
         define_face hackergotchi/siddharth.jpg
         define_facewidth 57
