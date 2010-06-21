@@ -2801,13 +2801,13 @@ feed 15m http://hugo-kde.blogspot.com/rss.xml
         define_faceheight 80
 
 
-feed 15m http://hackerdood.wordpress.com/feed/
+feed 15m http://hackerdood.wordpress.com/feed/?mrss=off
         define_name Siddharth Sharma (h4xordood)
         define_face hackergotchi/siddharth.jpg
         define_facewidth 57
         define_faceheight 73
 
-feed 15m http://techespanto.wordpress.com/category/kde/feed/
+feed 15m http://techespanto.wordpress.com/category/kde/feed/?mrss=off
         define_name Gaurav Gupta (gg)
         define_face hackergotchi/gaurav.jpg
         define_facewidth 80
