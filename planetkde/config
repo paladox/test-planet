@@ -1204,8 +1204,8 @@ feed 15m http://bertjan.broeksemaatjes.nl/blog/1/feed
         define_facewidth 55
         define_faceheight 85
 
-feed 15m http://mikearthur.co.uk/category/software-development/feed/
-        define_name Mike Arthur (mikearthur)
+feed 15m http://mikemcquaid.com/category/software-development/feed/
+        define_name Mike McQuaid (mikearthur)
         define_face http://www.gravatar.com/avatar/9bab8e092570baf4e05b376260b29ed2?s=80&d=identicon&r=G
         define_facewidth 80
         define_faceheight 80
@@ -1762,7 +1762,7 @@ feed 15m http://identi.ca/frederik/rss
         define_microblog true
 
 feed 15m http://twitter.com/statuses/user_timeline/8694172.rss
-        define_name Mike Arthur [twitter]
+        define_name Mike McQuaid [twitter]
         define_microblog true
 
 feed 15m http://www.eivanov.com/feeds/posts/default/-/planetkde
