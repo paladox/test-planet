@@ -272,7 +272,7 @@ background: none;
 .entry code {
     margin: 0;
     padding: 0;
-    white-space: nowrap;
+    white-space: inherit;
 }
 
 .twitter a {
