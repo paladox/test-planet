@@ -130,8 +130,9 @@ div.day h2 {
 }
 
 #toplinks {
+	position: absolute;
+	top: 115px;
 	padding: 0 0 0 20px;
-    margin: 56px 0 0 0;
 }
 
 #kdehome
