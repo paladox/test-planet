@@ -1841,6 +1841,10 @@ feed 15m http://www.sayakbanerjee.com/category/planet-kde/feed/atom/
         define_facewidth 80
         define_faceheight 80
 
+feed 15m http://twitter.com/statuses/user_timeline/18117243.rss
+        define_name Sayak Banerjee [twitter]
+        define_microblog true		
+		
 feed 15m http://lukast.mediablog.sk/log/?feed=rss2
         define_name Lukas Tvrdy (lukast)
 
@@ -2110,10 +2114,6 @@ feed 15m http://dimula73.blogspot.com/feeds/posts/default/-/KDE
 
 feed 15m http://zekecoma.blogspot.com/feeds/posts/default/-/kde
 	define_name Keith Rusler (comawhite)
-
-feed 15m http://identi.ca/sayakb/rss
-        define_name Sayak Banerjee [identi.ca]
-        define_microblog true
 
 feed 15m http://andreasdevblog.wordpress.com/feed/?mrss=off
 	define_name Andreas Marschke
