@@ -2827,3 +2827,6 @@ feed 15m http://hubnerd.wordpress.com/tag/planet-kde/feed/?mrss=off
 
 feed 15m http://neoclust.free.fr/blog/?feed=rss2
         define_name Nicolas Lécureuil (neoclust)
+
+feed 15m http://www.kdedevelopers.org/blog/7783/feed
+		define_name Marc Pegon (mpeg)
