@@ -7,6 +7,13 @@
     <description>Planet KDE - http://planetKDE.org/</description>
     <atom:link href="http://planetKDE.org/rss20.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <guid isPermaLink="false">tag:blogger.com,1999:blog-7523589.post-2839887520080666634</guid>
+      <title>Albert Astals Cid (TSDgeos): I like shiny images too</title>
+      <pubDate>Tue, 29 Jun 2010 00:51:30 +0000</pubDate>
+      <link>http://tsdgeos.blogspot.com/2010/06/i-like-shiny-images-too.html</link>
+      <description>&lt;img src="http://community.kde.org/images.community/2/22/Igta2010.png"&gt;&lt;br /&gt;Though unfortunately not all week :-/&lt;div class="blogger-post-footer"&gt;&lt;img width='1' height='1' src='https://blogger.googleusercontent.com/tracker/7523589-2839887520080666634?l=tsdgeos.blogspot.com' alt='' /&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
       <guid isPermaLink="false">tag:blogger.com,1999:blog-7523589.post-2896299423049423835</guid>
       <title>Albert Astals Cid (TSDgeos): Join the translation crew</title>
       <pubDate>Sun, 20 Jun 2010 14:48:32 +0000</pubDate>
@@ -173,13 +180,6 @@
       <pubDate>Fri, 01 Jan 2010 19:48:36 +0000</pubDate>
       <link>http://tsdgeos.blogspot.com/2010/01/my-top-10-blog-posts-of-2009.html</link>
       <description>Here the top 10 of blog entries visited in 2009 in my blog:&lt;br /&gt;10 - &lt;a href="http://tsdgeos.blogspot.com/2006/12/morocco-trip.html"&gt;Morocoo Trip&lt;/a&gt;&lt;br /&gt;9 - &lt;a href="http://tsdgeos.blogspot.com/2009/03/networkmanager-settings-not.html"&gt;NetworkManager settings not shared/specified?&lt;/a&gt;&lt;br /&gt;8 - &lt;a href="http://tsdgeos.blogspot.com/2007/02/pdftk-frontend-for-kde.html"&gt;pdftk frontend for KDE&lt;/a&gt;&lt;br /&gt;7 - &lt;a href="http://tsdgeos.blogspot.com/2009/02/how-to-get-konsole-42-to-behave.html"&gt;How to get Konsole 4.2 to behave?&lt;/a&gt;&lt;br /&gt;6 - &lt;a href="http://tsdgeos.blogspot.com/2009/12/consistency.html"&gt;Consistency&lt;/a&gt;&lt;br /&gt;5 - &lt;a href="http://tsdgeos.blogspot.com/2007/10/performance-of-radeon-free-drivers.html"&gt;Performance of radeon free drivers&lt;/a&gt;&lt;br /&gt;4 - &lt;a href="http://tsdgeos.blogspot.com/2009/06/okular-pdf-and-drm.html"&gt;Okular, PDF and file permissions&lt;/a&gt;&lt;br /&gt;3 - &lt;a href="http://tsdgeos.blogspot.com/2009/08/is-x11-engine-slower-than-raster-just.html"&gt;Is the X11 engine slower than raster just because of the drivers?&lt;/a&gt;&lt;br /&gt;2 - &lt;a href="http://tsdgeos.blogspot.com/2006/09/poppler-for-windows.html"&gt;Poppler for windows&lt;/a&gt;&lt;br /&gt;1 - &lt;a href="http://tsdgeos.blogspot.com/2007/01/keyboard-crazyness.html"&gt;keyboard crazyness&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;One can extract several interesting things from this list:&lt;br /&gt;- Last year i did not make interesting blogs, 5 out of 10 (including 1 and 2) are from either 2006 or 2007 (but not from 2008 :D)&lt;br /&gt;- People really want a pdftk frontend for KDE since my 2007 post of my no longer existant project is visited frequently&lt;br /&gt;- People want to use poppler in windows, strange that all those users almost never sent patches to the project, seems like windows culture is not so much about collaborating but about just using.&lt;br /&gt;- My Morocco trip summary is liked by google, it's linked in the first page of results usually&lt;br /&gt;- There are 5 blog entries that already where in the top 10 of last year&lt;div class="blogger-post-footer"&gt;&lt;img width='1' height='1' src='https://blogger.googleusercontent.com/tracker/7523589-3998145616495139793?l=tsdgeos.blogspot.com' alt='' /&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <guid isPermaLink="false">tag:blogger.com,1999:blog-7523589.post-2617769710973586655</guid>
-      <title>Albert Astals Cid (TSDgeos): Users and lusers</title>
-      <pubDate>Wed, 30 Dec 2009 00:01:27 +0000</pubDate>
-      <link>http://tsdgeos.blogspot.com/2009/12/users-and-lusers.html</link>
-      <description>I'm starting to get fed up of lusers that think they have the right to insult developers, use bad wording and in general being totally non respecting for the work other human being is going for them for free. &lt;br /&gt;&lt;br /&gt;This kind of weird individual also thinks that by using bad manners its problems will be fixed more promptly, sorry but no, this is not a bar fight and being the rudest won't get you anything else than ignorance even if your bug is genuine.&lt;br /&gt;&lt;br /&gt;I will not point to any of their posts, there have been too many lately, it's easy to recognize them and they know who they are. &lt;br /&gt;&lt;br /&gt;At the contrary I will link to &lt;a href="http://mail.kde.org/pipermail/okular-devel/2009-December/005921.html"&gt;a mail by Jochen Trumpf&lt;/a&gt; so you can all learn how people is supposed to comment and contribute, in a clear, precise and constructive way, and as Thiago always says "If you got a patch it's much better", but if you have not it's ok too. To all lusers out there, please learn from Jochen.&lt;div class="blogger-post-footer"&gt;&lt;img width='1' height='1' src='https://blogger.googleusercontent.com/tracker/7523589-2617769710973586655?l=tsdgeos.blogspot.com' alt='' /&gt;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>
