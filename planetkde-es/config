@@ -330,3 +330,7 @@ changeconfig true
 
 feed 15m http://abenitobethencourt.blogspot.com/feeds/posts/default?alt=rss
         define_name Agustín Benito Bethencourt
+
+feed 15m http://aucahuasi.blogspot.com/feeds/posts/default
+        define_name Percy Camilo Triveño Aucahuasi
+
