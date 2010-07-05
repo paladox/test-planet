@@ -337,3 +337,6 @@ feed 15m http://aucahuasi.blogspot.com/feeds/posts/default
 feed 15m http://www.kdeblog.com/feed
         define_name KDE Blog (Baltasar Ortega)
 
+feed 15m http://kdehispano.es/?q=rss.xml
+        define_name KDE Hispano
+
