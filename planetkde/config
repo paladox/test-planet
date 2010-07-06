@@ -2825,3 +2825,9 @@ feed 15m http://neoclust.free.fr/blog/?feed=rss2
 
 feed 15m http://www.kdedevelopers.org/blog/7783/feed
 		define_name Marc Pegon (mpeg)
+
+feed 15m http://blog.ben2367.fr/tag/morice-net/feed/?mrss=off
+        define_name Jean-Nicolas Artaud (morice-net)
+        define_face hackergotchi/artaud.png
+        define_facewidth 54
+        define_faceheight 80
