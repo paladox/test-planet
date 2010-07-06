@@ -78,10 +78,10 @@
 	<div id="header">
 	    <!-- <h1>The lives of the people behind KDE</h1> -->
 		<a href="http://kde.org" id="kdehome" title="Kde Homepage"></a>
-		<a href="http://es.planetkde.org" id="planetheader"><div width="185" height="45"></div><!--<img src="http://planetkde.org/images/planet-header-text.png" alt="Planet KDE" width="185" height="45" />--></a>
+		<a href="http://planetkde.org/es" id="planetheader"><div width="185" height="45"></div><!--<img src="http://planetkde.org/images/planet-header-text.png" alt="Planet KDE" width="185" height="45" />--></a>
 		
 		<div id="toplinks">
-			<a href="http://es.planetkde.org/rss20.xml">Planet RSS<img src="http://planetkde.org/images/akregator.png" alt="" width="22" height="22" /></a> 
+			<a href="http://planetkde.org/es/rss20.xml">Planet RSS<img src="http://planetkde.org/images/akregator.png" alt="" width="22" height="22" /></a> 
 			<a href="javascript:toggle();">People aggregated<img src="http://planetkde.org/images/user-identity.png" alt="" width="22" height="22" /></a> 
 			<a href="javascript:toggleaddme();">Add your blog<img src="http://planetkde.org/images/addrss.png" alt="" width="22" height="22" /></a> 
 			<a href="http://dot.kde.org/">KDE Dot News<img src="http://planetkde.org/images/dot-news.png" alt="" width="22" height="22" /></a> 
