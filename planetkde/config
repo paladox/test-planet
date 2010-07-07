@@ -2850,7 +2850,7 @@ feed 45m http://blog.ben2367.fr/tag/morice-net/feed/?mrss=off
 
 feed 45m http://www.theirishpenguin.com/category/kde/feed/
         define_name Declan McGrath (declanmg)
-        define_face hackergotchi/declan.png
+        define_face hackergotchi/declan.jpg
         define_facewidth 85
         define_faceheight 85
 
