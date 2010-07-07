@@ -2195,8 +2195,9 @@ feed 45m http://momeny.wordpress.com/category/planetkde/feed/?mrss=off
 feed 45m http://blogs.fsfe.org/mario/?feed=rss2&tag=kde
 	define_name Mario Fux (unormal)
 
-feed 45m http://mattr.info:8080/blog/archives/category/kde/feed/
-	define_name Matt Rogers (mattr)
+# 403
+#feed 45m http://mattr.info:8080/blog/archives/category/kde/feed/
+#	define_name Matt Rogers (mattr)
 
 feed 45m http://blog.rburchell.com/feeds/posts/default/-/kde?alt=rss
 	define_name Robin Burchell (w00t)
