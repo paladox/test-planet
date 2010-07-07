@@ -1228,6 +1228,13 @@ feed 15m http://identi.ca/jpwhiting/rss
         define_name Jeremy Whiting [identi.ca]
         define_microblog true
 
+feed 15m http://simon-listens.blogspot.com/rss.xml
+        define_name Peter Grasch
+        
+feed 15m http://identi.ca/bedahr/rss
+        define_name Peter Grasch [identi.ca]
+        define_microblog true
+
 feed 15m http://movingparts.net/feed/
         define_name Jason Kasper (vanRijn)
 
@@ -1335,7 +1342,7 @@ feed 15m http://twitter.com/statuses/user_timeline/15390117.rss
 feed 15m http://yarpen.cz/rants/?feed=rss2
         define_name Petr Vanek
 
-feed 15m http://francis.giannaros.org/blog//category/kde/feed/
+feed 15m http://francis.giannaros.org/blog/category/kde/feed/
         define_name Francis Giannaros (apokryphos)
         define_face hackergotchi/apokryphos.png
         define_facewidth 64
@@ -2832,7 +2839,7 @@ feed 15m http://blog.ben2367.fr/tag/morice-net/feed/?mrss=off
         define_facewidth 54
         define_faceheight 80
 
-feed 15m http://www.theirishpenguin.com/category/kde/feed
+feed 15m http://www.theirishpenguin.com/category/kde/feed/
         define_name Declan McGrath (declanmg)
         define_face hackergotchi/declan.png
         define_facewidth 85
