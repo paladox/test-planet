@@ -2854,3 +2854,5 @@ feed 45m http://www.theirishpenguin.com/category/kde/feed/
         define_facewidth 85
         define_faceheight 85
 
+feed 45m http://dazjorz.com/blog/?cat=3&feed=rss2
+        define_name Sjors Gielen (Sjors/sgielen)
