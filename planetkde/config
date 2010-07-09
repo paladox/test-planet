@@ -747,10 +747,6 @@ feed 45m http://vizZzion.org/blog/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 45m http://identi.ca/sebas/rss
-        define_name Sebastian K&uuml;gler [identi.ca]
-        define_microblog true
-
 feed 45m http://amarok.kde.org/blog/feeds/categories/9-leinir.rss
         define_name Dan Jensen (leinir)
 
@@ -1696,7 +1692,7 @@ feed 45m http://twitter.com/statuses/user_timeline/6328522.rss
         define_microblog true
 
 feed 45m http://twitter.com/statuses/user_timeline/7668782.rss
-        define_name Sebastian Kuegler [twitter]
+        define_name Sebastian Kügler [twitter]
         define_microblog true
 
 feed 45m http://twitter.com/statuses/user_timeline/8721292.rss
