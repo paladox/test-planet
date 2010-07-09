@@ -674,7 +674,7 @@ feed 45m http://identi.ca/frankosterfeld/rss
 feed 45m http://www.kdedevelopers.org/blog/1089/feed
         define_name Rob Buis (rwlbuis)
 
-feed 45m http://www.kdedevelopers.org/blog/39/feed
+feed 45m http://kate-editor.org/author/cullmann/feed/?tag=planet
         define_name Christoph Cullmann (cullmann)
 
 feed 45m http://www.kdedevelopers.org/blog/16/feed
