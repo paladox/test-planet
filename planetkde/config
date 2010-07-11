@@ -649,9 +649,6 @@ feed 45m http://www.kdedevelopers.org/blog/175/feed
         define_facewidth 77
         define_faceheight 85
 
-feed 45m http://phantomsdad.blogspot.com/atom.xml
-        define_name Gary Cramblitt (PhantomsDad)
-
 feed 45m http://www.omat.nl/category/english/feed/
         define_name Tom Albers
 
