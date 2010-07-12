@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="es.css" type="text/css" title="Fixed Width" />
     <link rel="alternate stylesheet" href="http://planetkde.org/rawdog-variable.css" type="text/css" title="Variable Width" />
     <title>Planet KDE Español</title>
-    <link rel="alternate" type="application/rss+xml" title="Planet KDE Español" href="http://es.planetKDE.org/rss20.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Planet KDE Español" href="http://planetkde.org/es/rss20.xml" />
 
 	<!--[if IE 6]>
 	<style type="text/css">
