@@ -2860,4 +2860,8 @@ feed 45m http://bergie.iki.fi/blog/feeds/category/kde/
         define_facewidth 101
         define_faceheight 103
 
-
+feed 45m http://www.kdedevelopers.org/blog/7855/feed
+	define_name Adam Rakowski (foo-script/efes)
+	define_face hackergotchi/adamrakowski.png
+	define_facewidth 79
+	define_faceheight 79
