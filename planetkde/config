@@ -2869,5 +2869,11 @@ feed 45m http://www.kdedevelopers.org/blog/7855/feed
 feed 45m http://en.munknex.net/feeds/posts/default/-/KDE
         define_name Cyril Oblikov (munknex)
 
-feed 15m http://blog.eyecreate.org/?action=tag&name=kde&feed&title=Posts+tagged+with+%26%238220%3Bkde%26%238221%3B
+feed 45m http://blog.eyecreate.org/?action=tag&name=kde&feed&title=Posts+tagged+with+%26%238220%3Bkde%26%238221%3B
 	define_name Kevin Whitaker (eyecreate)
+
+feed 45m http://marcmutz.wordpress.com/tag/planetkde/feed/?mrss=off
+        define_name Marc Mutz
+        define_face hackergotchi/effqt-bird.png
+        define_facewidth 80
+        define_faceheight 80
