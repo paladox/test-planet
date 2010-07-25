@@ -2416,7 +2416,7 @@ feed 45m http://johnflux.blogspot.com/atom.xml
         define_facewidth 63
         define_faceheight 80
 
-feed 45m http://gsteinert.is-a-geek.net/blog/index.php?/feeds/index.rss2
+feed 45m http://gsteinert.co.uk/index.php?/feeds/index.rss2
         define_name Gary Steinert (gsteinert)
         define_face hackergotchi/gsteinert.png
         define_facewidth 54
