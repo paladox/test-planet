@@ -1320,7 +1320,10 @@ feed 45m http://zecke.blogspot.com/feeds/posts/full/-/KDE
         define_name Holger Freyther (zecke)
 
 feed 45m http://fboudra.free.fr/wordpress/wp-rss2.php?cat=6
-        define_name Fathi Boudra
+        define_name Fathi Boudra (fabo)
+        define_face hackergotchi/fabo.png
+        define_facewidth 60
+        define_faceheight 80
 
 feed 45m http://pusling.com/blog/?feed=rss2&cat=4
         define_name Sune Vuorela (pusling)
