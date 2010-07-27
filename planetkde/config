@@ -1153,7 +1153,7 @@ feed 45m http://gustavoboiko.org/blog/category/kde/feed/
 feed 45m http://amarok.kde.org/blog/feeds/categories/20-lfranchi.rss
         define_name Leo Franchi (lfranchi)
 
-feed 45m http://ga.maral.me/rss.xml?tag=kde
+feed 45m http://feeds.feedburner.com/gamaral-kde
         define_name Guillermo Amaral (gamaral)
         define_face hackergotchi/gamaral.png
         define_facewidth 64
