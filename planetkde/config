@@ -835,7 +835,10 @@ feed 45m http://ingwa2.blogspot.com/atom.xml
         define_name Inge Wallin (ingwa)
 
 feed 45m http://www.kdedevelopers.org/blog/1397/feed
-        define_name Jesper Pedersen (blackie)
+        define_name Jesper K. Pedersen (blackie)
+        define_face hackergotchi/blackie.png
+        define_facewidth 80
+        define_faceheight 53
 
 feed 45m http://www.kdedevelopers.org/blog/551/feed
         define_name Torsten Rahn (tackat)
