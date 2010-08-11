@@ -343,3 +343,6 @@ feed 15m http://kdehispano.es/?q=rss.xml
 feed 15m http://midi-clorianos.blogspot.com/feeds/posts/default/-/KDE-ES
 	define_name Pedro López-Cabanillas
 
+feed 15m http://arklad.wordpress.com/category/informatica/software-libre/kde/feed/
+	define_name Cristina Yenyxe González García
+
