@@ -1012,7 +1012,7 @@ feed 45m http://www.nielsvm.org/?feed=rss2
         define_facewidth 80
         define_faceheight 80
 
-feed 45m http://ivan.fomentgroup.org/blog/tag/planetKDE/feed/rss/
+feed 45m http://ivan.fomentgroup.org/blog/tag/planetKDE/feed/atom/
         define_name Ivan Čukić (ivan)
         define_face hackergotchi/ivan.png
         define_facewidth 80
