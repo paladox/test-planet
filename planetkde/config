@@ -213,6 +213,7 @@ outputfile ../website/index.html
 outputxml ../website/rss20.xml
 outputfoaf ../website/foafroll.xml
 outputopml ../website/opml.xml
+xmlmaxarticles 100
 
 # Whether to use a <meta http-equiv="Refresh" ...> tag in the generated
 # HTML to indicate that the page should be refreshed automatically. If
