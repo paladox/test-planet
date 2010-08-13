@@ -1493,7 +1493,8 @@ __description__
 		plugins.call_hook("output_items_end", self, config, f)
 
 		if oldpage != config["oldpages"]:
-			filename = config["outputfile"].split(".html")
+			filename = config["outputfile"].split("/")[-1:][0] # get the filename only
+			filename = filename.split(".html")
 			outputfile = filename[0] + str(oldpage+1) + ".html"
 			f.write('<p style="text-align: right; margin-right: 2ex;"><a href="'+outputfile+'">Older blog entries</a></p>')
 
