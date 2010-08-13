@@ -202,11 +202,11 @@ itemtemplate itemplate
 # to a file in your ~/.rawdog directory.)
 #outputfile output.html
 outputfile ../pim-website/index.html
-outputfileold ../pim-website/old.html
 
-define outputxml ../pim-website/rss20.xml
-define outputfoaf ../pim-website/foafroll.xml
-define outputopml ../pim-website/opml.xml
+outputxml ../pim-website/rss20.xml
+outputfoaf ../pim-website/foafroll.xml
+outputopml ../pim-website/opml.xml
+xmlmaxarticles 30
 
 # Whether to use a <meta http-equiv="Refresh" ...> tag in the generated
 # HTML to indicate that the page should be refreshed automatically. If
