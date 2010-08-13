@@ -1,0 +1,14 @@
+--- rawdoglib/rawdog.py~	2010-07-21 17:04:33.009987002 +0100
++++ rawdoglib/rawdog.py	2010-08-12 21:41:24.091654002 +0100
+@@ -1389,6 +1389,11 @@
+ 			itemtemplate = load_file("microblogitemtemplate")
+ 		else:
+ 			itemtemplate = self.get_itemtemplate(config)
++
++                munge_keys = ['name']
++                for k in munge_keys:
++                       itembits[k]=string_to_html(itembits[k], config)
++
+ 		f.write(fill_template(itemtemplate, itembits))
+ 
+ 	def write_remove_dups(self, articles, config, now):

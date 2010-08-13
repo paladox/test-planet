@@ -1,0 +1,14 @@
+--- orig/rawdog-2.12/rawdoglib/rawdog.py	2010-07-21 16:44:03.679987002 +0100
++++ rawdog-2.12/rawdoglib/rawdog.py	2010-07-21 16:39:31.479987001 +0100
+@@ -1577,8 +1577,9 @@
+ 		for (date, feed, seq, hash) in article_list:
+ 			a = found.get(hash)
+ 			if a is not None:
+-				articles.append(a)
+-				article_dates[a] = -date
++				if a.date is not None: #Added jriddell 2008-09-15, we don't want to show articles with no date
++					articles.append(a)
++					article_dates[a] = -date
+ 
+ 		twitterArticles = []
+ 		normalArticles = []

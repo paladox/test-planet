@@ -1,0 +1,23 @@
+--- ../orig/rawdog-2.12/README	2008-02-23 22:42:33.000000000 +0000
++++ README	2010-07-22 09:15:30.206327001 +0100
+@@ -1,3 +1,20 @@
++Planet KDE uses rawdog
++
++To add your blog edit planetkde/config and add your photo head to website/hackergotchi/myname.png
++
++To run locally edit planetkde/config and set outputfile and outputxml to the right directory.
++
++Run it with 
++
++ ./rawdog -d planetkde --update
++ ./rawdog -d planetkde --write
++
++will write to website/index.html and website/rss20.xml
++
++Jonathan Riddell, 10-2008
++
++---
++
+ rawdog: RSS Aggregator Without Delusions Of Grandeur
+ Adam Sampson <ats@offog.org>
+ 

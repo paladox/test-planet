@@ -1,5 +1,5 @@
 # rawdog: RSS aggregator without delusions of grandeur.
-# Copyright 2003, 2004, 2005, 2006 Adam Sampson <ats@offog.org>
+# Copyright 2003, 2004, 2005, 2006, 2007, 2008, 2009 Adam Sampson <ats@offog.org>
 #
 # rawdog is free software; you can redistribute and/or modify it
 # under the terms of that license as published by the Free Software
@@ -16,11 +16,11 @@
 # Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 # MA 02110-1301, USA, or see http://www.gnu.org/.
 
-VERSION = "2.10"
+VERSION = "2.12"
 STATE_VERSION = 2
-import feedparser, feedfinder, plugins
+import feedparser, plugins
 from persister import Persistable, Persister
-import os, time, sha, getopt, sys, re, cgi, socket, urllib2, calendar
+import os, time, getopt, sys, re, cgi, socket, urllib2, calendar
 import string, locale
 from StringIO import StringIO
 import types
@@ -31,6 +31,24 @@ try:
 except:
 	have_threading = 0
 
+try:
+	import hashlib
+except:
+	hashlib = None
+	import sha
+
+try:
+	import feedfinder
+except:
+	feedfinder = None
+
+def new_sha1(s = ""):
+	"""Return a new SHA1 hash object."""
+	if hashlib is None:
+		return sha.new(s)
+	else:
+		return hashlib.sha1(s)
+
 def set_socket_timeout(n):
 	"""Set the system socket timeout."""
 	if hasattr(socket, "setdefaulttimeout"):
@@ -40,26 +58,31 @@ def set_socket_timeout(n):
 		import timeoutsocket
 		timeoutsocket.setDefaultSocketTimeout(n)
 
+system_encoding = None
+def get_system_encoding():
+	"""Get the system encoding."""
+	return system_encoding
+
+def safe_ftime(format, t):
+	"""Format a time value into a string in the current locale (as
+	time.strftime), but encode the result as ASCII HTML."""
+	u = unicode(time.strftime(format, t), get_system_encoding())
+	return encode_references(u)
+
 def format_time(secs, config):
 	"""Format a time and date nicely."""
 	t = time.localtime(secs)
 	format = config["datetimeformat"]
 	if format is None:
 		format = config["timeformat"] + ", " + config["dayformat"]
-	return time.strftime(format, t)
+	return safe_ftime(format, t)
 
+high_char_re = re.compile(r'[^\000-\177]')
 def encode_references(s):
 	"""Encode characters in a Unicode string using HTML references."""
-	r = StringIO()
-	for c in s:
-		n = ord(c)
-		if n >= 128:
-			r.write("&#" + str(n) + ";")
-		else:
-			r.write(c)
-	v = r.getvalue()
-	r.close()
-	return v
+	def encode(m):
+		return "&#" + str(ord(m.group(0))) + ";"
+	return high_char_re.sub(encode, s)
 
 # This list of block-level elements came from the HTML 4.01 specification.
 block_level_re = re.compile(r'^\s*<(p|h1|h2|h3|h4|h5|h6|ul|ol|pre|dl|div|noscript|blockquote|form|hr|table|fieldset|address)[^a-z]', re.I)
@@ -72,12 +95,13 @@ def sanitise_html(html, baseurl, inline, config):
 		return None
 
 	html = encode_references(html)
+	type = "text/html"
 
 	# sgmllib handles "<br/>/" as a SHORTTAG; this workaround from
 	# feedparser.
 	html = re.sub(r'(\S)/>', r'\1 />', html)
-	html = feedparser._resolveRelativeURIs(html, baseurl, "UTF-8")
-	p = feedparser._HTMLSanitizer("UTF-8")
+	html = feedparser._resolveRelativeURIs(html, baseurl, "UTF-8", type)
+	p = feedparser._HTMLSanitizer("UTF-8", type)
 	p.feed(html)
 	html = p.output()
 
@@ -164,11 +188,11 @@ def author_to_html(entry, feedurl, config):
 	if author_detail is not None:
 		if author_detail.has_key("url"):
 			url = author_detail["url"]
-		elif author_detail.has_key("email"):
+		elif author_detail.has_key("email") and author_detail["email"] is not None:
 			url = "mailto:" + author_detail["email"]
-		if author_detail.has_key("email"):
+		if author_detail.has_key("email") and author_detail["email"] is not None:
 			fallback = author_detail["email"]
-		elif author_detail.has_key("url"):
+		elif author_detail.has_key("url") and author_detail["url"] is not None:
 			fallback = author_detail["url"]
 
 	if name == "":
@@ -197,13 +221,7 @@ def fill_template(template, bits):
 	if result.value is not None:
 		return result.value
 
-	try:
-		# This doesn't exist on Python 2.2.
-		encoding = locale.getpreferredencoding()
-	except:
-		encoding = None
-	if encoding is None:
-		encoding = "UTF-8"
+	encoding = get_system_encoding()
 
 	f = StringIO()
 	if_stack = []
@@ -224,12 +242,14 @@ def fill_template(template, bits):
 					if_stack.append(not if_stack.pop())
 			elif bits.has_key(key):
 				if type(bits[key]) == types.UnicodeType:
-					write(bits[key].encode("UTF-8"))
+					write(bits[key].encode(encoding))
 				else:
 					write(bits[key])
 		else:
 			write(part)
-	return f.getvalue()
+	v = f.getvalue()
+	f.close()
+	return v
 
 file_cache = {}
 def load_file(name):
@@ -253,7 +273,7 @@ def write_ascii(f, s, config):
 
 def short_hash(s):
 	"""Return a human-manipulatable 'short hash' of a string."""
-	return sha.new(s).hexdigest()[-8:]
+	return new_sha1(s).hexdigest()[-8:]
 
 def decode_structure(struct, encoding):
 	"""Walk through a structure returned by feedparser, decoding any
@@ -296,6 +316,9 @@ class Feed:
 		else:
 			return 1
 
+	def get_state_filename(self):
+		return "feeds/%s.state" % (short_hash(self.url),)
+
 	def fetch(self, rawdog, config):
 		"""Fetch the current set of articles from the feed."""
 
@@ -333,7 +356,7 @@ class Feed:
 		except:
 			return None
 
-	def update(self, rawdog, now, config, p):
+	def update(self, rawdog, now, config, articles, p):
 		"""Add new articles from a feed to the collection.
 		Returns True if any articles were read, False otherwise."""
 
@@ -361,7 +384,7 @@ class Feed:
 			error = "New URL:     " + p["url"] + "\n"
 			error += "The feed has moved permanently to a new URL.\n"
 			if config["changeconfig"]:
-				rawdog.change_feed_url(self.url, p["url"])
+				rawdog.change_feed_url(self.url, p["url"], config)
 				error += "The config file has been updated automatically."
 			else:
 				error += "You should update its entry in your config file."
@@ -388,27 +411,34 @@ class Feed:
 
 		decode_structure(p, p.get("encoding") or "UTF-8")
 
-		self.etag = p.get("etag")
-		self.modified = p.get("modified")
-
 		# In the event that the feed hasn't changed, then both channel
 		# and feed will be empty. In this case we return 0 so that
 		# we know not to expire articles that came from this feed.
 		if len(p["entries"]) == 0:
 			return False
 
+		self.etag = p.get("etag")
+		self.modified = p.get("modified")
+
 		self.feed_info = p["feed"]
 		feed = self.url
-		articles = rawdog.articles
+
+		article_ids = {}
+		if config["useids"]:
+			# Find IDs for existing articles.
+			for (hash, a) in articles.items():
+				id = a.entry_info.get("id")
+				if a.feed == feed and id is not None:
+					article_ids[id] = a
 
 		seen = {}
 		sequence = 0
 		for entry_info in p["entries"]:
 			article = Article(feed, entry_info, now, sequence)
-                        for feedconfig in config["feedslist"]:
-                            if feedconfig[0] == feed:
-                                if feedconfig[2].has_key("define_microblog") and feedconfig[2]["define_microblog"] == "true":
-                                    article.twitter = True
+			for feedconfig in config["feedslist"]:
+				if feedconfig[0] == feed:
+					if feedconfig[2].has_key("define_microblog") and feedconfig[2]["define_microblog"] == "true":
+						article.twitter = True
 			ignore = plugins.Box(False)
 			plugins.call_hook("article_seen", rawdog, config, article, ignore)
 			if ignore.value:
@@ -416,9 +446,17 @@ class Feed:
 			seen[article.hash] = True
 			sequence += 1
 
-			if articles.has_key(article.hash):
-				articles[article.hash].update_from(article, now)
-				plugins.call_hook("article_updated", rawdog, config, article, now)
+			id = entry_info.get("id")
+			if id in article_ids:
+				existing_article = article_ids[id]
+			elif article.hash in articles:
+				existing_article = articles[article.hash]
+			else:
+				existing_article = None
+
+			if existing_article is not None:
+				existing_article.update_from(article, now)
+				plugins.call_hook("article_updated", rawdog, config, existing_article, now)
 			else:
 				articles[article.hash] = article
 				plugins.call_hook("article_added", rawdog, config, article, now)
@@ -430,7 +468,7 @@ class Feed:
 
 		return True
 
-	def get_html_name(self, config):		
+	def get_html_name(self, config):
 		if self.feed_info.has_key("title_detail"):
 			r = detail_to_html(self.feed_info["title_detail"], True, config)
 		elif self.feed_info.has_key("link"):
@@ -441,28 +479,12 @@ class Feed:
 			r = ""
 		return r
 
-        def get_blog_owner_name(self, config):
-            if self.args.has_key("define_name"):
-                r = string_to_html(self.args["define_name"], config)
-            if r is None:
-		r = ""
-	    return r
-
 	def get_html_link(self, config):
 		s = self.get_html_name(config)
-
-                for feed in config["feedslist"]:
-                    if feed[0] == self.url:
-                        name = unicode(feed[2]["define_name"], 'utf-8')
-                        break
-
-                if name is None:
-                    name = ""
-
-                if self.feed_info.has_key("link"):
-			return '<a href="' + string_to_html(self.feed_info["link"], config) + '">' + name + '</a>'
+		if self.feed_info.has_key("link"):
+			return '<a href="' + string_to_html(self.feed_info["link"], config) + '">' + s + '</a>'
 		else:
-			return name
+			return s
 
 	def get_id(self, config):
 		if self.args.has_key("id"):
@@ -484,27 +506,28 @@ class Article:
 		self.feed = feed
 		self.entry_info = entry_info
 		self.sequence = sequence
-                self.twitter = False
+		self.twitter = False
 
 		modified = entry_info.get("modified_parsed")
 		self.date = None
 		if modified is not None:
 			try:
 				self.date = calendar.timegm(modified)
-				self.dateFromFeed = True
 			except OverflowError:
 				pass
-		else:
-			self.date = now #added jriddell 2008-09, else it doesn't show blogs with no dates in the RSS
-			self.dateFromFeed = False
 
-		self.hash = self.compute_hash()
+		self.hash = self.compute_initial_hash()
 
 		self.last_seen = now
 		self.added = now
 
-	def compute_hash(self):
-		h = sha.new()
+	def compute_initial_hash(self):
+		"""Compute an initial unique hash for an article.
+		The generated hash must be unique amongst all articles in the
+		system (i.e. it can't just be the article ID, because that
+		would collide if more than one feed included the same
+		article)."""
+		h = new_sha1()
 		def add_hash(s):
 			h.update(s.encode("UTF-8"))
 
@@ -524,16 +547,20 @@ class Article:
 
 	def update_from(self, new_article, now):
 		"""Update this article's contents from a newer article that's
-		been identified to be the same (i.e. has hashed the same, but
-		might have other changes that aren't part of the hash)."""
+		been identified to be the same."""
 		self.entry_info = new_article.entry_info
 		self.sequence = new_article.sequence
-		if new_article.dateFromFeed: #jriddell, stop it updating for feeds without dates
-		    self.date = new_article.date
+		self.date = new_article.date
 		self.last_seen = now
 
 	def can_expire(self, now, config):
 		return ((now - self.last_seen) > config["expireage"])
+
+	def get_sort_date(self, config):
+		if config["sortbyfeeddate"]:
+			return self.date or self.added
+		else:
+			return self.added
 
 class DayWriter:
 	"""Utility class for writing day sections into a series of articles."""
@@ -546,13 +573,13 @@ class DayWriter:
 
 	def start_day(self, tm):
 		print >>self.file, '<div class="day">'
-		day = time.strftime(self.config["dayformat"], tm)
+		day = safe_ftime(self.config["dayformat"], tm)
 		print >>self.file, '<h2>' + day + '</h2>'
 		self.counter += 1
 
 	def start_time(self, tm):
 		print >>self.file, '<div class="time">'
-		clock = time.strftime(self.config["timeformat"], tm)
+		clock = safe_ftime(self.config["timeformat"], tm)
 		print >>self.file, '<h3>' + clock + '</h3>'
 		self.counter += 1
 
@@ -603,16 +630,16 @@ def parse_list(value):
 def parse_feed_args(argparams, arglines):
 	"""Parse a list of feed arguments. Raise ConfigError if the syntax is invalid."""
 	args = {}
-	for a in argparams:
-		asplit = a.split("=", 1)
-		if len(asplit) != 2:
-			raise ConfigError("Bad feed argument in config: " + a)
-		args[asplit[0]] = asplit[1]
-	for a in arglines:
-		asplit = a.split(None, 1)
-		if len(asplit) != 2:
-			raise ConfigError("Bad argument line in config: " + a)
-		args[asplit[0]] = asplit[1]
+	for p in argparams:
+		ps = p.split("=", 1)
+		if len(ps) != 2:
+			raise ConfigError("Bad feed argument in config: " + p)
+		args[ps[0]] = ps[1]
+	for p in arglines:
+		ps = p.split(None, 1)
+		if len(ps) != 2:
+			raise ConfigError("Bad argument line in config: " + p)
+		args[ps[0]] = ps[1]
 	if "maxage" in args:
 		args["maxage"] = parse_time(args["maxage"])
 	return args
@@ -622,7 +649,8 @@ class ConfigError(Exception): pass
 class Config:
 	"""The aggregator's configuration."""
 
-	def __init__(self):
+	def __init__(self, locking):
+		self.locking = locking
 		self.files_loaded = []
 		if have_threading:
 			self.loglock = threading.Lock()
@@ -634,7 +662,7 @@ class Config:
 			"feeddefaults" : {},
 			"defines" : {},
 			"outputfile" : "output.html",
-			"outputfileold" : "old.html",
+			"oldpages" : 5,
 			"maxarticles" : 200,
 			"maxage" : 0,
 			"expireage" : 24 * 60 * 60,
@@ -659,6 +687,8 @@ class Config:
 			"newfeedperiod" : "3h",
 			"changeconfig": 0,
 			"numthreads": 0,
+			"splitstate": 0,
+			"useids": 0,
 			}
 
 	def __getitem__(self, key): return self.config[key]
@@ -727,8 +757,8 @@ class Config:
 				plugins.load_plugins(dir, self)
 		elif l[0] == "outputfile":
 			self["outputfile"] = l[1]
-		elif l[0] == "outputfileold":
-			self["outputfileold"] = l[1]
+		elif l[0] == "oldpages":
+			self["oldpages"] = l[1]
 		elif l[0] == "maxarticles":
 			self["maxarticles"] = int(l[1])
 		elif l[0] == "maxage":
@@ -777,6 +807,10 @@ class Config:
 			self["changeconfig"] = parse_bool(l[1])
 		elif l[0] == "numthreads":
 			self["numthreads"] = int(l[1])
+		elif l[0] == "splitstate":
+			self["splitstate"] = parse_bool(l[1])
+		elif l[0] == "useids":
+			self["useids"] = parse_bool(l[1])
 		elif l[0] == "include":
 			self.load(l[1], False)
 		elif plugins.call_hook("config_option_arglines", self, l[0], l[1], arglines):
@@ -827,16 +861,22 @@ class AddFeedEditor:
 			outputfile.write("\n")
 		outputfile.write(self.feedline)
 
-def add_feed(filename, url, config):
+def add_feed(filename, url, rawdog, config):
 	"""Try to add a feed to the config file."""
-	feeds = feedfinder.getFeeds(url)
+	if feedfinder is None:
+		feeds = [url]
+	else:
+		feeds = feedfinder.feeds(url)
 	if feeds == []:
 		print >>sys.stderr, "Cannot find any feeds in " + url
 	else:
 		feed = feeds[0]
-		print >>sys.stderr, "Adding feed " + feed
-		feedline = "feed %s %s\n" % (config["newfeedperiod"], feed)
-		edit_file(filename, AddFeedEditor(feedline).edit)
+		if feed in rawdog.feeds:
+			print >>sys.stderr, "Feed " + feed + " is already in the config file"
+		else:
+			print >>sys.stderr, "Adding feed " + feed
+			feedline = "feed %s %s\n" % (config["newfeedperiod"], feed)
+			edit_file(filename, AddFeedEditor(feedline).edit)
 
 class ChangeFeedEditor:
 	def __init__(self, oldurl, newurl):
@@ -933,6 +973,12 @@ class FeedFetcher:
 		self.config.log("Thread farm finished with ", len(self.results), " results")
 		return self.results
 
+class FeedState(Persistable):
+	"""The collection of articles in a feed."""
+
+	def __init__(self):
+		self.articles = {}
+
 class Rawdog(Persistable):
 	"""The aggregator itself."""
 
@@ -941,6 +987,7 @@ class Rawdog(Persistable):
 		self.articles = {}
 		self.plugin_storage = {}
 		self.state_version = STATE_VERSION
+		self.using_splitstate = None
 
 	def get_plugin_storage(self, plugin):
 		try:
@@ -960,7 +1007,7 @@ class Rawdog(Persistable):
 			version = 1
 		return version == STATE_VERSION
 
-	def change_feed_url(self, oldurl, newurl):
+	def change_feed_url(self, oldurl, newurl, config):
 		"""Change the URL of a feed."""
 
 		assert self.feeds.has_key(oldurl)
@@ -972,13 +1019,22 @@ class Rawdog(Persistable):
 		edit_file("config", ChangeFeedEditor(oldurl, newurl).edit)
 
 		feed = self.feeds[oldurl]
+		old_state = feed.get_state_filename()
 		feed.url = newurl
 		del self.feeds[oldurl]
 		self.feeds[newurl] = feed
 
-		for article in self.articles.values():
-			if article.feed == oldurl:
+		if config["splitstate"]:
+			persister, feedstate = load_persisted(feed.get_state_filename(), FeedState, config)
+			for article in feedstate.articles.values():
 				article.feed = newurl
+			feedstate.modified()
+			save_persisted(persister, config)
+			os.rename(old_state, feed.get_state_filename())
+		else:
+			for article in self.articles.values():
+				if article.feed == oldurl:
+					article.feed = newurl
 
 		print >>sys.stderr, "Feed URL automatically changed."
 
@@ -995,6 +1051,42 @@ class Rawdog(Persistable):
 	def sync_from_config(self, config):
 		"""Update rawdog's internal state to match the
 		configuration."""
+
+		try:
+			u = self.using_splitstate
+		except:
+			# We were last run with a version of rawdog that didn't
+			# have this variable -- so we must have a single state
+			# file.
+			u = False
+		if u is None:
+			self.using_splitstate = config["splitstate"]
+		elif u != config["splitstate"]:
+			if config["splitstate"]:
+				config.log("Converting to split state files")
+				for feed_hash, feed in self.feeds.items():
+					persister, feedstate = load_persisted(feed.get_state_filename(), FeedState, config)
+					feedstate.articles = {}
+					for article_hash, article in self.articles.items():
+						if article.feed == feed_hash:
+							feedstate.articles[article_hash] = article
+					feedstate.modified()
+					save_persisted(persister, config)
+				self.articles = {}
+			else:
+				config.log("Converting to single state file")
+				self.articles = {}
+				for feed_hash, feed in self.feeds.items():
+					persister, feedstate = load_persisted(feed.get_state_filename(), FeedState, config)
+					for article_hash, article in feedstate.articles.items():
+						self.articles[article_hash] = article
+					feedstate.articles = {}
+					feedstate.modified()
+					save_persisted(persister, config)
+					os.unlink(feed.get_state_filename())
+			self.modified()
+			self.using_splitstate = config["splitstate"]
+
 		seenfeeds = {}
 		for (url, period, args) in config["feedslist"]:
 			seenfeeds[url] = 1
@@ -1017,10 +1109,16 @@ class Rawdog(Persistable):
 		for url in self.feeds.keys():
 			if not seenfeeds.has_key(url):
 				config.log("Removing feed: ", url)
+				if config["splitstate"]:
+					try:
+						os.unlink(self.feeds[url].get_state_filename())
+					except OSError:
+						pass
+				else:
+					for key, article in self.articles.items():
+						if article.feed == url:
+							del self.articles[key]
 				del self.feeds[url]
-				for key, article in self.articles.items():
-					if article.feed == url:
-						del self.articles[key]
 				self.modified()
 
 	def update(self, config, feedurl = None):
@@ -1053,42 +1151,73 @@ class Rawdog(Persistable):
 		else:
 			prefetched = {}
 
-		count = 0
 		seen_some_items = {}
+		def do_expiry(articles):
+			feedcounts = {}
+			for key, article in articles.items():
+				url = article.feed
+				feedcounts[url] = feedcounts.get(url, 0) + 1
+
+			expiry_list = []
+			feedcounts = {}
+			for key, article in articles.items():
+				url = article.feed
+				feedcounts[url] = feedcounts.get(url, 0) + 1
+				expiry_list.append((article.added, article.sequence, key, article))
+			expiry_list.sort()
+
+			count = 0
+			for date, seq, key, article in expiry_list:
+				url = article.feed
+				if url not in self.feeds:
+					config.log("Expired article for nonexistent feed: ", url)
+					count += 1
+					del articles[key]
+					continue
+				if (seen_some_items.has_key(url)
+				    and self.feeds.has_key(url)
+				    and article.can_expire(now, config)
+				    and feedcounts[url] > self.feeds[url].get_keepmin(config)):
+					plugins.call_hook("article_expired", self, config, article, now)
+					count += 1
+					feedcounts[url] -= 1
+					del articles[key]
+			config.log("Expired ", count, " articles, leaving ", len(articles))
+
+		count = 0
 		for url in update_feeds:
 			count += 1
 			config.log("Updating feed ", count, " of " , numfeeds, ": ", url)
 			feed = self.feeds[url]
+
+			if config["splitstate"]:
+				persister, feedstate = load_persisted(feed.get_state_filename(), FeedState, config)
+				articles = feedstate.articles
+			else:
+				articles = self.articles
+
 			if url in prefetched:
 				content = prefetched[url]
 			else:
 				plugins.call_hook("pre_update_feed", self, config, feed)
 				content = feed.fetch(self, config)
 			plugins.call_hook("mid_update_feed", self, config, feed, content)
-			rc = feed.update(self, now, config, content)
+			rc = feed.update(self, now, config, articles, content)
+			url = feed.url
 			plugins.call_hook("post_update_feed", self, config, feed, rc)
 			if rc:
 				seen_some_items[url] = 1
+				if config["splitstate"]:
+					feedstate.modified()
 
-		expiry_list = []
-		feedcounts = {}
-		for key, article in self.articles.items():
-			url = article.feed
-			feedcounts[url] = feedcounts.get(url, 0) + 1
-			expiry_list.append((article.added, article.sequence, key, article))
-		expiry_list.sort()
+			if config["splitstate"]:
+				do_expiry(articles)
+				save_persisted(persister, config)
 
-		count = 0
-		for date, seq, key, article in expiry_list:
-			url = article.feed
-			if (seen_some_items.has_key(url)
-			    and article.can_expire(now, config)
-			    and feedcounts[url] > self.feeds[url].get_keepmin(config)):
-				plugins.call_hook("article_expired", self, config, article, now)
-				count += 1
-				feedcounts[url] -= 1
-				del self.articles[key]
-		config.log("Expired ", count, " articles, leaving ", len(self.articles))
+		if config["splitstate"]:
+			self.articles = {}
+		else:
+			do_expiry(self.articles)
 
 		self.modified()
 		config.log("Finished update")
@@ -1237,12 +1366,6 @@ __description__
 		itembits["feed_hash"] = short_hash(feed.url)
 		itembits["feed_id"] = feed.get_id(config)
 		itembits["hash"] = short_hash(article.hash)
-                itembits["blogurl"] = ""
-                if feed_info.has_key("links"):
-                    for dict in feed_info['links']:
-                        if dict.has_key("href") and dict["type"] == "text/html":
-                            itembits["blogurl"] = dict["href"]
-                            break
 
 		if description is not None:
 			itembits["description"] = description
@@ -1266,6 +1389,11 @@ __description__
 			itemtemplate = load_file("microblogitemtemplate")
 		else:
 			itemtemplate = self.get_itemtemplate(config)
+
+                munge_keys = ['name']
+                for k in munge_keys:
+                       itembits[k]=string_to_html(itembits[k], config)
+
 		f.write(fill_template(itemtemplate, itembits))
 
 	def write_remove_dups(self, articles, config, now):
@@ -1330,24 +1458,26 @@ __description__
 		f = StringIO()
 		print >>f, """<table id="feeds">
 <tr id="feedsheader">
-<th>Feed</th><th>RSS</th>
+<th>Feed</th><th>RSS</th><th>Last fetched</th><th>Next fetched after</th>
 </tr>"""
-		feeds = self.feeds.values()
-		feeds.sort(lambda a, b: cmp(a.get_blog_owner_name(config).lower(), b.get_blog_owner_name(config).lower()))
-		for feed in feeds:
+		feeds = [(feed.get_html_name(config).lower(), feed)
+		         for feed in self.feeds.values()]
+		feeds.sort()
+		for (key, feed) in feeds:
 			print >>f, '<tr class="feedsrow">'
 			print >>f, '<td>' + feed.get_html_link(config) + '</td>'
-			print >>f, '<td><a class="xmlbutton" href="' + cgi.escape(feed.url) + '">feed</a></td>'
-			#print >>f, '<td>' + format_time(feed.last_update, config) + '</td>'
-			#print >>f, '<td>' + format_time(feed.last_update + feed.period, config) + '</td>'
+			print >>f, '<td><a class="xmlbutton" href="' + cgi.escape(feed.url) + '">XML</a></td>'
+			print >>f, '<td>' + format_time(feed.last_update, config) + '</td>'
+			print >>f, '<td>' + format_time(feed.last_update + feed.period, config) + '</td>'
 			print >>f, '</tr>'
 		print >>f, """</table>"""
 		bits["feeds"] = f.getvalue()
+		f.close()
 		bits["num_feeds"] = str(len(feeds))
 
 		return bits
 
-	def write_output_file(self, articles, twitterArticles, article_dates, config, old=False):
+	def write_output_file(self, articles, twitterArticles, article_dates, config, oldpage=0):
 		"""Write a regular rawdog HTML output file."""
 		f = StringIO()
 		dw = DayWriter(f, config)
@@ -1361,12 +1491,16 @@ __description__
 
 		dw.close()
 		plugins.call_hook("output_items_end", self, config, f)
-                if not old:
-                    f.write('<p style="text-align: right; margin-right: 2ex;"><a href="old.html">Older blog entries</a></p>')
+
+		if oldpage != config["oldpages"]:
+			filename = config["outputfile"].split(".html")
+			outputfile = filename[0] + str(oldpage+1) + ".html"
+			f.write('<p style="text-align: right; margin-right: 2ex;"><a href="'+outputfile+'">Older blog entries</a></p>')
 
 		bits = self.get_main_template_bits(config)
 		bits["items"] = f.getvalue()
-		bits["num_items"] = str(len(self.articles))
+		f.close()
+		bits["num_items"] = str(len(articles))
 
                 #TWITTER
 		f = StringIO()
@@ -1382,8 +1516,9 @@ __description__
 
 		plugins.call_hook("output_bits", self, config, bits)
 		s = fill_template(self.get_template(config), bits)
-		if old:
-			outputfile = config["outputfileold"]
+		if oldpage > 0:
+			filename = config["outputfile"].split(".html")
+			outputfile = filename[0] + str(oldpage) + ".html"
 		else:
 			outputfile = config["outputfile"]
 		if outputfile == "-":
@@ -1401,52 +1536,64 @@ __description__
 		config.log("Starting write")
 		now = time.time()
 
-		article_dates = {}
-		articlesAll = self.articles.values()
-                #Added jriddell 2008-09-15, we don't want to show articles with no date
-                articles = []
-                for article in articlesAll:
-                    if article.date is not None:
-                        articles.append(article)
-		for a in articles:
-			if config["sortbyfeeddate"]:
-				article_dates[a] = a.date or a.added
-			else:
-				article_dates[a] = a.added
-		numarticles = len(articles)
+		def list_articles(articles):
+			return [(-a.get_sort_date(config), a.feed, a.sequence, a.hash) for a in articles.values()]
+		if config["splitstate"]:
+			article_list = []
+			for feed in self.feeds.values():
+				persister, feedstate = load_persisted(feed.get_state_filename(), FeedState, config)
+				article_list += list_articles(feedstate.articles)
+				save_persisted(persister, config)
+		else:
+			article_list = list_articles(self.articles)
+		numarticles = len(article_list)
 
-		def compare(a, b):
-			"""Compare two articles to decide how they
-			   should be sorted. Sort by added date, then
-			   by feed, then by sequence, then by hash."""
-			i = cmp(article_dates[b], article_dates[a])
-			if i != 0:
-				return i
-			i = cmp(a.feed, b.feed)
-			if i != 0:
-				return i
-			i = cmp(a.sequence, b.sequence)
-			if i != 0:
-				return i
-			return cmp(a.hash, b.hash)
-		plugins.call_hook("output_filter", self, config, articles)
-		articles.sort(compare)
-		plugins.call_hook("output_sort", self, config, articles)
+		if not plugins.call_hook("output_sort_articles", self, config, article_list):
+			article_list.sort()
+
+#for multiple pages split further down
+#		if config["maxarticles"] != 0:
+#			article_list = article_list[:config["maxarticles"]]
+
+		if config["splitstate"]:
+			wanted = {}
+			for (date, feed_url, seq, hash) in article_list:
+				if not feed_url in self.feeds:
+					# This can happen if you've managed to
+					# kill rawdog between it updating a
+					# split state file and the main state
+					# -- so just ignore the article and
+					# it'll expire eventually.
+					continue
+				wanted.setdefault(feed_url, []).append(hash)
+
+			found = {}
+			for (feed_url, article_hashes) in wanted.items():
+				feed = self.feeds[feed_url]
+				persister, feedstate = load_persisted(feed.get_state_filename(), FeedState, config)
+				for hash in article_hashes:
+					found[hash] = feedstate.articles[hash]
+				save_persisted(persister, config)
+		else:
+			found = self.articles
+
+		articles = []
+		article_dates = {}
+		for (date, feed, seq, hash) in article_list:
+			a = found.get(hash)
+			if a is not None:
+				if a.date is not None: #Added jriddell 2008-09-15, we don't want to show articles with no date
+					articles.append(a)
+					article_dates[a] = -date
 
 		twitterArticles = []
-                normalArticles = []
+		normalArticles = []
 		for article in articles:
 			if 'twitter' in dir(article) and article.twitter == True:
 				twitterArticles.append(article)
 			else:
 				normalArticles.append(article)
 		articles = normalArticles
-
-		if config["maxarticles"] != 0:
-                        maxarticles = config["maxarticles"]
-			articlesOlder = articles[maxarticles:maxarticles*2]
-			articles = articles[:maxarticles]
-			twitterArticles = twitterArticles[:maxarticles]
 
 		plugins.call_hook("output_write", self, config, articles)
 
@@ -1457,13 +1604,13 @@ __description__
 
 		config.log("Selected ", len(articles), " of ", numarticles, " articles to write; ignored ", dup_count, " duplicates")
 
-		if not plugins.call_hook("output_write_files", self, config, articles, article_dates):
-			self.write_output_file(articles, twitterArticles, article_dates, config)
+		for page in range(0, config["oldpages"]+1):
+			print "on page: " + str(page)
+			if config["maxarticles"] != 0:
+				pageArticles = articles[config["maxarticles"]*page:config["maxarticles"]*(page+1)]
 
-		self.write_output_file(articlesOlder, [], article_dates, config, True)
-
-		config["outputfile"] = "../website/twitter.html"
-		self.write_output_file(twitterArticles, [], article_dates, config)
+			if not plugins.call_hook("output_write_files", self, config, pageArticles, article_dates):
+				self.write_output_file(pageArticles, twitterArticles, article_dates, config, page)
 
 		config.log("Finished write")
 
@@ -1476,6 +1623,7 @@ General options (use only once):
 -d|--dir DIR                 Use DIR instead of ~/.rawdog
 -v, --verbose                Print more detailed status information
 -N, --no-locking             Do not lock the state file
+-W, --no-lock-wait           Exit silently if state file is locked
 --help                       Display this help and exit
 
 Actions (performed in order given):
@@ -1496,13 +1644,42 @@ Special actions (all other options are ignored if one of these is specified):
 
 Report bugs to <ats@offog.org>."""
 
+def load_persisted(fn, klass, config, no_block = False):
+	"""Attempt to load a persisted object. Returns the persister and the
+	object."""
+	config.log("Loading state file: ", fn)
+	persister = Persister(fn, klass, config.locking)
+	try:
+		obj = persister.load(no_block = no_block)
+	except KeyboardInterrupt:
+		sys.exit(1)
+	except:
+		print "An error occurred while reading state from " + os.getcwd() + "/" + fn + "."
+		print "This usually means the file is corrupt, and removing it will fix the problem."
+		sys.exit(1)
+	return (persister, obj)
+
+def save_persisted(persister, config):
+	if persister.object.is_modified():
+		config.log("Saving state file: ", persister.filename)
+	persister.save()
+
 def main(argv):
 	"""The command-line interface to the aggregator."""
 
 	locale.setlocale(locale.LC_ALL, "")
 
+	global system_encoding
 	try:
-		(optlist, args) = getopt.getopt(argv, "ulwf:c:tTd:va:r:N", ["update", "list", "write", "update-feed=", "help", "config=", "show-template", "dir=", "show-itemtemplate", "verbose", "upgrade", "add=", "remove=", "no-locking"])
+		# This doesn't exist on Python 2.2.
+		# It's also quite expensive, which is why we do it on startup
+		# and cache the result.
+		system_encoding = locale.getpreferredencoding()
+	except:
+		system_encoding = "UTF-8"
+
+	try:
+		(optlist, args) = getopt.getopt(argv, "ulwf:c:tTd:va:r:NW", ["update", "list", "write", "update-feed=", "help", "config=", "show-template", "dir=", "show-itemtemplate", "verbose", "upgrade", "add=", "remove=", "no-locking", "no-lock-wait"])
 	except getopt.GetoptError, s:
 		print s
 		usage()
@@ -1523,6 +1700,7 @@ def main(argv):
 		statedir = None
 	verbose = 0
 	locking = 1
+	no_lock_wait = 0
 	for o, a in optlist:
 		if o == "--help":
 			usage()
@@ -1533,6 +1711,8 @@ def main(argv):
 			verbose = 1
 		elif o in ("-N", "--no-locking"):
 			locking = 0
+		elif o in ("-W", "--no-lock-wait"):
+			no_lock_wait = 1
 	if statedir is None:
 		print "$HOME not set and state dir not explicitly specified; please use -d/--dir"
 		return 1
@@ -1543,7 +1723,9 @@ def main(argv):
 		print "No " + statedir + " directory"
 		return 1
 
-	config = Config()
+	sys.path.append(".")
+
+	config = Config(locking)
 	try:
 		config.load("config")
 	except ConfigError, err:
@@ -1553,16 +1735,9 @@ def main(argv):
 	if verbose:
 		config["verbose"] = True
 
-	persister = Persister("state", Rawdog, locking)
-	try:
-		rawdog = persister.load()
-	except KeyboardInterrupt:
-		return 1
-	except:
-		print "An error occurred while reading state from " + statedir + "/state."
-		print "This usually means the file is corrupt, and removing it will fix the problem."
-		return 1
-
+	persister, rawdog = load_persisted("state", Rawdog, config, no_lock_wait)
+	if rawdog is None:
+		return 0
 	if not rawdog.check_state_version():
 		print "The state file " + statedir + "/state was created by an older"
 		print "version of rawdog, and cannot be read by this version."
@@ -1594,7 +1769,7 @@ def main(argv):
 		elif o in ("-T", "--show-itemtemplate"):
 			rawdog.show_itemtemplate(config)
 		elif o in ("-a", "--add"):
-			add_feed("config", a, config)
+			add_feed("config", a, rawdog, config)
 			config.reload()
 			rawdog.sync_from_config(config)
 		elif o in ("-r", "--remove"):
@@ -1604,7 +1779,7 @@ def main(argv):
 
 	plugins.call_hook("shutdown", rawdog, config)
 
-	persister.save()
+	save_persisted(persister, config)
 
 	return 0
 

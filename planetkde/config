@@ -209,11 +209,10 @@ itemtemplate itemplate
 # to a file in your ~/.rawdog directory.)
 #outputfile output.html
 outputfile ../website/index.html
-outputfileold ../website/old.html
 
-define outputxml ../website/rss20.xml
-define outputfoaf ../website/foafroll.xml
-define outputopml ../website/opml.xml
+outputxml ../website/rss20.xml
+outputfoaf ../website/foafroll.xml
+outputopml ../website/opml.xml
 
 # Whether to use a <meta http-equiv="Refresh" ...> tag in the generated
 # HTML to indicate that the page should be refreshed automatically. If
@@ -2915,7 +2914,7 @@ feed 45m http://dannya.org/blog/feed
         define_facewidth 80
         define_faceheight 80
 
-feed 45m https://www.time-shift.de/wordpress/?feed=rss2&cat=4&mrss=off
+feed 45m http://www.time-shift.de/wordpress/?feed=rss2&cat=4&mrss=off
         define_name Daniel Dewald (TheCrasher)
 
 feed 45m http://not403.blogspot.com/feeds/posts/default/-/kde
