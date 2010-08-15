@@ -2962,3 +2962,9 @@ feed 15m http://midi-clorianos.blogspot.com/feeds/posts/default/-/KDE-ES
 feed 15m http://arklad.wordpress.com/category/informatica/software-libre/kde/feed/
 	define_name Cristina Yenyxe González García
         define_feedclass spanish
+
+feed 15m http://andy-coder.blogspot.com/feeds/posts/default/-/amarok
+	define_name Andy Coder
+        define_face hackergotchi/andy-coder.jpg
+        define_facewidth 80
+        define_faceheight 102
