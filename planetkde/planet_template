@@ -119,16 +119,16 @@ function eraseCookie(name) {
         }
     } 
 
-    function toggleapps() {
-        var ele = document.getElementsByClassName("apps");
+    function togglenews() {
+        var ele = document.getElementsByClassName("news");
 	for(var i=0,j=ele.length; i<j; i++)
         if(ele[i].style.display == "block") {
                 ele[i].style.display = "none";
-                eraseCookie("apps")
+                eraseCookie("news")
         }
         else {
                 ele[i].style.display = "block";
-                createCookie("apps","block",360)
+                createCookie("news","block",360)
         }
     } 
 
@@ -164,9 +164,9 @@ function eraseCookie(name) {
 	  for(var i=0,j=ele.length; i<j; i++)
 	  (ele[i].style.display = "block")
 	};
-        var ele = document.getElementsByClassName("apps");
-        var apps=readCookie("apps");
-	if (apps=="block") {
+        var ele = document.getElementsByClassName("news");
+        var news=readCookie("news");
+	if (news=="block") {
 	  for(var i=0,j=ele.length; i<j; i++)
 	  (ele[i].style.display = "block")
 	};
@@ -209,9 +209,9 @@ function eraseCookie(name) {
          <p>You can customize your view of Planet KDE using the selections below</p>
                        <a href="javascript:togglemicroblog();">Microblogging<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
                        <a href="javascript:toggledot();">KDE.News<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
-                       <a href="javascript:toggleapps();">Application news<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
-                       <a href="javascript:toggleuser();">KDE User blogs<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
-                       <a href="javascript:togglespanish();">Spanish Language blogs<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
+                       <a href="javascript:togglenews();">Project news<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
+                       <a href="javascript:toggleuser();">KDE user blogs<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
+                       <a href="javascript:togglespanish();">Spanish language blogs<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
        </div>
 
         <div id="addme">
@@ -225,7 +225,7 @@ function eraseCookie(name) {
           only to Planet KDE.</p>
 
           <p>From August 2010 we are trialling adding feeds in
-          different categories, currently Dot News, Application News
+          different categories, currently Dot News, Project News
           feeds, User Blogs and Spanish Language KDE blogs.  If you
           have a feed which falls into these categories (or another
           non-English language) please file a bug as below.</p>
@@ -300,7 +300,7 @@ you can control what gets posted.</p>
 
 <h3>It must be a personal blog</h3>
 
-<p>Planet KDE is a collection of blogs from KDE contributors.  It is not indended for project news feeds.</p>
+<p>Planet KDE is a collection of blogs from KDE contributors.</p>
 
 <h3>Do not inflame</h3>
 
