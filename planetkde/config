@@ -2968,3 +2968,7 @@ feed 15m http://andy-coder.blogspot.com/feeds/posts/default/-/amarok
         define_face hackergotchi/andy-coder.jpg
         define_facewidth 80
         define_faceheight 102
+
+feed 30m http://www.kubuntu.org/news/rss-feed
+        define_name Kubuntu News
+        define_feedclass apps
