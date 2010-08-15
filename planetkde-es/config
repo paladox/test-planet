@@ -346,3 +346,9 @@ feed 15m http://midi-clorianos.blogspot.com/feeds/posts/default/-/KDE-ES
 feed 15m http://arklad.wordpress.com/category/informatica/software-libre/kde/feed/
 	define_name Cristina Yenyxe González García
 
+feed 15m http://tsdgeos-es.blogspot.com/atom.xml
+        define_name Albert Astals Cid (TSDgeos)
+        define_face hackergotchi/TSDgeos.png
+        define_facewidth 80
+        define_faceheight 80
+
