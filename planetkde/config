@@ -2933,11 +2933,11 @@ feed 30m http://dot.kde.org/rss.xml
 
 feed 30m http://www.koffice.org/feed/
         define_name KOffice News
-        define_feedclass apps
+        define_feedclass news
 
 feed 30m http://feeds.feedburner.com/krita/news
         define_name Krita News
-        define_feedclass apps
+        define_feedclasss news
 
 feed 15m http://abenitobethencourt.blogspot.com/feeds/posts/default?alt=rss
         define_name Agustín Benito Bethencourt
@@ -2971,4 +2971,4 @@ feed 15m http://andy-coder.blogspot.com/feeds/posts/default/-/amarok
 
 feed 30m http://www.kubuntu.org/news/rss-feed
         define_name Kubuntu News
-        define_feedclass apps
+        define_feedclass news
