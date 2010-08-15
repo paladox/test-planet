@@ -20,6 +20,37 @@
 	</style>
 	<![endif]-->
     <script language="javascript"> 
+
+//In Mozilla, WebKit(?) Coming in IE9, in HTML5
+if (document.addEventListener) {
+        document.addEventListener("DOMContentLoaded", applyConfig, false);
+}
+
+function createCookie(name,value,days) {
+        if (days) {
+                var date = new Date();
+                date.setTime(date.getTime()+(days*24*60*60*1000));
+                var expires = "; expires="+date.toGMTString();
+        }
+        else var expires = "";
+        document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+}
+
+function eraseCookie(name) {
+        createCookie(name,"",-1);
+}
+
     function toggle() {
         var ele = document.getElementById("feeddiv");
         if(ele.style.display == "block") {
@@ -40,36 +71,117 @@
         }
     } 
 
+    function toggleconfig() {
+        var ele = document.getElementById("config");
+        if(ele.style.display == "block") {
+                ele.style.display = "none";
+        }
+        else {
+                ele.style.display = "block";
+        }
+    } 
+
     function togglemicroblog() {
         var ele = document.getElementById("twitterdiv");
         if(ele.style.display == "block") {
                 ele.style.display = "none";
-                var today = new Date();
-                var expire = new Date();
-                expire.setTime(today.getTime() + 3600000*24*100)
-                document.cookie = "twitter=none;expires="+expire.toGMTString();
+                eraseCookie("twitter")
         }
         else {
                 ele.style.display = "block";
-                var today = new Date();
-                var expire = new Date();
-                expire.setTime(today.getTime() + 3600000*24*100)
-                document.cookie = "twitter=block;expires="+expire.toGMTString();
+                createCookie("twitter","block",360)
+        }
+    } 
+
+    function toggledot() {
+        var ele = document.getElementsByClassName("dot");
+	for(var i=0,j=ele.length; i<j; i++)
+        if(ele[i].style.display == "block") {
+                ele[i].style.display = "none";
+                eraseCookie("dot")
+        }
+        else {
+                ele[i].style.display = "block";
+                createCookie("dot","block",360)
+        }
+    } 
+
+    function togglespanish() {
+        var ele = document.getElementsByClassName("spanish");
+	for(var i=0,j=ele.length; i<j; i++)
+        if(ele[i].style.display == "block") {
+                ele[i].style.display = "none";
+                eraseCookie("spanish")
+        }
+        else {
+                ele[i].style.display = "block";
+                createCookie("spanish","block",360)
+        }
+    } 
+
+    function toggleapps() {
+        var ele = document.getElementsByClassName("apps");
+	for(var i=0,j=ele.length; i<j; i++)
+        if(ele[i].style.display == "block") {
+                ele[i].style.display = "none";
+                eraseCookie("apps")
+        }
+        else {
+                ele[i].style.display = "block";
+                createCookie("apps","block",360)
+        }
+    } 
+
+    function toggleuser() {
+        var ele = document.getElementsByClassName("user");
+	for(var i=0,j=ele.length; i<j; i++)
+        if(ele[i].style.display == "block") {
+                ele[i].style.display = "none";
+                eraseCookie("user")
+        }
+        else {
+                ele[i].style.display = "block";
+                createCookie("user","block",360)
         }
     } 
 
     /*onLoad show microblog block if it was shown before*/
-    function showTwitter() {
+    function applyConfig() {
         var ele = document.getElementById("twitterdiv");
-        if (document.cookie == "twitter=block") {
+	var twitter=readCookie("twitter");
+        if (twitter=="block") {
             ele.style.display = "block";
-        } else {
-            ele.style.display = "none";
-        }
+        };
+        var ele = document.getElementsByClassName("dot");
+        var dot=readCookie("dot");
+	if (dot=="block") {
+	  for(var i=0,j=ele.length; i<j; i++)
+	  (ele[i].style.display = "block")
+	};
+        var ele = document.getElementsByClassName("spanish");
+        var spanish=readCookie("spanish");
+	if (spanish=="block") {
+	  for(var i=0,j=ele.length; i<j; i++)
+	  (ele[i].style.display = "block")
+	};
+        var ele = document.getElementsByClassName("apps");
+        var apps=readCookie("apps");
+	if (apps=="block") {
+	  for(var i=0,j=ele.length; i<j; i++)
+	  (ele[i].style.display = "block")
+	};
+        var ele = document.getElementsByClassName("user");
+        var user=readCookie("user");
+	if (user=="block") {
+	  for(var i=0,j=ele.length; i<j; i++)
+	  (ele[i].style.display = "block")
+	};
     }
     </script>
 </head>
-<body onLoad="javascript:showTwitter();">
+
+
+<body onDOMContentLoaded="javascript:applyConfig();" onLoad="javascript:applyConfig();">
 
 <div id="page">
 	<div id="headerright">
@@ -84,7 +196,7 @@
 			<a href="javascript:toggle();">People aggregated<img src="images/user-identity.png" alt="" width="22" height="22" /></a> 
 			<a href="javascript:toggleaddme();">Add your blog<img src="images/addrss.png" alt="" width="22" height="22" /></a> 
 			<a href="http://dot.kde.org/">KDE Dot News<img src="images/dot-news.png" alt="" width="22" height="22" /></a> 
-			<a href="javascript:togglemicroblog();">Microblogging<img src="images/microblog.png" alt="" width="22" height="22" /></a> 
+                        <a href="javascript:toggleconfig();">Configure<img src="images/microblog.png" alt="" width="22" height="22" /></a>
 		</div> <!--toplinks-->
 	</div> <!--header-->
 	</div> <!--headerleft-->
@@ -92,6 +204,16 @@
     <div id="contentright">
     <div id="contentleft">
     <div id="content">
+       <div id="config">
+         <h2>Configure Planet KDE</h2>
+         <p>You can customize your view of Planet KDE using the selections below</p>
+                       <a href="javascript:togglemicroblog();">Microblogging<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
+                       <a href="javascript:toggledot();">KDE.News<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
+                       <a href="javascript:toggleapps();">Application news<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
+                       <a href="javascript:toggleuser();">KDE User blogs<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
+                       <a href="javascript:togglespanish();">Spanish Language blogs<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
+       </div>
+
         <div id="addme">
 
           <h2>Add your blog</h2>
@@ -101,6 +223,12 @@
           and not liable to offend.  If you have a general blog you
           may want to set up a tag and subscribe the feed for that tag
           only to Planet KDE.</p>
+
+          <p>From August 2010 we are trialling adding feeds in
+          different categories, currently Dot News, Application News
+          feeds, User Blogs and Spanish Language KDE blogs.  If you
+          have a feed which falls into these categories (or another
+          non-English language) please file a bug as below.</p>
 
           <p>To have your blog
           added <a href="http://bugs.kde.org/enter_bug.cgi?product=planet%20kde">file

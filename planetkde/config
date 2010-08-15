@@ -2927,3 +2927,38 @@ feed 30m http://not403.blogspot.com/feeds/posts/default/-/kde
 feed 30m http://dev-peterix.blogspot.com/feeds/posts/default/-/kde
         define_name Petr Mrázek (petrm)
 
+feed 30m http://dot.kde.org/rss.xml
+        define_name KDE Dot News
+        define_feedclass dot
+
+feed 30m http://www.koffice.org/feed/
+        define_name KOffice News
+        define_feedclass apps
+
+feed 30m http://feeds.feedburner.com/krita/news
+        define_name Krita News
+        define_feedclass apps
+
+feed 15m http://abenitobethencourt.blogspot.com/feeds/posts/default?alt=rss
+        define_name Agustín Benito Bethencourt
+        define_feedclass spanish
+
+feed 15m http://aucahuasi.blogspot.com/feeds/posts/default
+        define_name Percy Camilo Triveño Aucahuasi
+        define_feedclass spanish
+
+feed 15m http://www.kdeblog.com/feed
+        define_name KDE Blog (Baltasar Ortega)
+        define_feedclass spanish
+
+feed 15m http://kdehispano.es/?q=rss.xml
+        define_name KDE Hispano
+        define_feedclass spanish
+
+feed 15m http://midi-clorianos.blogspot.com/feeds/posts/default/-/KDE-ES
+	define_name Pedro López-Cabanillas
+        define_feedclass spanish
+
+feed 15m http://arklad.wordpress.com/category/informatica/software-libre/kde/feed/
+	define_name Cristina Yenyxe González García
+        define_feedclass spanish

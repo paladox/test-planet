@@ -232,6 +232,27 @@ background: none;
 .channelgroup h4 .blogtitle a {
     color: #455269; /*wee bit lighter*/
 }
+
+.dot {
+  display:none;
+  background: #cccccc;
+}
+
+.spanish {
+  display:none;
+  background: #B1FF80;
+}
+
+.apps {
+  display:none;
+  background: #FAFF8E;
+}
+
+.user {
+  display:none;
+  background: #FAFF8E;
+}
+
 .entrygroup {
     margin: 0px 38px 0px 28px;
 }
@@ -293,4 +314,9 @@ background: none;
 
 #microbloghead {
    font-size: 9pt;
+}
+
+#config {
+  display: none;
+  padding: 0px 20px 0px 20px;
 }
