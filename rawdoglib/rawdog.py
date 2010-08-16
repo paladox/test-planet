@@ -1606,7 +1606,6 @@ __description__
 		config.log("Selected ", len(articles), " of ", numarticles, " articles to write; ignored ", dup_count, " duplicates")
 
 		for page in range(0, config["oldpages"]+1):
-			print "on page: " + str(page)
 			if config["maxarticles"] != 0:
 				pageArticles = articles[config["maxarticles"]*page:config["maxarticles"]*(page+1)]
 
