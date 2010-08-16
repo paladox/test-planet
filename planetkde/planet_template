@@ -196,7 +196,7 @@ function eraseCookie(name) {
 			<a href="javascript:toggle();">People aggregated<img src="images/user-identity.png" alt="" width="22" height="22" /></a> 
 			<a href="javascript:toggleaddme();">Add your blog<img src="images/addrss.png" alt="" width="22" height="22" /></a> 
 			<a href="http://dot.kde.org/">KDE Dot News<img src="images/dot-news.png" alt="" width="22" height="22" /></a> 
-                        <a href="javascript:toggleconfig();">Configure<img src="images/microblog.png" alt="" width="22" height="22" /></a>
+                        <a href="javascript:toggleconfig();">Configure<img src="images/dialog-ok.png" alt="" width="22" height="22" /></a>
 		</div> <!--toplinks-->
 	</div> <!--header-->
 	</div> <!--headerleft-->
@@ -206,12 +206,12 @@ function eraseCookie(name) {
     <div id="content">
        <div id="config">
          <h2>Configure Planet KDE</h2>
-         <p>You can customize your view of Planet KDE using the selections below</p>
-                       <a href="javascript:togglemicroblog();">Microblogging<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
-                       <a href="javascript:toggledot();">KDE.News<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
-                       <a href="javascript:togglenews();">Project news<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
-                       <a href="javascript:toggleuser();">KDE user blogs<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
-                       <a href="javascript:togglespanish();">Spanish language blogs<img src="images/microblog.png" alt="" width="22" height="22" /></a><br />
+         <p>You can customise your view of Planet KDE using the selections below</p>
+                       <a href="javascript:togglemicroblog();">Microblogging<img src="images/microblog.png" alt="" width="22" height="22" class="twitterdiv" style="float: left" /></a><br clear="all" />
+                       <a href="javascript:toggledot();">KDE.News<img src="images/dialog-ok.png" alt="" width="22" height="22" class="dot" style="float: left" /></a><br clear="all" />
+                       <a href="javascript:togglenews();">Project news<img src="images/dialog-ok.png" alt="" width="22" height="22" class="news" style="float: left" /></a><br clear="all" />
+                       <a href="javascript:toggleuser();">KDE user blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="user" style="float: left" /></a><br clear="all" />
+                       <a href="javascript:togglespanish();">Spanish language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="spanish" style="float: left" /></a><br clear="all" />
        </div>
 
         <div id="addme">
