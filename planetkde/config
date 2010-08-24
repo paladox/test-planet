@@ -2984,5 +2984,5 @@ feed 30m http://www.kubuntu.org/news/rss-feed
         define_feedclass news
 
 feed 30m http://freoffice.blogspot.com/feeds/posts/default
-        define_name KOffice based Open Mobile Office Suite
+        define_name Freoffice: KOffice based Open Mobile Office Suite
         define_feedclass news
