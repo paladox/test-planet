@@ -2371,8 +2371,9 @@ feed 30m http://stephanie.randomink.org/tag/kde/feed/
         define_faceheight 78
         define_facewidth 80
 
-feed 30m http://eng.i-iter.org/taxonomy/term/114/0/feed
-        define_name Sabine Emmy Eller
+# site is down. Sysadmin Sept 20th.
+#feed 30m http://eng.i-iter.org/taxonomy/term/114/0/feed
+#        define_name Sabine Emmy Eller
 
 feed 30m http://c2143.blogspot.com/feeds/posts/default/-/KDE
         define_name Romain Pokrzywka (kromain)
