@@ -335,7 +335,7 @@ feed 15m http://www.kdedevelopers.org/blog/432/feed
 feed 15m http://tokoe-kde.blogspot.com/rss.xml
         define_name Tobias Koenig (tokoe)
 
-feed 15m http://labs.trolltech.com/blogs/author/tokoe/feed
+feed 15m http://labs.qt.nokia.com/author/tokoe/feed/
         define_name Tobias Koenig (tokoe)
 
 feed 15m http://www.kdedevelopers.org/blog/1451/feed
