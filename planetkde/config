@@ -681,6 +681,9 @@ feed 30m http://kate-editor.org/author/fjellstrom/feed/
 feed 30m http://kate-editor.org/author/mentasti/feed/
         define_name Marco Mentasti (mentasti)
 
+feed 30m http://kate-editor.org/author/ksars/feed/
+        define_name Kåre Särs (ksars)
+
 feed 30m http://www.kdedevelopers.org/blog/16/feed
         define_name Reinhold Kainhofer
 
