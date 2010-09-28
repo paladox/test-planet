@@ -2210,10 +2210,6 @@ feed 30m http://momeny.wordpress.com/category/planetkde/feed/?mrss=off
 feed 30m http://blogs.fsfe.org/mario/?feed=rss2&tag=kde
 	define_name Mario Fux (unormal)
 
-# 403
-#feed 30m http://mattr.info:8080/blog/archives/category/kde/feed/
-#	define_name Matt Rogers (mattr)
-
 feed 30m http://blog.rburchell.com/feeds/posts/default/-/kde?alt=rss
 	define_name Robin Burchell (w00t)
 
