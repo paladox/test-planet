@@ -3006,3 +3006,10 @@ feed 30m http://elhilal.blogspot.com/feeds/posts/default
 feed 30m http://twitter.com/statuses/user_timeline/15028132.rss
 	define_microblog true 
 	define_name Muhammad Najmi Ahmad Zabidi [twitter]
+
+feed 30m http://mbatle.wordpress.com/category/kde/feed/?mrss=off
+	define_name Mateu Batle (mbatle)
+	define_face hackergotchi/mbatle.jpg
+	define_facewidth 80
+	define_faceheight 80
+
