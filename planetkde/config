@@ -684,6 +684,9 @@ feed 30m http://kate-editor.org/author/mentasti/feed/
 feed 30m http://kate-editor.org/author/ksars/feed/
         define_name Kåre Särs (ksars)
 
+feed 30m http://kate-editor.org/author/bouthenot/feed/
+        define_name Emmanuel Bouthenot (bouthenot)
+
 feed 30m http://www.kdedevelopers.org/blog/16/feed
         define_name Reinhold Kainhofer
 
