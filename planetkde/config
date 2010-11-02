@@ -1923,8 +1923,8 @@ feed 30m http://amroth.coldshock.net/kmess/blog/feed/
         define_facewidth 67
         define_faceheight 80
 
-feed 30m http://looksblo.wordpress.com/category/kde/feed/atom/
-        define_name Frederik Schwarzer (icwiener)
+#feed 30m http://looksblo.wordpress.com/category/kde/feed/atom/
+#        define_name Frederik Schwarzer (icwiener)
 
 feed 30m http://wm161.net/browse/linux/kde-linux/feed/
         define_name Trever Fischer (tdfischer)
