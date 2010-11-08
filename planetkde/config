@@ -2817,7 +2817,7 @@ feed 30m http://ingomar.wesp.name/feeds/posts/default/-/planetkde
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://noughmad.wordpress.com/feed/?mrss=off
+feed 30m http://noughmad.wordpress.com/tag/kde/feed/?mrss=off
         define_name Miha Čančula (Noughmad)
 
 feed 30m http://feeds.feedburner.com/andreas-demmer/kde
