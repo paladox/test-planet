@@ -3022,5 +3022,5 @@ feed 30m http://codersgrumble.blogspot.com/feeds/posts/default/-/kde
 	define_facewidth 74
 	define_faceheight 74
 
-feed 30m http://shentey.wordpress.com/tag/kde/feed/?mrss=off
+feed 30m http://shentey.wordpress.com/category/kde/feed/?mrss=off
         define_name Bernhard Beschow (shentey)
