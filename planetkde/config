@@ -3024,3 +3024,6 @@ feed 30m http://codersgrumble.blogspot.com/feeds/posts/default/-/kde
 
 feed 30m http://shentey.wordpress.com/category/kde/feed/?mrss=off
         define_name Bernhard Beschow (shentey)
+
+feed 30m http://rekonq.kde.org/blog/67/feed
+        define_name Lionel Chauvin
