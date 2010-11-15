@@ -2647,6 +2647,12 @@ feed 30m http://kdepi.wordpress.com/category/planetkde-araceletorres/feed/
         define_facewidth 75
         define_faceheight 80
 
+feed 30m http://kdepi.wordpress.com/category/planetkde-chicao/feed/
+        define_name Francisco Fernandes (chicao)
+        define_face hackergotchi/chicao.png
+        define_facewidth 80
+        define_faceheight 80
+
 feed 30m http://kders.wordpress.com/category/planetkde-wagner/feed/?mrss=off
         define_name Wagner Reck (wiglot)
         define_face hackergotchi/wagner.png
