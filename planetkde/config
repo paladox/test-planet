@@ -784,38 +784,48 @@ feed 30m http://www.kdedevelopers.org/blog/1195/feed
 feed 30m http://www.kdedevelopers.org/blog/838/feed
         define_name Dario Massarin
 
-feed 30m http://labs.qt.nokia.com/author/admin/feed/?cat=2%2C5
-        define_name Scott Collins
+# empty, disabled, sysadmin, toma.
+#feed 30m http://labs.qt.nokia.com/author/admin/feed/?cat=2%2C5
+#        define_name Scott Collins
 
-feed 30m http://labs.qt.nokia.com/author/trenton/feed/
-        define_name Simon Hausmann (tronical)
+# name does not match feed, sysadmin, toma
+#feed 30m http://labs.qt.nokia.com/author/trenton/feed/
+#        define_name Simon Hausmann (tronical)
 
-feed 30m http://labs.qt.nokia.com/author/morten/feed/?cat=2%2C5
-        define_name Harald Fernengel
+# name does not match feed, sysadmin, toma
+#feed 30m http://labs.qt.nokia.com/author/morten/feed/?cat=2%2C5
+#        define_name Harald Fernengel
 
 feed 30m http://www.kdedevelopers.org/blog/7440/feed
         define_name Robert Mathias Marmorstein (robertm)
 
-feed 30m http://labs.qt.nokia.com/author/nrosenth/feed/
-        define_name Roberto Raggi
+# name does not match feed, sysadmin, toma
+#feed 30m http://labs.qt.nokia.com/author/nrosenth/feed/
+#        define_name Roberto Raggi
 
-feed 30m http://labs.qt.nokia.com/author/lorn/feed/?cat=2%2C5
-        define_name Espen Riskedal
+# empty, name does not match feed, disabled, sysadmin, toma.
+#feed 30m http://labs.qt.nokia.com/author/lorn/feed/?cat=2%2C5
+#        define_name Espen Riskedal
 
-feed 30m http://labs.qt.nokia.com/author/simon/feed/?cat=2%2C5
-        define_name Matthias Ettrich
+# name does not match feed, sysadmin, toma
+#feed 30m http://labs.qt.nokia.com/author/simon/feed/?cat=2%2C5
+#        define_name Matthias Ettrich
 
-feed 30m http://labs.qt.nokia.com/author/roberto/feed/?cat=2%2C5
-        define_name Lorn Potter
+# empty, name does not match feed, disabled, sysadmin, toma.
+#feed 30m http://labs.qt.nokia.com/author/roberto/feed/?cat=2%2C5
+#        define_name Lorn Potter
 
-feed 30m http://labs.qt.nokia.com/author/andreas/feed/?cat=2%2C5
-        define_name Andreas Aardal Hanssen (bibr)
+# empty, name does not match feed, disabled, sysadmin, toma.
+#feed 30m http://labs.qt.nokia.com/author/andreas/feed/?cat=2%2C5
+#        define_name Andreas Aardal Hanssen (bibr)
 
-feed 30m http://labs.qt.nokia.com/author/lars/feed/?cat=2%2C5
-        define_name Lars Knoll
+# empty, disabled, sysadmin, toma.
+#feed 30m http://labs.qt.nokia.com/author/lars/feed/?cat=2%2C5
+#        define_name Lars Knoll
 
-feed 30m http://labs.qt.nokia.com/author/gunnar/feed/?cat=2%2C5
-        define_name Brad Hughes
+# empty, name does not match feed, disabled, sysadmin, toma.
+#feed 30m http://labs.qt.nokia.com/author/gunnar/feed/?cat=2%2C5
+#        define_name Brad Hughes
 
 feed 30m http://mbroadst.blogspot.com/atom.xml
         define_name Matt Broadstone
@@ -985,11 +995,13 @@ feed 30m http://blog.gwright.org.uk/xml/rss20/feed.xml
 feed 30m http://maxilys.blogspot.com/rss.xml
         define_name Remi Villatel
 
-feed 30m http://labs.qt.nokia.com/author/jbache/feed/?cat=2%2C5
-        define_name Girish Ramakrishnan
+# empty, name does not match feed, disabled, sysadmin, toma.
+#feed 30m http://labs.qt.nokia.com/author/jbache/feed/?cat=2%2C5
+#        define_name Girish Ramakrishnan
 
-feed 30m http://labs.qt.nokia.com/author/jasplin/feed/
-        define_name Kent Hansen
+# empty, name does not match feed, disabled, sysadmin, toma.
+#feed 30m http://labs.qt.nokia.com/author/jasplin/feed/
+#        define_name Kent Hansen
 
 feed 30m http://blog.ereslibre.es/?feed=rss2&cat=2
         define_name Rafael Fernández López (ereslibre)
@@ -1034,8 +1046,9 @@ feed 30m http://blog.froglogic.com/feed/atom/?author=3&cat=5,6
 feed 30m http://labs.qt.nokia.com/feed/?author_name=Morten
         define_name Morten S&oslash;rvig
 
-feed 30m http://labs.qt.nokia.com/feed/?author=256&cat=2%2C5
-        define_name Bj&oslash;rn Erik Nilsen (bnilsen)
+# empty, disabled, sysadmin, toma.
+#feed 30m http://labs.qt.nokia.com/feed/?author=256&cat=2%2C5
+#        define_name Bj&oslash;rn Erik Nilsen (bnilsen)
 
 feed 30m http://labs.qt.nokia.com/feed/?author_name=tzander
         define_name Thomas Zander (ThomasZ)
@@ -1202,14 +1215,16 @@ feed 30m http://darktears.wordpress.com/feed/?mrss=off
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://labs.qt.nokia.com/feed/?author=767&cat=2%2C5
-        define_name Alexis Menard (Qt Development Frameworks)
-        define_face hackergotchi/alexis-menard.jpg
-        define_facewidth 80
-        define_faceheight 80
+# empty, disabled, sysadmin, toma.
+#feed 30m http://labs.qt.nokia.com/feed/?author=767&cat=2%2C5
+#        define_name Alexis Menard (Qt Development Frameworks)
+#        define_face hackergotchi/alexis-menard.jpg
+#        define_facewidth 80
+#        define_faceheight 80
 
-feed 30m http://labs.qt.nokia.com/author/qtmobility/feed/?cat=2%2C5
-        define_name Marius Bugge Monsen (Qt Development Frameworks)
+# empty, disabled, sysadmin, toma.
+#feed 30m http://labs.qt.nokia.com/author/qtmobility/feed/?cat=2%2C5
+#        define_name Marius Bugge Monsen (Qt Development Frameworks)
 
 feed 30m http://freelancesamurai.wordpress.com/tag/kde/feed/?mrss=off
         define_name Nuno Povoa (npovoa)
@@ -1962,8 +1977,9 @@ feed 30m http://f4l3.net/?q=taxonomy/term/1/0/feed
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://labs.qt.nokia.com/feed/?author=1186&cat=2%2C5
-        define_name Jason McDonald (Qt Development Frameworks)
+# empty, disabled, sysadmin, toma.
+#feed 30m http://labs.qt.nokia.com/feed/?author=1186&cat=2%2C5
+#        define_name Jason McDonald (Qt Development Frameworks)
 
 feed 30m http://milianw.de/tag/kde/feed
         define_name Milian Wolff (milianw)
