@@ -2330,7 +2330,7 @@ feed 30m http://blog.heimr.nl/taxonomy/term/1/0/feed
     define_name Arjen Hiemstra (ahiemstra)
 
 feed 30m http://www.anselmolsm.org/blog/category/planet_kde/feed/
-	define_name Anselmo Lacerda S. de Melo (anselmolsm)
+	define_name Anselmo L. S. Melo (anselmolsm)
 
 feed 30m http://monkeyiq.blogspot.com/feeds/posts/default/-/kde
 	define_name Ben Martin (monkeyiq)
