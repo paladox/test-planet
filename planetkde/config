@@ -1567,6 +1567,9 @@ feed 30m http://dridk.blogspot.com/feeds/posts/default?alt=rss
 
 feed 30m http://www.elpauer.org/?cat=6&feed=rss2
         define_name Pau Garcia i Quiles (pgquiles)
+        define_face hackergotchi/pgquiles.png
+        define_facewidth 65
+        define_faceheight 82
 
 feed 30m http://fmontesi.blogspot.com/feeds/posts/default
         define_name Fabrizio Montesi (fmontesi)
