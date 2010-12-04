@@ -2406,7 +2406,7 @@ feed 30m http://c2143.blogspot.com/feeds/posts/default/-/KDE
 feed 30m http://blog.m-hias.de/feed/
         define_name Mathias Kraus (hias)
 
-feed 30m http://jussi01.com/?cat=16&feed=rss2
+feed 30m http://jussi01.com/category/ubuntu/feed/
         define_name Jussi Schultink (jussi01)
         define_face hackergotchi/jussi.jpg
         define_facewidth 122
