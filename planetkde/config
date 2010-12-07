@@ -3053,6 +3053,9 @@ feed 30m http://shentey.wordpress.com/category/kde/feed/?mrss=off
 feed 30m http://rekonq.kde.org/blog/67/feed
         define_name Lionel Chauvin
 
+feed 30m http://sciencekde.wordpress.com/tag/kde/feed/?mrss=off
+    define_name Matteo Agostinelli (agostinelli)
+
 feed 30m http://k-de-leag.blogspot.com/feeds/posts/default?alt=rss
   define_name Gaël de Chalendar (kleag)
   define_face hackergotchi/kleag.png
