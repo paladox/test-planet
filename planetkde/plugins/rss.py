@@ -101,15 +101,6 @@ class RSS_Feed:
             return feed.get_html_name(config)
 
     def article_to_xml(self, xml_article, rawdog, config, article):
-        #Planet KDE addition, don't include articles in a feedclass
-        feed = rawdog.feeds[article.feed]
-        itembits = {}
-	for name, value in feed.args.items():
-	    if name.startswith("define_"):
-	        itembits[name[7:]] = value
-        if "feedclass" in itembits:
-            return
-
         entry_info = article.entry_info
 
         id = entry_info.get("id", self.options["xmlurl"] + "#id" + article.hash)
@@ -162,8 +153,19 @@ class RSS_Feed:
         except ValueError:
             maxarticles = len(articles)
         for article in articles[:maxarticles]:
-            xml_article = channel.newChild(None, 'item', None)
-            self.article_to_xml(xml_article, rawdog, config, article)
+            #Planet KDE addition, don't include articles in a feedclass
+            feed = rawdog.feeds[article.feed]
+            itembits = {}
+            toAdd = True;
+            for name, value in feed.args.items():
+                if name.startswith("define_"):
+                    itembits[name[7:]] = value
+                    if "feedclass" in itembits:
+                        toAdd = False;
+            
+            if toAdd: 
+                xml_article = channel.newChild(None, 'item', None)
+                self.article_to_xml(xml_article, rawdog, config, article)
 
         doc.saveFormatFile(self.options["outputxml"], 1)
         doc.freeDoc()
