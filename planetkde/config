@@ -3063,3 +3063,6 @@ feed 30m http://ffejery.wordpress.com/category/projects/software/kde-software/fe
   define_facewidth 80
   define_faceheight 80
 
+feed 30m http://www.sharpley.org.uk/taxonomy/term/1/0/feed
+  define_name David Edmundson (d_ed)
+
