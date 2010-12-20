@@ -2972,6 +2972,9 @@ feed 30m http://not403.blogspot.com/feeds/posts/default/-/kde
 
 feed 30m http://dev-peterix.blogspot.com/feeds/posts/default/-/kde
         define_name Petr Mrázek (petrm)
+        define_face hackergotchi/petrm.jpg
+        define_facewidth 80
+        define_faceheight 80
 
 feed 30m http://dot.kde.org/rss.xml
         define_name KDE Dot News
