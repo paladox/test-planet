@@ -3084,3 +3084,9 @@ feed 30m http://kde.in/blog/feed/
         define_facewidth 80
         define_faceheight 80
         define_feedclass news
+
+feed 30m http://www.nan-tic.com/en/taxonomy/term/65/0/feed
+        define_name Albert Cervera Areny
+        define_face hackergotchi/albert-cervera-areny.png
+        define_facewidth 60
+        define_faceheight 80
