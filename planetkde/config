@@ -3090,3 +3090,10 @@ feed 30m http://www.nan-tic.com/en/taxonomy/term/65/0/feed
         define_face hackergotchi/albert-cervera-areny.png
         define_facewidth 60
         define_faceheight 80
+
+feed 30m http://lizards.opensuse.org/author/javierllorente/feed/
+        define_name Javier Llorente
+
+feed 30m http://identi.ca/api/statuses/user_timeline/100031.rss
+        define_name Javier Llorente [identi.ca]
+        define_microblog true
