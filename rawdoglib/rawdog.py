@@ -480,7 +480,7 @@ class Feed:
 		return r
 
 	def get_html_link(self, config):
-		s = self.get_html_name(config)
+                s = unicode(self.args['define_name'], 'utf-8').encode('ascii', 'xmlcharrefreplace')
 		if self.feed_info.has_key("link"):
 			return '<a href="' + string_to_html(self.feed_info["link"], config) + '">' + s + '</a>'
 		else:
