@@ -1506,7 +1506,7 @@ __description__
 		f = StringIO()
 		dw = DayWriter(f, config)
 
-		for article in twitterArticles:
+		for article in twitterArticles[:60]:
 			self.write_article(f, article, config)
 
 		dw.close()
