@@ -1366,6 +1366,7 @@ __description__
 		itembits["feed_hash"] = short_hash(feed.url)
 		itembits["feed_id"] = feed.get_id(config)
 		itembits["hash"] = short_hash(article.hash)
+                itembits["blogurl"] = feed_info.links[0]['href']
 
 		if description is not None:
 			itembits["description"] = description
