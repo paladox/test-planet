@@ -1391,9 +1391,7 @@ __description__
 		else:
 			itemtemplate = self.get_itemtemplate(config)
 
-                munge_keys = ['name']
-                for k in munge_keys:
-                       itembits[k]=string_to_html(itembits[k], config)
+		itembits['name'] = unicode(itembits['name'], 'utf-8').encode("ascii", "xmlcharrefreplace")
 
 		f.write(fill_template(itemtemplate, itembits))
 

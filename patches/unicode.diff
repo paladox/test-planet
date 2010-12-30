@@ -1,13 +1,11 @@
---- rawdoglib/rawdog.py~	2010-07-21 17:04:33.009987002 +0100
-+++ rawdoglib/rawdog.py	2010-08-12 21:41:24.091654002 +0100
-@@ -1389,6 +1389,11 @@
+--- ../../planet/rawdoglib/rawdog.py	2010-12-30 17:26:46.265332000 +0000
++++ rawdoglib/rawdog.py	2010-12-30 17:25:34.593332001 +0000
+@@ -1390,6 +1390,9 @@
  			itemtemplate = load_file("microblogitemtemplate")
  		else:
  			itemtemplate = self.get_itemtemplate(config)
 +
-+                munge_keys = ['name']
-+                for k in munge_keys:
-+                       itembits[k]=string_to_html(itembits[k], config)
++		itembits['name'] = unicode(itembits['name'], 'utf-8').encode("ascii", "xmlcharrefreplace")
 +
  		f.write(fill_template(itemtemplate, itembits))
  
