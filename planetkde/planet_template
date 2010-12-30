@@ -119,6 +119,19 @@ function eraseCookie(name) {
         }
     } 
 
+    function togglepolish() {
+        var ele = document.getElementsByClassName("polish");
+	for(var i=0,j=ele.length; i<j; i++)
+        if(ele[i].style.display == "block") {
+                ele[i].style.display = "none";
+                eraseCookie("polish")
+        }
+        else {
+                ele[i].style.display = "block";
+                createCookie("polish","block",360)
+        }
+    } 
+
     function togglenews() {
         var ele = document.getElementsByClassName("news");
 	for(var i=0,j=ele.length; i<j; i++)
@@ -160,6 +173,12 @@ function eraseCookie(name) {
 	};
         var ele = document.getElementsByClassName("spanish");
         var spanish=readCookie("spanish");
+	if (spanish=="block") {
+	  for(var i=0,j=ele.length; i<j; i++)
+	  (ele[i].style.display = "block")
+	};
+        var ele = document.getElementsByClassName("polish");
+        var spanish=readCookie("polish");
 	if (spanish=="block") {
 	  for(var i=0,j=ele.length; i<j; i++)
 	  (ele[i].style.display = "block")
@@ -212,6 +231,7 @@ function eraseCookie(name) {
                        <a href="javascript:togglenews();">Project news<img src="images/dialog-ok.png" alt="" width="22" height="22" class="news" style="float: left" /></a><br clear="all" />
                        <a href="javascript:toggleuser();">KDE user blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="user" style="float: left" /></a><br clear="all" />
                        <a href="javascript:togglespanish();">Spanish language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="spanish" style="float: left" /></a><br clear="all" />
+                       <a href="javascript:togglepolish();">Polish language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="polish" style="float: left" /></a><br clear="all" />
        </div>
 
         <div id="addme">
@@ -224,9 +244,9 @@ function eraseCookie(name) {
           may want to set up a tag and subscribe the feed for that tag
           only to Planet KDE.</p>
 
-          <p>From August 2010 we are trialling adding feeds in
+          <p>We also include feeds in
           different categories, currently Dot News, Project News
-          feeds, User Blogs and Spanish Language KDE blogs.  If you
+          feeds, User Blogs, Spanish Language and Polish Language KDE blogs.  If you
           have a feed which falls into these categories (or another
           non-English language) please file a bug as below.</p>
 
