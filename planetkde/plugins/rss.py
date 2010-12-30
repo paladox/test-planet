@@ -110,8 +110,11 @@ class RSS_Feed:
         title = escape(self.feed_name(rawdog.feeds[article.feed], config))
         s = detail_to_html(entry_info.get("title_detail"), True, config)
         if s is not None:
-            title += ": " + s.encode('utf8')
+            title = s.encode('utf8')
         xml_article.newChild(None, 'title', title)
+
+        author = escape(self.feed_name(rawdog.feeds[article.feed], config))
+        xml_article.newChild(None, 'author', author)
 
         if article.date is not None:
             date = rfc822_date(gmtime(article.date))
