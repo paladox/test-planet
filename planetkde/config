@@ -1408,7 +1408,7 @@ feed 30m http://twitter.com/statuses/user_timeline/2978031.rss
         define_name Jesper Thomschutz [twitter]
         define_microblog true
 
-feed 30m https://whilos.blogsite.com/category/kde/feed/
+feed 30m http://whilos.blogsite.com/?cat=4&feed=atom
         define_name Christian Weilbach (whilo)
 
 feed 30m http://www.piggz.co.uk/rss2.php
