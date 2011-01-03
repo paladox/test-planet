@@ -2165,8 +2165,15 @@ feed 30m http://identi.ca/tmcguire/rss
 feed 30m http://dimula73.blogspot.com/feeds/posts/default/-/KDE
 	define_name Dmitry Kazakov (dmitryK)
 
-#feed 30m http://machine-crusade.net/blog/category/kde/feed/
-#        define_name Steve Stalcup (vorian)
+feed 30m http://stalcups.com/blog/?feed=rss2
+        define_name Steve Stalcup (vorian)
+        define_face hackergotchi/stalcup.jpeg
+	define_facewidth 80
+	define_facewidth 80
+
+feed 30m http://twitter.com/statuses/user_timeline/14298657.rss
+	define_name Steve Stalcup [twitter]
+	define_microblog true
 
 feed 30m http://zekecoma.blogspot.com/feeds/posts/default/-/kde
 	define_name Keith Rusler (comawhite)
