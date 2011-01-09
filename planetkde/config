@@ -2236,7 +2236,7 @@ feed 30m http://thinkmoult.com/tag/planetkde/feed/
 feed 30m http://ascending.wordpress.com/tag/planetkde/feed/?mrss=off
 	define_name Constantin Berzan (exit)
 
-feed 30m http://blog.cynapses.org/category/kde/feed/
+feed 30m http://blog.cryptomilk.org/category/kde/feed/
 	define_name Andreas Schneider (gladiac)
 	define_face hackergotchi/anschneider.png
 	define_facewidth 80
