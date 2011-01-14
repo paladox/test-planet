@@ -1752,7 +1752,7 @@ feed 30m http://identi.ca/apachelogger/rss
         define_microblog true
 
 feed 30m http://twitter.com/statuses/user_timeline/8725472.rss
-        define_name Chani Armitage [twitter]
+        define_name Harald Sitter [twitter]
         define_microblog true
 
 feed 30m http://twitter.com/statuses/user_timeline/8719472.rss
