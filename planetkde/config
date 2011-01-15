@@ -3108,3 +3108,9 @@ feed 30m http://identi.ca/api/statuses/user_timeline/100031.rss
 feed 30m http://mrybczynska.wordpress.com/feed/?mrss=off
         define_name Marta Rybczyńska
         define_feedclass polish
+
+feed 30m http://rekonq.kde.org/blog/73/feed
+        define_name Panagiotis Papadopoulos (pano)
+        define_face hackergotchi/pano.png
+        define_facewidth 70
+        define_faceheight 70
