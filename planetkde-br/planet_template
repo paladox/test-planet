@@ -107,7 +107,7 @@
           <p>Caso você possua conta no svn, pode adicionar o próprio feed:</p>
 
             <ul>
-              <li><em>svn checkout svn+ssh://<username>@svn.kde.org/home/kde/trunk/www/sites/planet/planetkde-es</em></li>
+              <li><em>svn checkout svn+ssh://<username>@svn.kde.org/home/kde/trunk/www/sites/planet/planetkde-br</em></li>
 
               <li>Coloque seu hackergotchi
               em <em>website/hackergotchi/</em>.  O hackergotchi
