@@ -132,6 +132,19 @@ function eraseCookie(name) {
         }
     } 
 
+    function toggleportuguese() {
+        var ele = document.getElementsByClassName("portuguese");
+	for(var i=0,j=ele.length; i<j; i++)
+        if(ele[i].style.display == "block") {
+                ele[i].style.display = "none";
+                eraseCookie("portuguese")
+        }
+        else {
+                ele[i].style.display = "block";
+                createCookie("portuguese","block",360)
+        }
+    } 
+
     function togglenews() {
         var ele = document.getElementsByClassName("news");
 	for(var i=0,j=ele.length; i<j; i++)
@@ -180,6 +193,12 @@ function eraseCookie(name) {
         var ele = document.getElementsByClassName("polish");
         var spanish=readCookie("polish");
 	if (spanish=="block") {
+	  for(var i=0,j=ele.length; i<j; i++)
+	  (ele[i].style.display = "block")
+	};
+        var ele = document.getElementsByClassName("portuguese");
+        var portuguese=readCookie("portuguese");
+	if (portuguese=="block") {
 	  for(var i=0,j=ele.length; i<j; i++)
 	  (ele[i].style.display = "block")
 	};
@@ -232,6 +251,7 @@ function eraseCookie(name) {
                        <a href="javascript:toggleuser();">KDE user blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="user" style="float: left" /></a><br clear="all" />
                        <a href="javascript:togglespanish();">Spanish language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="spanish" style="float: left" /></a><br clear="all" />
                        <a href="javascript:togglepolish();">Polish language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="polish" style="float: left" /></a><br clear="all" />
+                       <a href="javascript:toggleportuguese();">Portuguese language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="polish" style="float: left" /></a><br clear="all" />
        </div>
 
         <div id="addme">
