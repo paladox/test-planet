@@ -251,7 +251,7 @@ function eraseCookie(name) {
                        <a href="javascript:toggleuser();">KDE user blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="user" style="float: left" /></a><br clear="all" />
                        <a href="javascript:togglespanish();">Spanish language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="spanish" style="float: left" /></a><br clear="all" />
                        <a href="javascript:togglepolish();">Polish language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="polish" style="float: left" /></a><br clear="all" />
-                       <a href="javascript:toggleportuguese();">Portuguese language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="polish" style="float: left" /></a><br clear="all" />
+                       <a href="javascript:toggleportuguese();">Portuguese language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="portuguese" style="float: left" /></a><br clear="all" />
        </div>
 
         <div id="addme">
