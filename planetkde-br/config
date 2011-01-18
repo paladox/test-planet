@@ -345,3 +345,9 @@ feed 30m http://kdepi.wordpress.com/category/planetkde-portugues-chicao/feed/
         define_face hackergotchi/chicao.png
         define_facewidth 80
         define_faceheight 80
+
+feed 30m http://kde-mg.org/author/lamarque/feed/
+        define_name Lamarque Souza (lamarque or lvsouza)
+        define_face hackergotchi/lamarque.png
+        define_facewidth 74
+        define_faceheight 80
