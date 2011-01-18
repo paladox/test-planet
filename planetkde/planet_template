@@ -266,8 +266,8 @@ function eraseCookie(name) {
 
           <p>We also include feeds in
           different categories, currently Dot News, Project News
-          feeds, User Blogs, Spanish Language and Polish Language KDE blogs.  If you
-          have a feed which falls into these categories (or another
+          feeds, User Blogs, Spanish Language, Polish Language and Portuguese Language KDE blogs.
+          If you have a feed which falls into these categories (or another
           non-English language) please file a bug as below.</p>
 
           <p>To have your blog
