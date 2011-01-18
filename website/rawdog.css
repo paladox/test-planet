@@ -243,6 +243,11 @@ background: none;
   background: #B1FF80;
 }
 
+.portuguese {
+  display:none;
+  background: #5858FA;
+}
+
 .news {
   display:none;
   background: #FAFF8E;
