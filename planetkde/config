@@ -3115,6 +3115,9 @@ feed 30m http://rekonq.kde.org/blog/73/feed
         define_facewidth 70
         define_faceheight 70
 
+feed 30m http://bcooksley.blogspot.com/feeds/posts/default
+        define_name Ben Cooksley (bcooksley)
+
 feed 30m http://kdepi.wordpress.com/category/planetkde-portugues-araceletorres/feed/
         define_name Aracele Torres (araceletorres)
         define_face hackergotchi/araceletorres.jpg
