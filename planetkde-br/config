@@ -354,19 +354,19 @@ feed 30m http://kde-mg.org/author/lamarque/feed/
 
 feed 30m http://kde-mg.org/author/amandacsi/feed/
         define_name Amanda (amandacsi)
-        define_face hackergotchi/amandacsi.png
+        define_face hackergotchi/amandacsi.jpg
         define_facewidth 53
         define_faceheight 80
 
 feed 30m http://kde-mg.org/author/lombra/feed/
         define_name Felipe Ribeiro (lombra)
-        define_face hackergotchi/lombra.png
+        define_face hackergotchi/lombra.jpg
         define_facewidth 80
         define_faceheight 80
 
 feed 30m http://kde-mg.org/author/don/feed/
         define_name Daniel O. Nascimento (don)
-        define_face hackergotchi/don.png
+        define_face hackergotchi/don.jpg
         define_facewidth 60
         define_faceheight 80
 
