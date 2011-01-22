@@ -3181,3 +3181,5 @@ feed 30m http://kders.wordpress.com/category/planetkde-pt-wagner/feed/
         define_faceheight 80
         define_feedclass portuguese
 
+feed 30m http://philacorns.wordpress.com/tag/planetkde/feed/
+	define_name Yue Liu (yue)
