@@ -600,7 +600,7 @@ feed 30m http://theobromas.blogspot.com/atom.xml
 feed 30m http://www.kdedevelopers.org/blog/460/feed
         define_name Kurt Hindenburg
 
-feed 30m http://blogs.fsfe.org/adridg/?feed=rss2
+feed 30m http://euroquis.nl/bobulate/?feed=rss2
         define_name Adriaan de Groot (adridg)
 
 feed 30m http://www.kdedevelopers.org/blog/20/feed
