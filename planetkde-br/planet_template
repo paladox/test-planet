@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="http://planetkde.org/rawdog.css" type="text/css" title="Fixed Width" />
     <link rel="stylesheet" href="pt-br.css" type="text/css" title="Fixed Width" />
     <link rel="alternate stylesheet" href="http://planetkde.org/rawdog-variable.css" type="text/css" title="Variable Width" />
-    <title>Planet KDE Brasil</title>
-    <link rel="alternate" type="application/rss+xml" title="Planet KDE Brasil" href="http://planetkde.org/pt-br/rss20.xml" />
+    <title>Planet KDE Português</title>
+    <link rel="alternate" type="application/rss+xml" title="Planet KDE Português" href="http://planetkde.org/pt-br/rss20.xml" />
 
 	<!--[if IE 6]>
 	<style type="text/css">
@@ -49,7 +49,7 @@
                 var expire = new Date();
                 expire.setTime(today.getTime() + 3600000*24*100)
                 document.cookie = "twitter=none;expires="+expire.toGMTString();
-        }
+        a
         else {
                 ele.style.display = "block";
                 var today = new Date();
@@ -133,11 +133,11 @@ feed 15m http://path.to/my/feed.rss
        microblogs to check it works.</p>
 
 
-       <h2>Planet KDE Brasil Guidelines</h2>
+       <h2>Planet KDE Português Guidelines</h2>
 
-<p>Planet KDE Brasil is one of the public faces of the KDE project and is
+<p>Planet KDE Português is one of the public faces of the KDE project and is
 read by millions of users and potential contributors.  The content
-aggregated at Planet KDE Brasil is the opinions of its authors, but the sum
+aggregated at Planet KDE Português is the opinions of its authors, but the sum
 of that content gives an impression of the project.  Please keep in
 mind the following guidelines for your blog content and read the
 <a href="http://www.kde.org/code-of-conduct/">KDE Code of Conduct</a>.  The KDE
@@ -152,9 +152,9 @@ aggregated again.</p>
 
 <p>The majority of content in your blog should be about KDE and your
 work on KDE.  Blog posts about personal subjects are also encouraged
-since Planet KDE Brasil is a chance to learn more about the developers behind
+since Planet KDE Português is a chance to learn more about the developers behind
 KDE PIM.  However blog feeds should not be entirely personal, if in doubt
-set up a tag for Planet KDE Brasil and subscribe the feed from that tag so
+set up a tag for Planet KDE Português and subscribe the feed from that tag so
 you can control what gets posted.</p>
 
 <h3>Posts should be constructive</h3>
@@ -163,11 +163,11 @@ you can control what gets posted.</p>
 
 <h3>You must be a KDE contributor</h3>
 
-<p>Only have your blog on Planet KDE Brasil if you actively contribute to KDE, for example through code, user support, documentation etc.</p>
+<p>Only have your blog on Planet KDE Português if you actively contribute to KDE, for example through code, user support, documentation etc.</p>
 
 <h3>It must be a personal blog</h3>
 
-<p>Planet KDE Brasil is a collection of blogs from KDE contributors.  It is not indended for project news feeds.</p>
+<p>Planet KDE Português is a collection of blogs from KDE contributors.  It is not indended for project news feeds.</p>
 
 <h3>Do not inflame</h3>
 
@@ -196,7 +196,7 @@ __items__
 <div id="footerright">
 <div id="footerleft">
 <div id="footer">
-Planet KDE Brasil is made from the blogs of KDE's contributors.  The opinions it contains are those of the contributor.  This site is powered by <a href="http://offog.org/code/rawdog.html">Rawdog</a> and <a href="https://launchpad.net/rawdog-rss">Rawdog RSS</a>.  Feed readers can read Planet KDE Brasil with <a href="rss20.xml">RSS</a>, <a href="foafroll.xml">FOAF</a> or <a href="opml.xml">OPML</a>.
+Planet KDE Português is made from the blogs of KDE's contributors.  The opinions it contains are those of the contributor.  This site is powered by <a href="http://offog.org/code/rawdog.html">Rawdog</a> and <a href="https://launchpad.net/rawdog-rss">Rawdog RSS</a>.  Feed readers can read Planet KDE Português with <a href="rss20.xml">RSS</a>, <a href="foafroll.xml">FOAF</a> or <a href="opml.xml">OPML</a>.
 </div><!--footer-->
 </div><!--footerleft-->
 </div><!--footerright-->
