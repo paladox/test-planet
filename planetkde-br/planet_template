@@ -48,7 +48,8 @@
                 var today = new Date();
                 var expire = new Date();
                 expire.setTime(today.getTime() + 3600000*24*100)
-                document.cookie = "twitter=none;expires="+expire.toGMTString();
+		document.cookie = "twitter=none;expires="+expire.toGMTString();
+	}
         else {
                 ele.style.display = "block";
                 var today = new Date();
