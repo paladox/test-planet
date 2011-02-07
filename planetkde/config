@@ -2559,8 +2559,8 @@ feed 30m http://www.digikam.org/drupal/blog/148/feed
 # digiKam GSoC 2010 contributors
 
 feed 30m http://www.digikam.org/drupal/blog/149/feed
-        define_name Martin Klapetek (mklapetek)
-        define_face hackergotchi/mklapetek.png
+        define_name Martin Klapetek (mck182)
+        define_face hackergotchi/mck182.png
         define_facewidth 69
         define_faceheight 80
 
