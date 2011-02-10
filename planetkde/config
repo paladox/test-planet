@@ -1391,7 +1391,7 @@ feed 30m http://saroengels.blogspot.com/feeds/posts/default
 feed 30m http://feeds.feedburner.com/LamersCorner
         define_name Bartosz Wadolowski
 
-feed 30m http://blog.nixternal.com/category/kde/feed/
+feed 30m http://www.nixternal.com/category/kde/feed/
         define_name Richard Johnson (nixternal)
         define_face hackergotchi/nixternal.png
         define_facewidth 58
