@@ -1178,7 +1178,7 @@ feed 30m http://blog.loic.corbasson.fr/feed/tag/KDE/rss2
 #feed 30m http://blog.lukrop.bplaced.net/feeds/categories/planetKDE.rss
 #        define_name Lukas Kropatschek
 
-feed 30m http://darktears.wordpress.com/feed/?mrss=off
+feed 30m http://darktears.wordpress.com/category/kde/feed/?mrss=off
         define_name Alexis Menard (darktears)
         define_face hackergotchi/alexis-menard.jpg
         define_facewidth 80
