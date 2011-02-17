@@ -3148,3 +3148,6 @@ feed 30m http://martys.typepad.com/blog/atom.xml
 feed 30m http://mattr.info/tagged/kde/rss
         define_name Matt Rogers (mattr)
 
+feed 30m http://the-user.org/category/planetkde/feed
+        define_name Jonathan Schmidt-Dominé (The User)
+
