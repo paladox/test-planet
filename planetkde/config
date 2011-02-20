@@ -3060,7 +3060,7 @@ feed 30m http://identi.ca/api/statuses/user_timeline/100031.rss
         define_name Javier Llorente [identi.ca]
         define_microblog true
 
-feed 30m http://mrybczynska.wordpress.com/feed/?mrss=off
+feed 30m http://mrybczynska.wordpress.com/category/english/feed/?mrss=off
         define_name Marta Rybczyńska
         define_feedclass polish
 
