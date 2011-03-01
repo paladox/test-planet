@@ -1013,10 +1013,10 @@ feed 30m http://ivan.fomentgroup.org/blog/tag/planetKDE/feed/atom/
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://blog.froglogic.com/author/frerich/feed/atom/?cat=5,6
+feed 30m http://blog.froglogic.com/author/frerich/feed/atom/?cat=5%2C6
         define_name Frerich Raabe
 
-feed 30m http://blog.froglogic.com/author/porten/feed/atom/?cat=5,6
+feed 30m http://blog.froglogic.com/author/porten/feed/atom/?cat=5%2C6
         define_name Harri Porten
 
 feed 30m http://labs.qt.nokia.com/feed/?author_name=Morten
@@ -1575,7 +1575,7 @@ feed 30m http://majewsky.wordpress.com/feed/?mrss=off
 feed 30m http://michael-jansen.biz/taxonomy/term/10/0/feed
         define_name Michael Jansen
 
-feed 30m http://blog.froglogic.com/author/koos/feed/atom/?cat=5,6
+feed 30m http://blog.froglogic.com/author/koos/feed/atom/?cat=5%2C6
         define_name Koos Vriezen
 
 feed 30m http://www.confuego.org/feeds/categories/1-KDE.rss
