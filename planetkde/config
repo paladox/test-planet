@@ -3151,3 +3151,12 @@ feed 30m http://mattr.info/tagged/kde/rss
 feed 30m http://the-user.org/category/planetkde/feed
         define_name Jonathan Schmidt-Dominé (The User)
 
+feed 30m http://rullzer.com/blog/category/linux/kde-linux/feed/
+        define_name Roeland Douma (rullzer)
+        define_face hackergotchi/rullzer.png
+        define_facewidth 62
+        define_faceheight 80
+
+feed 30m http://status.famdouma.nl/roeland/rss
+        define_name Roeland Douma [identi.ca]
+        define_microblog true
