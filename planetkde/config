@@ -1863,7 +1863,7 @@ feed 30m http://twitter.com/statuses/user_timeline/15533183.rss
 feed 30m http://slangkamp.wordpress.com/feed/?mrss=off
         define_name Sven Langkamp (slangkamp)
 
-feed 30m http://blog.chatonka.com/category/planetkde/feed/
+feed 30m http://blog.chatonka.com/category/computers/linux/kde4/planetkde/feed/
         define_name Andrew Stromme (astromme)
         define_face hackergotchi/astromme.png
         define_facewidth 47
