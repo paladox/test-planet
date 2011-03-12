@@ -337,8 +337,9 @@ feed 15m http://aucahuasi.blogspot.com/feeds/posts/default
 feed 15m http://www.kdeblog.com/feed
         define_name KDE Blog (Baltasar Ortega)
 
-feed 15m http://kdehispano.es/?q=rss.xml
-        define_name KDE Hispano
+#403
+#feed 15m http://kdehispano.es/?q=rss.xml
+#        define_name KDE Hispano
 
 feed 15m http://midi-clorianos.blogspot.com/feeds/posts/default/-/KDE-ES
 	define_name Pedro López-Cabanillas
