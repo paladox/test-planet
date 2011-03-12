@@ -2249,11 +2249,11 @@ feed 30m http://savago.wordpress.com/feed/?mrss=off
 	define_facewidth 80
 	define_faceheight 80
 
-feed 30m http://rix.si/blag/?tag=planet-kde&feed=rss2
-	define_name Ryan Rix (rrix)
-        define_face http://rix.si/files/ryan_headshot_small.jpg
-        define_facewidth 80
-        define_facewidth 80
+#feed 30m http://rix.si/blag/?tag=planet-kde&feed=rss2
+#	define_name Ryan Rix (rrix)
+#        define_face http://rix.si/files/ryan_headshot_small.jpg
+#        define_facewidth 80
+#        define_facewidth 80
 
 feed 30m http://labs.qt.nokia.com/author/danimo/feed/
 	define_name Daniel Molkentin [Qt Labs] (danimo)
