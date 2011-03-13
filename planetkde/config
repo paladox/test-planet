@@ -726,8 +726,8 @@ feed 30m http://www.kdedevelopers.org/blog/531/feed
 feed 30m http://www.kdedevelopers.org/blog/1192/feed
         define_name Martijn Klingens
 
-feed 30m http://isaac.warp.es/index.php/category/free-software/feed
-        define_name Isaac Clerencia
+#feed 30m http://isaac.warp.es/index.php/category/free-software/feed
+#        define_name Isaac Clerencia
 
 feed 30m http://jahqueel.blogspot.com/atom.xml
         define_name Ashley Winters
