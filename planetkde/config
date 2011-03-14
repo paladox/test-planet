@@ -2603,7 +2603,6 @@ feed 30m http://spaceoasis.gotdns.org/lolo/taxonomy/term/44,46/0/feed
 # End of digiKam team entries.
 ###############################################################
 
- timeout
 feed 30m http://blog.tampakrap.gr/category/planets/planet-kde/feed/
         define_name Theo Chatzimichos (tampakrap)
         define_face hackergotchi/theo-chatzimichos.png
