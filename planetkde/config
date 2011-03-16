@@ -2833,12 +2833,11 @@ feed 30m http://ingomar.wesp.name/feeds/posts/default/-/planetkde
         define_facewidth 80
         define_faceheight 80
 
-# timeout
-#feed 30m http://feeds.feedburner.com/noughmad
-#        define_name Miha Čančula (Noughmad)
-#        define_face hackergotchi/noughmad.png
-#        define_facewidth 80
-#        define_faceheight 80
+feed 30m http://feeds.feedburner.com/noughmad
+        define_name Miha Čančula (Noughmad)
+        define_face hackergotchi/noughmad.png
+        define_facewidth 80
+        define_faceheight 80
 
 feed 30m http://feeds.feedburner.com/andreas-demmer/kde
         define_name Andreas Demmer (ademmer)
