@@ -2405,8 +2405,9 @@ feed 30m http://liveblue.wordpress.com/category/planetkde-vinicius/feed/?mrss=of
 #feed 30m http://jmho4.wordpress.com/category/kde/feed/?mrss=off
 #        define_name Jens-Michael Hoffmann (jmho)
 
-feed 30m http://buscher.zxq.net/category/kde/feed/
-        define_name Bernd Buschinski (buscher)
+# timeout, bcooksley, kdesysadmin, 20/3/2011
+#feed 30m http://buscher.zxq.net/category/kde/feed/
+#        define_name Bernd Buschinski (buscher)
 
 #feed 30m http://en.peremen.name/atom
 #	define_name Park Shinjo (peremen)
