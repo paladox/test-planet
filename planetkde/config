@@ -1457,9 +1457,8 @@ feed 30m http://krishnaggk.wordpress.com/category/planetkde/feed/?mrss=off
         define_facewidth 63
         define_faceheight 80
 
-# http 500; bcooksley; kdesysadmin
-#feed 30m http://ekaia.org/blog/category/english/kde/feed
-#        define_name Ana Guerrero (ana)
+feed 30m http://ekaia.org/blog/category/english/kde/feed/
+        define_name Ana Guerrero (ana)
 
 feed 30m http://hamberg.no/erlend/category/kde/feed/
         define_name Erlend Hamberg
