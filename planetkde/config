@@ -1457,8 +1457,9 @@ feed 30m http://krishnaggk.wordpress.com/category/planetkde/feed/?mrss=off
         define_facewidth 63
         define_faceheight 80
 
-feed 30m http://ekaia.org/blog/category/english/kde/feed
-        define_name Ana Guerrero (ana)
+# http 500; bcooksley; kdesysadmin
+#feed 30m http://ekaia.org/blog/category/english/kde/feed
+#        define_name Ana Guerrero (ana)
 
 feed 30m http://hamberg.no/erlend/category/kde/feed/
         define_name Erlend Hamberg
@@ -2068,11 +2069,12 @@ feed 30m http://skrooge.org/blogs/gdebure/rss.xml
 feed 30m http://algebraicallyclosed.blogspot.com/feeds/posts/default
 	define_name Jeremias Epperlein
 
-feed 30m http://soliverez.com.ar/drupal/?q=taxonomy/term/17/all/feed
-	define_name Alvaro Soliverez (Hei_Ku)
-	define_face hackergotchi/asoliverez.png
-	define_facewidth 80
-	define_faceheight 80
+# Timeout; bcooksley; kdesysadmin
+#feed 30m http://soliverez.com.ar/drupal/?q=taxonomy/term/17/all/feed
+#	define_name Alvaro Soliverez (Hei_Ku)
+#	define_face hackergotchi/asoliverez.png
+#	define_facewidth 80
+#	define_faceheight 80
 
 feed 30m http://rubots.blogspot.com/atom.xml
 	define_name Jordi Polo (jordl)
