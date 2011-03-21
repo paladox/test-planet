@@ -1826,8 +1826,8 @@ feed 30m http://borntobeopen.blogspot.com/feeds/posts/default/-/KDE
 feed 30m http://labs.qt.nokia.com/author/sroedal/feed/
         define_name Samuel Rødal
 
-#feed 30m http://community.ir/~emilsedgh/blog/?q=blog/1/feed
-#        define_name Emil Sedgh (emilsedgh)
+feed 30m http://emilsedgh.info/blog/index.php?/feeds/index.rss2
+        define_name Emil Sedgh (emilsedgh)
 
 feed 30m http://lizards.opensuse.org/author/kfreitag/feed/
         define_name Klaas Freitag (dragotin)
