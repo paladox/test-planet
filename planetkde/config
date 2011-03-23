@@ -1052,7 +1052,7 @@ feed 30m http://ksvladimir.blogspot.com/atom.xml
 feed 30m http://jarlesdraw-log.blogspot.com/atom.xml
         define_name Jarle Akselsen
 
-feed 30m http://nowwhatthe.blogspot.com/atom.xml
+feed 30m http://blog.jospoortvliet.com/atom.xml
         define_name Jos Poortvliet
         define_face hackergotchi/jospoortvliet.png
         define_facewidth 65
