@@ -1247,7 +1247,8 @@ feed 30m http://www.kdedevelopers.org/blog/4267/feed
 
 feed 30m http://blogs.fsfe.org/gladhorn/category/KDE/feed/
         define_name Frederik Gladhorn (fregl)
-
+feed 30m http://labs.qt.nokia.com/author/frederik/feed/
+        define_name Frederik Gladhorn (fregl)
 feed 30m http://www.kdedevelopers.org/blog/4326/feed
         define_name Frederik Gladhorn (fregl)
 
