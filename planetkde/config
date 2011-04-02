@@ -390,8 +390,8 @@ feed 30m http://www.purinchu.net/wp/feed/
 feed 30m http://www.kdedevelopers.org/blog/11/feed
         define_name Maksim Orlovich (SadEagle)
 
-feed 30m http://www.valdyas.org/fading/index.cgi/index.rss
-        define_name Boudewijn Rempt (boud)
+#feed 30m http://www.valdyas.org/fading/index.cgi/index.rss
+#        define_name Boudewijn Rempt (boud)
 
 feed 30m http://ramblingsofpsn.blogspot.com/feeds/posts/default
         define_name Peter Simonsson (psn)
@@ -636,8 +636,8 @@ feed 30m http://tina-t.blogspot.com/atom.xml
         define_facewidth 74
         define_faceheight 76
 
-feed 30m http://www.methylblue.com/blog/wp-rss.php?cat=4
-        define_name Max Howell (mxcl)
+#feed 30m http://www.methylblue.com/blog/wp-rss.php?cat=4
+#        define_name Max Howell (mxcl)
 
 feed 30m http://www.kdedevelopers.org/blog/175/feed
         define_name Fabrice Mous (fab)
