@@ -1431,7 +1431,7 @@ feed 30m http://blauzahl.livejournal.com/data/rss?tag=kde
         define_facewidth 58
         define_faceheight 80
 
-feed 30m http://www.gnuton.org/blog/category/kde-dev/feed/atom/
+feed 30m http://www.gnuton.org/blog/category/myprojects/kde-dev/feed/atom/
         define_name Antonio Aloisio
 
 feed 30m http://arindamghosh.wordpress.com/category/kde/feed/?mrss=off
