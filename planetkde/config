@@ -1875,7 +1875,7 @@ feed 30m http://twitter.com/statuses/user_timeline/17786106.rss
         define_name Gran Canaria Desktop Summit [twitter]
         define_microblog true
 
-feed 30m http://www.dennogumi.org/category/KDE/feed
+feed 30m http://www.dennogumi.org/category/kde/feed
         define_name Luca Beltrame (einar77)
 
 feed 30m http://neverendingo.blogspot.com/feeds/posts/default
