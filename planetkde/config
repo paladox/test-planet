@@ -968,7 +968,7 @@ feed 30m http://dkukawka.blogspot.com/atom.xml
 #feed 30m http://basysblog.org/?author=3&feed=rss2
 #        define_name Stefan Eilers
 
-feed 30m http://transloid.blogspot.com/
+feed 30m http://transloid.blogspot.com/feeds/posts/default
         define_name Eva Brucherseifer
 
 feed 30m http://blog.gwright.org.uk/xml/rss20/feed.xml
