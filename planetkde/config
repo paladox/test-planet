@@ -968,9 +968,8 @@ feed 30m http://dkukawka.blogspot.com/atom.xml
 #feed 30m http://basysblog.org/?author=3&feed=rss2
 #        define_name Stefan Eilers
 
-# timeout...
-#feed 30m http://basysblog.org/?author=4&feed=rss2
-#        define_name Eva Brucherseifer
+feed 30m http://transloid.blogspot.com/
+        define_name Eva Brucherseifer
 
 feed 30m http://blog.gwright.org.uk/xml/rss20/feed.xml
         define_name George Wright (gw280)
