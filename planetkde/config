@@ -1116,7 +1116,7 @@ feed 30m http://uwolfer.fwo.ch/blog/feed/
 feed 30m http://milliams.com/?q=rss.xml
         define_name Matt Williams
 
-feed 30m http://pinaraf.blogspot.com/rss.xml
+feed 30m http://blog.pinaraf.info/?feed=rss2
         define_name Pierre Ducroquet
 
 feed 30m http://chehrlic.blogspot.com/rss.xml
