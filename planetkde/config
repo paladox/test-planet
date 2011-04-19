@@ -3197,3 +3197,11 @@ feed 30m http://www.calligra-suite.org/category/blogs/thorstenzachmann/feed/?mrs
 feed 30m http://ksmanis.wordpress.com/category/kde/feed/?mrss=off
         define_name Konstantinos Smanis (ksmanis)
 
+feed 30m http://twitter.com/statuses/user_timeline/171627212.rss
+        define_name Desktop Summit [twitter]
+        define_microblog true
+
+feed 30m http://twitter.com/statuses/user_timeline/15658787.rss
+        define_name Akademy [twitter]
+        define_microblog true
+
