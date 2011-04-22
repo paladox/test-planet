@@ -2218,7 +2218,7 @@ feed 30m http://identi.ca/w00t/rss
 feed 30m http://hobbyblobby.wordpress.com/category/planet/feed/?mrss=off
 	define_name Felix Lemke (HobbyBlobby)
 
-feed 30m http://saigkill.wordpress.com/category/computer/kde/feed/?mrss=off
+feed 30m http://feeds.feedburner.com/homelinux/kde
 	define_name Sascha Manns (saigkill)
 	define_face hackergotchi/sascha-manns.png
 	define_facewidth 64
@@ -2705,7 +2705,7 @@ feed 30m http://blog.filipesaraiva.info/?tag=planetkde-english&feed=rss2
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://igortrindade.wordpress.com/category/KDE/feed/?mrss=off
+feed 30m http://igortrindade.wordpress.com/category/kde/feed/?mrss=off
         define_name Igor Trindade Oliveira
 
 feed 30m http://liveblue.wordpress.com/category/planetkde-vitochiarella/feed/?mrss=off
