@@ -2722,7 +2722,7 @@ feed 30m http://www.infinityperl.org/feed/tag/KDE/atom
 feed 30m http://kusa-dev.blogspot.com/feeds/posts/default?alt=rss
         define_name Vavelin Kevin (Kusa)
 
-feed 30m http://andreascarpino.it/tag/kde/feed/
+feed 30m http://bashlnx.blogspot.com/feeds/posts/default/-/KDE?alt=rss
         define_name Andrea Scarpino (bash)
 
 
