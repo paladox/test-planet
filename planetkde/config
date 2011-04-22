@@ -3205,3 +3205,5 @@ feed 30m http://twitter.com/statuses/user_timeline/15658787.rss
         define_name Akademy [twitter]
         define_microblog true
 
+feed 30m http://cgbdx.wordpress.com/feed/?mrss=off
+        define_name Christophe Giboudeaux (krop)
