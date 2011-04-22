@@ -573,9 +573,8 @@ feed 30m http://www.fredemmott.co.uk/blog/rss
 #        define_facewidth 64
 #        define_faceheight 70
 
-# disappeared; bcooksley; kdesysadmin
-#feed 30m http://duncan.mac-vicar.com/blog/archives/22
-#        define_name Duncan Mac-Vicar (duncanmv)
+feed 30m http://duncan.mac-vicar.com/rss.xml?tag=kde
+        define_name Duncan Mac-Vicar (duncanmv)
 
 feed 30m http://www.kdedevelopers.org/blog/55/feed
         define_name Lucijan Busch (lucijan)
