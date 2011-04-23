@@ -2902,11 +2902,12 @@ feed 30m http://blog.ben2367.fr/tag/morice-net/feed/?mrss=off
         define_facewidth 54
         define_faceheight 80
 
-feed 30m http://www.theirishpenguin.com/category/kde/feed/
-        define_name Declan McGrath (declanmg)
-        define_face hackergotchi/declan.jpg
-        define_facewidth 85
-        define_faceheight 85
+# http 500; bcooksley; kdesysadmin
+#feed 30m http://www.theirishpenguin.com/category/kde/feed/
+#        define_name Declan McGrath (declanmg)
+#        define_face hackergotchi/declan.jpg
+#        define_facewidth 85
+#        define_faceheight 85
 
 feed 30m http://dazjorz.com/blog/?cat=3&feed=rss2
         define_name Sjors Gielen (Sjors/sgielen)
