@@ -3218,5 +3218,5 @@ feed 30m http://jonanp.wordpress.com/feed/
         define_faceheight 80
 
 feed 30m http://sri13atkritadevel.wordpress.com/feed/?mrss=off
-	define Srikanth Tiyyagura
+	    define_name Srikanth Tiyyagura
 
