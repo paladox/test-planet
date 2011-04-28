@@ -3227,5 +3227,5 @@ feed 30m http://www.sinny.in/?q=rss.xml
        define_faceheight 80
 
 feed 30m http://feeds.feedburner.com/kdePenguinEngineer
-	define_name Lucas Lira Gomes
+       define_name Lucas Lira Gomes
 
