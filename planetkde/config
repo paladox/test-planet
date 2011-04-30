@@ -3229,7 +3229,7 @@ feed 30m http://www.sinny.in/?q=rss.xml
 feed 30m http://feeds.feedburner.com/kdePenguinEngineer
        define_name Lucas Lira Gomes
 
-feed 30m http://pranavrc.wordpress.com/tag/planetkde/feed/?mrss=off
+feed 30m http://pranavrc.wordpress.com/category/kde/feed/?mrss=off
        define_name Pranav Ravichandran (Pranav_rcmas)
 
 
