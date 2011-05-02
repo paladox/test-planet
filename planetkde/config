@@ -3232,4 +3232,6 @@ feed 30m http://feeds.feedburner.com/kdePenguinEngineer
 feed 30m http://pranavrc.wordpress.com/category/kde/feed/?mrss=off
        define_name Pranav Ravichandran (Pranav_rcmas)
 
+feed 30m http://aakritigupta.wordpress.com/tag/kde/feed/?mrss=off
+        define_name Aakriti Gupta (aakriti)
 
