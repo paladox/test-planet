@@ -2869,8 +2869,8 @@ feed 30m http://hugo-kde.blogspot.com/rss.xml
         define_faceheight 80
 
 
-feed 30m http://hackerdood.wordpress.com/feed/?mrss=off
-        define_name Siddharth Sharma (h4xordood)
+feed 30m http://siddharthkde.wordpress.com/feed/?mrss=off
+        define_name Siddharth Sharma (siddvicious)
         define_face hackergotchi/siddharth.jpg
         define_facewidth 57
         define_faceheight 73
