@@ -357,12 +357,6 @@ feed 30m http://sujithh.info/feed/?tag=KDE-dev,Plasma-dev
         define_facewidth 64
         define_faceheight 81
 
-feed 30m http://c133.org/blog/index.rss
-        define_name Chris Lee (clee)
-        define_face hackergotchi/clee.png
-        define_facewidth 64
-        define_faceheight 68
-
 feed 30m http://blog.jasondonenfeld.com/planetkde
         define_name Jason A. Donenfeld (zx2c4/jdonenfeld)
         define_face hackergotchi/jdonenfeld.png
