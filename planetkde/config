@@ -384,8 +384,8 @@ feed 30m http://www.purinchu.net/wp/feed/
 feed 30m http://www.kdedevelopers.org/blog/11/feed
         define_name Maksim Orlovich (SadEagle)
 
-#feed 30m http://www.valdyas.org/fading/index.cgi/index.rss
-#        define_name Boudewijn Rempt (boud)
+feed 30m http://www.valdyas.org/fading/index.cgi/index.rss
+        define_name Boudewijn Rempt (boud)
 
 feed 30m http://ramblingsofpsn.blogspot.com/feeds/posts/default
         define_name Peter Simonsson (psn)
