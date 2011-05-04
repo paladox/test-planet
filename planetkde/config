@@ -1178,8 +1178,9 @@ feed 30m http://darktears.wordpress.com/category/kde/feed/?mrss=off
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://freelancesamurai.wordpress.com/tag/kde/feed/?mrss=off
-        define_name Nuno Povoa (npovoa)
+# 404, bcooksley, kdesysadmin, 4th May 2011
+#feed 30m http://freelancesamurai.wordpress.com/tag/kde/feed/?mrss=off
+#        define_name Nuno Povoa (npovoa)
 
 feed 30m http://amachu.wordpress.com/category/kde/feed/?mrss=off
         define_name Sri Ramadoss M (amachu)
