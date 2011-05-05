@@ -3244,3 +3244,6 @@ feed 30m http://rkulaga.wordpress.com/feed/?mrss=off&category_name=PlanetKDE
 
 feed 30m http://helderc.wordpress.com/feed/?mrss=off
         define_name Helder Oliveira (Hutley)
+
+feed 30m http://helderc.wordpress.com/feed/?mrss=off&category_name=PlanetKDE
+        define_name Radoslaw Wicik (rockford_)
