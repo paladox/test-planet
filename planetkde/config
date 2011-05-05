@@ -3247,3 +3247,6 @@ feed 30m http://helderc.wordpress.com/feed/?mrss=off
 
 feed 30m http://helderc.wordpress.com/feed/?mrss=off&category_name=PlanetKDE
         define_name Radoslaw Wicik (rockford_)
+
+feed 30m http://thebengaliheart.wordpress.com/feed/?mrss=off&tag=KDE
+        define_name Tirtha Chatterjee (wyuka)
