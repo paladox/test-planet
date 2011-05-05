@@ -3192,7 +3192,7 @@ feed 30m http://sudhendu.in/taxonomy/term/3/0/feed
 feed 30m http://www.calligra-suite.org/category/blogs/thorstenzachmann/feed/?mrss=off
         define_name Thorsten Zachmann
 
-feed 30m http://ksmanis.wordpress.com/category/kde/feed/?mrss=off
+feed 30m http://ksmanis.wordpress.com/category/planet-kde/feed/?mrss=off
         define_name Konstantinos Smanis (ksmanis)
 
 feed 30m http://twitter.com/statuses/user_timeline/171627212.rss
