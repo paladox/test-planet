@@ -3253,3 +3253,6 @@ feed 30m http://thebengaliheart.wordpress.com/feed/?mrss=off&tag=KDE
 
 feed 30m http://lukaslt.blogspot.com/feeds/posts/default
         define_name Lukas Dzikaras
+
+feed 30m http://nightcrawlerinshadow.wordpress.com/feed/?mrss=off&tag=KDE
+        define_name Mahfuzur Rahman Mamun (nightcrawler)
