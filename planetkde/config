@@ -1212,6 +1212,9 @@ feed 30m http://identi.ca/jpwhiting/rss
         define_name Jeremy Whiting [identi.ca]
         define_microblog true
 
+feed 30m http://web.darksharksoft.com/gpulfd.php?lang=en/&search1=PKDE&user=219
+	define_name José Millán Soto (fid_jose)
+
 feed 30m http://simon-listens.blogspot.com/rss.xml
         define_name Peter Grasch
         define_face hackergotchi/pgrasch.png
