@@ -3259,3 +3259,9 @@ feed 30m http://lukaslt.blogspot.com/feeds/posts/default
 
 feed 30m http://nightcrawlerinshadow.wordpress.com/feed/?mrss=off&tag=KDE
         define_name Mahfuzur Rahman Mamun (nightcrawler)
+
+feed 30m http://www.kdedevelopers.org/blog/8251/feed
+        define_name Sergio Martins (sergio)
+        define_face hackergotchi/sergio.png
+        define_facewidth 80
+        define_faceheight 80
