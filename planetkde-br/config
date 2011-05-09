@@ -406,3 +406,6 @@ feed 30m http://liveblue.wordpress.com/category/qla-sandroandrade/feed/
         define_facewidth 80
         define_faceheight 80
 
+feed 30m http://feeds.feedburner.com/kdePinguimEngenheiro
+       define_name Lucas Lira Gomes
+
