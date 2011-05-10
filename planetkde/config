@@ -3257,8 +3257,9 @@ feed 30m http://thebengaliheart.wordpress.com/feed/?mrss=off&tag=KDE
 feed 30m http://lukaslt.blogspot.com/feeds/posts/default
         define_name Lukas Dzikaras (LukasLt2)
 
-feed 30m http://nightcrawlerinshadow.wordpress.com/feed/?mrss=off&tag=KDE
-        define_name Mahfuzur Rahman Mamun (nightcrawler)
+# 404; kdesysadmin; bcooksley; 10/05/2011
+#feed 30m http://nightcrawlerinshadow.wordpress.com/feed/?mrss=off&tag=KDE
+#        define_name Mahfuzur Rahman Mamun (nightcrawler)
 
 feed 30m http://www.kdedevelopers.org/blog/8251/feed
         define_name Sergio Martins (sergio)
