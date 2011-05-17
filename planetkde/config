@@ -1817,7 +1817,7 @@ feed 30m http://cazou.blogspot.com/feeds/posts/default/-/kde
 feed 30m http://borntobeopen.blogspot.com/feeds/posts/default/-/KDE
         define_name Jaroslav Řezník (jreznik)
         define_face hackergotchi/rezza.png
-        define_facewidth 80
+        define_facewidth 60
         define_faceheight 80
 
 feed 30m http://labs.qt.nokia.com/author/sroedal/feed/
@@ -3275,3 +3275,6 @@ feed 45m http://bulldog98-jonathansblog.blogspot.com/feeds/posts/default/-/Plane
 
 feed 30m http://cmollekopf.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
         define_name Christian Mollekopf (cmollekopf)
+
+feed 45m http://bliak.blogspot.com/rss.xml
+        define_name Michal Luščon (Bliak)
