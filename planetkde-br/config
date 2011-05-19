@@ -409,3 +409,5 @@ feed 30m http://liveblue.wordpress.com/category/qla-sandroandrade/feed/
 feed 30m http://feeds.feedburner.com/kdePinguimEngenheiro
        define_name Lucas Lira Gomes
 
+feed 30m http://blog.qtlabs.org.br/feed
+       define_name Qt Labs Blog Brasil
