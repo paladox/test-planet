@@ -3278,3 +3278,6 @@ feed 30m http://cmollekopf.wordpress.com/category/kde/feed/?mrss=off&category_na
 
 feed 45m http://bliak.blogspot.com/rss.xml
         define_name Michal Luščon (Bliak)
+
+feed 30m http://codecereal.blogspot.com/feeds/posts/default/-/kde
+        define_name Daker (dakerfp)
