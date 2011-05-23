@@ -2853,12 +2853,11 @@ feed 30m http://polentino911.wordpress.com/tag/planetkde/feed/?mrss=off&tag=plan
         define_facewidth 80
         define_faceheight 80
 
-# http 500; bcooksley; kdesysadmin
-#feed 30m http://rohanprabhu.com/?feed=rss2&tag=planetkde
-#        define_name Rohan Prabhu (thirtySeven)
-#        define_face hackergotchi/rohanp.jpg
-#        define_facewidth 80
-#        define_faceheight 80
+feed 30m http://rohanprabhu.com/?feed=rss2&tag=planetkde
+        define_name Rohan Prabhu (thirtySeven)
+        define_face hackergotchi/rohanp.jpg
+        define_facewidth 80
+        define_faceheight 80
 
 feed 30m http://hugo-kde.blogspot.com/rss.xml
         define_name Hugo Pereira Da Costa
