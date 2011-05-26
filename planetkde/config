@@ -3308,3 +3308,5 @@ feed 30m http://cordlandwehr.wordpress.com/category/kde/
 feed 30m http://brunoatgsoc2011.wordpress.com/feed/?mrss=off
 	define_name Bruno Morais Ferreira (brunomf)
 
+feed 30m http://samxan.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
+	define_name Samikshan Bairagya (samxan)
