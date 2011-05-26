@@ -3304,3 +3304,7 @@ feed 30m http://paulm-byte.blogspot.com/feeds/posts/default
 
 feed 30m http://cordlandwehr.wordpress.com/category/kde/
 	define_name Andreas Cord-Landwehr (CoLa)
+
+feed 30m http://brunoatgsoc2011.wordpress.com/feed/?mrss=off
+	define_name Bruno Morais Ferreira (brunomf)
+
