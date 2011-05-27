@@ -567,7 +567,7 @@ feed 30m http://www.fredemmott.co.uk/blog/rss
 #        define_facewidth 64
 #        define_faceheight 70
 
-feed 30m http://duncan.mac-vicar.com/rss.xml?tag=kde
+feed 30m http://duncan.mac-vicar.com/feed/?tag=kde-2
         define_name Duncan Mac-Vicar (duncanmv)
 
 feed 30m http://www.kdedevelopers.org/blog/55/feed
