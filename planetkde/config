@@ -551,6 +551,10 @@ feed 30m http://tsdgeos.blogspot.com/atom.xml
         define_facewidth 80
         define_faceheight 80
 
+feed 30m http://identi.ca/tsdgeos/rss
+        define_name Albert Astals Cid (TSDgeos) [identi.ca]
+        define_microblog true
+
 #disappeared
 #feed 30m http://sirtaj.net/blog/?flav=rss
 #        define_name Sirtaj Singh Kang (taj)
