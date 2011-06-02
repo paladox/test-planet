@@ -3326,6 +3326,9 @@ feed 30m http://kdenlive.org/blogs/granjow/feed
 feed 30m http://kdenlive.org/blogs/ttill/feed
 	define_name Till Theato (ttill)
 
+feed 30m http://laxstrom.name/blag/category/kde/feed 
+	define_name Niklas Laxström (Nikerabbit)
+
 feed 30m http://kdenlive.org/blogs/xzhayon/feed
 	define_name Alberto Villa (avilla)
         define_face hackergotchi/avilla.png
