@@ -3334,4 +3334,7 @@ feed 30m http://kdenlive.org/blogs/xzhayon/feed
 
 feed 30m http://mmessmer.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
 	define_name Matthias Meßmer (pipesmoker)
+        define_face hackergotchi/pipesmoker.jpg
+        define_facewidth 80
+        define_faceheight 80
 
