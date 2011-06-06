@@ -328,7 +328,7 @@ changeconfig true
 #feed 3h http://proxyfeed.example.com/proxied.rss http_proxy=http://localhost:1234/
 #feed 3h http://dupsfeed.example.com/duplicated.rss allowduplicates=true
 
-feed 15m http://www.kdedevelopers.org/blog/432/feed
+feed 15m http://blogs.kde.org/blog/432/feed
         define_name Till Adam
 
 feed 15m http://tokoe-kde.blogspot.com/rss.xml
@@ -337,7 +337,7 @@ feed 15m http://tokoe-kde.blogspot.com/rss.xml
 feed 15m http://labs.qt.nokia.com/author/tokoe/feed/
         define_name Tobias Koenig (tokoe)
 
-feed 15m http://www.kdedevelopers.org/blog/1451/feed
+feed 15m http://blogs.kde.org/blog/1451/feed
         define_name Allen Winter
 
 feed 15m http://www.omat.nl/category/english/feed/
@@ -347,7 +347,7 @@ feed 15m http://identi.ca/tomalbers/rss
         define_name Tom Albers [identi.ca]
         define_microblog true
 
-feed 15m http://www.kdedevelopers.org/blog/699/feed
+feed 15m http://blogs.kde.org/blog/699/feed
         define_name Frank Osterfeld (fosterfeld)
 
 feed 15m http://identi.ca/frankosterfeld/rss
@@ -361,10 +361,10 @@ feed 15m http://identi.ca/tmcguire/rss
         define_name Thomas McGuire [identi.ca]
         define_microblog true
 
-feed 15m http://www.kdedevelopers.org/blog/83/feed
+feed 15m http://blogs.kde.org/blog/83/feed
         define_name Kevin Krammer
 
-feed 15m http://www.kdedevelopers.org/blog/2904/feed
+feed 15m http://blogs.kde.org/blog/2904/feed
         define_name Sebastian Trueg
 
 feed 15m http://trueg.wordpress.com/feed/?mrss=off
@@ -388,7 +388,7 @@ feed 15m http://saidinesh5.wordpress.com/feed/?mrss=off
 feed 15m http://cgbdx.wordpress.com/feed/?mrss=off
         define_name Christophe Giboudeaux (krop)
 
-feed 15m http://www.kdedevelopers.org/blog/8251/feed
+feed 15m http://blogs.kde.org/blog/8251/feed
         define_name Sergio Martins (sergio)
         define_face hackergotchi/sergio.png
         define_facewidth 80
