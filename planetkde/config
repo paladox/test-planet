@@ -3358,3 +3358,6 @@ feed 30m http://jonathan-perichon.com/category/gsoc-2011/feed/
     define_face hackergotchi/jperichon.png 
     define_facewidth 88
     define_faceheight 88
+
+feed 30m http://who828.wordpress.com/feed/?mrss=off
+    define_name Smit Shah
