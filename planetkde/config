@@ -2199,7 +2199,7 @@ feed 30m http://www.enricoros.com/blog/tag/planetkde/feed/
 feed 30m http://blog.daniel-laidig.de/category/planetkde/feed/
 	define_name Daniel Laidig (dani_l)
 
-feed 30m http://kodeclutz.blogspot.com/feeds/posts/default/-/kde
+feed 30m http://blog.nikhilmarathe.me/feeds/posts/default/-/kde
 	define_name Nikhil Marathe (nsm)
 
 feed 30m http://twitter.com/statuses/user_timeline/60855732.rss
