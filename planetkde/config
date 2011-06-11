@@ -3371,4 +3371,5 @@ feed 30m http://clauschr.wordpress.com/feed/?mrss=off
 feed 45m http://vishesh-yadav.com/blog/category/planetkde/feed/
     define_name Vishesh Yadav (vishesh)
 
-
+feed 30m http://kyofel.wordpress.com/category/KDE/feed/?mrss=off
+    define_name Philip Muškovac (yofel)
