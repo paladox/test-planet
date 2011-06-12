@@ -3373,3 +3373,6 @@ feed 45m http://vishesh-yadav.com/blog/category/planetkde/feed/
 
 feed 30m http://kyofel.wordpress.com/category/KDE/feed/?mrss=off
     define_name Philip Muškovac (yofel)
+
+feed 45 http://progdan.cz/tag/kde/feed/
+    define_name Dan Vratil (dvratil)
