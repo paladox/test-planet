@@ -3378,4 +3378,4 @@ feed 45 http://progdan.cz/tag/kde/feed/
     define_name Dan Vratil (dvratil)
 
 feed 30m http://kshadeslayer.wordpress.com/category/KDE/feed/?mrss=off
-    define_Name Rohan Garg (shadeslayer)
+    define_name Rohan Garg (shadeslayer)
