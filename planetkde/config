@@ -667,6 +667,9 @@ feed 30m http://blogs.kde.org/blog/1089/feed
 feed 30m http://kate-editor.org/author/cullmann/feed/
         define_name Christoph Cullmann (cullmann)
 
+feed 30m http://kate-editor.org/author/lungu/feed/
+        define_name Adrian Lungu (lungu)
+
 feed 30m http://kate-editor.org/author/dianat/feed/
         define_name Diana Tiriplica (dianat)
 
