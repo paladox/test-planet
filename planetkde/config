@@ -1133,6 +1133,7 @@ feed 30m http://blog.ruphy.org/?feed=rss2
 
 feed 30m http://apachelog.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
         define_name Harald Sitter (apachelogger)
+        define_face hackergotchi/apachelogger.jpg
 
 feed 30m http://fyanardi.wordpress.com/feed/?mrss=off
         define_name Fredy Yanardi
