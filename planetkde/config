@@ -3390,6 +3390,6 @@ feed 30m http://scummos.blogspot.com/feeds/posts/default/-/planetkde
     define_facewidth 80
     define_faceheight 78
 
-feed 30m http://archandkde.wordpress.com/category/kde/feed?mrss=off
+feed 30m http://archandkde.wordpress.com/category/kde/feed/?mrss=off
     define_name Ahel ibn Alquivr (Ahel)
 
