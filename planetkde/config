@@ -3393,5 +3393,5 @@ feed 30m http://scummos.blogspot.com/feeds/posts/default/-/planetkde
 feed 30m http://archandkde.wordpress.com/category/kde/feed/?mrss=off
     define_name Ahel ibn Alquivr (Ahel)
 
-feed 30m http://blog.gapinthecloud.com/tag/kde/feed
+feed 30m http://blog.gapinthecloud.com/tag/kde/feed/
     define_name Michael Gapczynski (MTGap)
