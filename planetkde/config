@@ -3395,3 +3395,6 @@ feed 30m http://archandkde.wordpress.com/category/kde/feed/?mrss=off
 
 feed 30m http://blog.gapinthecloud.com/tag/kde/feed/
     define_name Michael Gapczynski (MTGap)
+
+feed 30m http://swairshah.blogspot.com/feeds/posts/default
+    define_name Swair Shah (swair)
