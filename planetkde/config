@@ -996,9 +996,6 @@ feed 30m http://blog.ereslibre.es/?feed=rss2&cat=2
 feed 30m http://wadejolson.wordpress.com/feed/?mrss=off
         define_name Wade Olson
 
-feed 30m http://blogs.kde.org/blog/2661/feed
-        define_name Pino Toscano (pinotree)
-
 feed 30m http://kdemonkey.blogspot.com/feeds/posts/default
         define_name Robert Knight
 
