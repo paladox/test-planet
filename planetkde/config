@@ -3395,3 +3395,6 @@ feed 30m http://blog.gapinthecloud.com/tag/kde/feed/
 
 feed 30m http://swairshah.blogspot.com/feeds/posts/default
     define_name Swair Shah (swair)
+
+feed 30m http://fxrh.wordpress.com/category/kdeplanet/feed/
+    define_name Felix Rohrbach (fxrh)
