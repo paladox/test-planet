@@ -227,7 +227,7 @@ function eraseCookie(name) {
 	<div id="header">
 	    <!-- <h1>The lives of the people behind KDE</h1> -->
 		<a href="http://kde.org" id="kdehome" title="Kde Homepage"></a>
-		<a href="http://planetkde.org" id="planetheader"><div width="185" height="45"></div><!--<img src="images/planet-header-text.png" alt="Planet KDE" width="185" height="45" />--></a>
+		<a href="http://planetkde.org" id="planetheader"><div width="185" height="45"></div><img src="images/planet-header-text.png" alt="Planet KDE" width="185" height="45" /></a>
 		
 		<div id="toplinks">
 			<a href="http://planetkde.org/rss20.xml">Planet RSS<img src="images/akregator.png" alt="" width="22" height="22" /></a> 
