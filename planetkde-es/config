@@ -353,6 +353,4 @@ feed 15m http://tsdgeos-es.blogspot.com/atom.xml
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://feeds.feedburner.com/EspacioKDE
-	define_name Espacio KDE
 
