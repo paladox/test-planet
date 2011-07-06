@@ -3269,6 +3269,9 @@ feed 30m http://rockfordsone.blogspot.com/feeds/posts/default
 
 feed 30m http://thebengaliheart.wordpress.com/feed/?mrss=off&tag=KDE
         define_name Tirtha Chatterjee (wyuka)
+        define_face hackergotchi/wyuka.png
+        define_facewidth 79
+        define_faceheight 80
 
 feed 30m http://lukaslt.blogspot.com/feeds/posts/default
         define_name Lukas Dzikaras (LukasLt2)
