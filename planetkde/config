@@ -3414,3 +3414,9 @@ feed 30m http://viranchmehta.wordpress.com/feed/?mrss=off
     define_face hackergotchi/yuvraj-tomar.jpg
     define_facewidth 80
     define_faceheight 90
+
+feed 45m http://contourproject.wordpress.com/feed/
+    define_name Fania Jöck (fjoe)
+    define_face hackergotchi/fania_jock.jpg
+    define_facewidth 80
+    define_faceheight 80
