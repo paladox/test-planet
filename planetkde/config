@@ -3402,3 +3402,9 @@ feed 30m http://shreyapandit.com/?feed=rss
     define_face hackergotchi/shreya.jpg
     define_facewidth 80
     define_faceheight 80
+
+feed 30m http://yuvrajtomar.blogspot.com/feeds/posts/default
+    define_name Yuvraj Tomar (yuvrajtomar)
+    define_face hackergotchi/yuvraj-tomar.jpg
+    define_facewidth 80
+    define_faceheight 90
