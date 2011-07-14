@@ -3409,7 +3409,7 @@ feed 30m http://yuvrajtomar.blogspot.com/feeds/posts/default
     define_facewidth 80
     define_faceheight 90
 
-feed 30m http://viranchmehta.wordpress.com/feed/?mrss=off
+feed 30m http://viranchmehta.wordpress.com/category/kde/feed/?mrss=off
     define_name Viranch Mehta (viranch)
     define_face hackergotchi/viranch-mehta.jpg
     define_facewidth 80
