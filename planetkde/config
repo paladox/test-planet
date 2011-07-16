@@ -3397,7 +3397,7 @@ feed 30m http://swairshah.blogspot.com/feeds/posts/default
 feed 30m http://fxrh.wordpress.com/category/kdeplanet/feed/?mrss=off
     define_name Felix Rohrbach (fxrh)
 
-feed 30m http://shreyapandit.com/?feed=rss
+feed 30m http://shreyapandit.com/?feed=rss2
     define_name Shreya Pandit (Shreya)
     define_face hackergotchi/shreya.jpg
     define_facewidth 80
