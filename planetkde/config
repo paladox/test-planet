@@ -699,7 +699,7 @@ feed 30m http://kamikazow.wordpress.com/feed/?mrss=off
 feed 30m http://miwi.bsdcrew.de/category/kde/feed/
         define_name Martin Wilke (miwi)
 
-feed 30m http://labs.qt.nokia.com/author/thiago/feed/
+feed 30m http://www.macieira.org/blog/author/thiago/feed/
         define_name Thiago Macieira (thiago)
 
 feed 30m http://liquidat.wordpress.com/feed/?mrss=off
