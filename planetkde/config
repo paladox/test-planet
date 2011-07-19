@@ -1893,8 +1893,9 @@ feed 30m http://www.dennogumi.org/category/kde/feed
 feed 30m http://neverendingo.blogspot.com/feeds/posts/default
         define_name Ingo Malchow (neverendingo)
 
-feed 30m http://www.tictric.net/tag/planet-kde/feed
-        define_name Manfred Mislik (tictric)
+# 404
+#feed 30m http://www.tictric.net/tag/planet-kde/feed
+#        define_name Manfred Mislik (tictric)
 
 feed 30m http://identi.ca/tomalbers/rss
         define_name Tom Albers [identi.ca]
