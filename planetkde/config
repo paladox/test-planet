@@ -3419,8 +3419,14 @@ feed 30m http://viranchmehta.wordpress.com/category/kde/feed/?mrss=off
     define_facewidth 80
     define_faceheight 90
 
-feed 45m http://contourproject.wordpress.com/feed/
+feed 30m http://contourproject.wordpress.com/feed/
     define_name Fania Jöck (fjoe)
     define_face hackergotchi/fania_jock.jpg
+    define_facewidth 80
+    define_faceheight 80
+
+feed 30m http://blog.romainperier.org/?cat=6&feed=rss2
+    define_name Romain Perier (bambee)
+    define_face hackergotchi/romain-perier.png
     define_facewidth 80
     define_faceheight 80
