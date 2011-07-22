@@ -3419,7 +3419,7 @@ feed 30m http://viranchmehta.wordpress.com/category/kde/feed/?mrss=off
     define_facewidth 80
     define_faceheight 90
 
-feed 30m http://contourproject.wordpress.com/feed/
+feed 30m http://contourproject.wordpress.com/feed/?mrss=off
     define_name Fania Jöck (fjoe)
     define_face hackergotchi/fania_jock.jpg
     define_facewidth 80
@@ -3430,3 +3430,10 @@ feed 30m http://blog.romainperier.org/?cat=6&feed=rss2
     define_face hackergotchi/romain-perier.png
     define_facewidth 80
     define_faceheight 80
+
+feed 30m http://kmix5.wordpress.com/feed/?mrss=off
+    define_name KMix - the KDE Multimedia Mixer
+    define_face hackergotchi/kmix.png
+    define_facewidth 64
+    define_faceheight 64
+    define_feedclass news
