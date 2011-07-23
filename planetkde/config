@@ -3438,6 +3438,6 @@ feed 30m http://kmix5.wordpress.com/feed/?mrss=off
     define_faceheight 64
     define_feedclass news
 
-feed 30m http://kpsfoo.in/blog/feed/http://kpsfoo.in/blog/feed/
+feed 30m http://kpsfoo.in/blog/tag/planet-kde/feed/
     define_name Karan Pratap Singh
 
