@@ -2286,7 +2286,7 @@ feed 30m http://bangarangkde.wordpress.com/feed/?mrss=off
         define_faceheight 80
         define_feedclass news
 
-feed 30m http://mosehansen.dk/blog/category/kde.rss
+feed 30m http://blog.mosehansen.dk/category/kde.rss
         define_name Esben Mose Hansen (esben)
         define_face hackergotchi/esben.png
         define_facewidth 54
