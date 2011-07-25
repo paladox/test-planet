@@ -1076,7 +1076,7 @@ feed 30m http://wendyvancraen.blogspot.com/feeds/posts/default/-/KDE
 #feed 30m http://elektron.et.tudelft.nl/~cmlot/rss.xml
 #        define_name Claire Lotion
 
-feed 30m http://ervin.ipsquad.net/feed/
+feed 30m http://ervin.ipsquad.net/atom.xml
         define_name Kevin Ottens (ervin)
 
 feed 30m http://www.proli.net/feed/
