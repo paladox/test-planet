@@ -3444,3 +3444,8 @@ feed 30m http://kmix5.wordpress.com/feed/?mrss=off
 feed 30m http://kpsfoo.in/blog/tag/planet-kde/feed/
     define_name Karan Pratap Singh
 
+feed 30m http://kate-editor.org/author/kuzmich/feed/
+    define_name Svyatoslav Kuzmich
+    define_face hackergotchi/Svyatoslav-Kuzmich.jpg
+    define_facewidth 80
+    define_faceheight 94
