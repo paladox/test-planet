@@ -2337,7 +2337,7 @@ feed 30m http://monkeyiq.blogspot.com/feeds/posts/default/-/kde
 feed 30m http://vonami.wordpress.com/feed/?mrss=off
         define_name Dmitry Ivanov (vonami)
 
-feed 30m http://yuenhoe.co.cc/blog/tag/planetkde/feed/
+feed 30m http://yuenhoe.com/blog/tag/planetkde/feed/
         define_name Lim Yuen Hoe (moofang)
 
 feed 30m http://blogs.kde.org/blog/7305/feed
