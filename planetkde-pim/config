@@ -394,5 +394,5 @@ feed 15m http://blogs.kde.org/blog/8251/feed
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://blogs.kde.org/blog/4456/feed
+feed 30m http://blogs.kde.org/blog/8457/feed/
         define_name Torgny Nyblom (tnyblom)
