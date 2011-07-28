@@ -3455,3 +3455,6 @@ feed 30m http://www.myopinion.ch/blog/tag/planet/feed/
         define_face hackergotchi/ruthemann.png
         define_facewidth 57
         define_faceheight 80
+
+feed 15m http://blogs.kde.org/blog/4456/feed
+        define_name Torgny Nyblom
