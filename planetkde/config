@@ -3249,6 +3249,7 @@ feed 30m http://pranavrc.wordpress.com/category/kde/feed/?mrss=off&category_name
 
 feed 30m http://aakritigupta.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
         define_name Aakriti Gupta (aakriti)
+	define_face hackergotchi/aakriti-gotchi.png
 
 feed 30m http://gnumdk.blogspot.com/rss.xml
         define_name Cédric Bellegarde (gnumdk)
