@@ -1,3 +1,6 @@
 #header {
-    background: url(images/42banner.png) transparent top left no-repeat;
+    background: url(images/banner.png) transparent top left no-repeat;
+}
+#footer {
+    background: url(images/footer.png) transparent top left no-repeat;
 }
