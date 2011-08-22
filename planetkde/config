@@ -3315,7 +3315,7 @@ feed 30m http://nwoki.wordpress.com/feed/?mrss=off&category_name=kde
 feed 30m http://paulm-byte.blogspot.com/feeds/posts/default
 	define_name Paul Mendez (paul_m)
 
-feed 30m http://cordlandwehr.wordpress.com/category/kde/
+feed 30m http://cordlandwehr.wordpress.com/feed/?mrss=off&tag=kde
 	define_name Andreas Cord-Landwehr (CoLa)
 
 feed 30m http://brunoatgsoc2011.wordpress.com/feed/?mrss=off
