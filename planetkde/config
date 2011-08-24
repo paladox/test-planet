@@ -1149,9 +1149,9 @@ feed 30m http://lfranchi.wordpress.com/category/kde/feed/?mrss=off&category_name
 
 feed 30m http://feeds.feedburner.com/gamaral-kde
         define_name Guillermo Amaral (gamaral)
-        define_face hackergotchi/gamaral.png
-        define_facewidth 64
-        define_faceheight 64
+        define_face hackergotchi/gamaral.gif
+        define_facewidth 80
+        define_faceheight 80
 
 feed 30m http://twitter.com/statuses/user_timeline/8888712.rss
         define_name gamaral [twitter]
