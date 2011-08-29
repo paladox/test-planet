@@ -1,4 +1,4 @@
-# Planet KDE-es config file
+# Planet KDE-ch config file
 
 # Add your blog
 
@@ -201,11 +201,11 @@ itemtemplate itemplate
 # (You will probably want to make this an absolute path, else rawdog will write
 # to a file in your ~/.rawdog directory.)
 #outputfile output.html
-outputfile ../website/es/index.html
+outputfile ../website/ch/index.html
 
-outputxml ../website/es/rss20.xml
-outputfoaf ../website/es/foafroll.xml
-outputopml ../website/es/opml.xml
+outputxml ../website/ch/rss20.xml
+outputfoaf ../website/ch/foafroll.xml
+outputopml ../website/ch/opml.xml
 xmlmaxarticles 30
 
 # Whether to use a <meta http-equiv="Refresh" ...> tag in the generated
