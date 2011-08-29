@@ -158,6 +158,19 @@ function eraseCookie(name) {
         }
     } 
 
+    function togglechinese() {
+        var ele = document.getElementsByClassName("chinese");
+	for(var i=0,j=ele.length; i<j; i++)
+        if(ele[i].style.display == "block") {
+                ele[i].style.display = "none";
+                eraseCookie("chinese")
+        }
+        else {
+                ele[i].style.display = "block";
+                createCookie("chinese","block",360)
+        }
+    } 
+
     function togglenews() {
         var ele = document.getElementsByClassName("news");
 	for(var i=0,j=ele.length; i<j; i++)
@@ -204,8 +217,8 @@ function eraseCookie(name) {
 	  (ele[i].style.display = "block")
 	};
         var ele = document.getElementsByClassName("polish");
-        var spanish=readCookie("polish");
-	if (spanish=="block") {
+        var polish=readCookie("polish");
+	if (polish=="block") {
 	  for(var i=0,j=ele.length; i<j; i++)
 	  (ele[i].style.display = "block")
 	};
@@ -230,6 +243,12 @@ function eraseCookie(name) {
         var ele = document.getElementsByClassName("user");
         var user=readCookie("user");
 	if (user=="block") {
+	  for(var i=0,j=ele.length; i<j; i++)
+	  (ele[i].style.display = "block")
+	};
+        var ele = document.getElementsByClassName("chinese");
+        var chinese=readCookie("chinese");
+	if (chinese=="block") {
 	  for(var i=0,j=ele.length; i<j; i++)
 	  (ele[i].style.display = "block")
 	};
@@ -268,10 +287,11 @@ function eraseCookie(name) {
                        <a href="javascript:toggledot();">KDE.News<img src="images/dialog-ok.png" alt="" width="22" height="22" class="dot" style="float: left" /></a><br clear="all" />
                        <a href="javascript:togglenews();">Project news<img src="images/dialog-ok.png" alt="" width="22" height="22" class="news" style="float: left" /></a><br clear="all" />
                        <a href="javascript:toggleuser();">KDE user blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="user" style="float: left" /></a><br clear="all" />
-                       <a href="javascript:togglespanish();">Spanish language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="spanish" style="float: left" /></a><br clear="all" />
+                       <a href="javascript:togglechinese();">Chinese language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="chinese" style="float: left" /></a><br clear="all" />
+                       <a href="javascript:toggleitalian();">Italian language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="italian" style="float: left" /></a><br clear="all" />
                        <a href="javascript:togglepolish();">Polish language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="polish" style="float: left" /></a><br clear="all" />
                        <a href="javascript:toggleportuguese();">Portuguese language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="portuguese" style="float: left" /></a><br clear="all" />
-                       <a href="javascript:toggleitalian();">Italian language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="italian" style="float: left" /></a><br clear="all" />
+                       <a href="javascript:togglespanish();">Spanish language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="spanish" style="float: left" /></a><br clear="all" />
        </div>
 
         <div id="addme">
