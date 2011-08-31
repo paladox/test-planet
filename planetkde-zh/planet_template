@@ -6,7 +6,7 @@
     <!-- <link rel="stylesheet" href="ch.css" type="text/css" title="Fixed Width" /> -->
     <link rel="alternate stylesheet" href="http://planetkde.org/rawdog-variable.css" type="text/css" title="Variable Width" />
     <title>Planet KDE 中文區</title>
-    <link rel="alternate" type="application/rss+xml" title="Planet KDE 中文區" href="http://planetkde.org/ch/rss20.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Planet KDE 中文區" href="http://planetkde.org.zh/rss20.xml" />
 
 	<!--[if IE 6]>
 	<style type="text/css">
@@ -78,10 +78,10 @@
 	<div id="header">
 	    <!-- <h1>The lives of the people behind KDE</h1> -->
 		<a href="http://kde.org" id="kdehome" title="Kde Homepage"></a>
-		<a href="http://planetkde.org/ch" id="planetheader"><div width="185" height="45"></div><!--<img src="http://planetkde.org/images/planet-header-text.png" alt="Planet KDE" width="185" height="45" />--></a>
+		<a href="http://planetkde.org.zh" id="planetheader"><div width="185" height="45"></div><!--<img src="http://planetkde.org/images/planet-header-text.png" alt="Planet KDE" width="185" height="45" />--></a>
 		
 		<div id="toplinks">
-			<a href="http://planetkde.org/ch/rss20.xml">Planet RSS<img src="http://planetkde.org/images/akregator.png" alt="" width="22" height="22" /></a> 
+			<a href="http://planetkde.org.zh/rss20.xml">Planet RSS<img src="http://planetkde.org/images/akregator.png" alt="" width="22" height="22" /></a> 
 			<a href="javascript:toggle();">在這裡的人們<img src="http://planetkde.org/images/user-identity.png" alt="" width="22" height="22" /></a> 
 			<a href="javascript:toggleaddme();">加入您的部落格<img src="http://planetkde.org/images/addrss.png" alt="" width="22" height="22" /></a> 
 			<a href="http://dot.kde.org/">KDE Dot News<img src="http://planetkde.org/images/dot-news.png" alt="" width="22" height="22" /></a> 
