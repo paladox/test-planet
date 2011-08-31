@@ -340,17 +340,17 @@ feed 15m http://www.ikde.org/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 15m https://www.csslayer.tk/wordpress/category/kde/feed/
-	define_name CS Slayer
-	define_face hackergotchi/csslayer.png
-        define_facewidth 80
-        define_faceheight 80
+#feed 15m https://www.csslayer.tk/wordpress/category/kde/feed/
+#	define_name CS Slayer
+#	define_face hackergotchi/csslayer.png
+#        define_facewidth 80
+#        define_faceheight 80
 
-#feed 15m http://max-linux-space.blogspot.com/feeds/posts/default/-/KDE
-#	define_name Max 的 Kubuntu 宅空間
-#	define_face hackergotchi/MaxWu.png
-#	define_facewidth 62
-#	define_faceheight 80
+feed 15m http://max-linux-space.blogspot.com/feeds/posts/default/-/KDE
+	define_name Max 的 Kubuntu 宅空間
+	define_face hackergotchi/MaxWu.png
+	define_facewidth 62
+	define_faceheight 80
 
 #feed 15m http://blog.acelan.idv.tw/tag/kde/feed/
 #	define_name Acelan's Life
