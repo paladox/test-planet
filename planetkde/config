@@ -3466,7 +3466,7 @@ feed 30m http://djarvie.wordpress.com/category/kde,planetkde/feed/?mrss=off
     define_name David Jarvie (djarvie)
 
 feed 30m http://atuljha.com/blog/tag/kde/feed/
-	define_name Atul Jha (koolhead)
+	define_name Atul Jha (koolhead17)
 	define_face hackergotchi/atuljha.jpeg
 	define_facewidth 96
 	define_faceheight 96
