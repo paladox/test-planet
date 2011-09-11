@@ -3476,3 +3476,6 @@ feed 30m http://atuljha.com/blog/tag/kde/feed/
 	define_face hackergotchi/atuljha.jpeg
 	define_facewidth 96
 	define_faceheight 96
+
+feeds 30m http://smarter.free.fr/blog/index.php?feed/tag/planetkde/atom
+	define_name Guillaume Martres (smarter)
