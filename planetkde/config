@@ -2246,8 +2246,9 @@ feed 30m http://feeds.feedburner.com/homelinux/kde
 	define_facewidth 64
 	define_faceheight 105
 
-feed 30m http://blog.ricodigo.com/authors/Patrick/foss.atom
-        define_name Patrick Aljord (patcito)
+# NXDOMAIN
+#feed 30m http://blog.ricodigo.com/authors/Patrick/foss.atom
+#        define_name Patrick Aljord (patcito)
 
 feed 30m http://zajec.net/blog/atom/kde
 	define_name Rafał Miłecki (Zajec)
