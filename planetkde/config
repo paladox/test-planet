@@ -3218,7 +3218,7 @@ feed 30m http://sudhendu.in/taxonomy/term/3/0/feed
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://www.calligra-suite.org/category/blogs/thorstenzachmann/feed/?mrss=off
+feed 30m http://www.calligra-suite.org/blogs/thorstenzachmann/feed/
         define_name Thorsten Zachmann
 
 feed 30m http://ksmanis.wordpress.com/feed/?mrss=off&category_name=planet-kde
