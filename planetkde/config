@@ -3486,3 +3486,6 @@ feed 30m http://smarter.free.fr/blog/index.php?feed/tag/planetkde/atom
 
 feed 30m http://www.sebastian-doerner.de/category/kde/feed/
         define_name Sebastian Dörner
+
+feed 30m http://blog.tenstral.net/category/planet/planetkde/feed/
+        define_name Matthias Klumpp (ximion)
