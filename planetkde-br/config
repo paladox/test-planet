@@ -418,3 +418,8 @@ feed 30m http://kdelovelace.wordpress.com/feed/
         define_facewidth 80
         define_faceheight 80
 
+feed 30m http://cibermundi.wordpress.com/category/planet-kde-portugues/feed/
+        define_name Aracele Torres (araceletorres)
+        define_face hackergotchi/araceletorres.jpg
+        define_facewidth 75
+        define_faceheight 80
