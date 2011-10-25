@@ -2681,6 +2681,13 @@ feed 30m http://kdepi.wordpress.com/category/planetkde-araceletorres/feed/
         define_facewidth 75
         define_faceheight 80
 
+feed 30m http://cibermundi.wordpress.com/category/planetkde-araceletorres/feed/
+        define_name Aracele Torres (araceletorres)
+        define_face hackergotchi/araceletorres.jpg
+        define_facewidth 75
+        define_faceheight 80
+
+
 feed 30m http://kdepi.wordpress.com/category/planetkde-chicao/feed/
         define_name Francisco Fernandes (chicao)
         define_face hackergotchi/chicao.png
