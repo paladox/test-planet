@@ -3496,4 +3496,7 @@ feed 30m http://letsfollowthewhiterabbit.blogspot.com/feeds/posts/default
         define_faceheight 80
 
 feed 30m http://dilfridge.blogspot.com/feeds/posts/default/-/kde
+        define_face hackergotchi/andreas-huettel.png
+        define_facewidth 80 
+        define_faceheight 80
         define_name Andreas K. Hüttel (dilfridge)
