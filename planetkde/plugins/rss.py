@@ -164,7 +164,10 @@ class RSS_Feed:
                 if name.startswith("define_"):
                     itembits[name[7:]] = value
                     if "feedclass" in itembits:
-                        toAdd = False;
+                        toAdd = False
+                    #ervin thinks we should have project news in the feed
+                    if itembits["feedclass"] == "news":
+                        toAdd = True
             
             if toAdd: 
                 xml_article = channel.newChild(None, 'item', None)
