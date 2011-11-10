@@ -98,7 +98,7 @@ function eraseCookie(name) {
 	for(var i=0,j=ele.length; i<j; i++)
         if(ele[i].style.display == "block") {
                 ele[i].style.display = "none";
-                eraseCookie("dot")
+                createCookie("dot","none",360)
         }
         else {
                 ele[i].style.display = "block";
@@ -176,7 +176,7 @@ function eraseCookie(name) {
 	for(var i=0,j=ele.length; i<j; i++)
         if(ele[i].style.display == "block") {
                 ele[i].style.display = "none";
-                eraseCookie("news")
+                createCookie("news","none",360)
         }
         else {
                 ele[i].style.display = "block";
@@ -210,6 +210,10 @@ function eraseCookie(name) {
 	  for(var i=0,j=ele.length; i<j; i++)
 	  (ele[i].style.display = "block")
 	};
+	if (dot=="none") {
+	  for(var i=0,j=ele.length; i<j; i++)
+	  (ele[i].style.display = "none")
+	};
         var ele = document.getElementsByClassName("spanish");
         var spanish=readCookie("spanish");
 	if (spanish=="block") {
@@ -239,6 +243,10 @@ function eraseCookie(name) {
 	if (news=="block") {
 	  for(var i=0,j=ele.length; i<j; i++)
 	  (ele[i].style.display = "block")
+	};
+	if (news=="none") {
+	  for(var i=0,j=ele.length; i<j; i++)
+	  (ele[i].style.display = "none")
 	};
         var ele = document.getElementsByClassName("user");
         var user=readCookie("user");

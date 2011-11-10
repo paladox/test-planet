@@ -233,7 +233,7 @@ background: none;
 }
 
 .dot {
-  display:none;
+  display:block;
   background: #cccccc;
 }
 
@@ -247,7 +247,7 @@ background: none;
 }
 
 .news {
-  display:none;
+  display:block;
   background: #FAFF8E;
 }
 
