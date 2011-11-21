@@ -1274,7 +1274,7 @@ feed 30m http://psychobrain.blogspot.com/rss.xml
 feed 30m http://en.blog.influx.kr/rss.xml
         define_name Joon-Kyu Park
 
-feed 30m http://randomguy3.wordpress.com/category/software/development/kde/feed/?mrss=off&category_name=software/development/kde
+feed 30m http://randomguy3.wordpress.com/category/software/development/kde/feed/?mrss=off&category_name=software%2Fdevelopment%2Fkde
         define_name Alex Merry
         define_face hackergotchi/randomguy3.png
         define_facewidth 80
@@ -1664,7 +1664,7 @@ feed 30m http://blogs.fsfe.org/myriam/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://kstars.wordpress.com/feed/?mrss=off&category_name=gnulinuxfoss/kde/planetkde-kde-gnulinuxfoss
+feed 30m http://kstars.wordpress.com/feed/?mrss=off&category_name=gnulinuxfoss%2Fkde%2Fplanetkde-kde-gnulinuxfoss
         define_name Akarsh Simha (kstar)
         define_face hackergotchi/asimha.png
         define_facewidth 80
@@ -1693,7 +1693,7 @@ feed 30m http://tejasd.livejournal.com/data/rss?tag=kde
 feed 30m http://xvello.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
         define_name Xavier Vello (xvello)
 
-feed 30m http://saschpe.wordpress.com/category/opensource/kde/feed/?mrss=off&category_name=opensource/kde
+feed 30m http://saschpe.wordpress.com/category/opensource/kde/feed/?mrss=off&category_name=opensource%2Fkde
         define_name Sascha Peilicke (saschpe)
         define_face hackergotchi/saschpe.png
         define_facewidth 67
@@ -2066,7 +2066,7 @@ feed 30m http://andrewcoles.blogspot.com/feeds/posts/default
         define_facewidth 70
         define_faceheight 80
 
-feed 30m http://praksh.wordpress.com/category/kde/gsoc/feed/?mrss=off&category_name=kde/gsoc
+feed 30m http://praksh.wordpress.com/category/kde/gsoc/feed/?mrss=off&category_name=kde%2Fgsoc
         define_name Prakash Mohan (praksh)
         define_face hackergotchi/prakash.png
         define_facewidth 70
@@ -3396,7 +3396,7 @@ feed 45m http://vishesh-yadav.com/blog/category/planetkde/feed/
 feed 30m http://kyofel.wordpress.com/category/KDE/feed/?mrss=off
     define_name Philip Muškovac (yofel)
 
-feed 45 http://progdan.cz/tag/kde/feed/
+feed 45 http://www.progdan.cz/tag/kde/feed/
     define_name Dan Vratil (dvratil)
 
 feed 30m http://kshadeslayer.wordpress.com/category/KDE/feed/?mrss=off
@@ -3490,7 +3490,7 @@ feed 30m http://atuljha.com/blog/tag/kde/feed/
 feed 30m http://smarter.free.fr/blog/index.php?feed/tag/planetkde/atom
 	define_name Guillaume Martres (smarter)
 
-feed 30m http://www.sebastian-doerner.de/category/kde/feed/
+feed 30m http://sebastian-doerner.de/category/kde/feed/
         define_name Sebastian Dörner
 
 feed 30m http://blog.tenstral.net/category/planet/planetkde/feed
@@ -3523,5 +3523,11 @@ feed 30m http://www.oyranos.org/category/kde/feed/
 feed 30m http://diggy128.wordpress.com/tag/kde/feed/
         define_name Dimitrios T. Tanis (diggy)
         define_face hackergotchi/dimitrios-tanis.jpg
+        define_facewidth 80
+        define_faceheight 80
+
+feed 24h http://blog.dmaggot.org/tag/kde/feed/
+        define_name David E. Narváez (dMaggot)
+        define_face hackergotchi/dMaggot.png
         define_facewidth 80
         define_faceheight 80
