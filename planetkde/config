@@ -892,6 +892,12 @@ feed 30m http://jefferai.org/feed/
 feed 30m http://blogs.kde.org/blog/1813/feed
         define_name Mirko Boehm (miroslav)
 
+feed 30m http://www.agile-workers.com/web/category/kde/feed/
+        define_name Mirko Boehm
+	define_face hackergotchi/mirkoboehm.jpg
+	define_facewidth 128
+	define_faceheight 96
+
 feed 30m http://blogs.kde.org/blog/326/feed
         define_name David Faure (dfaure)
 
