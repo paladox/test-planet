@@ -3538,5 +3538,5 @@ feed 24h http://blog.dmaggot.org/tag/kde/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://philipp.knechtges.com/?cat=3&feed=rss
+feed 30m http://philipp.knechtges.com/?cat=3&feed=rss2
         define_name Philipp Knechtges (d1saster)
