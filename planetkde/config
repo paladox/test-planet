@@ -3540,3 +3540,6 @@ feed 24h http://blog.dmaggot.org/tag/kde/feed/
 
 feed 30m http://philipp.knechtges.com/?cat=3&feed=rss2
         define_name Philipp Knechtges (d1saster)
+
+feed 30m http://akreuzkamp.de/tag/planetkde/feed/
+	define_name Anton Kreuzkamp (akreuzkamp)
