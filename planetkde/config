@@ -3546,3 +3546,7 @@ feed 30m http://jangmarker.de/tag/planetkde/feed/
 
 feed 30m http://deepsky28.blogspot.com/feeds/posts/default?alt=rss
         define_name Florentina Musat (chrome)
+
+feed 15m http://www.danitxu.com/blog/tag/kde/
+        define_name Dani Gutiérrez Porset
+        define_feedclass spanish
