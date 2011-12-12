@@ -1146,9 +1146,6 @@ feed 30m http://apachelog.wordpress.com/category/kde/feed/?mrss=off&category_nam
         define_name Harald Sitter (apachelogger)
         define_face hackergotchi/apachelogger.jpg
 
-feed 30m http://fyanardi.wordpress.com/feed/?mrss=off
-        define_name Fredy Yanardi
-
 feed 30m http://myrizio.wordpress.com/feed/?mrss=off
         define_name Maurizio Monge
 
