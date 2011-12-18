@@ -3550,3 +3550,10 @@ feed 30m http://deepsky28.blogspot.com/feeds/posts/default?alt=rss
 feed 15m http://www.danitxu.com/blog/tag/kde/
         define_name Dani Gutiérrez Porset
         define_feedclass spanish
+
+feed 30m http://konstantinidis.wordpress.com/category/kde/feed/
+        define_name Giannis Konstantinidis (giannisk)
+        define_face hackergotchi/giannis-konstantinidis.jpeg
+        define_facewidth 76
+        define_faceheight 80
+
