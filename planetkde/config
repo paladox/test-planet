@@ -1809,9 +1809,10 @@ feed 30m http://identi.ca/jrepin/rss
         define_name Jure Repinc [identi.ca]
         define_microblog true
 
-feed 30m http://twitter.com/statuses/user_timeline/15219398.rss
-        define_name Akarsh Simha [twitter]
-        define_microblog true
+# 401
+#feed 30m http://twitter.com/statuses/user_timeline/15219398.rss
+#        define_name Akarsh Simha [twitter]
+#        define_microblog true
 
 feed 30m http://twitter.com/statuses/user_timeline/16838153.rss
         define_name Tejas Dinkar [twitter]
