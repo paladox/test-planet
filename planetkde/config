@@ -3559,5 +3559,5 @@ feed 30m http://konstantinidis.wordpress.com/category/kde/feed/
         define_facewidth 76
         define_faceheight 80
 
-feed 30m http://terietor.wordpress.com/tag/planetkde/feed/
+feed 30m http://terietor.gr/tag/planetkde/feed/
         define_name Giorgos Tsiapaliwkas (terietor)
