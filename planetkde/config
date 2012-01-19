@@ -3567,3 +3567,9 @@ feed 15m http://blogs.gentoo.org/johu/category/kde/feed/
         define_face hackergotchi/johannes-huber.jpg
         define_facewidth 60
         define_faceheight 68
+
+feed 15m http://blogs.kde.org/blog/8948/feed
+        define_name Pierre Stirnweiss (PierreSt)
+        define_face hackergotchi/pierre-stirnweiss.jpg
+        define_facewidth 58
+        define_faceheight 85
