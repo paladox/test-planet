@@ -3553,11 +3553,17 @@ feed 15m http://www.danitxu.com/blog/tag/kde/
         define_name Dani Gutiérrez Porset
         define_feedclass spanish
 
-feed 30m http://konstantinidis.wordpress.com/category/kde/feed/
+feed 15m http://konstantinidis.wordpress.com/category/kde/feed/
         define_name Giannis Konstantinidis (giannisk)
         define_face hackergotchi/giannis-konstantinidis.jpeg
         define_facewidth 76
         define_faceheight 80
 
-feed 30m http://terietor.gr/tag/planetkde/feed/
+feed 15m http://terietor.gr/tag/planetkde/feed/
         define_name Giorgos Tsiapaliwkas (terietor)
+
+feed 15m http://blogs.gentoo.org/johu/category/kde/feed/
+        define_name Johannes Huber (johu)
+        define_face hackergotchi/johannes-huber.jpg
+        define_facewidth 60
+        define_faceheight 68
