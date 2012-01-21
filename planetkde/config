@@ -967,7 +967,7 @@ feed 45m http://gis-blog.leonde.de/index.php/category/kde/feed/
 	define_facewidth 64
 	define_faceheight 80
 
-feed 30m http://dkukawka.blogspot.com/atom.xml
+feed 30m http://blog.bisect.de/atom.xml
         define_name Danny Kukawka
 
 #feed 30m http://basysblog.org/?author=2&feed=rss2
