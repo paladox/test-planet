@@ -1603,8 +1603,9 @@ feed 30m http://michael-jansen.biz/taxonomy/term/10/0/feed
 feed 30m http://blog.froglogic.com/author/koos/feed/atom/?cat=5%2C6
         define_name Koos Vriezen
 
-feed 30m http://www.confuego.org/feeds/categories/1-KDE.rss
-        define_name Michael Leupold (lemma)
+# Blog server seems to be down
+#feed 30m http://www.confuego.org/feeds/categories/1-KDE.rss
+#        define_name Michael Leupold (lemma)
 
 feed 30m http://drfav.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
         define_name Dario Freddi (drf__)
@@ -1830,11 +1831,12 @@ feed 30m http://twitter.com/statuses/user_timeline/19499911.rss
         define_name Casey Link [twitter]
         define_microblog true
 
-feed 30m http://estan.dose.se/tag/planetkde/feed
-        define_name Elvis Stansvik (estan)
-        define_face hackergotchi/estan.png
-        define_facewidth 77
-        define_faceheight 80
+# Blog server is down
+#feed 30m http://estan.dose.se/tag/planetkde/feed
+#        define_name Elvis Stansvik (estan)
+#        define_face hackergotchi/estan.png
+#        define_facewidth 77
+#        define_faceheight 80
 
 feed 30m http://shield008.blogspot.com/feeds/posts/default/-/KDE
         define_name John-Paul Stanford (jp)
@@ -2169,11 +2171,12 @@ feed 30m http://zekecoma.blogspot.com/feeds/posts/default/-/kde
 #	define_facewidth 80
 #	define_faceheight 80
 
-feed 30m http://blogs.freebsdish.org/tabthorpe/category/kde/feed/
-	define_name Thomas Abthorpe (tabthorpe)
-	define_face hackergotchi/tabthorpe.png
-	define_facewidth 80
-	define_faceheight 80
+# Blog server is down
+#feed 30m http://blogs.freebsdish.org/tabthorpe/category/kde/feed/
+#	define_name Thomas Abthorpe (tabthorpe)
+#	define_face hackergotchi/tabthorpe.png
+#	define_facewidth 80
+#	define_faceheight 80
 
 feed 30m http://realate.blogspot.com/feeds/posts/default
 	define_name Andrew Manson ( mansona aka real_ate )
@@ -3217,11 +3220,12 @@ feed 30m http://status.famdouma.nl/roeland/rss
         define_name Roeland Douma [identi.ca]
         define_microblog true
 
-feed 30m http://blogs.freebsdish.org/avilla/tag/kde/feed/
-        define_name Alberto Villa (avilla)
-        define_face hackergotchi/avilla.png
-        define_facewidth 80
-        define_faceheight 80
+# Blog server is down (not listening on port 80)
+#feed 30m http://blogs.freebsdish.org/avilla/tag/kde/feed/
+#        define_name Alberto Villa (avilla)
+#        define_face hackergotchi/avilla.png
+#        define_facewidth 80
+#        define_faceheight 80
 
 feed 30m http://sudhendu.in/taxonomy/term/3/0/feed
         define_name Sudhendu Kumar (kumar)
