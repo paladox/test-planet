@@ -1302,7 +1302,7 @@ feed 30m http://blog.lydiapintscher.de/category/PlanetKDE/feed/
         define_facewidth 78
         define_faceheight 76
 
-feed 30m http://roozbeh.us/feed/
+feed 30m http://feeds.feedburner.com/slashrosha/en/kde
 	define_name Roozbeh Shafiee
         define_face hackergotchi/roozbeh.jpeg
         define_facewidth 96
