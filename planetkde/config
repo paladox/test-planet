@@ -3588,3 +3588,8 @@ feed 15m http://twitter.com/statuses/user_timeline/150830423.rss
         define_name Volker Lanz [twitter]
         define_microblog true
 
+feed 30m http://blog.lasath.org/feeds/posts/default?alt=rss
+        define_name Lasath Fernando
+        define_face hackergotchi/shocklateboy92.png
+        define_facewidth 69
+        define_faceheight 80
