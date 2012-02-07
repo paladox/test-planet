@@ -2642,12 +2642,11 @@ feed 30m http://spaceoasis.gotdns.org/lolo/taxonomy/term/44,46/0/feed
 # End of digiKam team entries.
 ###############################################################
 
-# NXDOMAIN, bcooksley, kdesysadmin, december 19th 2011
-#feed 30m http://blog.tampakrap.gr/category/planets/planet-kde/feed/
-#        define_name Theo Chatzimichos (tampakrap)
-#        define_face hackergotchi/theo-chatzimichos.png
-#        define_facewidth 90
-#        define_faceheight 128
+feed 30m http://blog.tampakrap.gr/category/planets/planet-kde/feed/
+        define_name Theo Chatzimichos (tampakrap)
+        define_face hackergotchi/theo-chatzimichos.png
+        define_facewidth 90
+        define_faceheight 128
 
 feed 30m http://owncloudtest.blogspot.com/feeds/posts/default
 	define_name Aaron Reichman (areichman)
