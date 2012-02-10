@@ -1856,7 +1856,7 @@ feed 30m http://labs.qt.nokia.com/author/sroedal/feed/
 feed 30m http://emilsedgh.info/blog/index.php?/feeds/index.rss2
         define_name Emil Sedgh (emilsedgh)
 
-feed 30m http://kfreitag.tumblr.com/rss
+feed 30m http://dragotin.wordpress.com/feed/
         define_name Klaas Freitag (dragotin)
         define_face hackergotchi/freitag75.png
         define_facewidth 75
