@@ -460,8 +460,8 @@ feed 30m http://blogs.kde.org/blog/395/feed
 feed 30m http://blogs.kde.org/blog/57/feed
         define_name Jonathan Riddell (riddell)
         define_face hackergotchi/riddell.png
-        define_facewidth 64
-        define_faceheight 68
+        define_facewidth 68
+        define_faceheight 97
 
 feed 30m http://blogs.kde.org/blog/432/feed
         define_name Till Adam
