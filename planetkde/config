@@ -1856,11 +1856,12 @@ feed 30m http://labs.qt.nokia.com/author/sroedal/feed/
 feed 30m http://emilsedgh.info/blog/index.php?/feeds/index.rss2
         define_name Emil Sedgh (emilsedgh)
 
-feed 30m http://dragotin.wordpress.com/feed/
-        define_name Klaas Freitag (dragotin)
-        define_face hackergotchi/freitag75.png
-        define_facewidth 75
-        define_faceheight 75
+# 404; kdesysadmin; bcooksley; 2012-02-13
+#feed 30m http://dragotin.wordpress.com/feed/
+#        define_name Klaas Freitag (dragotin)
+#        define_face hackergotchi/freitag75.png
+#        define_facewidth 75
+#        define_faceheight 75
 
 feed 30m http://amarok.kde.org/en/blog/7/feed
         define_name Daniel Meltzer (hydrogen)
@@ -3216,9 +3217,10 @@ feed 30m http://rullzer.com/blog/category/linux/kde-linux/feed/
         define_facewidth 62
         define_faceheight 80
 
-feed 30m http://status.famdouma.nl/roeland/rss
-        define_name Roeland Douma [identi.ca]
-        define_microblog true
+# Server down; kdesysadmin; bcooksley; 2012-02-13
+#feed 30m http://status.famdouma.nl/roeland/rss
+#        define_name Roeland Douma [identi.ca]
+#        define_microblog true
 
 # Blog server is down (not listening on port 80)
 #feed 30m http://blogs.freebsdish.org/avilla/tag/kde/feed/
