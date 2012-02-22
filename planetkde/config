@@ -3603,3 +3603,6 @@ feed 30m http://algorithmsforthekitchen.com/blog/?tag=kde-2&feed=rss2
 
 feed 15m http://isemenov.blogspot.com/feeds/posts/default?alt=rss
 	define_name Ignat Semenov (isemenov)
+
+feed 30m http://freininghaus.wordpress.com/category/kde/feed/?mrss=off
+       define_name Frank Reininghaus
