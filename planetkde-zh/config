@@ -352,11 +352,11 @@ feed 15m http://max-linux-space.blogspot.com/feeds/posts/default/-/KDE
 	define_facewidth 62
 	define_faceheight 80
 
-feed 15m http://blog.acelan.idv.tw/tag/kde/feed/
-	define_name Acelan's Life
-	define_face hackergotchi/acelan.png
-	define_facewidth 74
-	define_faceheight 80
+#feed 15m http://blog.acelan.idv.tw/tag/kde/feed/
+#	define_name Acelan's Life
+#	define_face hackergotchi/acelan.png
+#	define_facewidth 74
+#	define_faceheight 80
 
 feed 15m http://legnaleurc.blogspot.com/feeds/posts/default/-/KDE
 	define_name Wei-Cheng Pan
