@@ -877,7 +877,7 @@ feed 30m http://vladimir_prus.blogspot.com/atom.xml
 #feed 30m http://parrysblog.blogspot.com/atom.xml
 #        define_name Luke Parry
 
-feed 30m http://agateau.wordpress.com/feed/?mrss=off
+feed 30m http://agateau.com/feed/?mrss=off
         define_name Aurelien Gateau
 
 feed 30m http://blog.nouse.net/?feed=rss2
