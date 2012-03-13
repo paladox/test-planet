@@ -3610,3 +3610,6 @@ feed 15m http://isemenov.blogspot.com/feeds/posts/default?alt=rss
 
 feed 30m http://freininghaus.wordpress.com/category/kde/feed/?mrss=off
        define_name Frank Reininghaus
+
+feed 15m http://grulja.wordpress.com/tag/kde/feed/
+	define_name Jan Grulich (grulja)
