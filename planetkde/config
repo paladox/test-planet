@@ -2765,9 +2765,8 @@ feed 30m http://www.infinityperl.org/feed/tag/KDE/atom
         define_facewidth 80
         define_faceheight 113
 
-feed 30m http://bashlnx.blogspot.com/feeds/posts/default/-/KDE?alt=rss
+feed 30m http://www.andreascarpino.it/blog/categories/kde/atom.xml
         define_name Andrea Scarpino (bash)
-
 
 feed 30m http://vhanda.in/blog/tag/kde-planet/feed/atom/
         define_name Vishesh Handa (vhanda)
