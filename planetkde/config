@@ -2135,11 +2135,12 @@ feed 30m http://twitter.com/statuses/user_timeline/15063603.rss
 #	define_facewidth 70
 #	define_faceheight 70
 
-feed 30m http://takahani.wordpress.com/feed/?mrss=off
-	define_name Simon Esneault
-	define_face hackergotchi/simon-esneault.png
-	define_facewidth 80
-	define_faceheight 80
+# Blog no longer exists it seems
+#feed 30m http://takahani.wordpress.com/feed/?mrss=off
+#	define_name Simon Esneault
+#	define_face hackergotchi/simon-esneault.png
+#	define_facewidth 80
+#	define_faceheight 80
 
 feed 30m http://thomasmcguire.wordpress.com/feed/?mrss=off
 	define_name Thomas McGuire
