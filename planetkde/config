@@ -3613,3 +3613,7 @@ feed 30m http://freininghaus.wordpress.com/category/kde/feed/?mrss=off
 
 feed 15m http://grulja.wordpress.com/tag/kde/feed/
 	define_name Jan Grulich (grulja)
+
+feed 30m http://playgfx.blogspot.com/feeds/posts/default/-/kdestuff
+        define_name Claudio Desideri (snizzo)
+
