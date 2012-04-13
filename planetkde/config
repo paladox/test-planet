@@ -3398,7 +3398,7 @@ feed 30m http://jonathan-perichon.com/category/kde/feed/
     define_facewidth 88
     define_faceheight 88
 
-feed 30m http://who828.wordpress.com/feed/?mrss=off
+feed 30m http://who828.wordpress.com/category/planet-kde/feed/?mrss=off
     define_name Smit Shah
 
 feed 30m http://clauschr.wordpress.com/feed/?mrss=off
