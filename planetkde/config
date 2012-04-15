@@ -3620,3 +3620,7 @@ feed 15m http://grulja.wordpress.com/tag/kde/feed/
 feed 30m http://playgfx.blogspot.com/feeds/posts/default/-/kdestuff
         define_name Claudio Desideri (snizzo)
 
+feed 30m http://boringtalk.wordpress.com/feed/
+        define_name Arjun Basu (ultimatrix)
+
+
