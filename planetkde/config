@@ -2897,11 +2897,12 @@ feed 30m http://polentino911.wordpress.com/tag/planetkde/feed/?mrss=off&tag=plan
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://rohanprabhu.com/?feed=rss2&tag=planetkde
-        define_name Rohan Prabhu (thirtySeven)
-        define_face hackergotchi/rohanp.jpg
-        define_facewidth 80
-        define_faceheight 80
+# Blog down; kdesysadmin; bcooksley; 2012-04-23
+#feed 30m http://rohanprabhu.com/?feed=rss2&tag=planetkde
+#        define_name Rohan Prabhu (thirtySeven)
+#        define_face hackergotchi/rohanp.jpg
+#        define_facewidth 80
+#        define_faceheight 80
 
 feed 30m http://hugo-kde.blogspot.com/rss.xml
         define_name Hugo Pereira Da Costa
@@ -3232,11 +3233,12 @@ feed 30m http://rullzer.com/blog/category/linux/kde-linux/feed/
 #        define_facewidth 80
 #        define_faceheight 80
 
-feed 30m http://sudhendu.in/taxonomy/term/3/0/feed
-        define_name Sudhendu Kumar (kumar)
-        define_face hackergotchi/kumar.png
-        define_facewidth 80
-        define_faceheight 80
+# Blog hosting expired; kdesysadmin; bcooksley; 2012-04-23
+#feed 30m http://sudhendu.in/taxonomy/term/3/0/feed
+#        define_name Sudhendu Kumar (kumar)
+#        define_face hackergotchi/kumar.png
+#        define_facewidth 80
+#        define_faceheight 80
 
 feed 30m http://www.calligra-suite.org/blogs/thorstenzachmann/feed/
         define_name Thorsten Zachmann
