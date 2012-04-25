@@ -1168,7 +1168,7 @@ feed 30m http://twitter.com/statuses/user_timeline/8888712.rss
         define_name gamaral [twitter]
         define_microblog true
 
-feed 30m http://www.flavio.castelli.name/feed
+feed 30m http://flavio.castelli.name/atom.xml
         define_name Flavio Castelli
 
 feed 30m http://franz.keferboeck.info/blog/?feed=rss2
