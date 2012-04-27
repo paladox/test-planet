@@ -3647,6 +3647,6 @@ feed 30m http://www.kdab.com/category/kdab-on-qt/feed/
 feed 30m http://www.calligra.org/feed/
         define_name Calligra News
         define_feedclass news
-        define_face hackergotchi/calligra-logo.png
+        define_face hackergotchi/calligra.png
         define_facewidth 80
         define_faceheight 57
