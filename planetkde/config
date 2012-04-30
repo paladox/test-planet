@@ -3663,7 +3663,7 @@ feed 30m http://blog.rishab.in/category/planetkde/feed
 feed 30m http://luisgabriel.me/category/planet-kde/feed/
         define_name Luís Gabriel Lima (luisgabriel)
 
-feed 30m http://http://arthursribeiro.blogspot.com.br/feeds/posts/default/-/kde
+feed 30m http://arthursribeiro.blogspot.com.br/feeds/posts/default/-/kde
         define_name Arthur Ribeiro (arthurribeiro) 
         define_face hackergotchi/arthurribeiro.png
         define_facewidth 62
