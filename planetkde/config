@@ -3653,3 +3653,6 @@ feed 30m http://www.calligra.org/feed/
 
 feed 30m http://amanonit.blogspot.com/feeds/posts/default/-/kde?alt=rss
         define_name Amandeep Singh (amandeepsingh)
+
+feed 30m http://blog.rishab.in/category/planetkde/feed
+        define_name Rishab Arora (spacetime)
