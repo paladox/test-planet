@@ -3665,6 +3665,6 @@ feed 30m http://luisgabriel.me/category/planet-kde/feed/
 
 feed 30m http://arthursribeiro.blogspot.com.br/feeds/posts/default/-/kde
         define_name Arthur Ribeiro (arthurribeiro) 
-        define_face hackergotchi/arthurribeiro.png
+        define_face hackergotchi/arthurribeiro.jpg
         define_facewidth 62
         define_faceheight 80

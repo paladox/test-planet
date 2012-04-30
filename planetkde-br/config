@@ -441,6 +441,6 @@ feed 30m http://pedepinico.blogspot.com/feeds/posts/default/-/kde4
 
 feed 30m http://arthursribeiro.blogspot.com.br/feeds/posts/default/-/kdebr
         define_name Arthur Ribeiro (arthurribeiro) 
-        define_face hackergotchi/arthurribeiro.png
+        define_face hackergotchi/arthurribeiro.jpg
         define_facewidth 62
         define_faceheight 80
