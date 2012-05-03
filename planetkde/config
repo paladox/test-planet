@@ -1467,7 +1467,7 @@ feed 30m http://pindablog.wordpress.com/feed/?mrss=off
 feed 30m http://edulix.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
         define_name Eduardo Robles Elvira (Edulix)
 
-feed 30m http://feeds.feedburner.com/UntangledBlog
+feed 30m http://untangled.biz/category/kde/feed/
         define_name Alexandra Leisse (troubalex)
 
 feed 30m http://labs.qt.nokia.com/author/alexandra/feed/
