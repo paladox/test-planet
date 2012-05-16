@@ -357,3 +357,8 @@ feed 15m http://www.danitxu.com/blog/tag/kde/
         define_name Dani Gutiérrez Porset 
         define_feedclass spanish
 
+feed 30m http://soliverez.com.ar/drupal/?q=taxonomy/term/56/all/feed
+        define_name Alvaro Soliverez (Hei_Ku)
+        define_face hackergotchi/asoliverez.png
+        define_facewidth 80
+        define_faceheight 80
