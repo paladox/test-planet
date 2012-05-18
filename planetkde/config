@@ -2460,7 +2460,7 @@ feed 30m http://andrunko.blogspot.com/atom.xml
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://salout.github.com/kde.xml
+feed 30m http://riemann.cc/kde.xml
         define_name Robert Riemann (saLOUt)
         define_face hackergotchi/salout.png
         define_facewidth 80
