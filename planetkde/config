@@ -676,6 +676,9 @@ feed 30m http://kate-editor.org/author/kuzmich/feed/
 feed 30m http://kate-editor.org/author/dianat/feed/
         define_name Diana Tiriplica (dianat)
 
+feed 30m http://kate-editor.org/author/max/feed/
+        define_name Maximilian Löffler (max)
+
 feed 30m http://kate-editor.org/author/fjellstrom/feed/
         define_name Thomas Fjellstrom (fjellstrom)
 
