@@ -1669,7 +1669,7 @@ feed 30m http://my.opera.com/it-s/xml/rss/blog/kde
 feed 30m http://gkmeyer.com/wordpress/?feed=rss2
         define_name Greg Meyer (oggb4mp3)
 
-feed 30m http://blogs.fsfe.org/myriam/feed/
+feed 30m http://blogs.fsfe.org/myriam/feed
         define_name Myriam Schweingruber (Mamarok)
         define_face hackergotchi/mamarok.png
         define_facewidth 87
@@ -2045,11 +2045,12 @@ feed 30m http://ungethym.blogspot.com/feeds/posts/default/-/planetkde
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://www.wouwlabs.com/blogs/anniec/?feed=rss2
-        define_name Ana Cecilia Martins (annieC)
-        define_face hackergotchi/anniec.jpg
-        define_facewidth 80
-        define_faceheight 80
+# Domain no longer exists
+#feed 30m http://www.wouwlabs.com/blogs/anniec/?feed=rss2
+#        define_name Ana Cecilia Martins (annieC)
+#        define_face hackergotchi/anniec.jpg
+#        define_facewidth 80
+#        define_faceheight 80
 
 feed 30m http://liveblue.wordpress.com/category/planetkde-sandroandrade/feed/?mrss=off&category_name=planetkde-sandroandrade
         define_name Sandro Andrade (sandroandrade)
