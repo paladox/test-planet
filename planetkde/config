@@ -3687,3 +3687,9 @@ feed 30m http://timotheegiet.com/blog/tag/kde/feed
 
 feed 30m http://mkuettler.blogspot.com/feeds/posts/default/-/planetkde
 	define_name Martin Küttler (mkuettler)
+
+feed 30m http://blogs.deusto.es/gsoc-deustotech/feed/
+        define_name Ander Pijoan (ander)
+        define_face hackergotchi/pijoan.jpg
+        define_facewidth 80
+        define_faceheight 80
