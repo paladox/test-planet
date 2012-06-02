@@ -3703,7 +3703,7 @@ feed 30m http://jsimon3.wordpress.com/category/kde/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://skeletdev.wordpress.com/category/kde/feed
+feed 30m http://skeletdev.wordpress.com/category/kde/feed/
         define_name Casian-Valentin Andrei (skelet)
         define_face hackergotchi/skelet.png
         define_facewidth 80
