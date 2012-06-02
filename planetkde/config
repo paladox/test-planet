@@ -2971,7 +2971,7 @@ feed 30m http://dazjorz.com/blog/?cat=3&feed=rss2
         define_faceheight 96
 
 
-feed 30m http://bergie.iki.fi/blog/feeds/category/kde/
+feed 30m http://bergie.iki.fi/blog/category/kde/rss.xml
         define_name Henri Bergius (bergie)
         define_face hackergotchi/bergie.png
         define_facewidth 101
