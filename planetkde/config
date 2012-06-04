@@ -3709,3 +3709,9 @@ feed 30m http://skeletdev.wordpress.com/category/kde/feed/
         define_facewidth 80
         define_faceheight 80
 
+feed 30m http://jigarraisinghani.blogspot.com/feeds/posts/default/-/KDE?alt=rss
+        define_name Jigar Raisinghani (jigar)
+        define_face hackergotchi/jigar.jpg
+        define_facewidth 57
+        define_faceheight 80
+
