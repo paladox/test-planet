@@ -3130,11 +3130,15 @@ feed 30m http://kde.in/blog/feed/
 #        define_facewidth 60
 #        define_faceheight 80
 
-feed 30m http://lizards.opensuse.org/author/javierllorente/feed/
+feed 30m http://www.javierllorente.com/category/english/feed/
         define_name Javier Llorente
 
 feed 30m http://identi.ca/api/statuses/user_timeline/100031.rss
         define_name Javier Llorente [identi.ca]
+        define_microblog true
+
+feed 30m https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=javierllorente
+        define_name Javier Llorente [twitter]
         define_microblog true
 
 feed 30m http://mrybczynska.wordpress.com/category/english/feed/?mrss=off&category_name=english
