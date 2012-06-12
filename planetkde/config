@@ -1589,8 +1589,9 @@ feed 30m http://identi.ca/morpheuz/rss
 feed 30m http://www.undefinedfire.com/feeds/kde-planet/
         define_name Lucas Murray (lmurray)
 
-feed 30m http://web.mornfall.net/planet/kde.rss
-        define_name Petr Rockai (mornfall)
+# Blog down, 503 error
+#feed 30m http://web.mornfall.net/planet/kde.rss
+#        define_name Petr Rockai (mornfall)
 
 feed 30m http://blog.karlitschek.de/feeds/posts/default
         define_name Frank Karlitschek (karli)
@@ -2773,7 +2774,7 @@ feed 30m http://liveblue.wordpress.com/category/planetkde-vitochiarella/feed/?mr
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://www.infinityperl.org/feed/tag/KDE/atom
+feed 30m http://infinityperl.blogspot.fr//feeds/posts/default
         define_name Arnaud Dupuis (Arno[Slack])
         define_face hackergotchi/arnaud-dupuis.jpg
         define_facewidth 80
@@ -3093,8 +3094,9 @@ feed 30m http://codersgrumble.blogspot.com/feeds/posts/default/-/kde
 feed 30m http://shentey.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
         define_name Bernhard Beschow (shentey)
 
-feed 30m http://rekonq.kde.org/blog/67/feed
-        define_name Lionel Chauvin
+# 404 on new site
+#feed 30m http://rekonq.kde.org/blog/67/feed
+#        define_name Lionel Chauvin
 
 feed 30m http://sciencekde.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
     define_name Matteo Agostinelli (agostinelli)
@@ -3145,11 +3147,12 @@ feed 30m http://mrybczynska.wordpress.com/category/english/feed/?mrss=off&catego
         define_name Marta Rybczyńska
         define_feedclass polish
 
-feed 30m http://rekonq.kde.org/blog/73/feed
-        define_name Panagiotis Papadopoulos (pano)
-        define_face hackergotchi/pano.png
-        define_facewidth 70
-        define_faceheight 70
+# 404 on new site
+#feed 30m http://rekonq.kde.org/blog/73/feed
+#        define_name Panagiotis Papadopoulos (pano)
+#        define_face hackergotchi/pano.png
+#        define_facewidth 70
+#        define_faceheight 70
 
 feed 30m http://bcooksley.blogspot.com/feeds/posts/default
         define_name Ben Cooksley (bcooksley)
@@ -3490,8 +3493,9 @@ feed 30m http://kmix5.wordpress.com/feed/?mrss=off
     define_faceheight 64
     define_feedclass news
 
-feed 30m http://kpsfoo.in/blog/tag/planet-kde/feed/
-    define_name Karan Pratap Singh
+# 404
+#feed 30m http://kpsfoo.in/blog/tag/planet-kde/feed/
+#    define_name Karan Pratap Singh
 
 feed 30m http://kate-editor.org/author/kuzmich/feed/
     define_name Svyatoslav Kuzmich
