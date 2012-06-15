@@ -2774,11 +2774,12 @@ feed 30m http://liveblue.wordpress.com/category/planetkde-vitochiarella/feed/?mr
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://infinityperl.blogspot.fr//feeds/posts/default
+feed 30m http://infinityperl.blogspot.fr/feeds/posts/default/-/kde
         define_name Arnaud Dupuis (Arno[Slack])
         define_face hackergotchi/arnaud-dupuis.jpg
         define_facewidth 80
         define_faceheight 113
+	define_microblog true ArnaudDupuis
 
 feed 30m http://www.andreascarpino.it/blog/categories/kde/atom.xml
         define_name Andrea Scarpino (bash)
