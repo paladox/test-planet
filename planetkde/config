@@ -3736,3 +3736,5 @@ feed 30m http://yashshah.com/blog/category/kde/feed/
         define_facewidth 69
         define_faceheight 100
 
+feed 30m http://blog.puneetgoyal.co.in/?feed=rss2
+        define_name Puneet Goyal (puneetgoyal)
