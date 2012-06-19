@@ -1912,7 +1912,7 @@ feed 30m http://twitter.com/statuses/user_timeline/17786106.rss
 feed 30m http://www.dennogumi.org/category/kde/feed
         define_name Luca Beltrame (einar77)
 
-feed 30m http://neverendingo.blogspot.com/feeds/posts/default
+feed 30m http://blog.neverendingo.de/?feed=rss2&cat=4
         define_name Ingo Malchow (neverendingo)
 
 # 404
