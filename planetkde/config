@@ -3460,11 +3460,11 @@ feed 30m http://swairshah.blogspot.com/feeds/posts/default
 feed 30m http://fxrh.wordpress.com/category/kdeplanet/feed/?mrss=off
     define_name Felix Rohrbach (fxrh)
 
-#feed 30m http://shreyapandit.com/?feed=rss2
-#    define_name Shreya Pandit (Shreya)
-#    define_face hackergotchi/shreya.jpg
-#    define_facewidth 80
-#    define_faceheight 80
+feed 30m http://shreyapandit.com/?feed=rss2
+    define_name Shreya Pandit (Shreya)
+    define_face hackergotchi/shreya.jpg
+    define_facewidth 80
+    define_faceheight 80
 
 feed 30m http://yuvrajtomar.blogspot.com/feeds/posts/default
     define_name Yuvraj Tomar (yuvrajtomar)
