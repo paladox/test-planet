@@ -3748,3 +3748,5 @@ feed 30m http://utkuaydin.wordpress.com/category/kde-2/feed/
         define_facewidth 80
         define_faceheight 80
 
+feed 30m http://heenamahour.blogspot.com/feeds/posts/default?alt=rss
+        define_name Heena Mahour
