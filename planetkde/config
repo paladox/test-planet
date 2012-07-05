@@ -3757,3 +3757,5 @@ feed 30m http://logofn.blogspot.com/feeds/posts/default
         define_facewidth 80
         define_faceheight 64
 
+feed 30m http://cezarmocan.wordpress.com/feed/
+        define_name Cezar Mocan (CezarMocan)
