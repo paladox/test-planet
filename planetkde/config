@@ -920,9 +920,6 @@ feed 30m http://blogs.kde.org/blog/1236/feed
 feed 30m http://englich.wordpress.com/feed/?mrss=off
         define_name Frans Englich (FransE)
 
-feed 30m http://woboq.com/feed/planetkde.rss
-        define_name Olivier Goffart (Gof)
-
 feed 30m http://frinring.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
         define_name Friedrich Kossebau (frinring)
         define_face hackergotchi/frinring.png
