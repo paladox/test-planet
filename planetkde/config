@@ -1636,7 +1636,7 @@ feed 30m http://shaforostoff.blogspot.com/atom.xml
         define_facewidth 65
         define_faceheight 80
 
-feed 30m http://lydgate.org/blogs/?feed=rss2&tag=kde
+feed 30m http://lydgate.org/blogs/tag/kde/feed/
         define_name Anne Wilson (annew)
         define_face hackergotchi/annew.png
         define_facewidth 79
