@@ -444,3 +444,7 @@ feed 30m http://arthursribeiro.blogspot.com.br/feeds/posts/default/-/kdebr
         define_face hackergotchi/arthurribeiro.jpg
         define_facewidth 62
         define_faceheight 80
+
+feed 30m http://feeds.feedburner.com/Kblogue-KubuntuKde?format=xml
+        define_name KBlogue
+
