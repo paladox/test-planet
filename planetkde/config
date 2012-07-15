@@ -3757,5 +3757,5 @@ feed 30m http://logofn.blogspot.com/feeds/posts/default
 feed 30m http://cezarmocan.wordpress.com/feed/
         define_name Cezar Mocan (CezarMocan)
 
-feed 30m http://smitr.blogspot.com/feeds/posts/default
+feed 30m http://smitr.blogspot.com/feeds/posts/default/-/kde 
         define_name Smit Patel (smitpatel)
