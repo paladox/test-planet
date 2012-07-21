@@ -3759,3 +3759,6 @@ feed 30m http://cezarmocan.wordpress.com/feed/
 
 feed 30m http://smitr.blogspot.com/feeds/posts/default/-/kde 
         define_name Smit Patel (smitpatel)
+
+feed 30m http://kdeblog.mageprojects.com/feed/
+	define_name Mark Gaiser (markg)
