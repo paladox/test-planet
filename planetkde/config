@@ -3765,3 +3765,7 @@ feed 30m http://smitr.blogspot.com/feeds/posts/default/-/kde
 
 feed 30m http://kdeblog.mageprojects.com/feed/
 	define_name Mark Gaiser (markg)
+
+feed 30m http://www.aegiap.eu/kdeblog/tag/kmail-kdepim/
+        define_name Laurent Montel (mlaurent)
+
