@@ -835,11 +835,11 @@ feed 30m http://blogs.kde.org/blog/280/feed
 feed 30m http://blogs.kde.org/blog/952/feed
         define_name Martin Konold (Mortimer)
 
-feed 30m http://obso1337.org/feed/
-        define_name Celeste Lyn Paul (seele)
-        define_face hackergotchi/seele.png
-        define_facewidth 61
-        define_faceheight 80
+#feed 30m http://obso1337.org/feed/
+#        define_name Celeste Lyn Paul (seele)
+#        define_face hackergotchi/seele.png
+#        define_facewidth 61
+#        define_faceheight 80
 
 feed 30m http://ingwa2.blogspot.com/atom.xml
         define_name Inge Wallin (ingwa)
@@ -3415,11 +3415,12 @@ feed 30m http://lpapp.blogspot.com/feeds/posts/default
     define_facewidth 80
     define_faceheight 80
 
-feed 30m http://jonathan-perichon.com/category/kde/feed/
-    define_name Jonathan Perichon (perichon)
-    define_face hackergotchi/jperichon.png
-    define_facewidth 88
-    define_faceheight 88
+# NXDOMAIN; 30/07/2012
+#feed 30m http://jonathan-perichon.com/category/kde/feed/
+#    define_name Jonathan Perichon (perichon)
+#    define_face hackergotchi/jperichon.png
+#    define_facewidth 88
+#    define_faceheight 88
 
 feed 30m http://who828.wordpress.com/category/planet-kde/feed/?mrss=off
     define_name Smit Shah
@@ -3748,8 +3749,9 @@ feed 30m http://utkuaydin.wordpress.com/category/kde-2/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://heenamahour.blogspot.com/feeds/posts/default?alt=rss
-        define_name Heena Mahour
+# 401; 30/07/2012
+#feed 30m http://heenamahour.blogspot.com/feeds/posts/default?alt=rss
+#        define_name Heena Mahour
 
 feed 30m http://logofn.blogspot.com/feeds/posts/default
         define_name Roney Gomes (roney)
