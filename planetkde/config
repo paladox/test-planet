@@ -3771,3 +3771,6 @@ feed 30m http://kdeblog.mageprojects.com/feed/
 feed 30m http://www.aegiap.eu/kdeblog/category/planetkde/feed/?mrss=off
         define_name Laurent Montel (mlaurent)
 
+feed 30m http://www.mssola.com/feeds/posts/default
+        define_name Miquel Sabaté (mssola)
+
