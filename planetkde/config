@@ -1673,7 +1673,7 @@ feed 30m http://my.opera.com/it-s/xml/rss/blog/kde
 feed 30m http://gkmeyer.com/wordpress/?feed=rss2
         define_name Greg Meyer (oggb4mp3)
 
-feed 30m http://blogs.fsfe.org/myriam/feed
+feed 30m http://blogs.fsfe.org/myriam/feed/
         define_name Myriam Schweingruber (Mamarok)
         define_face hackergotchi/mamarok.png
         define_facewidth 87
