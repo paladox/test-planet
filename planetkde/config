@@ -3774,3 +3774,5 @@ feed 30m http://www.aegiap.eu/kdeblog/category/planetkde/feed/?mrss=off
 feed 30m http://www.mssola.com/feeds/posts/default
         define_name Miquel Sabaté (mssola)
 
+feed 30m http://hashpling.wordpress.com/tag/planetkde/feed/?mrss=off&tag=planetkde
+        define_name Anant Kamath (flak37)
