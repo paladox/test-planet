@@ -1806,10 +1806,6 @@ feed 30m http://identi.ca/frederik/rss
         define_name Frederik Gladhorn [identi.ca]
         define_microblog true
 
-feed 30m http://twitter.com/statuses/user_timeline/8694172.rss
-        define_name Mike McQuaid [twitter]
-        define_microblog true
-
 feed 30m http://www.eivanov.com/feeds/posts/default/-/planetkde
         define_name Evgeniy Ivanov (powerfox/pfx)
 
