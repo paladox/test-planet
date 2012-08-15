@@ -69,8 +69,34 @@
         }
     }
     </script>
+    
+    <!--pledgie-banner-->
+    <link rel="stylesheet" href="../pledgie/banner.css" type="text/css" />
+    <script type="text/javascript" src="//cdn.kde.org/js/jquery.js"></script>
+    <script type="text/javascript" src="../pledgie/banner.js"></script>
+    <!--/pledgie-banner-->
+    
 </head>
 <body onLoad="javascript:showTwitter();">
+
+  <div id="page">
+    <!--pledgie-banner-->
+    <div id="pledgie-banner" data-campaign="18045">
+        <div id="pledgie-graph">
+            <div id="pledgie-bar"></div>
+        </div>
+        <div id="pledgie-bar-txt">
+            <span id="pledgie-goal">
+                <span id="pledgie-goal-amt">10000.00 &#8364;</span>
+            </span>
+            0.00 &#8364;
+        </div>
+        <div id="pledgie-text">
+            Por favor, doe o que você puder para tornar o KDE Randa Sprint 2012 possível.
+            <a href="http://pledgie.com/campaigns/18045">Leia mais</a>.
+        </div>
+    </div>
+    <!--/pledgie-banner-->
 
 <div id="page">
 	<div id="headerright">
