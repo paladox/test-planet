@@ -262,12 +262,37 @@ function eraseCookie(name) {
 	};
     }
     </script>
+
+    <!--pledgie-banner-->
+    <link rel="stylesheet" href="pledgie/banner.css" type="text/css" />
+    <script type="text/javascript" src="//cdn.kde.org/js/jquery.js"></script>
+    <script type="text/javascript" src="pledgie/banner.js"></script>
+    <!--/pledgie-banner-->
 </head>
 
 
 <body onDOMContentLoaded="javascript:applyConfig();" onLoad="javascript:applyConfig();">
 
 <div id="page">
+    <!--pledgie-banner-->
+    <div id="pledgie-banner" data-campaign="18045">
+        <div id="pledgie-graph">
+            <div id="pledgie-bar"></div>
+        </div>
+        <div id="pledgie-bar-txt">
+            <span id="pledgie-goal">
+                <span id="pledgie-goal-amt">10000.00 &#8364;</span>
+            </span>
+            0.00 &#8364;
+        </div>
+        <hr />
+        <div id="pledgie-text">
+            Please donate what you can to help make Randa 2012 possible.
+            <a href="pledgie.com/campaigns/18045">Read more</a>.
+        </div>
+    </div>
+    <!--/pledgie-banner-->
+
 	<div id="headerright">
 	<div id="headerleft">
 	<div id="header">
