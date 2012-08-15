@@ -285,7 +285,6 @@ function eraseCookie(name) {
             </span>
             0.00 &#8364;
         </div>
-        <hr />
         <div id="pledgie-text">
             Please donate what you can to help make Randa 2012 possible.
             <a href="http://pledgie.com/campaigns/18045">Read more</a>.
