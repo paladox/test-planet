@@ -288,7 +288,7 @@ function eraseCookie(name) {
         <hr />
         <div id="pledgie-text">
             Please donate what you can to help make Randa 2012 possible.
-            <a href="pledgie.com/campaigns/18045">Read more</a>.
+            <a href="http://pledgie.com/campaigns/18045">Read more</a>.
         </div>
     </div>
     <!--/pledgie-banner-->
