@@ -3776,3 +3776,7 @@ feed 30m http://www.mssola.com/feeds/posts/default
 
 feed 30m http://hashpling.wordpress.com/tag/planetkde/feed/?mrss=off&tag=planetkde
         define_name Anant Kamath (flak37)
+
+feed 45m http://zombofant.net/blog/tags/kde?feed=atom
+        define_name Rene Kuettner (rku)
+
