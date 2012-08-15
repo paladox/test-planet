@@ -79,7 +79,7 @@
 </head>
 <body onLoad="javascript:showTwitter();">
 
-  <div id="page">
+<div id="page">
     <!--pledgie-banner-->
     <div id="pledgie-banner" data-campaign="18045">
         <div id="pledgie-graph">
@@ -98,7 +98,6 @@
     </div>
     <!--/pledgie-banner-->
 
-<div id="page">
 	<div id="headerright">
 	<div id="headerleft">
 	<div id="header">
