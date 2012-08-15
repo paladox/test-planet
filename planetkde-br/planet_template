@@ -71,9 +71,9 @@
     </script>
     
     <!--pledgie-banner-->
-    <link rel="stylesheet" href="../pledgie/banner.css" type="text/css" />
+    <link rel="stylesheet" href="pledgie/banner.css" type="text/css" />
     <script type="text/javascript" src="//cdn.kde.org/js/jquery.js"></script>
-    <script type="text/javascript" src="../pledgie/banner.js"></script>
+    <script type="text/javascript" src="pledgie/banner.js"></script>
     <!--/pledgie-banner-->
     
 </head>
