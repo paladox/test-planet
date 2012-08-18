@@ -72,8 +72,6 @@
     
     <!--pledgie-banner-->
     <link rel="stylesheet" href="http://planetkde.org/pledgie/banner.css" type="text/css" />
-    <script type="text/javascript" src="//cdn.kde.org/js/jquery.js"></script>
-    <script type="text/javascript" src="http://planetkde.org/pledgie/banner.js"></script>
     <!--/pledgie-banner-->
     
 </head>
@@ -82,15 +80,9 @@
 <div id="page">
     <!--pledgie-banner-->
     <div id="pledgie-banner" data-campaign="18045">
-        <div id="pledgie-graph">
-            <div id="pledgie-bar"></div>
-        </div>
-        <div id="pledgie-bar-txt">
-            <span id="pledgie-goal">
-                <span id="pledgie-goal-amt">10000.00 &#8364;</span>
-            </span>
-            0.00 &#8364;
-        </div>
+        <a href='http://www.pledgie.com/campaigns/18045'>
+	  <img alt='Click here to lend your support to: KDE Randa Meetings and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/18045.png?skin_name=chrome' border='0' />
+	</a>
         <div id="pledgie-text">
             Por favor, doe o que você puder para tornar o KDE Randa Sprint 2012 possível.
             <a href="http://pledgie.com/campaigns/18045">Leia mais</a>.
