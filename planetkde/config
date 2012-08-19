@@ -1162,7 +1162,7 @@ feed 30m http://myrizio.wordpress.com/feed/?mrss=off
 feed 30m http://gustavoboiko.org/blog/category/kde/feed/
         define_name Gustavo Boiko
 
-feed 30m http://lfranchi.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
+feed 30m http://www.lfranchi.com/rss.php
         define_name Leo Franchi (lfranchi)
 
 feed 30m http://feeds.feedburner.com/gamaral-kde
