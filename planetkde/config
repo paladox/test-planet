@@ -3780,3 +3780,8 @@ feed 30m http://hashpling.wordpress.com/tag/planetkde/feed/?mrss=off&tag=planetk
 feed 30m http://zombofant.net/blog/tags/kde?feed=atom
         define_name Rene Kuettner (rku)
 
+feed 30m http://knro.blogspot.com/feeds/posts/default/-/KDE
+        define_name Jasem Mutlaq (KNRO)
+        define_face hackergotchi/mutlaqja.png
+        define_facewidth 65
+        define_faceheight 78
