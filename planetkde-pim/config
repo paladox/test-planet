@@ -350,9 +350,10 @@ feed 15m http://identi.ca/tomalbers/rss
 feed 15m http://blogs.kde.org/blog/699/feed
         define_name Frank Osterfeld (fosterfeld)
 
-feed 15m http://identi.ca/frankosterfeld/rss
-        define_name Frank Osterfeld [identi.ca]
-        define_microblog true
+# HTTP 400; 04/09/2012
+#feed 15m http://identi.ca/frankosterfeld/rss
+#        define_name Frank Osterfeld [identi.ca]
+#        define_microblog true
 
 feed 15m http://thomasmcguire.wordpress.com/feed/?mrss=off
         define_name Thomas McGuire
