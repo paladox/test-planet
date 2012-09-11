@@ -3803,3 +3803,7 @@ feed 30m http://jaysonrowe.blogspot.com/feeds/posts/default/-/KDE/?alt=rss
 
 feed 30m http://erionism.blogspot.in/feeds/posts/default
         define_name Brijesh Patel (erione)
+
+feed 30m http://blog.sebasgo.net/atom.xml
+        define_name Sebastian Gottfried (sebasgo)
+
