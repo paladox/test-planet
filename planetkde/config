@@ -2119,7 +2119,7 @@ feed 30m http://skrooge.org/blogs/gdebure/rss.xml
 feed 30m http://algebraicallyclosed.blogspot.com/feeds/posts/default
 	define_name Jeremias Epperlein
 
-feed 30m http://soliverez.com.ar/drupal/?q=taxonomy/term/17/all/feed
+feed 30m http://soliverez.com.ar/home/tag/planet-kde/feed/
 	define_name Alvaro Soliverez (Hei_Ku)
 	define_face hackergotchi/asoliverez.png
 	define_facewidth 80
