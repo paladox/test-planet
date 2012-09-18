@@ -3807,3 +3807,8 @@ feed 30m http://erionism.blogspot.in/feeds/posts/default
 feed 30m http://blog.sebasgo.net/atom.xml
         define_name Sebastian Gottfried (sebasgo)
 
+feed 30m http://behindkde.org/rss.xml
+	define_name BehindKDE
+	define_face hackergotchi/behindkde.png
+	define_facewidth 43
+	define_faceheight 43
