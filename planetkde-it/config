@@ -328,7 +328,7 @@ changeconfig true
 #feed 3h http://proxyfeed.example.com/proxied.rss http_proxy=http://localhost:1234/
 #feed 3h http://dupsfeed.example.com/duplicated.rss allowduplicates=true
 
-feed 30m http://rockman81.blogspot.com/feeds/posts/default/-/planet-kde-it
+feed 30m http://blog.gulinux.net/category/planet-kde-it/feed/
         define_name Marco Gulino (RockMan) [italian]
         define_face hackergotchi/gulino.png
         define_facewidth 80
