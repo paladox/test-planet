@@ -3704,7 +3704,7 @@ feed 30m http://blog.mailson.org/category/planetkde/feed/
         define_faceheight 80
 
 feed 30m http://timotheegiet.com/blog/tag/kde/feed
-        define_name Timothée Giet.png (Animtim)
+        define_name Timothee-Giet.png (Animtim)
         define_face hackergotchi/Timothée-Giet.png
         define_facewidth 80
         define_faceheight 80
