@@ -201,11 +201,11 @@ itemtemplate itemplate
 # (You will probably want to make this an absolute path, else rawdog will write
 # to a file in your ~/.rawdog directory.)
 #outputfile output.html
-outputfile ../website/pim/index.html
+outputfile ../website/pl/index.html
 
-outputxml ../website/pim/rss20.xml
-outputfoaf ../website/pim/foafroll.xml
-outputopml ../website/pim/opml.xml
+outputxml ../website/pl/rss20.xml
+outputfoaf ../website/pl/foafroll.xml
+outputopml ../website/pl/opml.xml
 xmlmaxarticles 30
 
 # Whether to use a <meta http-equiv="Refresh" ...> tag in the generated
@@ -328,6 +328,7 @@ changeconfig true
 #feed 3h http://proxyfeed.example.com/proxied.rss http_proxy=http://localhost:1234/
 #feed 3h http://dupsfeed.example.com/duplicated.rss allowduplicates=true
 
-feed 15m http://www.omat.nl/category/english/feed/
-        define_name Tom Albers
+feed 30m http://blogs.kde.org/blog/104/feed
+        define_name Jarosław Staniek (jstaniek)
+        define_face hackergotchi/jstaniek.png
 
