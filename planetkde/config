@@ -3756,7 +3756,6 @@ feed 30m http://blog.puneetgoyal.co.in/feed/
 
 feed 30m http://utkuaydin.wordpress.com/category/kde-2/feed/
         define_name Utku Aydın (utku)
-        define_face hackergotchi/UtkuAydın.jpg
         define_facewidth 80
         define_faceheight 80
 
