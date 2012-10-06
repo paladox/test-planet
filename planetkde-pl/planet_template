@@ -1,0 +1,210 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="http://planetkde.org/rawdog.css" type="text/css" title="Fixed Width" />
+    <link rel="stylesheet" href="pl.css" type="text/css" title="Fixed Width" />
+    <link rel="alternate stylesheet" href="http://planetkde.org/rawdog-variable.css" type="text/css" title="Variable Width" />
+    <title>Planet KDE Poland</title>
+    <link rel="alternate" type="application/rss+xml" title="Planet KDE Poland" href="http://pl.planetKDE.org/rss20.xml" />
+
+	<!--[if IE 6]>
+	<style type="text/css">
+	#header, #content, #footer, #planetheader
+	{
+	background-image: none;
+	}
+	#header {  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg-header.png', sizingMethod='crop'); }
+	#content {  padding-right: 13px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg-content.png', sizingMethod='scale') }
+
+	#footer { padding: 10px 25px 0 25px; width: 750px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg-footer.png', sizingMethod='scale'); }
+	</style>
+	<![endif]-->
+    <script language="javascript"> 
+    function toggle() {
+        var ele = document.getElementById("feeddiv");
+        if(ele.style.display == "block") {
+                ele.style.display = "none";
+        }
+        else {
+                ele.style.display = "block";
+        }
+    } 
+
+    function toggleaddme() {
+        var ele = document.getElementById("addme");
+        if(ele.style.display == "block") {
+                ele.style.display = "none";
+        }
+        else {
+                ele.style.display = "block";
+        }
+    } 
+
+    function togglemicroblog() {
+        var ele = document.getElementById("twitterdiv");
+        if(ele.style.display == "block") {
+                ele.style.display = "none";
+                var today = new Date();
+                var expire = new Date();
+                expire.setTime(today.getTime() + 3600000*24*100)
+                document.cookie = "twitter=none;expires="+expire.toGMTString();
+        }
+        else {
+                ele.style.display = "block";
+                var today = new Date();
+                var expire = new Date();
+                expire.setTime(today.getTime() + 3600000*24*100)
+                document.cookie = "twitter=block;expires="+expire.toGMTString();
+        }
+    } 
+
+    /*onLoad show microblog block if it was shown before*/
+    function showTwitter() {
+        var ele = document.getElementById("twitterdiv");
+        if (document.cookie == "twitter=block") {
+            ele.style.display = "block";
+        } else {
+            ele.style.display = "none";
+        }
+    }
+    </script>
+</head>
+<body onLoad="javascript:showTwitter();">
+
+<div id="page">
+	<div id="headerright">
+	<div id="headerleft">
+	<div id="header">
+	    <!-- <h1>The lives of the people behind KDE</h1> -->
+		<a href="http://kde.org" id="kdehome" title="Kde Homepage"></a>
+		<a href="http://pl.planetkde.org" id="planetheader"><div width="185" height="45"></div><!--<img src="http://planetkde.org/images/planet-header-text.png" alt="Planet KDE" width="185" height="45" />--></a>
+		
+		<div id="toplinks">
+			<a href="http://pl.planetkde.org/rss20.xml">Planet RSS<img src="http://planetkde.org/images/akregator.png" alt="" width="22" height="22" /></a> 
+			<a href="javascript:toggle();">People aggregated<img src="http://planetkde.org/images/user-identity.png" alt="" width="22" height="22" /></a> 
+			<a href="javascript:toggleaddme();">Add your blog<img src="http://planetkde.org/images/addrss.png" alt="" width="22" height="22" /></a> 
+			<a href="http://dot.kde.org/">KDE Dot News<img src="http://planetkde.org/images/dot-news.png" alt="" width="22" height="22" /></a> 
+			<a href="javascript:togglemicroblog();">Microblogging<img src="http://planetkde.org/images/microblog.png" alt="" width="22" height="22" /></a> 
+		</div> <!--toplinks-->
+	</div> <!--header-->
+	</div> <!--headerleft-->
+	</div> <!--headerright-->
+    <div id="contentright">
+    <div id="contentleft">
+    <div id="content">
+        <div id="addme">
+
+          <h2>Add your blog</h2>
+
+          <p>If you are a polish KDE contributor you can have your blog on
+          Planet KDE Poland. Blog content should be mostly KDE themed, English or polish language
+          and not liable to offend.  </p>
+
+          <p>To have your blog
+          added <a href="http://bugs.kde.org/enter_bug.cgi?product=planet%20kde">file
+          a bug in Bugzilla</a> listing your name, svn account (if you
+          have one), IRC nick (if you have one), RSS or Atom feed and
+          what you do in KDE.  Attach a photo of your face for hackergotchi.</p>
+
+          <p>Alternatively, Planet KDE Poland is kept in KDE's SVN.  If you
+          have an account you can add or edit your own feed:</p>
+
+            <ul>
+              <li><em>svn checkout svn+ssh://<username>@svn.kde.org/home/kde/trunk/www/sites/planet/planetkde-pl</em></li>
+
+              <li>Put your hackergotchi
+              in <em>website/hackergotchi/</em>.  A hackergotchi
+              should be a photo of your face smaller than 80x80 pixels
+              with a transparent background. <em>svn add</em> the file.</li>
+
+              <li>At the end of the <em>planetkde-pl/config</em> file add your details (the name in brackets is your IRC nick):</li>
+                 <div id="addmebox">
+feed 15m http://path.to/my/feed.rss
+        define_name Konqi Konqueror (konqi)
+        define_face hackergotchi/konqi.png
+        define_facewidth 80
+        define_faceheight 80
+</div>
+
+             <li><em>svn commit</em></li>
+          </ul>
+
+       <p>If you want to add a Twitter microblog to the Microblogging
+       sidebar add <em>define_microblog true</em> and follow your name
+       with [twitter].  Currently only Twitter is known to work,
+       please contact Jonathan Riddell before adding non-Twitter
+       microblogs to check it works.</p>
+
+
+       <h2>Planet KDE Poland Guidelines</h2>
+
+<p>Planet KDE Poland is one of the public faces of the KDE project and is
+read by millions of users and potential contributors.  The content
+aggregated at Planet KDE Planet is the opinions of its authors, but the sum
+of that content gives an impression of the project.  Please keep in
+mind the following guidelines for your blog content and read the
+<a href="http://www.kde.org/code-of-conduct/">KDE Code of Conduct</a>.  The KDE
+project reserves the right to remove an inappropriate blog from the
+Planet. If that happens multiple times, the Community Working Group
+can be asked to consider what needs to happen to get your blog
+aggregated again.</p>
+
+<p>If you are unsure or have queries about what is appropriate contact the KDE Community Working Group.</p>
+
+<h3>Blogs should be KDE Poland themed</h3>
+
+<p>The majority of content in your blog should be about KDE Poland and your
+work on KDE Poland, such as Akonadi and Nepomuk.  Blog posts about personal subjects are also encouraged
+since Planet KDE Poland is a chance to learn more about the developers behind
+KDE Poland.  However blog feeds should not be entirely personal, if in doubt
+set up a tag for Planet KDE Poland and subscribe the feed from that tag so
+you can control what gets posted.</p>
+
+<h3>Posts should be constructive</h3>
+
+<p>Posts can be positive and promote KDE Poland, they can be constructive and lay out issues which need to be addressed, but blog feeds should not contain useless, destructive and negative material.  Constructive criticism is welcome and the occasional rant is understandable, but a feed where every post is critical and negative is unsuitable.  This helps to keep KDE overall a happy project.</p>
+
+<h3>You must be a KDE Poland contributor</h3>
+
+<p>Only have your blog on Planet KDE Poland if you actively contribute to KDE Poland, for example through code, user support, documentation etc.</p>
+
+<h3>It must be a personal blog</h3>
+
+<p>Planet KDE Poland is a collection of blogs from KDE contributors.  It is not indended for project news feeds.</p>
+
+<h3>Do not inflame</h3>
+
+<p>KDE covers a wide variety of people and cultures.  Profanities, prejudice, lewd comments and content likely to offend are to be avoided.  Do not make personal attacks or attacks against other projects on your blog.</p>
+
+<p>For further guidance on good practice see the <a href="http://www.kde.org/code-of-conduct/">KDE Code of Conduct</a>.</p>
+
+        </div><!--addme-->
+        <div id="feeddiv">
+	    <h2>People Aggregated</h2>
+	    <p>
+         __feeds__
+		</p>
+        </div><!--feeddiv-->
+        <div id="twitterdiv">
+        <h2 id="microbloghead">Microblogging from KDE</h2>
+        __twitter__
+        </div><!--twitterdiv-->
+
+__items__
+
+	</div><!--content-->
+	</div><!--contentleft-->
+	</div><!--contentright-->
+
+<div id="footerright">
+<div id="footerleft">
+<div id="footer">
+Planet KDE Poland is made from the blogs of KDE's contributors.  The opinions it contains are those of the contributor.  This site is powered by <a href="http://offog.org/code/rawdog.html">Rawdog</a> and <a href="https://launchpad.net/rawdog-rss">Rawdog RSS</a>.  Feed readers can read Planet KDE Poland with <a href="rss20.xml">RSS</a>, <a href="foafroll.xml">FOAF</a> or <a href="opml.xml">OPML</a>.
+</div><!--footer-->
+</div><!--footerleft-->
+</div><!--footerright-->
+
+</div><!--page-->
+</body>
+</html>
