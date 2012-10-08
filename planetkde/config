@@ -1496,11 +1496,12 @@ feed 30m http://blog.qt.digia.com/author/alexandra/feed/
 #feed 30m http://blog.greghaynes.net/index.php?/feeds/categories/7-KDE.rss
 #        define_name Gregory Haynes
 
-feed 30m http://krishnaggk.wordpress.com/category/planetkde/feed/?mrss=off&category_name=planetkde
-        define_name Gopala Krishna
-        define_face hackergotchi/gopala.png
-        define_facewidth 63
-        define_faceheight 80
+# Feed no longer exists (http 410 - author has deleted blog)
+#feed 30m http://krishnaggk.wordpress.com/category/planetkde/feed/?mrss=off&category_name=planetkde
+#        define_name Gopala Krishna
+#        define_face hackergotchi/gopala.png
+#        define_facewidth 63
+#        define_faceheight 80
 
 feed 30m http://ekaia.org/blog/category/english/kde/feed/
         define_name Ana Guerrero (ana)
