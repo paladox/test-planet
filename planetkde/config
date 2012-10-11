@@ -608,10 +608,6 @@ feed 30m http://www.kuarepoti-dju.net/tags/community:desktop/index.rss
 feed 30m http://blogs.kde.org/blog/77/feed
         define_name Will Stephenson
 
-feed 30m http://twitter.com/statuses/user_timeline/7768822.rss
-        define_name Will Stephenson [twitter]
-        define_microblog true
-
 feed 30m http://www.christian-loose.de/atom.xml
         define_name Christian Loose
 
@@ -1084,10 +1080,6 @@ feed 30m http://blog.jospoortvliet.com/atom.xml
         define_facewidth 65
         define_faceheight 80
 
-feed 30m http://twitter.com/statuses/user_timeline/107838271.rss
-        define_name Jos Poortvliet [twitter]
-        define_microblog true
-
 feed 30m http://commonideas.blogspot.com/feeds/posts/default/-/KDE
         define_name Bart Cerneels (Stecchino)
 
@@ -1182,10 +1174,6 @@ feed 30m http://feeds.feedburner.com/gamaral-kde
         define_face hackergotchi/gamaral.gif
         define_facewidth 80
         define_faceheight 80
-
-feed 30m http://twitter.com/statuses/user_timeline/8888712.rss
-        define_name gamaral [twitter]
-        define_microblog true
 
 feed 30m http://flavio.castelli.name/atom.xml
         define_name Flavio Castelli
@@ -1369,18 +1357,6 @@ feed 30m http://zwabel.wordpress.com/feed/?mrss=off
 feed 30m http://boom1992.wordpress.com/feed/?mrss=off
         define_name Lukas Appelhans
 
-feed 30m http://twitter.com/statuses/user_timeline/15063949.rss
-        define_name Lukas Appelhans [twitter]
-        define_microblog true
-
-#feed 30m http://twitter.com/statuses/user_timeline/19177581.rss
-#        define_name Sujith H [twitter]
-#        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/15390117.rss
-        define_name Pradeepto [twitter]
-        define_microblog true
-
 feed 30m http://yarpen.cz/rants/?feed=rss2
         define_name Petr Vanek
 
@@ -1398,10 +1374,6 @@ feed 30m http://www.jespersaur.com/drupal/taxonomy/term/21/0/feed
         define_face hackergotchi/jesperht.png
         define_facewidth 80
         define_faceheight 80
-
-feed 30m http://twitter.com/statuses/user_timeline/2978031.rss
-        define_name Jesper Thomschutz [twitter]
-        define_microblog true
 
 feed 30m http://whilos.blogsite.org/?cat=4&feed=atom
         define_name Christian Weilbach (whilo)
@@ -1454,10 +1426,6 @@ feed 30m http://www.notmart.org/phpwet/rss.php?tags=kde
 
 feed 30m http://grundleborg.wordpress.com/feed/?mrss=off&category_name=kde
         define_name George Goldberg (grundleborg)
-
-feed 30m http://twitter.com/statuses/user_timeline/13551252.rss
-        define_name George Goldberg [twitter]
-        define_microblog true
 
 feed 30m http://ppenz.blogspot.com/feeds/posts/default/-/KDE
         define_name Peter Penz
@@ -1732,88 +1700,16 @@ feed 30m http://saschpe.wordpress.com/category/opensource/kde/feed/?mrss=off&cat
 #feed 30m http://www.gigabytes.it/tag/planetkde/feed/
 #        define_name Nicola Gigante (gigabytes)
 
-feed 30m http://twitter.com/statuses/user_timeline/17066665.rss
-        define_name Sascha Peilicke [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/16697511.rss
-        define_name Jonathan Riddell [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/6328522.rss
-        define_name Seb Ruiz [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/7668782.rss
-        define_name Sebastian Kügler [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/8721292.rss
-        define_name Mark Kretschmann [twitter]
-        define_microblog true
-
 feed 30m http://identi.ca/apachelogger/rss
         define_name Harald Sitter [identi.ca]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/8725472.rss
-        define_name Harald Sitter [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/8719472.rss
-        define_name Lydia Pintscher [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/7764312.rss
-        define_name Leo Franchi [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/8728462.rss
-        define_name Myriam Schweingruber [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/7655662.rss
-        define_name Riccardo Iaconelli [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/8826002.rss
-        define_name Ian Monroe [twitter]
         define_microblog true
 
 feed 30m http://identi.ca/ivancukic/rss
         define_name Ivan Čukić [identi.ca]
         define_microblog true
 
-feed 30m http://twitter.com/statuses/user_timeline/15173651.rss
-        define_name Cornelius Schumacher [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/11408342.rss
-        define_name Marco Martin [twitter]
-        define_microblog true
-
 feed 30m http://identi.ca/drf/rss
         define_name Dario Freddi [identi.ca]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/8721352.rss
-        define_name Nikolaj Hald Nielsen [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/6323052.rss
-        define_name Alexandra Leisse [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/16695645.rss
-        define_name Agustin Benito Bethencourt [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/7668782.rss
-        define_name Sebastian Kügler [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/8888712.rss
-        define_name Guillermo Antonio Amaral [twitter]
         define_microblog true
 
 feed 30m http://identi.ca/frederik/rss
@@ -1823,33 +1719,8 @@ feed 30m http://identi.ca/frederik/rss
 feed 30m http://www.eivanov.com/feeds/posts/default/-/planetkde
         define_name Evgeniy Ivanov (powerfox/pfx)
 
-feed 30m http://twitter.com/statuses/user_timeline/10486242.rss
-        define_name Richard Johnson [twitter]
-        define_microblog true
-
 feed 30m http://identi.ca/jrepin/rss
         define_name Jure Repinc [identi.ca]
-        define_microblog true
-
-# 401
-#feed 30m http://twitter.com/statuses/user_timeline/15219398.rss
-#        define_name Akarsh Simha [twitter]
-#        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/16838153.rss
-        define_name Tejas Dinkar [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/14086063.rss
-        define_name Shashank Singh [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/7746192.rss
-        define_name Daniel Molkentin [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/19499911.rss
-        define_name Casey Link [twitter]
         define_microblog true
 
 # Blog server is down
@@ -1898,16 +1769,8 @@ feed 30m http://www.sayakbanerjee.com/category/planet-kde/feed/atom/
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://twitter.com/statuses/user_timeline/18117243.rss
-        define_name Sayak Banerjee [twitter]
-        define_microblog true
-
 feed 30m http://lukast.mediablog.sk/log/?feed=rss2
         define_name Lukas Tvrdy (lukast)
-
-feed 30m http://twitter.com/statuses/user_timeline/15533183.rss
-        define_name Celeste Lyn Paul [twitter]
-        define_microblog true
 
 feed 30m http://slangkamp.wordpress.com/feed/?mrss=off
         define_name Sven Langkamp (slangkamp)
@@ -1917,10 +1780,6 @@ feed 30m http://blog.chatonka.com/category/computers/linux/kde4/planetkde/feed/
         define_face hackergotchi/astromme.png
         define_facewidth 47
         define_faceheight 80
-
-feed 30m http://twitter.com/statuses/user_timeline/17786106.rss
-        define_name Gran Canaria Desktop Summit [twitter]
-        define_microblog true
 
 feed 30m http://www.dennogumi.org/category/kde/feed
         define_name Luca Beltrame (einar77)
@@ -2146,10 +2005,6 @@ feed 30m http://martinsandsmark.wordpress.com/feed/?mrss=off
 	define_facewidth 63
 	define_faceheight 80
 
-feed 30m http://twitter.com/statuses/user_timeline/15063603.rss
-        define_name Martin Sandsmark [twitter]
-        define_microblog true
-
 #feed 30m http://forum.kde.org/staffblog/syndication.php?fid=100
 #	define_name KDE Forum Staff (forum.kde.org)
 #	define_face hackergotchi/kdeforum.png
@@ -2179,10 +2034,6 @@ feed 30m http://dimula73.blogspot.com/feeds/posts/default/-/KDE
 #        define_face hackergotchi/stalcup.jpeg
 #	define_facewidth 80
 #	define_facewidth 80
-
-feed 30m http://twitter.com/statuses/user_timeline/14298657.rss
-	define_name Steve Stalcup [twitter]
-	define_microblog true
 
 feed 30m http://zekecoma.blogspot.com/feeds/posts/default/-/kde
 	define_name Keith Rusler (comawhite)
@@ -2236,10 +2087,6 @@ feed 30m http://blog.daniel-laidig.de/category/planetkde/feed/
 
 feed 30m http://blog.nikhilism.com/feeds/posts/default/-/kde
 	define_name Nikhil Marathe (nsm)
-
-feed 30m http://twitter.com/statuses/user_timeline/60855732.rss
-	define_name Stephan Binner [twitter]
-	define_microblog true
 
 feed 30m http://thinkmoult.com/tag/planetkde/feed/
 	define_name Dion Moult (Moult)
@@ -3276,14 +3123,6 @@ feed 30m http://www.calligra-suite.org/blogs/thorstenzachmann/feed/
 feed 30m http://ksmanis.wordpress.com/feed/?mrss=off&category_name=planet-kde
         define_name Konstantinos Smanis (ksmanis)
 
-feed 30m http://twitter.com/statuses/user_timeline/171627212.rss
-        define_name Desktop Summit [twitter]
-        define_microblog true
-
-feed 30m http://twitter.com/statuses/user_timeline/15658787.rss
-        define_name Akademy [twitter]
-        define_microblog true
-
 feed 30m http://cgbdx.wordpress.com/feed/?mrss=off
         define_name Christophe Giboudeaux (krop)
 
@@ -3627,10 +3466,6 @@ feed 15m http://joerg-weblog.blogspot.com/feeds/posts/default/-/KDE
         define_face hackergotchi/jehrichs.png
         define_facewidth 80
         define_faceheight 80
-
-feed 15m http://twitter.com/statuses/user_timeline/150830423.rss
-        define_name Volker Lanz [twitter]
-        define_microblog true
 
 # NXDOMAIN; 15/08/2012
 #feed 15m http://blog.lasath.org/feeds/posts/default?alt=rss
