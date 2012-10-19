@@ -1108,8 +1108,9 @@ feed 30m http://zanshin.kde.org/atom.xml
 feed 30m http://www.proli.net/feed/
         define_name Aleix Pol (apol)
 
-feed 30m http://www.codingdomain.com/blog/feeds/index.rss2
-        define_name Diederik van der Boor
+# 404; 19/10/2012; BC
+#feed 30m http://www.codingdomain.com/blog/feeds/index.rss2
+#        define_name Diederik van der Boor
 
 #disappeared
 #feed 30m http://www.stepin.name/feed/
