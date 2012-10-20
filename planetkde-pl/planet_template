@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="http://planetkde.org/rawdog.css" type="text/css" title="Fixed Width" />
     <link rel="stylesheet" href="pl.css" type="text/css" title="Fixed Width" />
     <link rel="alternate stylesheet" href="http://planetkde.org/rawdog-variable.css" type="text/css" title="Variable Width" />
-    <title>Planet KDE Poland</title>
-    <link rel="alternate" type="application/rss+xml" title="Planet KDE Poland" href="http://pl.planetKDE.org/rss20.xml" />
+    <title>Planeta KDE PL</title>
+    <link rel="alternate" type="application/rss+xml" title="Planeta KDE PL" href="http://pl.planetKDE.org/rss20.xml" />
 
 	<!--[if IE 6]>
 	<style type="text/css">
@@ -85,7 +85,7 @@
 			<a href="javascript:toggle();">People aggregated<img src="http://planetkde.org/images/user-identity.png" alt="" width="22" height="22" /></a> 
 			<a href="javascript:toggleaddme();">Add your blog<img src="http://planetkde.org/images/addrss.png" alt="" width="22" height="22" /></a> 
 			<a href="http://dot.kde.org/">KDE Dot News<img src="http://planetkde.org/images/dot-news.png" alt="" width="22" height="22" /></a> 
-			<a href="javascript:togglemicroblog();">Microblogging<img src="http://planetkde.org/images/microblog.png" alt="" width="22" height="22" /></a> 
+			<a href="javascript:togglemicroblog();">Microblogi<img src="http://planetkde.org/images/microblog.png" alt="" width="22" height="22" /></a> 
 		</div> <!--toplinks-->
 	</div> <!--header-->
 	</div> <!--headerleft-->
@@ -95,39 +95,21 @@
     <div id="content">
         <div id="addme">
 
-          <h2>Add your blog</h2>
+          <h2>Dodaj swój blog</h2>
 
-          <p>If you are a polish KDE contributor you can have your blog on
-          Planet KDE Poland. Blog content should be mostly KDE themed, English or polish language
-          and not liable to offend.  </p>
+          <p>Jeśli udzielasz się w jakiś sposób w społecznosci KDE (przez propagowanie lub tworzenie), możesz wstawić swój blog na niniejszej Planecie KDE PL. Blog powinien zawierać treści związane z KDE, być pisany w języku polskim i zgodny z poniższymi <em>Wytycznymi Planety KDE PL</em> oraz zasadami <a href="http://pl.wikipedia.org/wiki/Netykieta">netykiety</a>.</p>
 
-          <p>To have your blog
+          <p>Aby dodać swój blog, prześlij na adres administratora (staniek@kde.org) następujące informacje:
           added <a href="http://bugs.kde.org/enter_bug.cgi?product=planet%20kde">file
           a bug in Bugzilla</a> listing your name, svn account (if you
           have one), IRC nick (if you have one), RSS or Atom feed and
           what you do in KDE.  Attach a photo of your face for hackergotchi.</p>
 
-          <p>Alternatively, Planet KDE Poland is kept in KDE's SVN.  If you
-          have an account you can add or edit your own feed:</p>
-
             <ul>
-              <li><em>svn checkout svn+ssh://<username>@svn.kde.org/home/kde/trunk/www/sites/planet/planetkde-pl</em></li>
-
-              <li>Put your hackergotchi
-              in <em>website/hackergotchi/</em>.  A hackergotchi
-              should be a photo of your face smaller than 80x80 pixels
-              with a transparent background. <em>svn add</em> the file.</li>
-
-              <li>At the end of the <em>planetkde-pl/config</em> file add your details (the name in brackets is your IRC nick):</li>
-                 <div id="addmebox">
-feed 15m http://path.to/my/feed.rss
-        define_name Konqi Konqueror (konqi)
-        define_face hackergotchi/konqi.png
-        define_facewidth 80
-        define_faceheight 80
-</div>
-
-             <li><em>svn commit</em></li>
+              <li>imię i nazwisko</li>
+              <li>(opcjonalnie) pseudonim, może być z IRC</li>
+              <li>adres bloga (RSS lub Atom)</li>
+              <li>tzw. hackergotchi: swoje zdjęcie lub inny symbol graficzny w formacie PNG i w rozmiarze co najwyżej 80x80 pikseli, z przezroczystym tłem.</li>
           </ul>
 
        <p>If you want to add a Twitter microblog to the Microblogging
@@ -137,7 +119,7 @@ feed 15m http://path.to/my/feed.rss
        microblogs to check it works.</p>
 
 
-       <h2>Planet KDE Poland Guidelines</h2>
+       <h2>Wytyczne Planety KDE PL</h2>
 
 <p>Planet KDE Poland is one of the public faces of the KDE project and is
 read by millions of users and potential contributors.  The content
@@ -187,7 +169,7 @@ you can control what gets posted.</p>
 		</p>
         </div><!--feeddiv-->
         <div id="twitterdiv">
-        <h2 id="microbloghead">Microblogging from KDE</h2>
+        <h2 id="microbloghead">Microblogi KDE</h2>
         __twitter__
         </div><!--twitterdiv-->
 
