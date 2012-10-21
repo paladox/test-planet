@@ -70,26 +70,10 @@
     }
     </script>
     
-    <!--pledgie-banner-->
-    <link rel="stylesheet" href="http://planetkde.org/pledgie/banner.css" type="text/css" />
-    <!--/pledgie-banner-->
-    
 </head>
 <body onLoad="javascript:showTwitter();">
 
 <div id="page">
-    <!--pledgie-banner-->
-    <div id="pledgie-banner" data-campaign="18045">
-        <a href='http://www.pledgie.com/campaigns/18045'>
-	  <img alt='Click here to lend your support to: KDE Randa Meetings and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/18045.png?skin_name=chrome' border='0' />
-	</a>
-        <div id="pledgie-text">
-            Obrigado pelas doações e por tornar Randa 2012 possível!
-            <a href="http://pledgie.com/campaigns/18045">Leia mais</a>.
-        </div>
-    </div>
-    <!--/pledgie-banner-->
-
 	<div id="headerright">
 	<div id="headerleft">
 	<div id="header">
