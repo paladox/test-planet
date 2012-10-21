@@ -81,11 +81,11 @@
 		<a href="http://pl.planetkde.org" id="planetheader"><div width="185" height="45"></div><!--<img src="http://planetkde.org/images/planet-header-text.png" alt="Planet KDE" width="185" height="45" />--></a>
 		
 		<div id="toplinks">
-			<a href="http://pl.planetkde.org/rss20.xml">Planet RSS<img src="http://planetkde.org/images/akregator.png" alt="" width="22" height="22" /></a> 
-			<a href="javascript:toggle();">People aggregated<img src="http://planetkde.org/images/user-identity.png" alt="" width="22" height="22" /></a> 
-			<a href="javascript:toggleaddme();">Add your blog<img src="http://planetkde.org/images/addrss.png" alt="" width="22" height="22" /></a> 
-			<a href="http://dot.kde.org/">KDE Dot News<img src="http://planetkde.org/images/dot-news.png" alt="" width="22" height="22" /></a> 
-			<a href="javascript:togglemicroblog();">Microblogi<img src="http://planetkde.org/images/microblog.png" alt="" width="22" height="22" /></a> 
+			<a href="http://pl.planetkde.org/rss20.xml">RSS<img src="http://planetkde.org/images/akregator.png" alt="" width="22" height="22" /></a> 
+			<a href="javascript:toggle();">Lista blogów<img src="http://planetkde.org/images/user-identity.png" alt="" width="22" height="22" /></a> 
+			<a href="javascript:toggleaddme();">Dodaj swój blog<img src="http://planetkde.org/images/addrss.png" alt="" width="22" height="22" /></a> 
+			<a href="http://dot.kde.org/">Newsy KDE (ang.)<img src="http://planetkde.org/images/dot-news.png" alt="" width="22" height="22" /></a> 
+			<a href="javascript:togglemicroblog();">Mikroblogi<img src="http://planetkde.org/images/microblog.png" alt="" width="22" height="22" /></a> 
 		</div> <!--toplinks-->
 	</div> <!--header-->
 	</div> <!--headerleft-->
@@ -97,14 +97,9 @@
 
           <h2>Dodaj swój blog</h2>
 
-          <p>Jeśli udzielasz się w jakiś sposób w społecznosci KDE (przez propagowanie lub tworzenie), możesz wstawić swój blog na niniejszej Planecie KDE PL. Blog powinien zawierać treści związane z KDE, być pisany w języku polskim i zgodny z poniższymi <em>Wytycznymi Planety KDE PL</em> oraz zasadami <a href="http://pl.wikipedia.org/wiki/Netykieta">netykiety</a>.</p>
+          <p>Jeśli udzielasz się w jakiś sposób w społeczności KDE (przez propagowanie lub tworzenie), możesz wstawić swój blog na niniejszej Planecie KDE PL. Blog powinien zawierać treści związane z KDE, być pisany w języku polskim i zgodny z poniższymi <em>Wytycznymi Planety KDE PL</em> oraz zasadami <a href="http://pl.wikipedia.org/wiki/Netykieta">netykiety</a>.</p>
 
           <p>Aby dodać swój blog, prześlij na adres administratora (staniek@kde.org) następujące informacje:
-          added <a href="http://bugs.kde.org/enter_bug.cgi?product=planet%20kde">file
-          a bug in Bugzilla</a> listing your name, svn account (if you
-          have one), IRC nick (if you have one), RSS or Atom feed and
-          what you do in KDE.  Attach a photo of your face for hackergotchi.</p>
-
             <ul>
               <li>imię i nazwisko</li>
               <li>(opcjonalnie) pseudonim, może być z IRC</li>
@@ -163,13 +158,13 @@ you can control what gets posted.</p>
 
         </div><!--addme-->
         <div id="feeddiv">
-	    <h2>People Aggregated</h2>
+	    <h2>Lista blogów</h2>
 	    <p>
          __feeds__
 		</p>
         </div><!--feeddiv-->
         <div id="twitterdiv">
-        <h2 id="microbloghead">Microblogi KDE</h2>
+        <h2 id="microbloghead">Mikroblogi</h2>
         __twitter__
         </div><!--twitterdiv-->
 
@@ -182,7 +177,7 @@ __items__
 <div id="footerright">
 <div id="footerleft">
 <div id="footer">
-Planet KDE Poland is made from the blogs of KDE's contributors.  The opinions it contains are those of the contributor.  This site is powered by <a href="http://offog.org/code/rawdog.html">Rawdog</a> and <a href="https://launchpad.net/rawdog-rss">Rawdog RSS</a>.  Feed readers can read Planet KDE Poland with <a href="rss20.xml">RSS</a>, <a href="foafroll.xml">FOAF</a> or <a href="opml.xml">OPML</a>.
+Planeta KDE PL składa się z polskojęzycznych blogów społeczności KDE. Opinie w nich wyrażane należą do poszczególnych osób. Strona działa na bazie <a href="http://offog.org/code/rawdog.html">Rawdog</a> oraz <a href="https://launchpad.net/rawdog-rss">Rawdog RSS</a>. Z Planety KDE PL można korzystać za pomocą czytnika <a href="rss20.xml">RSS</a>, <a href="foafroll.xml">FOAF</a> lub <a href="opml.xml">OPML</a>.
 </div><!--footer-->
 </div><!--footerleft-->
 </div><!--footerright-->
