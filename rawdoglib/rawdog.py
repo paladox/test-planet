@@ -249,7 +249,7 @@ def fill_template(template, bits):
 			write(part)
 	v = f.getvalue()
 	f.close()
-	return v
+	return unicode(v, 'utf-8').encode('ascii', 'xmlcharrefreplace')
 
 file_cache = {}
 def load_file(name):
@@ -1366,7 +1366,11 @@ __description__
 		itembits["feed_hash"] = short_hash(feed.url)
 		itembits["feed_id"] = feed.get_id(config)
 		itembits["hash"] = short_hash(article.hash)
-                itembits["blogurl"] = feed_info.links[0]['href']
+
+		if hasattr(feed_info, 'links'):
+			itembits["blogurl"] = feed_info.links[0]['href']
+		else:
+			itembits["blogurl"] = ""
 
 		if description is not None:
 			itembits["description"] = description
