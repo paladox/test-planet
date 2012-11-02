@@ -264,9 +264,9 @@ function eraseCookie(name) {
     </script>
 
     <!--pledgie-banner-->
-    <link rel="stylesheet" href="pledgie/banner.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="pledgie/banner.css" type="text/css" />
     <script type="text/javascript" src="//cdn.kde.org/js/jquery.js"></script>
-    <script type="text/javascript" src="pledgie/banner.js"></script>
+    <script type="text/javascript" src="pledgie/banner.js"></script> -->
     <!--/pledgie-banner-->
 </head>
 
@@ -275,6 +275,7 @@ function eraseCookie(name) {
 
 <div id="page">
     <!--pledgie-banner-->
+    <!--
     <div id="pledgie-banner" data-campaign="18045">
         <div id="pledgie-graph">
             <div id="pledgie-bar"></div>
@@ -290,6 +291,7 @@ function eraseCookie(name) {
             <a href="http://pledgie.com/campaigns/18045">Read more</a>.
         </div>
     </div>
+    -->
     <!--/pledgie-banner-->
 
 	<div id="headerright">
