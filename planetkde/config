@@ -795,29 +795,36 @@ feed 30m http://blogs.kde.org/blog/1195/feed
 feed 30m http://blogs.kde.org/blog/838/feed
         define_name Dario Massarin
 
-feed 30m http://blog.qt.digia.com/author/simon/feed/
-        define_name Simon Hausmann (tronical)
+# 404
+#feed 30m http://blog.qt.digia.com/author/simon/feed/
+#        define_name Simon Hausmann (tronical)
 
-feed 30m http://blog.qt.digia.com/author/harald/feed/
-        define_name Harald Fernengel
+# 404
+#feed 30m http://blog.qt.digia.com/author/harald/feed/
+#        define_name Harald Fernengel
 
 feed 30m http://blogs.kde.org/blog/7440/feed
         define_name Robert Mathias Marmorstein (robertm)
 
-feed 30m http://blog.qt.digia.com/author/roberto/feed/
-        define_name Roberto Raggi
+# 404
+#feed 30m http://blog.qt.digia.com/author/roberto/feed/
+#        define_name Roberto Raggi
 
-feed 30m http://blog.qt.digia.com/author/ettrich/feed/
-        define_name Matthias Ettrich
+# 404
+#feed 30m http://blog.qt.digia.com/author/ettrich/feed/
+#        define_name Matthias Ettrich
 
-feed 30m http://blog.qt.digia.com/author/lorn/feed/
-        define_name Lorn Potter
+# 404
+#feed 30m http://blog.qt.digia.com/author/lorn/feed/
+#        define_name Lorn Potter
 
-feed 30m http://blog.qt.digia.com/author/lars/feed/
-        define_name Lars Knoll
+# 404
+#feed 30m http://blog.qt.digia.com/author/lars/feed/
+#        define_name Lars Knoll
 
-feed 30m http://blog.qt.digia.com/author/brad/feed/
-        define_name Brad Hughes
+# 404
+#feed 30m http://blog.qt.digia.com/author/brad/feed/
+#        define_name Brad Hughes
 
 feed 30m http://mbroadst.blogspot.com/atom.xml
         define_name Matt Broadstone
@@ -1001,8 +1008,9 @@ feed 30m http://transloid.blogspot.com/feeds/posts/default
 feed 30m http://maxilys.blogspot.com/rss.xml
         define_name Remi Villatel
 
-feed 30m http://blog.qt.digia.com/author/kent/feed/
-        define_name Kent Hansen
+# 404
+#feed 30m http://blog.qt.digia.com/author/kent/feed/
+#        define_name Kent Hansen
 
 feed 30m http://blog.ereslibre.es/?feed=rss2&cat=2
         define_name Rafael Fernández López (ereslibre)
@@ -1044,7 +1052,7 @@ feed 30m http://blog.froglogic.com/author/porten/feed/atom/?cat=5%2C6
 #feed 30m http://labs.qt.nokia.com/feed/?author_name=Morten
 #        define_name Morten S&oslash;rvig
 
-feed 30m http://blog.qt.digia.com/author/bnilsen/feed/
+feed 30m http://blog.qt.digia.com/blog/2009/02/13/bnilsenflush/feed/
         define_name Bj&oslash;rn Erik Nilsen (bnilsen)
 
 # 404; 03/09/2012
@@ -1275,8 +1283,9 @@ feed 30m http://blogs.kde.org/blog/4267/feed
 
 feed 30m http://blogs.fsfe.org/gladhorn/category/KDE/feed/
         define_name Frederik Gladhorn (fregl)
-feed 30m http://blog.qt.digia.com/author/frederik/feed/
-        define_name Frederik Gladhorn (fregl)
+# 404
+#feed 30m http://blog.qt.digia.com/author/frederik/feed/
+#        define_name Frederik Gladhorn (fregl)
 feed 30m http://blogs.kde.org/blog/4326/feed
         define_name Frederik Gladhorn (fregl)
 
@@ -1458,8 +1467,9 @@ feed 30m http://edulix.wordpress.com/category/kde/feed/?mrss=off&category_name=k
 feed 30m http://untangled.biz/category/kde/feed/
         define_name Alexandra Leisse (troubalex)
 
-feed 30m http://blog.qt.digia.com/author/alexandra/feed/
-        define_name Alexandra Leisse (troubalex)
+# 404
+#feed 30m http://blog.qt.digia.com/author/alexandra/feed/
+#        define_name Alexandra Leisse (troubalex)
 
 # Domain no longer exists...
 #feed 30m http://blog.greghaynes.net/index.php?/feeds/categories/7-KDE.rss
@@ -1743,8 +1753,9 @@ feed 30m http://borntobeopen.blogspot.com/feeds/posts/default/-/KDE
         define_facewidth 60
         define_faceheight 80
 
-feed 30m http://blog.qt.digia.com/author/sroedal/feed/
-        define_name Samuel Rødal
+# 404
+#feed 30m http://blog.qt.digia.com/author/sroedal/feed/
+#        define_name Samuel Rødal
 
 feed 30m http://emilsedgh.info/blog/index.php?/feeds/index.rss2
         define_name Emil Sedgh (emilsedgh)
@@ -1853,8 +1864,9 @@ feed 30m http://fabiolocati.com/2011/03/blog/?q=taxonomy%2Fterm%2F1%2F0%2Ffeed
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://blog.qt.digia.com/author/jason-mcdonald/feed/
-        define_name Jason McDonald (Qt Development Frameworks)
+# 404
+#feed 30m http://blog.qt.digia.com/author/jason-mcdonald/feed/
+#        define_name Jason McDonald (Qt Development Frameworks)
 
 feed 30m http://milianw.de/tag/kde/feed
         define_name Milian Wolff (milianw)
@@ -1889,8 +1901,9 @@ feed 30m http://introducingkde4.blogspot.com/feeds/posts/default
         define_facewidth 80
         define_faceheight 54
 
-feed 30m http://blog.qt.digia.com/author/lcunha/feed/
-        define_name Leonardo Sobral Cunha (lsobral)
+# 404
+#feed 30m http://blog.qt.digia.com/author/lcunha/feed/
+#        define_name Leonardo Sobral Cunha (lsobral)
 
 feed 30m http://kashthealien.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
         define_name Kashyap Puranik (kashthealien)
@@ -1960,8 +1973,9 @@ feed 30m http://praksh.wordpress.com/category/kde/gsoc/feed/?mrss=off&category_n
         define_facewidth 70
         define_faceheight 80
 
-feed 30m http://blog.qt.digia.com/author/tavestbo/feed/
-        define_name Tor Arne Vestbø
+# 404
+#feed 30m http://blog.qt.digia.com/author/tavestbo/feed/
+#        define_name Tor Arne Vestbø
 
 feed 30m http://sreich.blogspot.com/rss.xml
         define_name Shaun Reich (sreich)
@@ -2160,11 +2174,12 @@ feed 30m http://rix.si/planetkde.xml
         define_facewidth 80
         define_facewidth 80
 
-feed 30m http://blog.qt.digia.com/author/danimo/feed/
-	define_name Daniel Molkentin [Qt Labs] (danimo)
-	define_face hackergotchi/danimo-qt.jpg
-	define_facewidth 80
-	define_faceheight 80
+# 404
+#feed 30m http://blog.qt.digia.com/author/danimo/feed/
+#	define_name Daniel Molkentin [Qt Labs] (danimo)
+#	define_face hackergotchi/danimo-qt.jpg
+#	define_facewidth 80
+#	define_faceheight 80
 
 feed 30m http://bangarangkde.wordpress.com/feed/?mrss=off
         define_name Andrew Lake (Jamboarder)
