@@ -510,11 +510,11 @@ feed 30m http://pdamsten.blogspot.com/feeds/posts/default/-/kde
 feed 30m http://blogs.kde.org/blog/418/feed
         define_name Kurt Pfeifle (pipitas)
 
-feed 30m http://amarok.kde.org/blog/feeds/categories/1-markey.rss
-        define_name Mark Kretschmann (markey)
-        define_face hackergotchi/markey_gotchi.png
-        define_facewidth 80
-        define_faceheight 80
+#feed 30m http://amarok.kde.org/blog/feeds/categories/1-markey.rss
+#        define_name Mark Kretschmann (markey)
+#        define_face hackergotchi/markey_gotchi.png
+#        define_facewidth 80
+#        define_faceheight 80
 
 feed 30m http://blogs.kde.org/blog/124/feed
         define_name Stephan Kulow (coolo)
@@ -1074,8 +1074,8 @@ feed 30m http://identi.ca/vir/rss
         define_name Matthias Kretz [identi.ca]
         define_microblog true
 
-feed 30m http://amarok.kde.org/blog/feeds/categories/18-freespirit.rss
-        define_name Nikolaj Hald Nielsen
+#feed 30m http://amarok.kde.org/blog/feeds/categories/18-freespirit.rss
+#        define_name Nikolaj Hald Nielsen
 
 feed 30m http://ksvladimir.blogspot.com/atom.xml
         define_name Vladimir Kuznetsov
@@ -3323,11 +3323,11 @@ feed 30m http://swairshah.blogspot.com/feeds/posts/default
 feed 30m http://fxrh.wordpress.com/category/kdeplanet/feed/?mrss=off
     define_name Felix Rohrbach (fxrh)
 
-feed 30m http://shreyapandit.com/?feed=rss2
-    define_name Shreya Pandit (Shreya)
-    define_face hackergotchi/shreya.jpg
-    define_facewidth 80
-    define_faceheight 80
+#feed 30m http://shreyapandit.com/?feed=rss2
+#    define_name Shreya Pandit (Shreya)
+#    define_face hackergotchi/shreya.jpg
+#    define_facewidth 80
+#    define_faceheight 80
 
 feed 30m http://yuvrajtomar.blogspot.com/feeds/posts/default
     define_name Yuvraj Tomar (yuvrajtomar)
