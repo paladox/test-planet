@@ -1361,9 +1361,8 @@ feed 30m http://pusling.com/blog/?feed=rss2&cat=4
 feed 30m http://zwabel.wordpress.com/feed/?mrss=off
         define_name David Nolden
 
-# 404
-#feed 30m http://jkt.flaska.net/blog/tags/kde/kde.rss
-#        define_name Jan Kundrat (jkt)
+feed 30m http://jkt.flaska.net/blog/tags/kde/kde.rss
+        define_name Jan Kundrát (jkt)
 
 feed 30m http://boom1992.wordpress.com/feed/?mrss=off
         define_name Lukas Appelhans
