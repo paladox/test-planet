@@ -2230,7 +2230,7 @@ feed 30m http://arieder.wordpress.com/feed/?mrss=off
 feed 30m http://blog.heimr.nl/taxonomy/term/1/0/feed
     define_name Arjen Hiemstra (ahiemstra)
 
-feed 30m http://anselmolsm.org/blog/category/development/planet_kde/feed/
+feed 30m http://anselmolsm.org/blog/categories/kde/atom.xml
 	define_name Anselmo L. S. Melo (anselmolsm)
 
 feed 30m http://monkeyiq.blogspot.com/feeds/posts/default/-/kde
