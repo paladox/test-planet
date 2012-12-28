@@ -418,8 +418,9 @@ feed 30m http://feeds.feedburner.com/kdeBrLucasRefuge
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://blog.qtlabs.org.br/feed
-       define_name Qt Labs Blog Brasil
+# NXDOMAIN; kdesysadmin; 29/12/2012
+#feed 30m http://blog.qtlabs.org.br/feed
+#       define_name Qt Labs Blog Brasil
 
 feed 30m http://kdelovelace.wordpress.com/feed/
         define_name KDE Lovelace (#kde-lovelace)

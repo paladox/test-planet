@@ -519,7 +519,7 @@ feed 30m http://blogs.kde.org/blog/418/feed
 feed 30m http://blogs.kde.org/blog/124/feed
         define_name Stephan Kulow (coolo)
 
-feed 30m http://adymo.blogspot.com/atom.xml
+feed 30m http://feeds.feedburner.com/AlexanderDymo
         define_name Alexander Dymo (adymo)
 
 feed 30m http://nhasan.blogspot.com/atom.xml
@@ -2364,7 +2364,7 @@ feed 30m http://johnflux.blogspot.com/atom.xml
 #        define_facewidth 54
 #        define_faceheight 80
 
-feed 30m http://thezeroth.net/feed/
+feed 30m http://thezeroth.net/blog/feed/
         define_name Abhishek Patil (thezeroth)
         define_face hackergotchi/abhishek.png
         define_facewidth 47
