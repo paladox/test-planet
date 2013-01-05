@@ -3682,9 +3682,11 @@ feed 15m http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=jriddel
         define_name Jonathan Riddell [twitter]
         define_microblog true
 
-feed 45m http://ruedigergad.com/tag/planetkde/feed/?mrss=off&tag=planetkde
+feed 30m http://ruedigergad.com/tag/planetkde/feed/?mrss=off&tag=planetkde
         define_name Ruediger Gad (rcg)
         define_face hackergotchi/ruedigergad.png
         define_facewidth 72
         define_faceheight 80
 
+feed 30m http://qtucnak.blogspot.com/feeds/posts/default/-/kde
+        define_name Illya Kovalevskyy (tucnak)
