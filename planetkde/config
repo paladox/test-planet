@@ -1511,7 +1511,7 @@ feed 30m http://vtokarev.wordpress.com/feed/?mrss=off
 feed 30m http://blogs.kde.org/blog/2892/feed
         define_name Marijn Kruisselbrink
 
-feed 30m http://feeds.forwardbias.in/fb/girish/kde
+feed 30m http://www.girish.in/category/planetkde/feed/
         define_name Girish Ramakrishnan
 
 feed 30m http://feeds.forwardbias.in/fb/roop/kde
