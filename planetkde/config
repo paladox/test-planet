@@ -3690,3 +3690,9 @@ feed 30m http://ruedigergad.com/tag/planetkde/feed/?mrss=off&tag=planetkde
 
 feed 30m http://qtucnak.blogspot.com/feeds/posts/default/-/kde
         define_name Illya Kovalevskyy (tucnak)
+
+feed 30m http://binaryking.tumblr.com/tagged/kde/rss
+        define_name Mohammed Nafees (binaryking)
+        define_face hackergotchi/mohammed-nafees.png
+        define_facewidth 80
+        define_faceheight 80
