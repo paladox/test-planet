@@ -3694,7 +3694,7 @@ feed 30m http://kovalevskyy.tumblr.com/tagged/planetkde/rss
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://binaryking.tumblr.com/tagged/kde/rss
+feed 30m http://blog.binaryking.in/tagged/kde/rss
         define_name Mohammed Nafees (binaryking)
         define_face hackergotchi/mohammed-nafees.png
         define_facewidth 80
