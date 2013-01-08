@@ -3688,7 +3688,7 @@ feed 30m http://ruedigergad.com/tag/planetkde/feed/?mrss=off&tag=planetkde
         define_facewidth 72
         define_faceheight 80
 
-feed 30m http://qtucnak.blogspot.com/feeds/posts/default/-/kde
+feed 30m http://kovalevskyy.tumblr.com/tagged/planetkde/rss
         define_name Illya Kovalevskyy (tucnak)
 
 feed 30m http://binaryking.tumblr.com/tagged/kde/rss
