@@ -3700,5 +3700,8 @@ feed 30m http://blog.binaryking.in/tagged/kde/rss
         define_facewidth 80
         define_faceheight 80
 
-feed 45m http://elv13.wordpress.com/category/kde/feed/?mrss=off
+feed 30m http://elv13.wordpress.com/category/kde/feed/?mrss=off
         define_name Emmanuel Lepage Vallee (Elv13)
+
+feed 30m http://mayankmadanon.blogspot.in/feeds/posts/default?alt=rss
+        define_name Mayank Madan (mayankmadan)
