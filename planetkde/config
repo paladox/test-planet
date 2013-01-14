@@ -3705,3 +3705,9 @@ feed 30m http://elv13.wordpress.com/category/kde/feed/?mrss=off
 
 feed 30m http://mayankmadanon.blogspot.in/feeds/posts/default?alt=rss
         define_name Mayank Madan (mayankmadan)
+
+feed 30m poesia.blogspot.com/feeds/posts/default/-/kde
+        define_name Gabriel Poesia (gpoesia)
+        define_face hackergotchi/gabriel-poesia.jpg
+        define_facewidth 49
+        define_faceheight 80
