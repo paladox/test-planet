@@ -1126,7 +1126,7 @@ feed 30m http://www.proli.net/feed/
 #feed 30m http://www.stepin.name/feed/
 #        define_name Igor Stepin
 
-feed 30m http://blog.cryos.net/feeds/index.rss2
+feed 30m http://blog.cryos.net/feeds/categories/12-KDE.rss
         define_name Marcus Hanwell (cryos)
 
 feed 30m http://ksounds.wordpress.com/feed/?mrss=off
