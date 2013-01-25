@@ -1629,8 +1629,9 @@ feed 30m http://blog.martin-graesslin.com/blog/kategorien/kde/planetkde/feed/
 feed 30m http://blogs.kde.org/blog/6425/feed
         define_name Germain Garand
 
-feed 30m http://packadal.blogspot.com/feeds/posts/default/-/kglengine
-        define_name Charles huet (Packadal)
+# 404 (Gone); 25/01/2013
+#feed 30m http://packadal.blogspot.com/feeds/posts/default/-/kglengine
+#        define_name Charles huet (Packadal)
 
 feed 30m http://shaforostoff.blogspot.com/atom.xml
         define_name Nick Shaforostoff (shaforostoff)
@@ -3243,8 +3244,9 @@ feed 30m http://paulm-byte.blogspot.com/feeds/posts/default
 feed 30m http://cordlandwehr.wordpress.com/feed/?mrss=off&tag=kde
 	define_name Andreas Cord-Landwehr (CoLa)
 
-feed 30m http://brunoatgsoc2011.wordpress.com/feed/?mrss=off
-	define_name Bruno Morais Ferreira (brunomf)
+# 410 Gone; 25/01/2013
+#feed 30m http://brunoatgsoc2011.wordpress.com/feed/?mrss=off
+#	define_name Bruno Morais Ferreira (brunomf)
 
 feed 30m http://samxan.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
 	define_name Samikshan Bairagya (samxan)
