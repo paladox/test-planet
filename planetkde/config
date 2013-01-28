@@ -669,7 +669,7 @@ feed 30m http://kate-editor.org/author/cullmann/feed/
 
 feed 30m http://kate-editor.org/author/shaheed/feed/
         define_name Shaheed Haque (shaheed)
-        
+
 feed 30m http://kate-editor.org/author/lungu/feed/
         define_name Adrian Lungu (lungu)
 
@@ -3411,6 +3411,9 @@ feed 30m http://sebastian-doerner.de/category/kde/feed/
 
 feed 30m http://blog.tenstral.net/category/planet/planetkde/feed
         define_name Matthias Klumpp (ximion)
+        define_face hackergotchi/matthias_ximion.png
+        define_facewidth 80
+        define_faceheight 75
 
 feed 30m http://letsfollowthewhiterabbit.blogspot.com/feeds/posts/default
         define_name Luca Tringali (lucatringali)
@@ -3552,7 +3555,7 @@ feed 30m http://luisgabriel.me/category/planet-kde/feed/
         define_name Luís Gabriel Lima (luisgabriel)
 
 feed 30m http://arthursribeiro.blogspot.com.br/feeds/posts/default/-/kde
-        define_name Arthur Ribeiro (arthurribeiro) 
+        define_name Arthur Ribeiro (arthurribeiro)
         define_face hackergotchi/arthurribeiro.jpg
         define_facewidth 62
         define_faceheight 80
@@ -3631,7 +3634,7 @@ feed 30m http://logofn.blogspot.com/feeds/posts/default
 feed 30m http://cezarmocan.wordpress.com/feed/
         define_name Cezar Mocan (CezarMocan)
 
-feed 30m http://smitr.blogspot.com/feeds/posts/default/-/kde 
+feed 30m http://smitr.blogspot.com/feeds/posts/default/-/kde
         define_name Smit Patel (smitpatel)
 
 feed 30m http://kdeblog.mageprojects.com/feed/
