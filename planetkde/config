@@ -837,7 +837,7 @@ feed 30m http://www.thelins.se/johan/blog/feed/
 feed 30m http://kwwii.blogspot.com/feeds/posts/default/-/KDE
         define_name Kenneth Wimer (kwwii)
 
-feed 30m http://blogs.kde.org/blog/280/feed
+feed 30m http://llunak.blogspot.com/feeds/posts/default/-/kde
         define_name Lubos Lunak (llunak)
 
 feed 30m http://blogs.kde.org/blog/952/feed
