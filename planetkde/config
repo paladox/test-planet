@@ -838,7 +838,7 @@ feed 30m http://kwwii.blogspot.com/feeds/posts/default/-/KDE
         define_name Kenneth Wimer (kwwii)
 
 feed 30m http://llunak.blogspot.com/feeds/posts/default/-/kde
-        define_name Lubos Lunak (llunak)
+        define_name Luboš Luňák (llunak)
 
 feed 30m http://blogs.kde.org/blog/952/feed
         define_name Martin Konold (Mortimer)
