@@ -776,11 +776,11 @@ feed 30m http://www.icon-king.com/tag/kde/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://blog.gulinux.net/category/planet-kde/feed/
-        define_name Marco Gulino (RockMan)
-        define_face hackergotchi/gulino.png
-        define_facewidth 80
-        define_faceheight 80
+#feed 30m http://blog.gulinux.net/category/planet-kde/feed/
+#        define_name Marco Gulino (RockMan)
+#        define_face hackergotchi/gulino.png
+#        define_facewidth 80
+#        define_faceheight 80
 
 feed 30m http://jamesots.blogspot.com/atom.xml
         define_name James Ots
@@ -1190,8 +1190,8 @@ feed 30m http://feeds.feedburner.com/gamaral-kde
 feed 30m http://flavio.castelli.name/atom.xml
         define_name Flavio Castelli
 
-feed 30m http://franz.keferboeck.info/blog/?feed=rss2
-        define_name Franz Keferboeck
+#feed 30m http://franz.keferboeck.info/blog/?feed=rss2
+#        define_name Franz Keferboeck
 
 feed 30m http://meson10.wordpress.com/feed/?mrss=off
         define_name Piyush Verma
@@ -1385,17 +1385,17 @@ feed 30m http://yarpen.cz/rants/?feed=rss2
 feed 30m http://dimsuz.wordpress.com/feed/?mrss=off
         define_name Dmitry Suzdalev (dimsuz)
 
-feed 30m http://www.jespersaur.com/drupal/taxonomy/term/21/0/feed
-        define_name Jesper Thomschutz
-        define_face hackergotchi/jesperht.png
-        define_facewidth 80
-        define_faceheight 80
+#feed 30m http://www.jespersaur.com/drupal/taxonomy/term/21/0/feed
+#        define_name Jesper Thomschutz
+#        define_face hackergotchi/jesperht.png
+#        define_facewidth 80
+#        define_faceheight 80
 
 feed 30m http://whilos.blogsite.org/?cat=4&feed=atom
         define_name Christian Weilbach (whilo)
 
-feed 30m http://www.piggz.co.uk/rss2.php
-        define_name Adam Pigg
+#feed 30m http://www.piggz.co.uk/rss2.php
+#        define_name Adam Pigg
 
 feed 30m http://rbitanga.blogspot.com/rss.xml
         define_name Ryan Bitanga
@@ -1764,8 +1764,8 @@ feed 30m http://borntobeopen.blogspot.com/feeds/posts/default/-/KDE
 #feed 30m http://blog.qt.digia.com/author/sroedal/feed/
 #        define_name Samuel Rødal
 
-feed 30m http://emilsedgh.info/blog/index.php?/feeds/index.rss2
-        define_name Emil Sedgh (emilsedgh)
+#feed 30m http://emilsedgh.info/blog/index.php?/feeds/index.rss2
+#        define_name Emil Sedgh (emilsedgh)
 
 feed 30m http://dragotin.wordpress.com/feed/?mrss=off
         define_name Klaas Freitag (dragotin)
@@ -2845,11 +2845,11 @@ feed 30m http://blogs.kde.org/blog/7783/feed
 #        define_facewidth 85
 #        define_faceheight 85
 
-feed 30m http://dazjorz.com/blog/?cat=3&feed=rss2
-        define_name Sjors Gielen (Sjors/sgielen)
-        define_face hackergotchi/sgielen.png
-        define_facewidth 96
-        define_faceheight 96
+#feed 30m http://dazjorz.com/blog/?cat=3&feed=rss2
+#        define_name Sjors Gielen (Sjors/sgielen)
+#        define_face hackergotchi/sgielen.png
+#        define_facewidth 96
+#        define_faceheight 96
 
 
 feed 30m http://bergie.iki.fi/blog/category/kde/rss.xml
