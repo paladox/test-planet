@@ -521,6 +521,9 @@ feed 30m http://blogs.kde.org/blog/124/feed
 
 feed 30m http://www.alexdymo.com/blog/feed/kde.xml
         define_name Alexander Dymo (adymo)
+        define_face hackergotchi/dymo.png
+        define_facewidth 80
+        define_faceheight 80
 
 feed 30m http://nhasan.blogspot.com/atom.xml
         define_name Nadeem Hasan
