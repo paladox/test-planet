@@ -519,7 +519,7 @@ feed 30m http://blogs.kde.org/blog/418/feed
 feed 30m http://blogs.kde.org/blog/124/feed
         define_name Stephan Kulow (coolo)
 
-feed 30m http://feeds.feedburner.com/AlexanderDymo
+feed 30m http://www.alexdymo.com/blog/feed/kde.xml
         define_name Alexander Dymo (adymo)
 
 feed 30m http://nhasan.blogspot.com/atom.xml
