@@ -644,9 +644,6 @@ feed 30m http://blogs.kde.org/blog/175/feed
         define_facewidth 77
         define_faceheight 85
 
-feed 30m http://www.omat.nl/category/english/feed/
-        define_name Tom Albers
-
 feed 30m http://blog.chris.de/feeds/categories/5-KDE.rss
         define_name Christian Muehlhaeuser (muesli)
 
@@ -1815,10 +1812,6 @@ feed 30m http://blog.neverendingo.de/?feed=rss2&cat=4
 # 404
 #feed 30m http://www.tictric.net/tag/planet-kde/feed
 #        define_name Manfred Mislik (tictric)
-
-feed 30m http://identi.ca/tomalbers/rss
-        define_name Tom Albers [identi.ca]
-        define_microblog true
 
 feed 30m http://adjamblog.wordpress.com/category/international/feed/?mrss=off&category_name=international
         define_name Andrea Diamantini (adjam)
