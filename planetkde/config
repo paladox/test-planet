@@ -3729,3 +3729,7 @@ feed 30m http://stuartmd2.blogspot.com/feeds/posts/default
 
 feed 30m http://smartboyhw.tk/wordpress_smartboyhw/?cat=4&feed=rss2
         define_name 陳浩雲/Howard Chan (smartboyhw)
+
+feed 30m http://randa-meetings.ch/category/english/feed/
+        define_name Randa Meetings
+        define_feedclass news
