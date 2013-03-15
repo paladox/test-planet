@@ -3736,3 +3736,9 @@ feed 30m http://smartboyhw.tk/wordpress_smartboyhw/?cat=4&feed=rss2
 feed 30m http://randa-meetings.ch/category/english/feed/
         define_name Randa Meetings
         define_feedclass news
+
+feed 30m http://sessellift.wordpress.com/category/kde/feed/
+        define_name Thomas Pfeiffer (colomar)
+        define_face hackergotchi/thomas-pfeiffer.jpg
+        define_facewidth 75
+        define_faceheight 80
