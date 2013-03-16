@@ -473,7 +473,7 @@ feed 30m http://blogs.kde.org/blog/457/feed
         define_facewidth 70
         define_faceheight 70
 
-feed 30m https://daniel.molkentin.net/category/1-kde/feed/ 
+feed 30m https://daniel.molkentin.net/category/1-kde/feed/
         define_name Daniel Molkentin (danimo)
         define_face hackergotchi/danimo-qt.jpg
         define_facewidth 80
@@ -699,6 +699,9 @@ feed 30m http://kate-editor.org/author/bouthenot/feed/
 
 feed 30m http://kate-editor.org/author/pcobos/feed/
         define_name Pablo Martín Cobos (pcobos)
+
+feed 30m http://kate-editor.org/author/ssj/feed/
+        define_name Simon St James (ssj)
 
 feed 30m http://blogs.kde.org/blog/16/feed
         define_name Reinhold Kainhofer
