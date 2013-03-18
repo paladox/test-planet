@@ -106,6 +106,19 @@ function eraseCookie(name) {
         }
     } 
 
+    function togglefrench() {
+        var ele = document.getElementsByClassName("french");
+	for(var i=0,j=ele.length; i<j; i++)
+        if(ele[i].style.display == "block") {
+                ele[i].style.display = "none";
+                eraseCookie("french")
+        }
+        else {
+                ele[i].style.display = "block";
+                createCookie("french","block",360)
+        }
+    } 
+
     function togglespanish() {
         var ele = document.getElementsByClassName("spanish");
 	for(var i=0,j=ele.length; i<j; i++)
@@ -213,6 +226,12 @@ function eraseCookie(name) {
 	if (dot=="none") {
 	  for(var i=0,j=ele.length; i<j; i++)
 	  (ele[i].style.display = "none")
+	};
+        var ele = document.getElementsByClassName("french");
+        var french=readCookie("french");
+	if (french=="block") {
+	  for(var i=0,j=ele.length; i<j; i++)
+	  (ele[i].style.display = "block")
 	};
         var ele = document.getElementsByClassName("spanish");
         var spanish=readCookie("spanish");
@@ -326,6 +345,7 @@ function eraseCookie(name) {
                        <a href="javascript:togglepolish();">Polish language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="polish" style="float: left" /></a><br clear="all" />
                        <a href="javascript:toggleportuguese();">Portuguese language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="portuguese" style="float: left" /></a><br clear="all" />
                        <a href="javascript:togglespanish();">Spanish language blogs<img src="images/dialog-ok.png" alt="" width="22" height="22" class="spanish" style="float: left" /></a><br clear="all" />
+                       <a href="javascript:togglefrench();">Les blogs en français<img src="images/dialog-ok.png" alt="" width="22" height="22" class="french" style="float: left" /></a><br clear="all" />
        </div>
 
         <div id="addme">
@@ -340,7 +360,7 @@ function eraseCookie(name) {
 
           <p>We also include feeds in
           different categories, currently Dot News, Project News
-          feeds, User Blogs, Spanish Language, Polish Language and Portuguese Language KDE blogs.
+          feeds, User Blogs, french Language, Spanish Language, Polish Language and Portuguese Language KDE blogs.
           If you have a feed which falls into these categories (or another
           non-English language) please file a bug as below.</p>
 
