@@ -3749,6 +3749,6 @@ feed 30m http://sessellift.wordpress.com/category/kde/feed/
 
 feed 30m http://tolszak-dev.blogspot.com/feeds/posts/default/-/planetkde
         define_name Tomasz Olszak (tolszak)
-        define_face hackergotchi/tolszak.jpg
+        define_face hackergotchi/tolszak.png
         define_facewidth 70
         define_faceheight 79
