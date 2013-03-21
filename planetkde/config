@@ -2053,8 +2053,8 @@ feed 30m http://identi.ca/tmcguire/rss
         define_name Thomas McGuire [identi.ca]
         define_microblog true
 
-#feed 30m http://dimula73.blogspot.com/feeds/posts/default/-/KDE
-#	define_name Dmitry Kazakov (dmitryK)
+feed 30m http://dimula73.blogspot.com/feeds/posts/default/-/KDE
+	define_name Dmitry Kazakov (dmitryK)
 
 #timeout
 #feed 30m http://stalcups.com/blog/?feed=rss2
