@@ -365,3 +365,6 @@ feed 30m http://soliverez.com.ar/home/tag/planet-kde-es/feed/
 
 feed 30m http://www.javierllorente.com/category/castellano/feed/
         define_name Javier Llorente
+
+feed 30m http://ext4.wordpress.com/category/kde/feed/
+        define_name Christian Díez (Malcer)
