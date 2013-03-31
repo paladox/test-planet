@@ -2101,7 +2101,7 @@ feed 30m http://www.arnorehn.de/blog/feed/
 feed 30m http://blogs.kde.org/blog/7020/feed
 	define_name Ramon Zarazua (_killerfox_)
 
-feed 30m http://hanschen.org/category/planetkde/feed/?mrss=off&category_name=planetkde
+feed 30m http://blog.hanschen.org/category/planetkde/feed/?mrss=off&category_name=planetkde
 	define_name Hans Chen (Mogger)
 
 feed 30m http://www.enricoros.com/blog/tag/planetkde/feed/
