@@ -394,7 +394,7 @@ feed 30m http://ramblingsofpsn.blogspot.com/feeds/posts/default
 feed 30m http://digested.blogspot.com/atom.xml
         define_name Derek Kite (dkite)
 
-feed 30m http://annma.blogspot.com/atom.xml
+feed 30m http://annma.blogspot.com/feeds/posts/default/-/KDE
         define_name Anne-Marie Mahfouf (annma)
         define_face hackergotchi/annma.jpg
         define_facewidth 80
