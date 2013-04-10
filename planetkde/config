@@ -3763,3 +3763,8 @@ feed 45m http://www.rusu.info/wp/?feed=rss2&tag=planetkde
 	define_facewidth 52
 	define_faceheight 80
 
+feed 30m http://sysadmin.kde.org/category/planet/feed/
+	define_name KDE Sysadmins
+	define_face hackergotchi/sysadmins.png
+	define_facewidth 64
+	define_faceheight 64
