@@ -540,8 +540,9 @@ feed 30m http://blogs.kde.org/blog/1451/feed
 feed 30m http://blogs.kde.org/blog/225/feed
         define_name Carlos Leonhard Woelz (cwoelz)
 
-feed 30m http://physos.com/feed/
-        define_name Rainer Endres (physos)
+# 404
+#feed 30m http://physos.com/feed/
+#        define_name Rainer Endres (physos)
 
 #feed 30m http://navindra.blogspot.com/atom.xml
 #        define_name Navindra Umanee
