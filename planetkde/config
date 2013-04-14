@@ -671,6 +671,9 @@ feed 30m http://kate-editor.org/author/cullmann/feed/
         define_facewidth 80
         define_faceheight 80
 
+feed 30m http://kate-editor.org/author/jowenn/feed/
+        define_name Joseph Wenninger (jowenn)
+
 feed 30m http://kate-editor.org/author/shaheed/feed/
         define_name Shaheed Haque (shaheed)
 
