@@ -2688,8 +2688,9 @@ feed 30m http://infinityperl.blogspot.fr/feeds/posts/default/-/kde
         define_faceheight 113
 	define_microblog true ArnaudDupuis
 
-feed 30m http://www.andreascarpino.it/blog/categories/kde/atom.xml
-        define_name Andrea Scarpino (bash)
+# 404
+#feed 30m http://www.andreascarpino.it/blog/categories/kde/atom.xml
+#        define_name Andrea Scarpino (bash)
 
 feed 30m http://vhanda.in/blog/tag/kde-planet/feed/atom/
         define_name Vishesh Handa (vhanda)
