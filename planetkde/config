@@ -3241,8 +3241,8 @@ feed 30m http://blogs.kde.org/blog/8251/feed
 feed 30m http://quintasan.blogspot.com/feeds/posts/default/-/kde-planet
         define_name Michał Zając (Quintasan)
 
-#feed 45m http://bulldog98-jonathansblog.blogspot.com/feeds/posts/default/-/PlanetKDE
-#	define_name Jonathan Kolberg (bulldog98)
+feed 45m http://bulldog98.strangled.net/blog/PlanetKDE.xml
+	define_name Jonathan Kolberg (bulldog98)
 
 feed 30m http://cmollekopf.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
         define_name Christian Mollekopf (cmollekopf)
