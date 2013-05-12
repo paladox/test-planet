@@ -2390,7 +2390,7 @@ feed 30m http://johnflux.blogspot.com/atom.xml
 #        define_facewidth 54
 #        define_faceheight 80
 
-feed 30m http://thezeroth.net/blog/feed/
+feed 30m http://thezeroth.net/blog/category/kde
         define_name Abhishek Patil (thezeroth)
         define_face hackergotchi/abhishek.png
         define_facewidth 47
