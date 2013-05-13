@@ -2253,7 +2253,7 @@ feed 30m http://www.asinen.org/feed/
 feed 30m http://arieder.wordpress.com/feed/?mrss=off
 	define_name Alexander Rieder (arieder)
 
-feed 30m http://blog.heimr.nl/taxonomy/term/1/0/feed
+feed 30m http://heimr.net/taxonomy/term/1/0/feed
     define_name Arjen Hiemstra (ahiemstra)
 
 feed 30m http://anselmolsm.org/blog/categories/kde/atom.xml
