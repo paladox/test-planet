@@ -3799,3 +3799,6 @@ feed 30m http://gkbhat.blogspot.in/feeds/posts/default/-/KDE
 feed 30m http://identi.ca/api/statuses/user_timeline/372643.rss
         define_name Sysadmins [identi.ca]
         define_microblog true
+
+feed 30m http://andreasschilling.tumblr.com/search/kde/rss
+	define_name Andreas Schilling
