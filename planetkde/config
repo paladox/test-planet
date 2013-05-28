@@ -3801,3 +3801,6 @@ feed 30m http://identi.ca/api/statuses/user_timeline/372643.rss
 
 feed 30m http://andreasschilling.tumblr.com/search/kde/rss
 	define_name Andreas Schilling
+
+feed 30m http://steckdenis.be/feeds/nepomuk.atom.xml
+	define_name Denis Steckelmacher (steckdenis)
