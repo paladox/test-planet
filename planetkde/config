@@ -3804,3 +3804,6 @@ feed 30m http://andreasschilling.tumblr.com/search/kde/rss
 
 feed 30m http://steckdenis.be/feeds/nepomuk.atom.xml
 	define_name Denis Steckelmacher (steckdenis)
+
+feed 30m http://mbohlender.wordpress.com/feed/atom/
+        define_name Michael Bohlender (mbohlender)
