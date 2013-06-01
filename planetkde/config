@@ -1717,7 +1717,7 @@ feed 30m http://kstars.wordpress.com/feed/?mrss=off&category_name=gnulinuxfoss%2
 #feed 30m http://karbonix.blogspot.com/feeds/posts/default/-/KDE?max-results=1
 #        define_name Victor Carbune (carbonix)
 
-feed 30m http://hdevalence.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
+feed 30m http://www.hdevalence.ca/blog/tagged/planetkde.xml
         define_name Henry de Valence (hdevalence)
 
 feed 30m http://tejasd.livejournal.com/data/rss?tag=kde
