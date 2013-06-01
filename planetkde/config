@@ -3810,3 +3810,6 @@ feed 30m http://steckdenis.be/feeds/nepomuk.atom.xml
 
 feed 30m http://mbohlender.wordpress.com/feed/atom/
         define_name Michael Bohlender (mbohlender)
+
+feed 30m http://adrianbd.wordpress.com/feed/?mrss=off
+        define_name Adrian Draghici (adrianb)
