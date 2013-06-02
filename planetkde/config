@@ -3816,3 +3816,6 @@ feed 30m http://adrianbd.wordpress.com/feed/?mrss=off
         define_face hackergotchi/adrianb.png
         define_facewidth 57
         define_faceheight 80
+
+feed 30m http://blog.andreiduma.ro/tagged/kde/rss
+        define_name Andrei Duma (AndreiDuma)
