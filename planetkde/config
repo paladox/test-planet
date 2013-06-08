@@ -1414,8 +1414,8 @@ feed 30m http://dimsuz.wordpress.com/feed/?mrss=off
 #feed 30m http://whilos.blogsite.org/?cat=4&feed=atom
 #        define_name Christian Weilbach (whilo)
 
-#feed 30m http://www.piggz.co.uk/rss2.php
-#        define_name Adam Pigg
+feed 30m http://www.piggz.co.uk/rss2.php
+        define_name Adam Pigg
 
 feed 30m http://rbitanga.blogspot.com/rss.xml
         define_name Ryan Bitanga
