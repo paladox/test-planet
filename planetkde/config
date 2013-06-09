@@ -2540,7 +2540,7 @@ feed 30m http://www.digikam.org/blog/150/feed
         define_facewidth 65
         define_faceheight 80
 
-feed 30m http://feeds.feedburner.com/Kunalghosh
+feed 30m http://kunalghosh.wordpress.com/tag/kde/feed/
         define_name kunal ghosh (kunalghosh)
         define_face hackergotchi/kunalghosh.png
         define_facewidth 62
