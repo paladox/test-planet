@@ -645,8 +645,8 @@ feed 30m http://blogs.kde.org/blog/175/feed
         define_facewidth 77
         define_faceheight 85
 
-feed 30m http://blog.chris.de/feeds/categories/5-KDE.rss
-        define_name Christian Muehlhaeuser (muesli)
+#feed 30m http://blog.chris.de/feeds/categories/5-KDE.rss
+#        define_name Christian Muehlhaeuser (muesli)
 
 feed 30m http://blogs.kde.org/blog/311/feed
         define_name Cristian Tibirna (Inorog)
@@ -1243,11 +1243,11 @@ feed 30m http://darktears.wordpress.com/category/kde/feed/?mrss=off&category_nam
 feed 30m http://amachu.wordpress.com/feed/?mrss=off&category_name=kde
         define_name Sri Ramadoss M (amachu)
 
-feed 30m http://bertjan.broeksemaatjes.nl/feed/?tag=kde
-        define_name Bertjan Broeksema
-        define_face hackergotchi/bbroeksema.png
-        define_facewidth 55
-        define_faceheight 85
+#feed 30m http://bertjan.broeksemaatjes.nl/feed/?tag=kde
+#        define_name Bertjan Broeksema
+#        define_face hackergotchi/bbroeksema.png
+#        define_facewidth 55
+#        define_faceheight 85
 
 feed 30m http://kdedmiller.wordpress.com/feed/?mrss=off
         define_name David Miller
@@ -1345,9 +1345,9 @@ feed 30m http://blog.lydiapintscher.de/category/PlanetKDE/feed/
         define_facewidth 78
         define_faceheight 76
 
-feed 30m https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=nightrose
-        define_name Lydia Pintscher [twitter]
-        define_microblog true
+#feed 30m https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=nightrose
+#        define_name Lydia Pintscher [twitter]
+#        define_microblog true
 
 feed 30m http://feeds.feedburner.com/slashrosha/en/kde
 	define_name Roozbeh Shafiee
@@ -2257,8 +2257,8 @@ feed 30m http://www.asinen.org/feed/
 feed 30m http://arieder.wordpress.com/feed/?mrss=off
 	define_name Alexander Rieder (arieder)
 
-feed 30m http://heimr.net/taxonomy/term/1/0/feed
-    define_name Arjen Hiemstra (ahiemstra)
+#feed 30m http://heimr.net/taxonomy/term/1/0/feed
+#    define_name Arjen Hiemstra (ahiemstra)
 
 feed 30m http://anselmolsm.org/blog/categories/kde/atom.xml
 	define_name Anselmo L. S. Melo (anselmolsm)
@@ -2895,8 +2895,8 @@ feed 30m http://blogs.kde.org/blog/7855/feed
 feed 30m http://en.munknex.net/feeds/posts/default/-/KDE
         define_name Cyril Oblikov (munknex)
 
-feed 30m http://blog.eyecreate.org/index.php?/feeds/categories/1-kde.rss
-	define_name Kevin Whitaker (eyecreate)
+#feed 30m http://blog.eyecreate.org/index.php?/feeds/categories/1-kde.rss
+#	define_name Kevin Whitaker (eyecreate)
 
 feed 30m http://marcmutz.wordpress.com/tag/planetkde/feed/?mrss=off&tag=planetkde
         define_name Marc Mutz
@@ -3052,9 +3052,9 @@ feed 30m http://identi.ca/api/statuses/user_timeline/100031.rss
         define_name Javier Llorente [identi.ca]
         define_microblog true
 
-feed 30m https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=javierllorente
-        define_name Javier Llorente [twitter]
-        define_microblog true
+#feed 30m https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=javierllorente
+#        define_name Javier Llorente [twitter]
+#        define_microblog true
 
 feed 30m http://mrybczynska.wordpress.com/category/english/feed/?mrss=off&category_name=english
         define_name Marta Rybczyńska
@@ -3245,8 +3245,8 @@ feed 30m http://blogs.kde.org/blog/8251/feed
 feed 30m http://quintasan.blogspot.com/feeds/posts/default/-/kde-planet
         define_name Michał Zając (Quintasan)
 
-feed 45m http://bulldog98.strangled.net/blog/PlanetKDE.xml
-	define_name Jonathan Kolberg (bulldog98)
+#feed 45m http://bulldog98.strangled.net/blog/PlanetKDE.xml
+#	define_name Jonathan Kolberg (bulldog98)
 
 feed 30m http://cmollekopf.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
         define_name Christian Mollekopf (cmollekopf)
@@ -3349,8 +3349,8 @@ feed 30m http://scummos.blogspot.com/feeds/posts/default/-/planetkde
     define_facewidth 80
     define_faceheight 78
 
-feed 30m http://archandkde.wordpress.com/category/kde/feed/?mrss=off
-    define_name Ahel ibn Alquivr (Ahel)
+#feed 30m http://archandkde.wordpress.com/category/kde/feed/?mrss=off
+#    define_name Ahel ibn Alquivr (Ahel)
 
 feed 30m http://blog.gapinthecloud.com/tag/kde/feed/
     define_name Michael Gapczynski (MTGap)
@@ -3428,11 +3428,11 @@ feed 30m http://ljaskiewicz.wordpress.com/feed/?mrss=0ff&category_name=planetkde
 feed 30m http://djarvie.wordpress.com/category/kde,planetkde/feed/?mrss=off
     define_name David Jarvie (djarvie)
 
-feed 30m http://atuljha.com/blog/tag/kde/feed/
-	define_name Atul Jha (koolhead17)
-	define_face hackergotchi/atuljha.jpeg
-	define_facewidth 96
-	define_faceheight 96
+#feed 30m http://atuljha.com/blog/tag/kde/feed/
+#	define_name Atul Jha (koolhead17)
+#	define_face hackergotchi/atuljha.jpeg
+#	define_facewidth 96
+#	define_faceheight 96
 
 feed 30m http://smarter.free.fr/blog/index.php?feed/tag/planetkde/atom
 	define_name Guillaume Martres (smarter)
@@ -3717,9 +3717,9 @@ feed 30m http://marcuzzokde.blogspot.com/feeds/posts/default?alt=rss
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=jriddell
-        define_name Jonathan Riddell [twitter]
-        define_microblog true
+#feed 15m http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=jriddell
+#        define_name Jonathan Riddell [twitter]
+#        define_microblog true
 
 feed 30m http://ruedigergad.com/tag/planetkde/feed/?mrss=off&tag=planetkde
         define_name Ruediger Gad (rcg)
