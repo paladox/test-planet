@@ -3868,4 +3868,5 @@ feed 30m http://www.d34dl0ck.me/feeds/posts/default/-/KDE
         define_facewidth 80
         define_faceheight 106
 
-
+feed 30m http://heenamahour.blogspot.in/feeds/posts/default/-/gsoc
+        define_name Heena Mahour
