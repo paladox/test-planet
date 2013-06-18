@@ -3870,3 +3870,9 @@ feed 30m http://www.d34dl0ck.me/feeds/posts/default/-/KDE
 
 feed 30m http://heenamahour.blogspot.in/feeds/posts/default/-/gsoc
         define_name Heena Mahour
+
+feed 45m http://melandory.blogspot.com/feeds/posts/default
+        define_name Tatiana Gornak
+        define_face hackergotchi/melandory.jpg
+        define_facewidth 80
+        define_faceheight 80
