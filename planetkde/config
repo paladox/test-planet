@@ -3885,3 +3885,6 @@ feed 45m http://xardas008.wordpress.com/feed/?mrss=off
         define_face hackergotchi/kreuter.png
         define_facewidth 61
         define_faceheight 79
+
+feed 45m http://akshaycode.blogspot.com/feeds/posts/default/-/KDE?alt=rss
+        define_name Akshay Ratan (akshay_r)
