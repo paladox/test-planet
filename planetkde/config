@@ -3879,3 +3879,9 @@ feed 45m http://melandory.blogspot.com/feeds/posts/default
 
 feed 45m http://gsoc2013.anmolahuja.com/feeds/posts/default?alt=rss
         define_name Anmol Ahuja (DarthCodus)
+
+feed 45m http://xardas008.wordpress.com/feed/?mrss=off
+        define_name Daniel Kreuter (xardas008)
+        define_face hackergotchi/kreuter.png
+        define_facewidth 61
+        define_faceheight 79
