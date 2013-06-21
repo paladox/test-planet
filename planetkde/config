@@ -3888,3 +3888,6 @@ feed 45m http://xardas008.wordpress.com/feed/?mrss=off
 
 feed 45m http://akshaycode.blogspot.com/feeds/posts/default/-/KDE?alt=rss
         define_name Akshay Ratan (akshay_r)
+
+feed 45m http://lukewolf.blogspot.com/feeds/posts/default
+        define_name Luke Wolf (Luke_Wolf)
