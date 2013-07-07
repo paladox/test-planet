@@ -3891,3 +3891,6 @@ feed 45m http://akshaycode.blogspot.com/feeds/posts/default/-/KDE?alt=rss
 
 feed 45m http://lukewolf.blogspot.com/feeds/posts/default
         define_name Luke Wolf (Luke_Wolf)
+
+feed 30m https://nagpalsahil.wordpress.com/feed/?mrss=off
+        define_name Sahil Nagpal (sahil)
