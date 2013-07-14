@@ -104,7 +104,7 @@
 	  <p>此外，Planet KDE 中文區也會放在 KDE 的 SVN 內。若您有帳號，您可以自行新增或編輯您的 feed：</p>
 
             <ul>
-              <li><em>svn checkout svn+ssh://<username>@svn.kde.org/home/kde/trunk/www/sites/planet/planetkde-zh</em></li>
+              <li><em>svn checkout svn+ssh://svn@svn.kde.org/home/kde/trunk/www/sites/planet/planetkde-zh</em></li>
 
               <li>將您的相片放在 <em>website/hackergotchi/</em> 內。相片裡應該放您的臉，並且要小於 80x80 像素，背景設為透明。接著用 <em>svn add</em> 加入 svn。</li>
 

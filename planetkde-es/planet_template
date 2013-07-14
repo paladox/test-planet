@@ -113,7 +113,7 @@
           have an account you can add or edit your own feed:</p>
 
             <ul>
-              <li><em>svn checkout svn+ssh://<username>@svn.kde.org/home/kde/trunk/www/sites/planet/planetkde-es</em></li>
+              <li><em>svn checkout svn+ssh://svn@svn.kde.org/home/kde/trunk/www/sites/planet/planetkde-es</em></li>
 
               <li>Put your hackergotchi
               in <em>website/hackergotchi/</em>.  A hackergotchi

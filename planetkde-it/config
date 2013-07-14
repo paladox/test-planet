@@ -15,7 +15,7 @@
 #Alternatively, Planet KDE is kept in KDE's SVN. If you have an
 #account you can add or edit your own feed:
 
-#svn checkout svn+ssh://@svn.kde.org/home/kde/trunk/www/sites/planet/
+#svn checkout svn+ssh://svn@svn.kde.org/home/kde/trunk/www/sites/planet/
 #Put your hackergotchi in website/hackergotchi/. A hackergotchi should be a photo of your face smaller than 80x80 pixels with a transparent background. svn add the file.
 #At the end of the planetkde/config file add your details (the name in brackets is your IRC nick):
 
