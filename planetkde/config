@@ -3308,8 +3308,8 @@ feed 30m http://mmessmer.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
         define_faceheight 80
 
 feed 30m http://lpapp.blogspot.com/feeds/posts/default
-    define_name Laszlo Papp (djszapi)
-    define_face hackergotchi/djszapi.png
+    define_name Laszlo Papp (lpapp)
+    define_face hackergotchi/laszlo_papp-80x80.png
     define_facewidth 80
     define_faceheight 80
 
