@@ -344,9 +344,9 @@ feed 15m http://blogs.kde.org/blog/1451/feed
 feed 15m http://www.omat.nl/category/english/feed/
         define_name Tom Albers
 
-feed 15m http://identi.ca/tomalbers/rss
-        define_name Tom Albers [identi.ca]
-        define_microblog true
+#feed 15m http://identi.ca/tomalbers/rss
+#        define_name Tom Albers [identi.ca]
+#        define_microblog true
 
 feed 15m http://blogs.kde.org/blog/699/feed
         define_name Frank Osterfeld (fosterfeld)
@@ -359,9 +359,9 @@ feed 15m http://blogs.kde.org/blog/699/feed
 feed 15m http://thomasmcguire.wordpress.com/feed/?mrss=off
         define_name Thomas McGuire
 
-feed 15m http://identi.ca/tmcguire/rss
-        define_name Thomas McGuire [identi.ca]
-        define_microblog true
+#feed 15m http://identi.ca/tmcguire/rss
+#        define_name Thomas McGuire [identi.ca]
+#        define_microblog true
 
 feed 15m http://blogs.kde.org/blog/83/feed
         define_name Kevin Krammer
