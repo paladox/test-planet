@@ -3894,3 +3894,6 @@ feed 45m http://lukewolf.blogspot.com/feeds/posts/default
 
 feed 30m https://nagpalsahil.wordpress.com/feed/?mrss=off
         define_name Sahil Nagpal (sahil)
+
+feed 30m https://ahmedabouelhamayed.wordpress.com/category/kde/feed/
+        define_name Ahmed AbouElhamayed (TheMonster)
