@@ -3897,3 +3897,6 @@ feed 30m https://nagpalsahil.wordpress.com/feed/?mrss=off
 
 feed 30m https://ahmedabouelhamayed.wordpress.com/category/kde/feed/
         define_name Ahmed AbouElhamayed (TheMonster)
+
+feed 30m http://philipp.schmidt-rheinhausen.de/blog/feed/
+        define_name Philipp Schmidt (hefeweiz3n)
