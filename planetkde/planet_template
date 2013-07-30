@@ -399,6 +399,20 @@ feed 45m http://path.to/my/feed.rss
        please contact Jonathan Riddell before adding non-Twitter
        microblogs to check it works.</p>
 
+<h3>Blog Classes</h3>
+
+<p>The default class for blogs is English language personal blogs.  Other classes are:</p>
+<uL>
+<li>Spanish language: <pre>define_feedclass spanish</pre></li>
+<li>Portugese language: <pre>define_feedclass portuguese</pre></li>
+<li>Chinese lanugage: <pre>define_feedclass chinese</pre></li>
+<li>Polish lanugae: <pre>define_feedclass polish</pre></li>
+<li>Italian lanugae: <pre>define_feedclass italian</pre></li>
+<li>French lanugae: <pre>define_feedclass french</pre></li>
+<li>KDE User blogs: <pre>define_feedclass user</pre></li>
+<li>KDE News feeds: <pre>define_feedclass news</pre></li>
+<li>KDE Dot News: <pre>define_feedclass dot</pre></li>
+</ul>
 
        <h2>Planet KDE Guidelines</h2>
 
@@ -432,9 +446,11 @@ you can control what gets posted.</p>
 
 <p>Only have your blog on Planet KDE if you actively contribute to KDE, for example through code, user support, documentation etc.</p>
 
-<h3>It must be a personal blog</h3>
+<h3>It must be a personal blog, or in a blog class</h3>
 
 <p>Planet KDE is a collection of blogs from KDE contributors.</p>
+
+
 
 <h3>Do not inflame</h3>
 
