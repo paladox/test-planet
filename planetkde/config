@@ -3900,6 +3900,9 @@ feed 30m https://ahmedabouelhamayed.wordpress.com/category/kde/feed/
 
 feed 30m http://philipp.schmidt-rheinhausen.de/blog/feed/
         define_name Philipp Schmidt (hefeweiz3n)
+        define_face hackergotchi/phillip.png
+        define_facewidth 71
+        define_faceheight 100
         
 feed 30m http://blogs.kde.org/blog/193/feed
         define_name Eike Hein (Sho)
