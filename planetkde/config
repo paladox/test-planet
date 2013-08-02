@@ -3760,14 +3760,14 @@ feed 30m http://stuartmd2.blogspot.com/feeds/posts/default
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://smartboyhw.tk/wordpress_smartboyhw/?cat=4&feed=rss2
+feed 30m http://smartboyhwubuntu.wordpress.com/feed/?mrss=off
         define_name 陳浩雲/Howard Chan (smartboyhw)
 
 feed 30m http://randa-meetings.ch/category/english/feed/
         define_name Randa Meetings
         define_feedclass news
 
-feed 30m http://sessellift.wordpress.com/category/kde/feed/
+feed 30m http://sessellift.wordpress.com/category/kde/feed/?mrss=off
         define_name Thomas Pfeiffer (colomar)
         define_face hackergotchi/thomas-pfeiffer.jpg
         define_facewidth 75
@@ -3779,7 +3779,7 @@ feed 30m http://tolszak-dev.blogspot.com/feeds/posts/default/-/planetkde
         define_facewidth 70
         define_faceheight 79
 
-feed 30m http://martinbriza.wordpress.com/tag/kde/feed/
+feed 30m http://martinbriza.wordpress.com/tag/kde/feed/?mrss=off
         define_name Martin Bříza (mbriza)
 
 feed 45m http://www.rusu.info/wp/?feed=rss2&tag=planetkde
@@ -3895,7 +3895,7 @@ feed 45m http://lukewolf.blogspot.com/feeds/posts/default
 feed 30m https://nagpalsahil.wordpress.com/feed/?mrss=off
         define_name Sahil Nagpal (sahil)
 
-feed 30m https://ahmedabouelhamayed.wordpress.com/category/kde/feed/
+feed 30m https://ahmedabouelhamayed.wordpress.com/category/kde/feed/?mrss=off
         define_name Ahmed AbouElhamayed (TheMonster)
 
 feed 30m http://philipp.schmidt-rheinhausen.de/blog/feed/
