@@ -510,11 +510,11 @@ feed 30m http://pdamsten.blogspot.com/feeds/posts/default/-/kde
 feed 30m http://blogs.kde.org/blog/418/feed
         define_name Kurt Pfeifle (pipitas)
 
-#feed 30m http://amarok.kde.org/blog/feeds/categories/1-markey.rss
-#        define_name Mark Kretschmann (markey)
-#        define_face hackergotchi/markey_gotchi.png
-#        define_facewidth 80
-#        define_faceheight 80
+feed 30m http://mark-kretschmann.blogspot.com/feeds/posts/default 
+        define_name Mark Kretschmann (markey)
+        define_face hackergotchi/markey_gotchi.png
+        define_facewidth 80
+        define_faceheight 80
 
 feed 30m http://blogs.kde.org/blog/124/feed
         define_name Stephan Kulow (coolo)
