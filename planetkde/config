@@ -3850,7 +3850,7 @@ feed 30m http://kreversiqml.blogspot.com/feeds/posts/default
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://ciypro.wordpress.com/category/kde-gsoc2013/
+feed 30m http://ciypro.wordpress.com/category/kde-gsoc2013/feed/?mrss=off
         define_name Chandan Kumar (chandankumar)
         define_face hackergotchi/chandankumar.jpg
         define_facewidth 80
