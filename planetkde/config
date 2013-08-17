@@ -865,6 +865,9 @@ feed 30m http://blogs.kde.org/blog/952/feed
 feed 30m http://ingwa2.blogspot.com/atom.xml
         define_name Inge Wallin (ingwa)
 
+feed 30m http://moji-shahi.blogspot.com/atom.xml
+        define_name Mojtaba Shahi Senobari (moji)
+
 feed 30m http://blogs.kde.org/blog/1397/feed
         define_name Jesper K. Pedersen (blackie)
         define_face hackergotchi/blackie.png
