@@ -3921,3 +3921,6 @@ feed 45m http://albertvaka.wordpress.com/feed/?mrss=off
 
 feed 45m http://kdesvn.alwins-world.de/feed/
         define_name Rajko Albrecht (alwin)
+
+feed 45m http://shahimoji.wordpress.com/feed/rss/?mrss=off
+        define_name Mojtaba Shahi Senobari (moji)
