@@ -3332,8 +3332,9 @@ feed 30m http://clauschr.wordpress.com/feed/?mrss=off
     define_facewidth 80
     define_faceheight 78
 
-feed 45m http://vishesh-yadav.com/blog/category/planetkde/feed/
-    define_name Vishesh Yadav (vishesh)
+# Suspended by hoster
+#feed 45m http://vishesh-yadav.com/blog/category/planetkde/feed/
+#    define_name Vishesh Yadav (vishesh)
 
 feed 30m http://kyofel.wordpress.com/category/KDE/feed/?mrss=off
     define_name Philip Muškovac (yofel)
@@ -3921,5 +3922,5 @@ feed 45m http://albertvaka.wordpress.com/feed/?mrss=off
 feed 45m http://kdesvn.alwins-world.de/feed/
         define_name Rajko Albrecht (alwin)
 
-feed 45m http://shahimoji.wordpress.com/feed/rss/?mrss=off
+feed 45m http://shahimoji.wordpress.com/feed/?mrss=off
         define_name Mojtaba Shahi Senobari (moji)
