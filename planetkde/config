@@ -906,7 +906,7 @@ feed 30m http://www.jowenn.at/blog/feed_en.rdf
 feed 30m http://clarencedang.blogspot.com/atom.xml
         define_name Clarence Dang
 
-feed 30m http://vladimir_prus.blogspot.com/atom.xml
+feed 30m http://vladimir_prus.blogspot.com/feeds/posts/default/-/kde
         define_name Vladimir Prus
 
 # disappeared
