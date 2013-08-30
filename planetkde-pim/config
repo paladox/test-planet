@@ -341,8 +341,8 @@ feed 15m http://tokoe-kde.blogspot.com/rss.xml
 feed 15m http://blogs.kde.org/blog/1451/feed
         define_name Allen Winter
 
-feed 15m http://www.omat.nl/category/english/feed/
-        define_name Tom Albers
+#feed 15m http://www.omat.nl/category/english/feed/
+#        define_name Tom Albers
 
 #feed 15m http://identi.ca/tomalbers/rss
 #        define_name Tom Albers [identi.ca]
