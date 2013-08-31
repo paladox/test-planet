@@ -1613,9 +1613,6 @@ feed 30m http://blog.morpheuz.cc/category/kde/feed/
 #        define_name Artur Souza (MoRpHeUz) [identi.ca]
 #        define_microblog true
 
-feed 30m http://www.undefinedfire.com/feeds/kde-planet/
-        define_name Lucas Murray (lmurray)
-
 # Blog down, 503 error
 #feed 30m http://web.mornfall.net/planet/kde.rss
 #        define_name Petr Rockai (mornfall)
