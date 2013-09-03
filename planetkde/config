@@ -2776,7 +2776,7 @@ feed 30m http://celarek.at/category/kde/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://usic.at/~elfy/feed/public+kde
+feed 30m https://usic.at/~elfy/feed/public+kde
 	define_name 		Oleksiy Protas (Landswellsong)
 	define_face 		hackergotchi/landswellsong.png
 	define_facewidth 	80
