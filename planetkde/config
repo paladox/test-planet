@@ -1930,11 +1930,12 @@ feed 30m http://zrchrn.blogspot.com/feeds/posts/default
         define_facewidth 80
         define_faceheight 76
 
-feed 30m http://introducingkde4.blogspot.com/feeds/posts/default
-        define_name Luis Augusto Fretes Cuevas
-        define_face hackergotchi/luis-augusto-fretes-cuevas.jpg
-        define_facewidth 80
-        define_faceheight 54
+#spamming with long old post
+#feed 30m http://introducingkde4.blogspot.com/feeds/posts/default
+#        define_name Luis Augusto Fretes Cuevas
+#        define_face hackergotchi/luis-augusto-fretes-cuevas.jpg
+#        define_facewidth 80
+#        define_faceheight 54
 
 # 404
 #feed 30m http://blog.qt.digia.com/author/lcunha/feed/
