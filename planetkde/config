@@ -3505,7 +3505,7 @@ feed 15m http://konstantinidis.wordpress.com/category/kde/feed/
         define_facewidth 76
         define_faceheight 80
 
-feed 15m http://terietor.org/tag/planetkde/feed/
+feed 15m http://terietor.wordpress.com/tag/planetkde/feed/
         define_name Giorgos Tsiapaliokas (terietor)
 
 feed 15m http://blogs.gentoo.org/johu/category/kde/feed/
