@@ -510,7 +510,7 @@ feed 30m http://pdamsten.blogspot.com/feeds/posts/default/-/kde
 feed 30m http://blogs.kde.org/blog/418/feed
         define_name Kurt Pfeifle (pipitas)
 
-feed 30m http://mark-kretschmann.blogspot.com/feeds/posts/default 
+feed 30m http://mark-kretschmann.blogspot.com/feeds/posts/default
         define_name Mark Kretschmann (markey)
         define_face hackergotchi/markey_gotchi.png
         define_facewidth 80
@@ -3505,9 +3505,8 @@ feed 15m http://konstantinidis.wordpress.com/category/kde/feed/
         define_facewidth 76
         define_faceheight 80
 
-# NXDOMAIN
-#feed 15m http://terietor.gr/tag/planetkde/feed/
-#        define_name Giorgos Tsiapaliokas (terietor)
+feed 15m http://terietor.org/tag/planetkde/feed/
+        define_name Giorgos Tsiapaliokas (terietor)
 
 feed 15m http://blogs.gentoo.org/johu/category/kde/feed/
         define_name Johannes Huber (johu)
@@ -3905,7 +3904,7 @@ feed 30m http://philipp.schmidt-rheinhausen.de/blog/feed/
         define_face hackergotchi/phillip.png
         define_facewidth 71
         define_faceheight 100
-        
+
 feed 30m http://blogs.kde.org/blog/193/feed
         define_name Eike Hein (Sho)
 
