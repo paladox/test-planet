@@ -1513,8 +1513,9 @@ feed 30m http://untangled.biz/category/kde/feed/
 #        define_facewidth 63
 #        define_faceheight 80
 
-feed 30m http://ekaia.org/blog/category/english/kde/feed/
-        define_name Ana Guerrero (ana)
+# 404
+#feed 30m http://ekaia.org/blog/category/english/kde/feed/
+#        define_name Ana Guerrero (ana)
 
 # 404
 #feed 30m http://hamberg.no/erlend/category/kde/feed/
