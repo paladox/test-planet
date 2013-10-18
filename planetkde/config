@@ -613,7 +613,7 @@ feed 30m http://www.kuarepoti-dju.net/tags/community:desktop/index.rss
 feed 30m http://blogs.kde.org/blog/77/feed
         define_name Will Stephenson
 
-feed 30m http://www.christian-loose.de/atom.xml
+feed 30m http://www.christian-loose.de/wordpress/category/kde/feed/
         define_name Christian Loose
 
 
