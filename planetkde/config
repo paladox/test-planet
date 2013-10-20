@@ -1641,11 +1641,12 @@ feed 30m http://blog.froglogic.com/author/koos/feed/atom/?cat=5%2C6
 #feed 30m http://www.confuego.org/feeds/categories/1-KDE.rss
 #        define_name Michael Leupold (lemma)
 
-feed 30m http://freddi.me/?tag=kde-2&feed=rss2
-        define_name Dario Freddi (drf__)
-        define_face hackergotchi/drf.png
-        define_facewidth 80
-        define_faceheight 76
+# Blog server times out
+#feed 30m http://freddi.me/?tag=kde-2&feed=rss2
+#        define_name Dario Freddi (drf__)
+#        define_face hackergotchi/drf.png
+#        define_facewidth 80
+#        define_faceheight 76
 
 # Here's my old one. Keeping it just in case.
 feed 30m http://drfav.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
@@ -3147,8 +3148,9 @@ feed 30m http://martys.typepad.com/blog/atom.xml
 #feed 30m http://mattr.info/tagged/kde/rss
 #        define_name Matt Rogers (mattr)
 
-feed 30m http://the-user.org/category/planetkde/feed
-        define_name Jonathan Schmidt-Dominé (The User)
+# 404
+#feed 30m http://the-user.org/category/planetkde/feed
+#        define_name Jonathan Schmidt-Dominé (The User)
 
 # 404
 #feed 30m http://rullzer.com/blog/category/linux/kde-linux/feed/
@@ -3391,11 +3393,12 @@ feed 30m http://contourproject.wordpress.com/feed/?mrss=off
     define_facewidth 80
     define_faceheight 80
 
-feed 30m http://blog.romainperier.org/?cat=6&feed=rss2
-    define_name Romain Perier (bambee)
-    define_face hackergotchi/romain-perier.png
-    define_facewidth 80
-    define_faceheight 80
+# Doesn't exist anymore per author
+#feed 30m http://blog.romainperier.org/?cat=6&feed=rss2
+#    define_name Romain Perier (bambee)
+#    define_face hackergotchi/romain-perier.png
+#    define_facewidth 80
+#    define_faceheight 80
 
 feed 30m http://kmix5.wordpress.com/feed/?mrss=off
     define_name KMix - the KDE Multimedia Mixer
@@ -3874,8 +3877,9 @@ feed 30m http://www.d34dl0ck.me/feeds/posts/default/-/KDE
         define_facewidth 80
         define_faceheight 106
 
-feed 30m http://heenamahour.blogspot.in/feeds/posts/default/-/gsoc
-        define_name Heena Mahour
+# 401 - blog is private
+#feed 30m http://heenamahour.blogspot.in/feeds/posts/default/-/gsoc
+#        define_name Heena Mahour
 
 feed 45m http://melandory.blogspot.com/feeds/posts/default
         define_name Tatiana Gornak
