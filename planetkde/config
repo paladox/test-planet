@@ -3446,7 +3446,7 @@ feed 30m http://djarvie.wordpress.com/category/kde,planetkde/feed/?mrss=off
 feed 30m http://smarter.free.fr/blog/index.php?feed/tag/planetkde/atom
 	define_name Guillaume Martres (smarter)
 
-feed 30m http://sebastian-doerner.de/category/kde/feed/
+feed 30m http://sebastian-doerner.de/?cat=4&feed=rss2&mrss=off
         define_name Sebastian Dörner
 
 feed 30m http://blog.tenstral.net/category/planet/planetkde/feed
