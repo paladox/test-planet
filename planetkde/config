@@ -2990,6 +2990,10 @@ feed 30m http://www.kubuntu.org/news/rss-feed
         define_name Kubuntu News
         define_feedclass news
 
+feed 30m http://wire.kubuntu.org/?feed=rss2
+        define_name Kubuntu Wire
+        define_feedclass news
+
 feed 30m http://freoffice.blogspot.com/feeds/posts/default
         define_name Freoffice: KOffice based Open Mobile Office Suite
         define_feedclass news
