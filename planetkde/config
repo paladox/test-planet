@@ -1678,11 +1678,11 @@ feed 30m http://lydgate.org/blogs/tag/kde/feed/
         define_facewidth 79
         define_faceheight 79
 
-feed 30m http://blog.qash.dk/feeds/posts/default/-/KDE
-        define_name Michael Krog
-        define_face hackergotchi/michael-krog.png
-        define_facewidth 129
-        define_faceheight 81
+#feed 30m http://blog.qash.dk/feeds/posts/default/-/KDE
+#        define_name Michael Krog
+#        define_face hackergotchi/michael-krog.png
+#        define_facewidth 129
+#        define_faceheight 81
 
 feed 30m http://socceroosd.blogspot.com/feeds/posts/full/-/kde
         define_name Sam Duff (Socceroos)
@@ -1895,8 +1895,8 @@ feed 30m http://trueg.wordpress.com/feed/?mrss=off
 #        define_name A. L. Spehr (blauzahl) [identi.ca]
 #        define_microblog true
 
-feed 30m http://blusrcu.ba/nookie/?feed=rss2
-        define_name Mensur Zahirovic (Nookie)
+#feed 30m http://blusrcu.ba/nookie/?feed=rss2
+#        define_name Mensur Zahirovic (Nookie)
 
 feed 30m http://fabiolocati.com/it/2011/03/blog/?q=taxonomy%2Fterm%2F1%2F0%2Ffeed
         define_name Fabio A. Locati (flocati)
