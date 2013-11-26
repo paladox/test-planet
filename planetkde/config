@@ -1837,7 +1837,7 @@ feed 30m http://blog.chatonka.com/category/computers/linux/kde4/planetkde/feed/
         define_facewidth 47
         define_faceheight 80
 
-feed 30m http://www.dennogumi.org/category/kde/feed
+feed 30m http://www.dennogumi.org/category/kde/feed/
         define_name Luca Beltrame (einar77)
 
 feed 30m http://blog.neverendingo.de/?feed=rss2&cat=4
