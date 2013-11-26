@@ -1813,7 +1813,8 @@ feed 30m http://dragotin.wordpress.com/feed/?mrss=off
 feed 30m http://amarok.kde.org/en/blog/7/feed
         define_name Daniel Meltzer (hydrogen)
 
-feed 30m http://rdieter.livejournal.com/data/rss?tag=kde
+#feed 30m http://rdieter.livejournal.com/data/rss?tag=kde
+feed 45m http://rdieter.blogspot.com/feeds/posts/default/-/kde
         define_name Rex Dieter (rdieter)
         define_face hackergotchi/rdieter.png
         define_facewidth 80
