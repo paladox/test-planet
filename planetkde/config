@@ -1869,7 +1869,7 @@ feed 30m http://amroth.coldshock.net/kmess/blog/feed/
 feed 30m http://looksblo.wordpress.com/category/planetkde/feed/atom/
         define_name Frederik Schwarzer (icwiener)
 
-feed 30m https://hackerbots.net/blog//browse/linux/kde-linux/feed/
+feed 30m https://hackerbots.net/blog/browse/linux/kde-linux/feed/
         define_name Trever Fischer (tdfischer)
         #Hackergotchi coming soon, I swear. Once I find my camera charger :)
         #define_face hackergotchi/tdfischer.png
