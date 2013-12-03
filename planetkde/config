@@ -1368,8 +1368,8 @@ feed 30m http://toscalix.blogspot.com/feeds/posts/default?alt=rss
 feed 30m http://elcuco2.blogspot.com/feeds/posts/default
         define_name Diego Iastrubni
 
-feed 30m http://blog.wysota.eu.org/index.php/feed/
-        define_name Witold Wysota
+#feed 30m http://blog.wysota.eu.org/index.php/feed/
+#        define_name Witold Wysota
 
 # timeout, toma, kdesysadmin, aug 12th 2010
 #feed 30m http://www.datenex.de/index.php?/feeds/categories/1-KDE.rss
