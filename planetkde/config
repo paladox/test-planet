@@ -3358,6 +3358,9 @@ feed 45 http://www.progdan.cz/tag/kde/feed/
 
 feed 30m http://kshadeslayer.wordpress.com/category/KDE/feed/?mrss=off
     define_name Rohan Garg (shadeslayer)
+    define_face hackergotchi/rohan.png
+    define_facewidth 48
+    define_faceheight 57
 
 feed 30m http://scummos.blogspot.com/feeds/posts/default/-/planetkde
     define_name Sven Brauch (scummos)
