@@ -3783,8 +3783,8 @@ feed 30m http://stuartmd2.blogspot.com/feeds/posts/default
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://smartboyhwubuntu.wordpress.com/category/planet-kde/feed/?mrss=off
-        define_name 陳浩雲/Howard Chan (smartboyhw)
+#feed 30m http://smartboyhwubuntu.wordpress.com/category/planet-kde/feed/?mrss=off
+#        define_name 陳浩雲/Howard Chan (smartboyhw)
 
 feed 30m http://randa-meetings.ch/category/english/feed/
         define_name Randa Meetings
