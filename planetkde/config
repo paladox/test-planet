@@ -363,11 +363,12 @@ feed 30m http://blog.jasondonenfeld.com/planetkde
         define_facewidth 61
         define_faceheight 70
 
-feed 30m http://www.monroe.nu/tag/kde/atom
-        define_name Ian Monroe (eean)
-        define_face hackergotchi/eean.jpg
-        define_facewidth 80
-        define_faceheight 80
+# 404
+#feed 30m http://www.monroe.nu/tag/kde/atom
+#        define_name Ian Monroe (eean)
+#        define_face hackergotchi/eean.jpg
+#        define_facewidth 80
+#        define_faceheight 80
 
 # 404
 #feed 30m http://www.sebruiz.net/feed
