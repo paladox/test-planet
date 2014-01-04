@@ -3965,3 +3965,9 @@ feed 45m http://punit9462.wordpress.com/category/planetkde/feed/
 
 feed 45m http://ghic.org/~diane/feeds/kde.atom.xml
         define_name Diane Trout (detrout)
+
+feed 45m http://ematirov.blogspot.com/feeds/posts/default/-/kde
+        define_name Mihail Ivchenko (EgorMatirov)
+        define_face hackergotchi/ematirov.jpg
+        define_facewidth 64
+        define_faceheight 80
