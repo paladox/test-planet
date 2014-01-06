@@ -3971,3 +3971,9 @@ feed 45m http://ematirov.blogspot.com/feeds/posts/default/-/kde
         define_face hackergotchi/ematirov.jpg
         define_facewidth 64
         define_faceheight 80
+
+feed 45m http://www.blog.kaiserapps.com/feeds/posts/default/-/kde
+        define_name Benjamin Kaiser (benkaiser)
+        define_face hackergotchi/benjamin-kaiser.jpg
+        define_facewidth 78
+        define_faceheight 80
