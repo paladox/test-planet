@@ -2243,7 +2243,7 @@ feed 30m http://blog.aliensoft.net/feeds/posts/default/-/planetkde
         define_facewidth 75
         define_faceheight 75
 
-feed 30m http://nikosams.blogspot.com/feeds/posts/default
+feed 30m http://www.nikosams.net/blog/categories/3_kde/list:feed
         define_name Niko Sams (nsams)
 
 feed 30m http://colin.guthr.ie/tag/kde/feed/
