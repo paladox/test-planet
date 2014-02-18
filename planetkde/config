@@ -3990,3 +3990,6 @@ feed 45m http://geekaliens.com/blog/en/feed/?tag=cat-kde
 
 feed 45m http://zaufi.github.io/rss-kde.xml
         define_name Alex Turbov (zaufi)
+
+feed 45m http://kate-editor.org/author/dav1d/feed/
+        define_name David Herberth (dav1d)
