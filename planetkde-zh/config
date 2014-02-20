@@ -369,3 +369,9 @@ feed 15m http://ezgo-tw.blogspot.com/feeds/posts/default/-/KDE
 	define_face hackergotchi/ezgoX.png
 	define_facewidth 80
 	define_faceheight 80
+
+feed 15m http://chakra-zh.blogspot.com/feeds/posts/default/-/KDE
+	define_name Charka@中文
+	define_face hackergotchi/chakra-shield.png
+	define_facewidth 80
+	define_faceheight 80
