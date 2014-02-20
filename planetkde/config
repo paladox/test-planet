@@ -681,9 +681,6 @@ feed 30m http://kate-editor.org/author/shaheed/feed/
 feed 30m http://kate-editor.org/author/lungu/feed/
         define_name Adrian Lungu (lungu)
 
-feed 30m http://kate-editor.org/author/kuzmich/feed/
-        define_name Svyatoslav Kuzmich (kuzmich)
-
 feed 30m http://kate-editor.org/author/dianat/feed/
         define_name Diana Tiriplica (dianat)
 
