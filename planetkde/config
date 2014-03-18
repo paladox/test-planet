@@ -744,6 +744,9 @@ feed 30m http://blogs.kde.org/blog/1186/feed
 feed 30m http://blogs.kde.org/blog/531/feed
         define_name Alexander Neundorf
 
+feed 30m http://kate-editor.org/author/neundorf/feed/ 
+        define_name Alexander Neundorf
+
 feed 30m http://blogs.kde.org/blog/1192/feed
         define_name Martijn Klingens
 
