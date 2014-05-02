@@ -4017,3 +4017,6 @@ feed 45m http://kfunk.org/tag/kde/rss/
 
 feed 45m http://sklin0.wordpress.com/tag/gsoc/
         define_name Sergey Kalinichev (klins)
+
+feed 45m http://abhgangwar.wordpress.com/feed/
+        define_name Abhinav Gangwar
