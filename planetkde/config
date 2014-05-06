@@ -3398,11 +3398,11 @@ feed 30m http://yuvrajtomar.blogspot.com/feeds/posts/default
     define_facewidth 80
     define_faceheight 90
 
-feed 30m http://blog.lazybit.in/feeds/posts/default/-/kde
-    define_name Viranch Mehta (viranch)
-    define_face hackergotchi/viranch.png
-    define_facewidth 80
-    define_faceheight 80
+#feed 30m http://blog.lazybit.in/feeds/posts/default/-/kde
+#    define_name Viranch Mehta (viranch)
+#    define_face hackergotchi/viranch.png
+#    define_facewidth 80
+#    define_faceheight 80
 
 feed 30m http://contourproject.wordpress.com/feed/?mrss=off
     define_name Fania Jöck (fjoe)
