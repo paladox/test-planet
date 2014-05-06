@@ -1323,7 +1323,7 @@ feed 30m http://psychobrain.blogspot.com/rss.xml
 feed 30m http://en.blog.influx.kr/rss.xml
         define_name Joon-Kyu Park
 
-feed 30m http://randomguy3.wordpress.com/category/software/development/kde/feed/?mrss=off&category_name=software%2Fdevelopment%2Fkde
+feed 30m http://randomguy3.wordpress.com/tag/kde/feed/?mrss=off
         define_name Alex Merry
         define_face hackergotchi/randomguy3.png
         define_facewidth 80
