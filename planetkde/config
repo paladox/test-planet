@@ -1527,8 +1527,8 @@ feed 30m http://kate-editor.org/author/Erlend/feed/
         define_facewidth 80
         define_faceheight 82
 
-feed 30m http://www.freehackers.org/thomas/category/kde/feed/
-        define_name Thomas Capricelli (orzel)
+#feed 30m http://www.freehackers.org/thomas/category/kde/feed/
+#        define_name Thomas Capricelli (orzel)
 
 feed 30m http://vtokarev.wordpress.com/feed/?mrss=off
         define_name Vyacheslav Tokarev (vtokarev)
