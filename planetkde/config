@@ -4039,10 +4039,11 @@ feed 45m http://calincruceru.wordpress.com/feed/
 feed 45m http://n1kam.wordpress.com/feed/
         define_name Abhijeet Nikam (nikam08)
 
-
 feed 45m http://kdenlive.org/taxonomy/term/171/feed
         define_name Kdenlive team
         define_face hackergotchi/kdenlive.png
         define_facewidth 60
         define_faceheight 62
 
+feed 45m http://mrupanjana.wordpress.com/feed/
+        define_name Rupanjana Mitra (mrupanjana)
