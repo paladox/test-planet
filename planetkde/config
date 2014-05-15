@@ -4047,3 +4047,7 @@ feed 45m http://kdenlive.org/taxonomy/term/171/feed
 
 feed 45m http://mrupanjana.wordpress.com/feed/
         define_name Rupanjana Mitra (mrupanjana)
+
+feed 45m http://chakraos.org/news/index.php?/feeds/index.rss2
+        define_name Chakra OS
+        define_feedclass news
