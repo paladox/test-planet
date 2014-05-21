@@ -4051,3 +4051,7 @@ feed 45m http://mrupanjana.wordpress.com/feed/
 feed 45m http://chakraos.org/news/index.php?/feeds/index.rss2
         define_name Chakra OS
         define_feedclass news
+
+feed 45m http://ziemin.wordpress.com/feed/
+        define_name Marcin Zieminski
+        
