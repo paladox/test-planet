@@ -4054,4 +4054,9 @@ feed 45m http://chakraos.org/news/index.php?/feeds/index.rss2
 
 feed 45m http://ziemin.wordpress.com/feed/
         define_name Marcin Zieminski
-        
+
+feed 45m http://akulichalexandr.wordpress.com/feed/
+        define_name Alexandr Akulich
+        define_face hackergotchi/akulichalexandr.png
+        define_facewidth 47
+        define_faceheight 80
