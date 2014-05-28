@@ -4060,3 +4060,6 @@ feed 45m http://akulichalexandr.wordpress.com/feed/
         define_face hackergotchi/akulichalexandr.png
         define_facewidth 47
         define_faceheight 80
+
+feed 45m http://web2unu.ro/?feed=rss2&cat=3
+        define_name Floris-Andrei Stoica-Marcu
