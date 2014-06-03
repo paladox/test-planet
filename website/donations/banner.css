@@ -1,11 +1,11 @@
-#pledgie-banner {
+#donation-banner {
   width: 800px;
   height: 90px;
   background: url('banner.png');
   text-align: center;
   padding-top: 10px;
 }
-#pledgie-graph {
+#donation-graph {
   height: 12px;
   width: 480px;
   background: #fff;
@@ -15,7 +15,7 @@
   border: 1px solid #999;
   border-radius: 2px;
 }
-#pledgie-bar {
+#donation-bar {
   background: #999;
   height: 12px;
   width: 0;
@@ -32,17 +32,17 @@
   background-image: linear-gradient(top, #ccc, #999);
   background-repeat: no-repeat;
 }
-#pledgie-bar-txt {
+#donation-bar-txt {
   width: 480px;
   margin-left: auto;
   margin-right: auto;
   font-size: 0.95em;
   text-align: left;
 }
-#pledgie-goal {
+#donation-goal {
   float: right;
 }
-#pledgie-text {
+#donation-text {
   border-top: 1px solid #bbb;
   margin: 10px;
   margin-left: 7px;

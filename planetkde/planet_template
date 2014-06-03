@@ -19,7 +19,7 @@
 	#footer { padding: 10px 25px 0 25px; width: 750px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg-footer.png', sizingMethod='scale'); }
 	</style>
 	<![endif]-->
-    <script language="javascript"> 
+    <script language="javascript">
 
 //In Mozilla, WebKit(?) Coming in IE9, in HTML5
 if (document.addEventListener) {
@@ -59,7 +59,7 @@ function eraseCookie(name) {
         else {
                 ele.style.display = "block";
         }
-    } 
+    }
 
     function toggleaddme() {
         var ele = document.getElementById("addme");
@@ -69,7 +69,7 @@ function eraseCookie(name) {
         else {
                 ele.style.display = "block";
         }
-    } 
+    }
 
     function toggleconfig() {
         var ele = document.getElementById("config");
@@ -79,7 +79,7 @@ function eraseCookie(name) {
         else {
                 ele.style.display = "block";
         }
-    } 
+    }
 
     function togglemicroblog() {
         var ele = document.getElementById("twitterdiv");
@@ -91,7 +91,7 @@ function eraseCookie(name) {
                 ele.style.display = "block";
                 createCookie("twitter","block",360)
         }
-    } 
+    }
 
     function toggledot() {
         var ele = document.getElementsByClassName("dot");
@@ -104,7 +104,7 @@ function eraseCookie(name) {
                 ele[i].style.display = "block";
                 createCookie("dot","block",360)
         }
-    } 
+    }
 
     function togglefrench() {
         var ele = document.getElementsByClassName("french");
@@ -117,7 +117,7 @@ function eraseCookie(name) {
                 ele[i].style.display = "block";
                 createCookie("french","block",360)
         }
-    } 
+    }
 
     function togglespanish() {
         var ele = document.getElementsByClassName("spanish");
@@ -130,7 +130,7 @@ function eraseCookie(name) {
                 ele[i].style.display = "block";
                 createCookie("spanish","block",360)
         }
-    } 
+    }
 
     function togglepolish() {
         var ele = document.getElementsByClassName("polish");
@@ -143,7 +143,7 @@ function eraseCookie(name) {
                 ele[i].style.display = "block";
                 createCookie("polish","block",360)
         }
-    } 
+    }
 
     function toggleportuguese() {
         var ele = document.getElementsByClassName("portuguese");
@@ -156,7 +156,7 @@ function eraseCookie(name) {
                 ele[i].style.display = "block";
                 createCookie("portuguese","block",360)
         }
-    } 
+    }
 
     function toggleitalian() {
         var ele = document.getElementsByClassName("italian");
@@ -169,7 +169,7 @@ function eraseCookie(name) {
                 ele[i].style.display = "block";
                 createCookie("italian","block",360)
         }
-    } 
+    }
 
     function togglechinese() {
         var ele = document.getElementsByClassName("chinese");
@@ -182,7 +182,7 @@ function eraseCookie(name) {
                 ele[i].style.display = "block";
                 createCookie("chinese","block",360)
         }
-    } 
+    }
 
     function togglenews() {
         var ele = document.getElementsByClassName("news");
@@ -195,7 +195,7 @@ function eraseCookie(name) {
                 ele[i].style.display = "block";
                 createCookie("news","block",360)
         }
-    } 
+    }
 
     function toggleuser() {
         var ele = document.getElementsByClassName("user");
@@ -208,7 +208,7 @@ function eraseCookie(name) {
                 ele[i].style.display = "block";
                 createCookie("user","block",360)
         }
-    } 
+    }
 
     /*onLoad show microblog block if it was shown before*/
     function applyConfig() {
@@ -282,36 +282,34 @@ function eraseCookie(name) {
     }
     </script>
 
-    <!--pledgie-banner-->
-    <!-- <link rel="stylesheet" href="pledgie/banner.css" type="text/css" />
+    <!--donation-banner-->
+    <link rel="stylesheet" href="./donations/banner.css" type="text/css" />
     <script type="text/javascript" src="//cdn.kde.org/js/jquery.js"></script>
-    <script type="text/javascript" src="pledgie/banner.js"></script> -->
-    <!--/pledgie-banner-->
+    <script type="text/javascript" src="./donations/banner.js"></script>
+    <!--/donation-banner-->
 </head>
 
 
 <body onDOMContentLoaded="javascript:applyConfig();" onLoad="javascript:applyConfig();">
 
 <div id="page">
-    <!--pledgie-banner-->
-    <!--
-    <div id="pledgie-banner" data-campaign="18045">
-        <div id="pledgie-graph">
-            <div id="pledgie-bar"></div>
+    <!--donation-banner-->
+    <div id="donation-banner" data-campaign="18045">
+        <div id="donation-graph">
+            <div id="donation-bar"></div>
         </div>
-        <div id="pledgie-bar-txt">
-            <span id="pledgie-goal">
-                <span id="pledgie-goal-amt">10000.00 &#8364;</span>
+        <div id="donation-bar-txt">
+            <span id="donation-goal">
+                &#8364; 20000
             </span>
-            0.00 &#8364;
+            &#8364; <span id="donation-goal-amt">0.00</span>
         </div>
-        <div id="pledgie-text">
-            Thanks for donating and making Randa 2012 possible!
-            <a href="http://pledgie.com/campaigns/18045">Read more</a>.
+        <div id="donation-text">
+            Please donate what you can to help make the Randa Meetings 2014 possible.
+            <a href="http://www.kde.org/fundraisers/randameetings2014/">Read more</a>.
         </div>
     </div>
-    -->
-    <!--/pledgie-banner-->
+    <!--/donation-banner-->
 
 	<div id="headerright">
 	<div id="headerleft">
@@ -319,12 +317,12 @@ function eraseCookie(name) {
 	    <!-- <h1>The lives of the people behind KDE</h1> -->
 		<a href="http://kde.org" id="kdehome" title="Kde Homepage"></a>
 		<a href="http://planetkde.org" id="planetheader"><div width="185" height="45"></div><img src="images/planet-header-text.png" alt="Planet KDE" width="185" height="45" /></a>
-		
+
 		<div id="toplinks">
-			<a href="http://planetkde.org/rss20.xml">Planet RSS<img src="images/akregator.png" alt="" width="22" height="22" /></a> 
-			<a href="javascript:toggle();">People aggregated<img src="images/user-identity.png" alt="" width="22" height="22" /></a> 
-			<a href="javascript:toggleaddme();">Add your blog<img src="images/addrss.png" alt="" width="22" height="22" /></a> 
-			<a href="http://dot.kde.org/">KDE Dot News<img src="images/dot-news.png" alt="" width="22" height="22" /></a> 
+			<a href="http://planetkde.org/rss20.xml">Planet RSS<img src="images/akregator.png" alt="" width="22" height="22" /></a>
+			<a href="javascript:toggle();">People aggregated<img src="images/user-identity.png" alt="" width="22" height="22" /></a>
+			<a href="javascript:toggleaddme();">Add your blog<img src="images/addrss.png" alt="" width="22" height="22" /></a>
+			<a href="http://dot.kde.org/">KDE Dot News<img src="images/dot-news.png" alt="" width="22" height="22" /></a>
                         <a href="javascript:toggleconfig();">Configure<img src="images/dialog-ok.png" alt="" width="22" height="22" /></a>
 		</div> <!--toplinks-->
 	</div> <!--header-->
