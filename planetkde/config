@@ -4066,3 +4066,9 @@ feed 45m http://akulichalexandr.wordpress.com/feed/
 
 feed 45m http://web2unu.ro/?feed=rss2&cat=3
         define_name Floris-Andrei Stoica-Marcu
+
+feed 45m http://calligra-author-outliner.blogspot.ru/feeds/posts/default
+        define_name Denis Kuplyakov
+        define_face hackergotchi/denis-Kuplyakov.jpg
+        define_facewidth 64
+        define_faceheight 64
