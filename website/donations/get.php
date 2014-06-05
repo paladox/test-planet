@@ -8,6 +8,9 @@
 
 include("simple_html_dom.php");
 
+// Allow access from different domains
+header('Access-Control-Allow-Origin: *');
+
 // Get the campaign data
 $dom = new simple_html_dom();
 $dom->load_file("http://www.kde.org/fundraisers/randameetings2014/");
