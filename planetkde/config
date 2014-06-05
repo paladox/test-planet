@@ -4075,3 +4075,6 @@ feed 45m http://calligra-author-outliner.blogspot.ru/feeds/posts/default
 
 feed 45m http://kritawithmohit.wordpress.com/feed/
         define_name Mohit Goyal (mohit)
+
+feed 45m http://kbhaskar.in/tag/kde/feed/
+	define_name Bhaskar Kandiyal
