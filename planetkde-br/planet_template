@@ -71,8 +71,8 @@
     </script>
      <!--donation-banner--> 	 
      <link rel="stylesheet" href="http://planetkde.org/donations/banner.css" type="text/css" />
-     <script type="text/javascript" src="http://planetkde.org/donations/banner.js"></script>
      <script type="text/javascript" src="//cdn.kde.org/js/jquery.js"></script>
+     <script type="text/javascript" src="http://planetkde.org/donations/banner.js"></script>
      <!--/donation-banner--> 
 </head>
 <body onLoad="javascript:showTwitter();">
