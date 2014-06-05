@@ -4072,3 +4072,6 @@ feed 45m http://calligra-author-outliner.blogspot.ru/feeds/posts/default
         define_face hackergotchi/denis-Kuplyakov.jpg
         define_facewidth 64
         define_faceheight 64
+
+feed 45m http://kritawithmohit.wordpress.com/feed/
+        define_name Mohit Goyal (mohit)
