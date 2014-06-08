@@ -4099,3 +4099,6 @@ feed 45m http://nil1511.wordpress.com/feed/
 
 feed 45m http://disquisitiveavik.wordpress.com/category/kde/feed/
         define_name Avik Pal (avikpal)
+
+feed 45m http://alasin.github.io/atom.xml
+        define_name Anuj Pahuja (alasin)
