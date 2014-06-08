@@ -4087,3 +4087,6 @@ feed 45m http://gcompris.wordpress.com/category/KDE/feed/
 
 feed 45m http://harshimistry.wordpress.com/feed/
         define_name Harshita Mistry
+
+feed 45m http://blog.karanluthra.in/feeds/kde.atom.xml
+        define_name Karan Luthra (luthrak)
