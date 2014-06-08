@@ -4090,3 +4090,9 @@ feed 45m http://harshimistry.wordpress.com/feed/
 
 feed 45m http://blog.karanluthra.in/feeds/kde.atom.xml
         define_name Karan Luthra (luthrak)
+
+feed 45m http://nil1511.wordpress.com/feed/
+        define_name Nilesh Suthar (nil1511)
+        define_face hackergotchi/nil1511.jpg
+        define_facewidth 57
+        define_faceheight 80
