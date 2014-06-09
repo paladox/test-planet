@@ -4102,3 +4102,7 @@ feed 45m http://disquisitiveavik.wordpress.com/category/kde/feed/
 
 feed 45m http://alasin.github.io/atom.xml
         define_name Anuj Pahuja (alasin)
+
+feed 45m http://eddiesaenz.net/planetKDEposts.xml
+        define_name Simon at Facebook Open Academy
+        define_feedclass news
