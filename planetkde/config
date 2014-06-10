@@ -4109,3 +4109,6 @@ feed 45m http://eddiesaenz.net/planetKDEposts.xml
 
 feed 45m http://debjitmondal.blogspot.in/feeds/posts/default/-/kde
         define_name Debjit Mondal (debjit)
+
+feed 45m http://paalsteek.de/gsoc/atom.xml
+        define_name Stephan Platz (paalsteek)
