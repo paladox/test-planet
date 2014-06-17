@@ -4118,3 +4118,9 @@ feed 45m http://yangqiao.esy.es/feed/
         define_face hackergotchi/yang-qiao.jpg
         define_facewidth 70
         define_faceheight 80
+
+feed 45m http://aniketanvit.wordpress.com/tag/planetkde/feed/
+        define_name Aniket Anvit (packo)
+        define_face hackergotchi/packo.png
+        define_facewidth 67
+        define_faceheight 80
