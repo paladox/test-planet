@@ -4131,3 +4131,6 @@ feed 45m http://vedantgsoc.blogspot.com/feeds/posts/default
         define_facewidth 66
         define_faceheight 80
 
+feed 45m http://anditosan.com/blog/feed/
+        define_name Andres Betts (anditosan)
+
