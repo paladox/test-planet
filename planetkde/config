@@ -4113,12 +4113,6 @@ feed 45m http://debjitmondal.blogspot.in/feeds/posts/default/-/kde
 feed 45m http://paalsteek.de/gsoc/atom.xml
         define_name Stephan Platz (paalsteek)
 
-feed 45m http://yangqiao.esy.es/feed/
-        define_name Yang Qiao (yangqiao)
-        define_face hackergotchi/yang-qiao.jpg
-        define_facewidth 70
-        define_faceheight 80
-
 feed 45m http://aniketanvit.wordpress.com/tag/planetkde/feed/
         define_name Aniket Anvit (packo)
         define_face hackergotchi/packo.png
