@@ -4134,5 +4134,5 @@ feed 45m http://mohamedanwer.wordpress.com/tag/kde/feed/
         define_facewidth 53
         define_faceheight 80
 
-feed 45m http://kdeconnect.yangqiao.fr/?feed=rss2
+feed 45m feed://blog.yangqiao.fr/category/kdeconnect/feed/
         define_name YANG Qiao (yangqiao)
