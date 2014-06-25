@@ -4136,3 +4136,6 @@ feed 45m http://mohamedanwer.wordpress.com/tag/kde/feed/
 
 feed 45m http://blog.yangqiao.fr/category/kdeconnect/feed/
         define_name YANG Qiao (yangqiao)
+
+feed 45m http://codingyuga.blogspot.com/feeds/posts/default
+        define_name Vijay Dhameliya (vijay13)
