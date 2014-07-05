@@ -3194,7 +3194,7 @@ feed 30m http://the-user.org/category/planetkde/feed
 #        define_facewidth 80
 #        define_faceheight 80
 
-feed 30m http://www.calligra-suite.org/blogs/thorstenzachmann/feed/
+feed 30m https://www.calligra.org/blogs/thorstenzachmann/feed/
         define_name Thorsten Zachmann
 
 feed 30m http://ksmanis.wordpress.com/feed/?mrss=off&category_name=planet-kde
@@ -3595,7 +3595,7 @@ feed 30m http://www.kdab.com/category/kdab-on-qt/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://www.calligra.org/feed/
+feed 30m https://www.calligra.org/feed/
         define_name Calligra News
         define_feedclass news
         define_face hackergotchi/calligra.png
