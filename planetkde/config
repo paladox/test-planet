@@ -2725,7 +2725,7 @@ feed 30m http://saidinesh5.wordpress.com/tag/kde-planet/feed/?mrss=off&tag=kde-p
         define_facewidth 79
         define_faceheight 72
 
-feed 30m http://www.shantanutushar.com/taxonomy/term/12/feed
+feed 30m http://blog.shantanutushar.com/tag/kde/rss/
         define_name Shantanu Tushar (shantanu)
         define_face hackergotchi/shantanu.png
         define_facewidth 64
