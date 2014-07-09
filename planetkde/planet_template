@@ -281,36 +281,12 @@ function eraseCookie(name) {
 	};
     }
     </script>
-
-    <!--donation-banner-->
-    <link rel="stylesheet" href="./donations/banner.css" type="text/css" />
-    <script type="text/javascript" src="//cdn.kde.org/js/jquery.js"></script>
-    <script type="text/javascript" src="./donations/banner.js"></script>
-    <!--/donation-banner-->
 </head>
 
 
 <body onDOMContentLoaded="javascript:applyConfig();" onLoad="javascript:applyConfig();">
 
 <div id="page">
-    <!--donation-banner-->
-    <div id="donation-banner" data-campaign="18045">
-        <div id="donation-graph">
-            <div id="donation-bar"></div>
-        </div>
-        <div id="donation-bar-txt">
-            <span id="donation-goal">
-                &#8364; 20000
-            </span>
-            &#8364; <span id="donation-goal-amt">0.00</span>
-        </div>
-        <div id="donation-text">
-            Please donate what you can to help make the Randa Meetings 2014 possible.
-            <a href="http://www.kde.org/fundraisers/randameetings2014/">Read more</a>.
-        </div>
-    </div>
-    <!--/donation-banner-->
-
 	<div id="headerright">
 	<div id="headerleft">
 	<div id="header">

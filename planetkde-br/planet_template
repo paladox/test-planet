@@ -69,31 +69,10 @@
         }
     }
     </script>
-     <!--donation-banner--> 	 
-     <link rel="stylesheet" href="http://planetkde.org/donations/banner.css" type="text/css" />
-     <script type="text/javascript" src="//cdn.kde.org/js/jquery.js"></script>
-     <script type="text/javascript" src="http://planetkde.org/donations/banner.js"></script>
-     <!--/donation-banner--> 
 </head>
 <body onLoad="javascript:showTwitter();">
 
 <div id="page">
-	 <!--donation-banner--> 	
-	 <div id="donation-banner" data-campaign="18045">
-	     <div id="donation-graph">
-	         <div id="donation-bar"></div>
-	     </div>
-	     <div id="donation-bar-txt">
-                 <span id="donation-goal">
-		     &#8364; 20000
-		 </span>
-		 &#8364; <span id="donation-goal-amt">0.00</span>
-	     </div>
-	     <div id="donation-text">
-	         Faça sua doação para tornar o Randa Meeting 2014 possível - <a href="http://www.kde.org/fundraisers/randameetings2014/">Página de doações</a> | <a href="http://br.kde.org/node/263">Informações em português</a>.
-	     </div>
-        </div>
-        <!--/donation-banner-->
         <div id="headerright">
 	<div id="headerleft">
 	<div id="header">
