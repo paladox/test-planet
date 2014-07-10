@@ -4139,3 +4139,9 @@ feed 45m http://blog.yangqiao.fr/category/kdeconnect/feed/
 
 feed 45m http://codingyuga.blogspot.com/feeds/posts/default
         define_name Vijay Dhameliya (vijay13)
+
+feed 45m https://stikonas.eu/wordpress/?feed=rss2&tag=kde
+        define_name Andrius Štikonas
+        define_face hackergotchi/stikonas.png
+        define_facewidth 67
+        define_faceheight 80
