@@ -2415,55 +2415,55 @@ feed 30m http://thezeroth.net/blog/category/kde/feed/
 ###############################################################
 # digiKam team entries.
 
-feed 30m http://www.digikam.org/?q=blog/3/feed
+feed 30m https://www.digikam.org/?q=blog/3/feed
         define_name Gilles Caulier (cgilles)
         define_face hackergotchi/cgilles.png
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://www.digikam.org/?q=blog/135/feed
+feed 30m https://www.digikam.org/?q=blog/135/feed
         define_name Andi Clemens (aclemens)
         define_face hackergotchi/aclemens.png
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://www.digikam.org/?q=blog/143/feed
+feed 30m https://www.digikam.org/?q=blog/143/feed
         define_name Johannes Wienke (languitar)
         define_face hackergotchi/languitar.png
         define_facewidth 65
         define_faceheight 80
 
-feed 30m http://www.digikam.org/?q=blog/8/feed
+feed 30m https://www.digikam.org/?q=blog/8/feed
         define_name Marcel Wiesweg (mwiesweg)
         define_face hackergotchi/mwiesweg.png
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://www.digikam.org/?q=blog/154/feed
+feed 30m https://www.digikam.org/?q=blog/154/feed
         define_name Francesco Riosa (riosa)
         define_face hackergotchi/riosa.png
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://www.digikam.org/?q=blog/135/feed
+feed 30m https://www.digikam.org/?q=blog/135/feed
         define_name Andi Clemens (aclemens)
         define_face hackergotchi/aclemens.png
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://www.digikam.org/?q=blog/141/feed
+feed 30m https://www.digikam.org/?q=blog/141/feed
         define_name Julien Narboux (jnarboux)
         define_face hackergotchi/jnarboux.png
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://www.digikam.org/?q=blog/142/feed
+feed 30m https://www.digikam.org/?q=blog/142/feed
         define_name Nicolas Lecureuil (nlecureuil)
         define_face hackergotchi/nlecureuil.png
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://www.digikam.org/?q=blog/11/feed
+feed 30m https://www.digikam.org/?q=blog/11/feed
         define_name Gerhard Kulzer (gkulzer)
         define_face hackergotchi/gkulzer.png
         define_facewidth 80
@@ -2475,13 +2475,13 @@ feed 30m http://www.digikam.org/?q=blog/11/feed
 #        define_facewidth 80
 #        define_faceheight 80
 
-feed 30m http://www.digikam.org/?q=blog/134/feed
+feed 30m https://www.digikam.org/?q=blog/134/feed
         define_name Risto Saukonpaa (fri13)
         define_face hackergotchi/fri13.png
         define_facewidth 50
         define_faceheight 50
 
-feed 30m http://www.digikam.org/blog/130/feed
+feed 30m https://www.digikam.org/blog/130/feed
         define_name Angelo Naselli (anaselli)
         define_face hackergotchi/anaselli.png
         define_facewidth 59
@@ -2493,7 +2493,7 @@ feed 30m http://www.digikam.org/blog/130/feed
 #        define_facewidth 74
 #        define_faceheight 80
 
-feed 30m http://www.digikam.org/blog/145/feed
+feed 30m https://www.digikam.org/blog/145/feed
         define_name Jens Muller (jmueller)
         define_face hackergotchi/jmueller.png
         define_facewidth 53
@@ -2502,7 +2502,7 @@ feed 30m http://www.digikam.org/blog/145/feed
 #feed 30m http://www.digikam.org/blog/138/feed
 #        define_name Mikolaj Machowski (mikmach)
 
-feed 30m http://www.digikam.org/blog/147/feed
+feed 30m https://www.digikam.org/blog/147/feed
         define_name Frederic Coiffier (fcoiffier)
 
 #feed 30m http://www.digikam.org/blog/146/feed
@@ -2511,19 +2511,19 @@ feed 30m http://www.digikam.org/blog/147/feed
 #        define_facewidth 60
 #        define_faceheight 80
 
-feed 30m http://www.digikam.org/blog/152/feed
+feed 30m https://www.digikam.org/blog/152/feed
         define_name Mohamed Malik
         define_face hackergotchi/mohamedmalik.png
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://www.digikam.org/blog/144/feed
+feed 30m https://www.digikam.org/blog/144/feed
         define_name Dimitri Popov
         define_face hackergotchi/dmitripopov.png
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://www.digikam.org/blog/148/feed
+feed 30m https://www.digikam.org/blog/148/feed
         define_name Holger Foerster (foerster)
         define_face hackergotchi/foerster.png
         define_facewidth 48
@@ -2534,7 +2534,7 @@ feed 30m http://www.digikam.org/blog/148/feed
 
 # digiKam GSoC 2010 contributors
 
-feed 30m http://www.digikam.org/blog/149/feed
+feed 30m https://www.digikam.org/blog/149/feed
         define_name Martin Klapetek (mck182)
         define_face hackergotchi/mck182.png
         define_facewidth 69
@@ -2546,7 +2546,7 @@ feed 30m http://aditya.bhatts.org/tag/kde-planet/feed/?mrss=off&tag=kde-planet
         define_facewidth 80
         define_faceheight 104
 
-feed 30m http://www.digikam.org/blog/150/feed
+feed 30m https://www.digikam.org/blog/150/feed
         define_name Gabriel Voicu (gvoicu)
         define_face hackergotchi/gvoicu.png
         define_facewidth 65
