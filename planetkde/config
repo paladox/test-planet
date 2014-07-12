@@ -3641,7 +3641,7 @@ feed 30m http://blogs.deusto.es/gsoc-deustotech/feed/
         define_faceheight 80
 
 feed 30m http://kokeroulis.wordpress.com/tag/planetkde/feed/
-        define_name Antonis Tsiapaliokas (tsiapaliokas)
+        define_name Antonis Tsiapaliokas (kokeroulis)
 
 feed 30m http://jsimon3.wordpress.com/category/kde/feed/
         define_name Joseph Simon (jsimon3)
