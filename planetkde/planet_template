@@ -338,17 +338,13 @@ function eraseCookie(name) {
           If you have a feed which falls into these categories (or another
           non-English language) please file a bug as below.</p>
 
-          <p>To have your blog
-          added <a href="http://bugs.kde.org/enter_bug.cgi?product=planet%20kde">file
-          a bug in Bugzilla</a> listing your name, svn account (if you
-          have one), IRC nick (if you have one), RSS or Atom feed and
-          what you do in KDE.  Attach a photo of your face for hackergotchi.</p>
-
-          <p>Alternatively, Planet KDE is kept in KDE's SVN.  If you
-          have an account you can add or edit your own feed:</p>
+          <p>Planet KDE is kept
+          in <a href="https://projects.kde.org/projects/websites/planet-kde-org">KDE's
+          Git</a>.  If you have an account you can add or edit your
+          own feed:</p>
 
             <ul>
-              <li><em>svn checkout svn+ssh://svn@svn.kde.org/home/kde/trunk/www/sites/planet/</em></li>
+              <li><em>git clone kde:websites/planet-kde-org</em></li>
 
               <li>Put your hackergotchi
               in <em>website/hackergotchi/</em>.  A hackergotchi
@@ -364,7 +360,7 @@ feed 45m http://path.to/my/feed.rss
         define_faceheight 80
 </div>
 
-             <li><em>svn commit</em></li>
+             <li><em>git commit -a; git push</em></li>
           </ul>
 
        <p>If you want to add a Twitter microblog to the Microblogging
@@ -372,6 +368,11 @@ feed 45m http://path.to/my/feed.rss
        with [twitter].  Currently only Twitter is known to work,
        please contact Jonathan Riddell before adding non-Twitter
        microblogs to check it works.</p>
+
+          <p>If you do not have a Git account, <a href="http://bugs.kde.org/enter_bug.cgi?product=planet%20kde">file
+          a bug in Bugzilla</a> listing your name, Git account (if you
+          have one), IRC nick (if you have one), RSS or Atom feed and
+          what you do in KDE.  Attach a photo of your face for hackergotchi.</p>
 
 <h3>Blog Classes</h3>
 
