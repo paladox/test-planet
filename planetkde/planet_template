@@ -349,7 +349,7 @@ function eraseCookie(name) {
               <li>Put your hackergotchi
               in <em>website/hackergotchi/</em>.  A hackergotchi
               should be a photo of your face smaller than 80x80 pixels
-              with a transparent background. <em>svn add</em> the file.</li>
+              with a transparent background. <em>git add</em> the file.</li>
 
               <li>At the end of the <em>planetkde/config</em> file add your details (the name in brackets is your IRC nick):</li>
                  <div id="addmebox">
