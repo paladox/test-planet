@@ -4146,3 +4146,7 @@ feed 45m https://stikonas.eu/wordpress/?feed=rss2&tag=kde
         define_face hackergotchi/stikonas.png
         define_facewidth 67
         define_faceheight 80
+
+feed 45m https://mageia.nicolaslecureuil.fr/category/kde-en/feed/
+        define_name Nicolas Lécureuil (neoclust)
+
