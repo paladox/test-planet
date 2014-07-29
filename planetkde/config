@@ -4052,7 +4052,7 @@ feed 45m http://kdenlive.org/taxonomy/term/171/feed
 feed 45m http://mrupanjana.wordpress.com/feed/
         define_name Rupanjana Mitra (mrupanjana)
 
-feed 45m http://chakraos.org/news/index.php?/feeds/index.rss2
+feed 45m http://chakraos.org/news/index.php?/categories/1-KDE
         define_name Chakra OS
         define_feedclass news
 
@@ -4146,4 +4146,3 @@ feed 45m https://stikonas.eu/wordpress/?feed=rss2&tag=kde
         define_face hackergotchi/stikonas.png
         define_facewidth 67
         define_faceheight 80
-
