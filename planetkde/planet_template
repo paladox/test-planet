@@ -300,7 +300,7 @@ function eraseCookie(name) {
 			<a href="javascript:toggleaddme();">Add your blog<img src="images/addrss.png" alt="" width="22" height="22" /></a>
 			<a href="http://dot.kde.org/">KDE Dot News<img src="images/dot-news.png" alt="" width="22" height="22" /></a>
                         <a href="javascript:toggleconfig();">Configure<img src="images/dialog-ok.png" alt="" width="22" height="22" /></a>
-                        <a href="http://www.kde.org/community/donations/"><img src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" alt="" width="81" height="22" /></a>
+                        <a href="http://www.kde.org/community/donations/"><img src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate" width="81" height="22" /></a>
 		</div> <!--toplinks-->
 	</div> <!--header-->
 	</div> <!--headerleft-->
