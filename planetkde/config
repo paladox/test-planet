@@ -2369,8 +2369,9 @@ feed 30m http://liveblue.wordpress.com/category/planetkde-vinicius/feed/?mrss=of
 #feed 30m http://jmho4.wordpress.com/category/kde/feed/?mrss=off
 #        define_name Jens-Michael Hoffmann (jmho)
 
-feed 30m http://buschinski.de/category/kde/feed/
-        define_name Bernd Buschinski (buscher)
+# Timeout
+#feed 30m http://buschinski.de/category/kde/feed/
+#        define_name Bernd Buschinski (buscher)
 
 #feed 30m http://en.peremen.name/atom
 #	define_name Park Shinjo (peremen)
@@ -4054,9 +4055,10 @@ feed 45m http://kdenlive.org/taxonomy/term/171/feed
 feed 45m http://mrupanjana.wordpress.com/feed/
         define_name Rupanjana Mitra (mrupanjana)
 
-feed 45m http://chakraos.org/news/index.php?/categories/1-KDE
-        define_name Chakra OS
-        define_feedclass news
+# Timeout
+#feed 45m http://chakraos.org/news/index.php?/categories/1-KDE
+#        define_name Chakra OS
+#        define_feedclass news
 
 feed 45m http://ziemin.wordpress.com/feed/
         define_name Marcin Zieminski
