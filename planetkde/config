@@ -4156,3 +4156,9 @@ feed 45m http://oproj.tuxfamily.org/feed.kde.xml
         define_face hackergotchi/lucashn.png
         define_facewidth 80
         define_faceheight 80
+
+feed 45m http://www.olafsw.de/category/software/feed/
+        define_name Olaf Schmidt-Wischhöfer (ojschmidt)
+        define_face hackergotchi/ojschmidt.png
+        define_facewidth 59
+        define_faceheight 80
