@@ -2704,14 +2704,16 @@ feed 30m http://www.codepreneur.org/feeds/posts/default/-/kde
         define_faceheight 113
 	define_microblog true ArnaudDupuis
 
-feed 30m http://blog.andreascarpino.it/rss/
-        define_name Andrea Scarpino (ilpianista)
+# 502 service unavailable
+#feed 30m http://blog.andreascarpino.it/rss/
+#        define_name Andrea Scarpino (ilpianista)
 
-feed 30m http://vhanda.in/blog/rss/
-        define_name Vishesh Handa (vhanda)
-        define_face hackergotchi/vhanda.png
-        define_facewidth 80
-        define_faceheight 80
+# 502 service unavailable
+#feed 30m http://vhanda.in/blog/rss/
+#        define_name Vishesh Handa (vhanda)
+#        define_face hackergotchi/vhanda.png
+#        define_facewidth 80
+#        define_faceheight 80
 
 feed 30m http://ronnyml.wordpress.com/category/planet-kde/feed/?mrss=off&category_name=planet-kde
         define_name Ronny Yabar (ronnyml)
