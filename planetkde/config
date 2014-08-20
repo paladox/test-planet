@@ -2949,7 +2949,7 @@ feed 30m https://dot.kde.org/rss.xml
 #        define_name KOffice News
 #        define_feedclass news
 
-feed 30m https://krita.org/feed
+feed 30m https://krita.org/feed/
         define_name Krita News
         define_feedclass news
         define_face hackergotchi/krita.png
