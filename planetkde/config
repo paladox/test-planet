@@ -2705,9 +2705,8 @@ feed 30m http://www.codepreneur.org/feeds/posts/default/-/kde
         define_faceheight 113
 	define_microblog true ArnaudDupuis
 
-# 502 service unavailable
-#feed 30m http://blog.andreascarpino.it/rss/
-#        define_name Andrea Scarpino (ilpianista)
+feed 30m http://blog.andreascarpino.it/rss/
+        define_name Andrea Scarpino (ilpianista)
 
 feed 30m http://vhanda.in/blog/rss/
         define_name Vishesh Handa (vhanda)
