@@ -440,7 +440,7 @@ feed 30m http://tokoe-kde.blogspot.com/rss.xml
 feed 30m http://zrusin.blogspot.com/rss.xml
         define_name Zack Rusin (zrusin)
 
-feed 30m https://blogs.kde.org/blog/74/feed
+feed 30m http://www.heliocastro.info/?cat=17&feed=rss2
         define_name Helio Castro (heliocastro)
 
 feed 30m https://blogs.kde.org/blog/70/feed
