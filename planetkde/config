@@ -7,16 +7,17 @@
 #not liable to offend. If you have a general blog you may want to set
 #up a tag and subscribe the feed for that tag only to Planet KDE.
 
-#To have your blog added file a bug in Bugzilla listing your name, svn
+#To have your blog added file a bug in Bugzilla listing your name, KDE Identity
 #account (if you have one), IRC nick (if you have one), RSS or Atom
 #feed and what you do in KDE. Attach a photo of your face for
 #hackergotchi.
 
-#Alternatively, Planet KDE is kept in KDE's SVN. If you have an
+#Alternatively, Planet KDE is kept in KDE's GIT. If you have an
 #account you can add or edit your own feed:
 
-#svn checkout svn+ssh://svn@svn.kde.org/home/kde/trunk/www/sites/planet/
-#Put your hackergotchi in website/hackergotchi/. A hackergotchi should be a photo of your face smaller than 80x80 pixels with a transparent background. svn add the file.
+#git clone git@git.kde.org:websites/planet-kde-org
+#Put your hackergotchi in planetkde/website/hackergotchi/. A hackergotchi should be a photo of
+#your face smaller than 80x80 pixels with a transparent background. git add the file.
 #At the end of the planetkde/config file add your details (the name in brackets is your IRC nick):
 
 #feed 45m http://path.to/my/feed.rss
@@ -24,8 +25,6 @@
 #        define_face hackergotchi/konqi.png
 #        define_facewidth 80
 #        define_faceheight 80
-
-#svn commit
 
 #If you want to add a Twitter microblog to the Microblogging sidebar
 #add define_microblog true and follow your name with
