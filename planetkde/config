@@ -4167,3 +4167,9 @@ feed 45m http://techfree.com.br/category/softwarelivre/kde-en/
         define_facewidth 80
         define_faceheight 80
 
+feed 45m http://plfiorini.blogspot.com/feeds/posts/default/-/kde
+        define_name Pier Luigi Fiorini (plfiorini)
+        define_face hackergotchi/plfiorini.jpg
+        define_facewidth 80
+        define_faceheight 80
+
