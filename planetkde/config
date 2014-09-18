@@ -2987,11 +2987,12 @@ feed 15m http://tsdgeos-es.blogspot.com/atom.xml
         define_faceheight 80
         define_feedclass spanish
 
-feed 15m http://andy-coder.blogspot.com/feeds/posts/default/-/amarok
-	define_name Andy Coder
-        define_face hackergotchi/andy-coder.jpg
-        define_facewidth 80
-        define_faceheight 102
+# 410 Gone
+#feed 15m http://andy-coder.blogspot.com/feeds/posts/default/-/amarok
+#	define_name Andy Coder
+#        define_face hackergotchi/andy-coder.jpg
+#        define_facewidth 80
+#        define_faceheight 102
 
 feed 30m http://www.kubuntu.org/news/rss-feed
         define_name Kubuntu News
