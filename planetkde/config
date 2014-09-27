@@ -895,7 +895,7 @@ feed 15m http://fredrikh.blogspot.com/atom.xml
 
 feed 15m http://blog.cberger.net/category/open-source/feed/?mrss=off
         define_name Cyrille Berger
-	define_face hackergotchi/cberger.png
+        define_face hackergotchi/cberger.png
         define_facewidth 80
         define_faceheight 80
 
@@ -934,9 +934,9 @@ feed 15m https://blogs.kde.org/blog/1813/feed
 
 feed 15m http://creative-destruction.me/category/kde/feed/
         define_name Mirko Boehm
-	define_face hackergotchi/mirkoboehm.jpg
-	define_facewidth 96
-	define_faceheight 72
+        define_face hackergotchi/mirkoboehm.jpg
+        define_facewidth 96
+        define_faceheight 72
 
 feed 15m https://blogs.kde.org/blog/326/feed
         define_name David Faure (dfaure)
@@ -1000,10 +1000,10 @@ feed 15m http://kemistry-desktop.blogspot.com/atom.xml
 #        define_name Andreas Kling (kling)
 
 feed 15m http://gis-blog.leonde.de/index.php/category/kde/feed/
-	define_name Carsten Pfeiffer (gis)
-	define_face hackergotchi/pfeiffer.png
-	define_facewidth 64
-	define_faceheight 80
+        define_name Carsten Pfeiffer (gis)
+        define_face hackergotchi/pfeiffer.png
+        define_facewidth 64
+        define_faceheight 80
 
 feed 15m http://blog.bisect.de/atom.xml
         define_name Danny Kukawka
@@ -1355,7 +1355,7 @@ feed 15m http://blog.lydiapintscher.de/category/PlanetKDE/feed/
 #        define_microblog true
 
 feed 15m http://feeds.feedburner.com/slashrosha/en/kde
-	define_name Roozbeh Shafiee
+        define_name Roozbeh Shafiee
         define_face hackergotchi/roozbeh.jpeg
         define_facewidth 96
         define_faceheight 96
@@ -1479,7 +1479,7 @@ feed 15m http://paul-pach.blogspot.com/rss.xml
 
 feed 15m http://blauzahl.livejournal.com/data/rss?tag=kde
         define_name A. L. Spehr (blauzahl)
-	define_face hackergotchi/zahl.png
+        define_face hackergotchi/zahl.png
         define_facewidth 58
         define_faceheight 80
 
@@ -1990,14 +1990,14 @@ feed 15m http://liveblue.wordpress.com/category/planetkde-sandroandrade/feed/?mr
 
 feed 15m http://mahfuz062.wordpress.com/feed/?mrss=off
         define_name Mahfuz062
-	define_face hackergotchi/mahfuz.png
+        define_face hackergotchi/mahfuz.png
         define_facewidth 80 define_faceheight 80
 
 feed 15m http://gkiagia.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
         define_name George Kiagiadakis (gkiagia)
 
 feed 15m https://blogs.kde.org/blog/6843/feed
-	define_name Bastian Holst (bholst)
+        define_name Bastian Holst (bholst)
 
 #feed 15m http://www.chimera-bellerofonte.eu/tag/planetkde/feed/
 #        define_name Alessandro Sivieri (Siv)
@@ -2023,33 +2023,33 @@ feed 15m http://praksh.wordpress.com/category/kde/gsoc/feed/?mrss=off&category_n
 
 feed 15m http://sreich.blogspot.com/rss.xml
         define_name Shaun Reich (sreich)
-	define_face hackergotchi/sreich.png
-	define_facewidth 80
-	define_faceheight 113
+        define_face hackergotchi/sreich.png
+        define_facewidth 80
+        define_faceheight 113
 
 feed 15m http://skrooge.org/blogs/gdebure/rss.xml
-	define_name Guillaume DE BURE (gdebure)
-	define_face hackergotchi/gdebure.png
-	define_facewidth 80
-	define_faceheight 80
+        define_name Guillaume DE BURE (gdebure)
+        define_face hackergotchi/gdebure.png
+        define_facewidth 80
+        define_faceheight 80
 
 #feed 15m http://www.thekidder.com/tag/kde/feed/
 #	define_name Adam Kidder (thekidder)
 
 feed 15m http://algebraicallyclosed.blogspot.com/feeds/posts/default
-	define_name Jeremias Epperlein
+        define_name Jeremias Epperlein
 
 feed 15m http://soliverez.com.ar/home/tag/planet-kde/feed/
-	define_name Alvaro Soliverez (Hei_Ku)
-	define_face hackergotchi/asoliverez.png
-	define_facewidth 80
-	define_faceheight 80
+        define_name Alvaro Soliverez (Hei_Ku)
+        define_face hackergotchi/asoliverez.png
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m http://rubots.blogspot.com/atom.xml
-	define_name Jordi Polo (jordl)
-	define_face hackergotchi/jordipolo.png
-	define_facewidth 60
-	define_faceheight 80
+        define_name Jordi Polo (jordl)
+        define_face hackergotchi/jordipolo.png
+        define_facewidth 60
+        define_faceheight 80
 
 # host not found, toma, kdesysadmin, aug 12th 2010
 #feed 15m http://intellilinux.info/taxonomy/term/49/0/feed
@@ -2059,10 +2059,10 @@ feed 15m http://rubots.blogspot.com/atom.xml
 #	define_faceheight 80
 
 feed 15m http://martinsandsmark.wordpress.com/feed/?mrss=off
-	define_name Martin Sandsmark (sandsmark)
-	define_face hackergotchi/sandsmark.png
-	define_facewidth 63
-	define_faceheight 80
+        define_name Martin Sandsmark (sandsmark)
+        define_face hackergotchi/sandsmark.png
+        define_facewidth 63
+        define_faceheight 80
 
 #feed 15m http://forum.kde.org/staffblog/syndication.php?fid=100
 #	define_name KDE Forum Staff (forum.kde.org)
@@ -2078,14 +2078,14 @@ feed 15m http://martinsandsmark.wordpress.com/feed/?mrss=off
 #	define_faceheight 80
 
 feed 15m http://thomasmcguire.wordpress.com/feed/?mrss=off
-	define_name Thomas McGuire
+        define_name Thomas McGuire
 
 #feed 15m http://identi.ca/tmcguire/rss
 #        define_name Thomas McGuire [identi.ca]
 #        define_microblog true
 
 feed 15m http://dimula73.blogspot.com/feeds/posts/default/-/KDE
-	define_name Dmitry Kazakov (dmitryK)
+        define_name Dmitry Kazakov (dmitryK)
 
 #timeout
 #feed 15m http://stalcups.com/blog/?feed=rss2
@@ -2095,7 +2095,7 @@ feed 15m http://dimula73.blogspot.com/feeds/posts/default/-/KDE
 #	define_facewidth 80
 
 feed 15m http://zekecoma.blogspot.com/feeds/posts/default/-/kde
-	define_name Keith Rusler (comawhite)
+        define_name Keith Rusler (comawhite)
 
 #410
 #feed 15m http://andreasdevblog.wordpress.com/feed/?mrss=off
@@ -2112,10 +2112,10 @@ feed 15m http://zekecoma.blogspot.com/feeds/posts/default/-/kde
 #	define_faceheight 80
 
 feed 15m http://realate.blogspot.com/feeds/posts/default
-	define_name Andrew Manson ( mansona aka real_ate )
-	define_face hackergotchi/mansona.png
-	define_facewidth 80
-	define_faceheight 83
+        define_name Andrew Manson ( mansona aka real_ate )
+        define_face hackergotchi/mansona.png
+        define_facewidth 80
+        define_faceheight 83
 
 #feed 15m http://www.jorge-mata.com/get_feeds.php?tag=kde
 #        define_name Jorge Mata (mata)
@@ -2130,75 +2130,75 @@ feed 15m http://www.arnorehn.de/blog/feed/
         define_name Arno Rehn (pumphaus)
 
 feed 15m https://blogs.kde.org/blog/7020/feed
-	define_name Ramon Zarazua (_killerfox_)
+        define_name Ramon Zarazua (_killerfox_)
 
 feed 15m http://blog.hanschen.org/category/planetkde/feed/?mrss=off&category_name=planetkde
-	define_name Hans Chen (Mogger)
+        define_name Hans Chen (Mogger)
 
 feed 15m http://www.enricoros.com/blog/tag/planetkde/feed/
-	define_name Enrico Ros
-	define_face hackergotchi/eros.png
-	define_facewidth 80
-	define_faceheight 80
+        define_name Enrico Ros
+        define_face hackergotchi/eros.png
+        define_facewidth 80
+        define_faceheight 80
 
 #feed 15m http://blog.daniel-laidig.de/category/planetkde/feed/
 #	define_name Daniel Laidig (dani_l)
 
 feed 15m http://blog.nikhilism.com/feeds/posts/default/-/kde
-	define_name Nikhil Marathe (nsm)
+        define_name Nikhil Marathe (nsm)
 
 feed 15m http://thinkmoult.com/tag/planetkde/feed/
-	define_name Dion Moult (Moult)
+        define_name Dion Moult (Moult)
 
 feed 15m http://ascending.wordpress.com/feed/?mrss=off&tag=planetkde
-	define_name Constantin Berzan (exit)
+        define_name Constantin Berzan (exit)
 
 feed 15m http://blog.cryptomilk.org/category/kde/feed/
-	define_name Andreas Schneider (gladiac)
-	define_face hackergotchi/anschneider.png
-	define_facewidth 80
-	define_faceheight 80
+        define_name Andreas Schneider (gladiac)
+        define_face hackergotchi/anschneider.png
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m http://momeny.wordpress.com/category/planetkde/feed/?mrss=off&category_name=planetkde
-	define_name Mehrdad Momeny (mtux)
-	define_face hackergotchi/momeny.png
-	define_facewidth 68
-	define_faceheight 80
+        define_name Mehrdad Momeny (mtux)
+        define_face hackergotchi/momeny.png
+        define_facewidth 68
+        define_faceheight 80
 
 feed 15m http://blogs.fsfe.org/mario/?feed=rss2&tag=kde
-	define_name Mario Fux (unormal)
+        define_name Mario Fux (unormal)
 
 feed 15m http://blog.rburchell.com/feeds/posts/default/-/kde?alt=rss
-	define_name Robin Burchell (w00t)
+        define_name Robin Burchell (w00t)
 
 #feed 15m http://identi.ca/w00t/rss
 #	define_name Robin Burchell [identi.ca]
 #	define_microblog true
 
 feed 15m http://hobbyblobby.wordpress.com/category/planet/feed/?mrss=off&category_name=planet
-	define_name Felix Lemke (HobbyBlobby)
+        define_name Felix Lemke (HobbyBlobby)
 
 feed 15m http://feeds.feedburner.com/homelinux/kde
-	define_name Sascha Manns (saigkill)
-	define_face hackergotchi/sascha-manns.png
-	define_facewidth 64
-	define_faceheight 105
+        define_name Sascha Manns (saigkill)
+        define_face hackergotchi/sascha-manns.png
+        define_facewidth 64
+        define_faceheight 105
 
 # NXDOMAIN
 #feed 15m http://blog.ricodigo.com/authors/Patrick/foss.atom
 #        define_name Patrick Aljord (patcito)
 
 feed 15m http://zajec.net/blog/atom/kde
-	define_name Rafał Miłecki (Zajec)
-	define_face hackergotchi/zajec.png
-	define_facewidth 77
-	define_faceheight 80
+        define_name Rafał Miłecki (Zajec)
+        define_face hackergotchi/zajec.png
+        define_facewidth 77
+        define_faceheight 80
 
 feed 15m https://blogs.kde.org/blog/7193/feed
-	define_name Tony Murray (murrant)
-	define_face hackergotchi/murrant.png
-	define_facewidth 80
-	define_faceheight 80
+        define_name Tony Murray (murrant)
+        define_face hackergotchi/murrant.png
+        define_facewidth 80
+        define_faceheight 80
 
 # 401
 #feed 15m http://hskott.blogspot.com/feeds/posts/default
@@ -2208,13 +2208,13 @@ feed 15m https://blogs.kde.org/blog/7193/feed
 #	define_faceheight 80
 
 feed 15m http://savago.wordpress.com/feed/?mrss=off
-	define_name Adenilson Cavalcanti (Savago)
-	define_face hackergotchi/adenilson-cavalcanti.png
-	define_facewidth 80
-	define_faceheight 80
+        define_name Adenilson Cavalcanti (Savago)
+        define_face hackergotchi/adenilson-cavalcanti.png
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m http://rix.si/planetkde.xml
-	define_name Ryan Rix (rrix)
+        define_name Ryan Rix (rrix)
         define_face http://rix.si/files/ryan_headshot_small.jpg
         define_facewidth 80
         define_facewidth 80
@@ -2260,10 +2260,10 @@ feed 15m http://dantti.wordpress.com/feed/?mrss=off
         define_faceheight 96
 
 feed 15m http://www.asinen.org/feed/
-	define_name Stuart Jarvis
-	define_face hackergotchi/stuart-jarvis.png
-	define_facewidth 67
-	define_faceheight 80
+        define_name Stuart Jarvis
+        define_face hackergotchi/stuart-jarvis.png
+        define_facewidth 67
+        define_faceheight 80
 
 feed 15m http://arieder.wordpress.com/feed/?mrss=off
 	define_name Alexander Rieder (arieder)
@@ -2272,10 +2272,10 @@ feed 15m http://arieder.wordpress.com/feed/?mrss=off
 #    define_name Arjen Hiemstra (ahiemstra)
 
 feed 15m http://anselmolsm.org/blog/categories/kde/atom.xml
-	define_name Anselmo L. S. Melo (anselmolsm)
+        define_name Anselmo L. S. Melo (anselmolsm)
 
 feed 15m http://monkeyiq.blogspot.com/feeds/posts/default/-/kde
-	define_name Ben Martin (monkeyiq)
+        define_name Ben Martin (monkeyiq)
 
 feed 15m http://vonami.wordpress.com/feed/?mrss=off
         define_name Dmitry Ivanov (vonami)
@@ -2304,7 +2304,7 @@ feed 15m http://feeds.feedburner.com/ThisWeekInKrita
         define_name Boudewijn Rempt's Krita blog
 
 feed 15m http://roideuniverse.blogspot.com/feeds/posts/default/-/kde
-	define_name Kaushik Saurabh (roide)
+        define_name Kaushik Saurabh (roide)
 
 feed 15m http://michalm.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
         define_name Michał Małek (mmalek)
@@ -2583,7 +2583,7 @@ feed 15m http://blogs.gentoo.org/tampakrap/category/planets/planet-kde/feed/
         define_faceheight 128
 
 feed 15m http://owncloudtest.blogspot.com/feeds/posts/default
-	define_name Aaron Reichman (areichman)
+        define_name Aaron Reichman (areichman)
 
 feed 15m http://liveblue.wordpress.com/category/vitor-planetkde/feed/?mrss=off&category_name=vitor-planetkde
         define_name Vitor Boschi (Klanticus)
@@ -2703,7 +2703,7 @@ feed 15m http://www.codepreneur.org/feeds/posts/default/-/kde
         define_face hackergotchi/arnaud-dupuis.jpg
         define_facewidth 80
         define_faceheight 113
-	define_microblog true ArnaudDupuis
+        define_microblog true ArnaudDupuis
 
 feed 15m http://blog.andreascarpino.it/rss/
         define_name Andrea Scarpino (ilpianista)
@@ -2796,10 +2796,10 @@ feed 15m http://celarek.at/category/kde/feed/
 #	define_faceheight 	80
 
 feed 15m http://tittiatcoke.wordpress.com/category/kde-2/feed/?mrss=off&category_name=kde-2
-	define_name 		Raymond Wooninck (tittiatcoke)
-	define_face 		hackergotchi/tittiatcoke.jpg
-	define_facewidth 	80
-	define_faceheight 	80
+        define_name Raymond Wooninck (tittiatcoke)
+        define_face hackergotchi/tittiatcoke.jpg
+        define_facewidth 80
+        define_faceheight 80
 
 # Not responsive to requests (timeout)
 #feed 15m http://blog.volker-lanz.de/category/planetkde/feed?mrss=off
@@ -2809,7 +2809,7 @@ feed 15m http://tittiatcoke.wordpress.com/category/kde-2/feed/?mrss=off&category
 #	define_faceheight	100
 
 feed 15m http://kdeatopensuse.wordpress.com/feed/?mrss=off&category_name=kde
-	define_name Sven Burmeister (rabauke)
+        define_name Sven Burmeister (rabauke)
 
 #feed 15m http://noughmad.com/category/kde/feed/?mrss=off
 #        define_name Miha Čančula (Noughmad)
@@ -2871,7 +2871,7 @@ feed 15m http://mageia.nicolaslecureuil.fr/category/kde-en/feed/
         define_name Nicolas Lécureuil (neoclust)
 
 feed 15m https://blogs.kde.org/blog/7783/feed
-		define_name Marc Pegon (mpeg)
+        define_name Marc Pegon (mpeg)
 
 feed 15m http://morice.ipsquad.net/blog/?cat=3&feed=rss2
         define_name Jean-Nicolas Artaud (morice-net)
@@ -2900,10 +2900,10 @@ feed 15m http://bergie.iki.fi/blog/category/kde/rss.xml
         define_faceheight 103
 
 feed 15m https://blogs.kde.org/blog/7855/feed
-	define_name Adam Rakowski (foo-script/efes)
-	define_face hackergotchi/adamrakowski.png
-	define_facewidth 79
-	define_faceheight 79
+        define_name Adam Rakowski (foo-script/efes)
+        define_face hackergotchi/adamrakowski.png
+        define_facewidth 79
+        define_faceheight 79
 
 feed 15m http://en.munknex.net/feeds/posts/default/-/KDE
         define_name Cyril Oblikov (munknex)
@@ -2918,7 +2918,7 @@ feed 15m http://marcmutz.wordpress.com/tag/planetkde/feed/?mrss=off&tag=planetkd
         define_faceheight 80
 
 feed 15m http://dannya.org/blog/feed/KDE
-	define_name Danny Allen (dannya)
+        define_name Danny Allen (dannya)
         define_face hackergotchi/dannya.png
         define_facewidth 80
         define_faceheight 80
@@ -2973,11 +2973,11 @@ feed 15m http://www.kdeblog.com/feed/
 #        define_feedclass spanish
 
 feed 15m http://midi-clorianos.blogspot.com/feeds/posts/default/-/KDE-ES
-	define_name Pedro López-Cabanillas
+        define_name Pedro López-Cabanillas
         define_feedclass spanish
 
 feed 15m http://arklad.wordpress.com/category/informatica/software-libre/kde/feed/
-	define_name Cristina Yenyxe González García
+        define_name Cristina Yenyxe González García
         define_feedclass spanish
 
 feed 15m http://tsdgeos-es.blogspot.com/atom.xml
@@ -3016,16 +3016,16 @@ feed 15m http://thehayro.blogspot.com/feeds/posts/default/-/kde
         define_name Hayri Bakici (thehayro)
 
 feed 15m http://mbatle.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
-	define_name Mateu Batle (mbatle)
-	define_face hackergotchi/mbatle.jpg
-	define_facewidth 80
-	define_faceheight 80
+        define_name Mateu Batle (mbatle)
+        define_face hackergotchi/mbatle.jpg
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m http://codersgrumble.blogspot.com/feeds/posts/default/-/kde
-	define_name Andriy Rysin (rysin)
-	define_face hackergotchi/rysin.png
-	define_facewidth 74
-	define_faceheight 74
+        define_name Andriy Rysin (rysin)
+        define_face hackergotchi/rysin.png
+        define_facewidth 74
+        define_faceheight 74
 
 feed 15m http://shentey.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
         define_name Bernhard Beschow (shentey)
@@ -3212,7 +3212,7 @@ feed 15m http://jonanp.wordpress.com/feed/
         define_faceheight 80
 
 feed 15m http://sri13atkritadevel.wordpress.com/feed/?mrss=off
-	    define_name Srikanth Tiyyagura
+            define_name Srikanth Tiyyagura
 
 feed 15m http://www.sinny.in/taxonomy/term/17/0/feed
        define_name Sinny Kumari (ksinny)
@@ -3231,7 +3231,7 @@ feed 15m http://pranavrc.wordpress.com/category/kde/feed/?mrss=off&category_name
 
 feed 15m http://aakritigupta.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
         define_name Aakriti Gupta (aakriti)
-	define_face hackergotchi/aakriti-gotchi.png
+        define_face hackergotchi/aakriti-gotchi.png
 
 feed 15m http://gnumdk.blogspot.com/atom.xml
         define_name Cédric Bellegarde (gnumdk)
@@ -3284,53 +3284,53 @@ feed 15m http://codecereal.blogspot.com/feeds/posts/default/-/kde
         define_name Daker (dakerfp)
 
 feed 15m http://stefan.derkits.at/blog/category/opensource/feed/
-	define_name Stefan Derkits (HorusHorrendus)
-	define_face hackergotchi/horrendus.jpg
-	define_facewidth 80
-	define_faceheight 80
+        define_name Stefan Derkits (HorusHorrendus)
+        define_face hackergotchi/horrendus.jpg
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m http://nwoki.wordpress.com/feed/?category_name=kde
-	define_name Francesco Nwokeka (nwoki)
-	define_face hackergotchi/nwoki.png
-	define_facewidth 80
-	define_faceheight 80
+        define_name Francesco Nwokeka (nwoki)
+        define_face hackergotchi/nwoki.png
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m http://paulm-byte.blogspot.com/feeds/posts/default
-	define_name Paul Mendez (paul_m)
+        define_name Paul Mendez (paul_m)
 
 feed 15m http://cordlandwehr.wordpress.com/feed/?mrss=off&tag=kde
-	define_name Andreas Cord-Landwehr (CoLa)
+        define_name Andreas Cord-Landwehr (CoLa)
 
 # 410 Gone; 25/01/2013
 #feed 15m http://brunoatgsoc2011.wordpress.com/feed/?mrss=off
 #	define_name Bruno Morais Ferreira (brunomf)
 
 feed 15m http://samxan.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
-	define_name Samikshan Bairagya (samxan)
+        define_name Samikshan Bairagya (samxan)
 
 feed 15m http://kdenlive.org/blogs/j-b-m/feed
-	define_name Jean-Baptiste Mardelle (j-b-m)
+        define_name Jean-Baptiste Mardelle (j-b-m)
 
 feed 15m http://kdenlive.org/blogs/granjow/feed
-	define_name Simon A. Eugster (Granjow)
+        define_name Simon A. Eugster (Granjow)
         define_face hackergotchi/Granjow.png
         define_facewidth 80
         define_faceheight 80
 
 feed 15m http://kdenlive.org/blogs/ttill/feed
-	define_name Till Theato (ttill)
+        define_name Till Theato (ttill)
 
 feed 15m http://laxstrom.name/blag/category/kde/feed/
-	define_name Niklas Laxström (Nikerabbit)
+        define_name Niklas Laxström (Nikerabbit)
 
 feed 15m http://kdenlive.org/blogs/avilla/feed
-	define_name Alberto Villa (avilla)
-	define_face hackergotchi/avilla.png
-	define_facewidth 80
-	define_faceheight 80
+        define_name Alberto Villa (avilla)
+        define_face hackergotchi/avilla.png
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m http://mmessmer.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
-	define_name Matthias Meßmer (pipesmoker)
+        define_name Matthias Meßmer (pipesmoker)
         define_face hackergotchi/pipesmoker.jpg
         define_facewidth 80
         define_faceheight 80
@@ -3466,7 +3466,7 @@ feed 15m http://djarvie.wordpress.com/category/kde,planetkde/feed/?mrss=off
 #	define_faceheight 96
 
 feed 15m http://smarter.free.fr/blog/index.php?feed/tag/planetkde/atom
-	define_name Guillaume Martres (smarter)
+        define_name Guillaume Martres (smarter)
 
 feed 15m http://sebastian-doerner.de/?cat=4&feed=rss2&mrss=off
         define_name Sebastian Dörner
@@ -3517,7 +3517,7 @@ feed 15m http://philipp.knechtges.com/?cat=3&feed=rss2
         define_name Philipp Knechtges (d1saster)
 
 feed 15m http://akreuzkamp.de/tag/planetkde/feed/
-	define_name Anton Kreuzkamp (akreuzkamp)
+        define_name Anton Kreuzkamp (akreuzkamp)
 
 feed 15m http://jangmarker.de/tag/planetkde/feed/
         define_name Jan Gerrit Marker (jangmarker)
@@ -3570,13 +3570,13 @@ feed 15m http://algorithmsforthekitchen.com/blog/?tag=kde-2&feed=rss2
        define_faceheight 60
 
 feed 15m http://isemenov.blogspot.com/feeds/posts/default?alt=rss
-	define_name Ignat Semenov (isemenov)
+        define_name Ignat Semenov (isemenov)
 
 feed 15m http://freininghaus.wordpress.com/category/kde/feed/?mrss=off
        define_name Frank Reininghaus
 
 feed 15m http://grulja.wordpress.com/tag/kde/feed/
-	define_name Jan Grulich (grulja)
+        define_name Jan Grulich (grulja)
 
 feed 15m http://playgfx.blogspot.com/feeds/posts/default/-/kdestuff
         define_name Claudio Desideri (snizzo)
@@ -3634,7 +3634,7 @@ feed 15m http://timotheegiet.com/blog/tag/kde/feed
         define_faceheight 80
 
 feed 15m http://mkuettler.blogspot.com/feeds/posts/default/-/planetkde
-	define_name Martin Küttler (mkuettler)
+        define_name Martin Küttler (mkuettler)
 
 feed 15m http://blogs.deusto.es/gsoc-deustotech/feed/
         define_name Ander Pijoan (ander)
@@ -3704,7 +3704,7 @@ feed 15m http://smitr.blogspot.com/feeds/posts/default/-/kde
         define_name Smit Patel (smitpatel)
 
 feed 15m http://kdeblog.mageprojects.com/feed/
-	define_name Mark Gaiser (markg)
+        define_name Mark Gaiser (markg)
 
 feed 15m http://www.aegiap.eu/kdeblog/category/planetkde/feed/?mrss=off
         define_name Laurent Montel (mlaurent)
@@ -3741,10 +3741,10 @@ feed 15m http://blog.sebasgo.net/atom.xml
         define_name Sebastian Gottfried (sebasgo)
 
 feed 15m https://behindkde.org/rss.xml
-	define_name Behind KDE
-	define_face hackergotchi/behindkde.png
-	define_facewidth 43
-	define_faceheight 43
+        define_name Behind KDE
+        define_face hackergotchi/behindkde.png
+        define_facewidth 43
+        define_faceheight 43
 
 feed 15m http://marcuzzokde.blogspot.com/feeds/posts/default?alt=rss
         define_name Marco Calignano (marcuzzo)
@@ -3815,33 +3815,33 @@ feed 15m http://martinbriza.wordpress.com/tag/kde/feed/?mrss=off
         define_name Martin Bříza (mbriza)
 
 feed 15m http://www.rusu.info/wp/?feed=rss2&tag=planetkde
-	define_name Valentin Rusu (valir)
-	define_face hackergotchi/valir.png
-	define_facewidth 52
-	define_faceheight 80
+        define_name Valentin Rusu (valir)
+        define_face hackergotchi/valir.png
+        define_facewidth 52
+        define_faceheight 80
 
 feed 15m https://sysadmin.kde.org/category/planet/feed/
-	define_name KDE Sysadmins
-	define_face hackergotchi/sysadmins.png
-	define_facewidth 64
-	define_faceheight 64
+        define_name KDE Sysadmins
+        define_face hackergotchi/sysadmins.png
+        define_facewidth 64
+        define_faceheight 64
         define_feedclass news
 
 feed 15m http://gkbhat.blogspot.in/feeds/posts/default/-/KDE
-	define_name Gopalakrishna Bhat
-	define_face hackergotchi/sysadmins.png
-	define_facewidth 80
-	define_faceheight 80
+        define_name Gopalakrishna Bhat
+        define_face hackergotchi/sysadmins.png
+        define_facewidth 80
+        define_faceheight 80
 
 #feed 15m http://identi.ca/api/statuses/user_timeline/372643.rss
 #        define_name Sysadmins [identi.ca]
 #        define_microblog true
 
 feed 15m http://andreasschilling.tumblr.com/search/kde/rss
-	define_name Andreas Schilling
+        define_name Andreas Schilling
 
 feed 15m http://steckdenis.be/feeds/nepomuk.atom.xml
-	define_name Denis Steckelmacher (steckdenis)
+        define_name Denis Steckelmacher (steckdenis)
 
 feed 15m http://mbohlender.wordpress.com/feed/atom/
         define_name Michael Bohlender (mbohlender)
@@ -3865,10 +3865,10 @@ feed 15m http://konkiewiczm.wordpress.com/feed/?mrss=off
         define_faceheight 127
 
 feed 15m http://blog.somsubhra.com/tagged/kde/rss
-	define_name Somsubhra Bairi (somsubhra)
-	define_face hackergotchi/somsubhra.png
-	define_facewidth 72
-	define_faceheight 80
+        define_name Somsubhra Bairi (somsubhra)
+        define_face hackergotchi/somsubhra.png
+        define_facewidth 72
+        define_faceheight 80
 
 feed 15m http://oinig.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
         define_name Oindrila Gupta (oini)
@@ -3962,7 +3962,7 @@ feed 15m https://www.csslayer.info/wordpress/tag/planetkde/feed/
         define_faceheight 80
 
 feed 15m http://bhush9.github.io/feed.xml
-	define_name Bhushan Shah (bshah)
+        define_name Bhushan Shah (bshah)
 
 feed 15m http://punit9462.wordpress.com/category/planetkde/feed/
         define_name Punit Mehta (punit9462)
@@ -4081,7 +4081,7 @@ feed 15m http://kritawithmohit.wordpress.com/feed/
         define_name Mohit Goyal (mohit)
 
 feed 15m http://kbhaskar.in/tag/kde/feed/
-	define_name Bhaskar Kandiyal
+        define_name Bhaskar Kandiyal
 
 feed 15m http://gcompris.wordpress.com/category/KDE/feed/
         define_name Bruno Coudoin (bdoin)
@@ -4179,10 +4179,9 @@ feed 15m http://wkosowicz.blogspot.com/feeds/posts/default
         define_face hackergotchi/wojak.jpg
         define_facewidth 80
         define_faceheight 80
-        
+
 feed 15m http://scarlettgatelyclark.com/feed/
         define_name Scarlett Clark (sgclark)
         define_face hackergotchi/sgclark.png
         define_facewidth 80
         define_faceheight 80
-        
