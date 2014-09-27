@@ -1126,7 +1126,7 @@ feed 15m http://commonideas.blogspot.com/feeds/posts/default/-/KDE
 feed 15m http://ervin.ipsquad.net/atom.xml
         define_name Kevin Ottens (ervin)
 
-feed 15m http://zanshin.kde.org/atom.xml
+feed 15m https://zanshin.kde.org/atom.xml
         define_name Zanshin Announcements
         define_feedclass news
 
