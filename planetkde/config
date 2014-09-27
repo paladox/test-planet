@@ -2486,12 +2486,6 @@ feed 15m http://kunalghosh.wordpress.com/tag/kde/feed/
 # End of digiKam team entries.
 ###############################################################
 
-feed 15m http://blogs.gentoo.org/tampakrap/category/planets/planet-kde/feed/
-        define_name Theo Chatzimichos (tampakrap)
-        define_face hackergotchi/theo-chatzimichos.png
-        define_facewidth 90
-        define_faceheight 128
-
 feed 15m http://owncloudtest.blogspot.com/feeds/posts/default
         define_name Aaron Reichman (areichman)
 
