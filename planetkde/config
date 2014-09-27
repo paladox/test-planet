@@ -346,10 +346,6 @@ feed 15m http://www.afiestas.org/category/floss/kde/feed/
         define_facewidth 59
         define_faceheight 79
 
-#feed 15m http://identi.ca/afiestas/rss
-#        define_name Alex Fiestas [identi.ca]
-#        define_microblog true
-
 feed 15m http://sujithh.info/feed/?tag=KDE-dev%2CPlasma-dev
         define_name Sujith H (sujith_h)
         define_face hackergotchi/sujithh.png
@@ -485,10 +481,6 @@ feed 15m http://aseigo.blogspot.com/rss.xml
         define_facewidth 64
         define_faceheight 81
 
-#feed 15m http://identi.ca/aseigo/rss
-#        define_name Aaron Seigo [identi.ca]
-#        define_microblog true
-
 feed 15m https://blogs.kde.org/blog/102/feed
         define_name Brad Hards (bradh)
 
@@ -555,10 +547,6 @@ feed 15m http://tsdgeos.blogspot.com/atom.xml
         define_face hackergotchi/TSDgeos.png
         define_facewidth 80
         define_faceheight 80
-
-#feed 15m http://identi.ca/tsdgeos/rss
-#        define_name Albert Astals Cid (TSDgeos) [identi.ca]
-#        define_microblog true
 
 #disappeared
 #feed 15m http://sirtaj.net/blog/?flav=rss
@@ -656,11 +644,6 @@ feed 15m https://blogs.kde.org/blog/1088/feed
 
 feed 15m https://blogs.kde.org/blog/699/feed
         define_name Frank Osterfeld (fosterfeld)
-
-# HTTP 400; 03/09/2012
-#feed 15m http://identi.ca/frankosterfeld/rss
-#        define_name Frank Osterfeld [identi.ca]
-#        define_microblog true
 
 feed 15m https://blogs.kde.org/blog/1089/feed
         define_name Rob Buis (rwlbuis)
@@ -899,10 +882,6 @@ feed 15m http://blog.cberger.net/category/open-source/feed/?mrss=off
         define_facewidth 80
         define_faceheight 80
 
-#feed 15m http://identi.ca/cyrille/rss
-#        define_name Cyrille Berger
-#        define_microblog true
-
 feed 15m http://www.jowenn.at/blog/feed_en.rdf
         define_name Joseph Wenninger
 
@@ -940,10 +919,6 @@ feed 15m http://creative-destruction.me/category/kde/feed/
 
 feed 15m https://blogs.kde.org/blog/326/feed
         define_name David Faure (dfaure)
-
-#feed 15m http://identi.ca/dfaure/rss
-#        define_name David Faure [identi.ca]
-#        define_microblog true
 
 feed 15m https://blogs.kde.org/blog/1236/feed
         define_name C. Boemann (boemann)
@@ -1085,10 +1060,6 @@ feed 15m http://blog.qt.digia.com/blog/2009/02/13/bnilsenflush/feed/
 #        define_facewidth 80
 #        define_faceheight 80
 
-#feed 15m http://identi.ca/vir/rss
-#        define_name Matthias Kretz [identi.ca]
-#        define_microblog true
-
 #feed 15m http://amarok.kde.org/blog/feeds/categories/18-freespirit.rss
 #        define_name Nikolaj Hald Nielsen
 
@@ -1106,10 +1077,6 @@ feed 15m http://blog.jospoortvliet.com/atom.xml
 
 feed 15m http://commonideas.blogspot.com/feeds/posts/default/-/KDE
         define_name Bart Cerneels (Stecchino)
-
-#feed 15m http://identi.ca/stecchino/rss
-#	define_name Bart Cerneels (Stecchino) [identi.ca]
-#	define_microblog true
 
 # 404
 #feed 15m http://wendyvancraen.blogspot.com/feeds/posts/default/-/KDE
@@ -1271,10 +1238,6 @@ feed 15m http://jpwhiting.blogspot.com/feeds/posts/default/-/kde
         define_face hackergotchi/jpwhiting.png
         define_facewidth 80
 
-#feed 15m http://identi.ca/jpwhiting/rss
-#        define_name Jeremy Whiting [identi.ca]
-#        define_microblog true
-
 # NXDOMAIN
 #feed 15m http://web.darksharksoft.com/gpulfd.php?lang=en/&search1=PKDE&user=219
 #	define_name José Millán Soto (fid_jose)
@@ -1290,10 +1253,6 @@ feed 15m http://grasch.net/taxonomy/term/5/feed
         define_face hackergotchi/pgrasch.png
         define_facewidth 80
         define_faceheight 80
-
-#feed 15m http://identi.ca/bedahr/rss
-#        define_name Peter Grasch [identi.ca]
-#        define_microblog true
 
 feed 15m https://blogs.kde.org/blog/4267/feed
         define_name Shawn Starr (spstarr)
@@ -1349,10 +1308,6 @@ feed 15m http://blog.lydiapintscher.de/category/PlanetKDE/feed/
         define_face hackergotchi/nightrose.png
         define_facewidth 78
         define_faceheight 76
-
-#feed 15m https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=nightrose
-#        define_name Lydia Pintscher [twitter]
-#        define_microblog true
 
 feed 15m http://feeds.feedburner.com/slashrosha/en/kde
         define_name Roozbeh Shafiee
@@ -1610,10 +1565,6 @@ feed 15m http://blog.uninstall.it/category/planetkde/feed/
 feed 15m http://blog.morpheuz.cc/category/kde/feed/
         define_name Artur Souza (MoRpHeUz)
 
-#feed 15m http://identi.ca/morpheuz/rss
-#        define_name Artur Souza (MoRpHeUz) [identi.ca]
-#        define_microblog true
-
 # Blog down, 503 error
 #feed 15m http://web.mornfall.net/planet/kde.rss
 #        define_name Petr Rockai (mornfall)
@@ -1756,30 +1707,9 @@ feed 15m http://saschpe.wordpress.com/category/opensource/kde/feed/?mrss=off&cat
 #feed 15m http://www.gigabytes.it/tag/planetkde/feed/
 #        define_name Nicola Gigante (gigabytes)
 
-#feed 15m http://identi.ca/apachelogger/rss
-#        define_name Harald Sitter [identi.ca]
-#        define_microblog true
-
-#feed 15m http://identi.ca/ivancukic/rss
-#        define_name Ivan Čukić [identi.ca]
-#        define_microblog true
-
-#feed 15m http://identi.ca/drf/rss
-#        define_name Dario Freddi [identi.ca]
-#        define_microblog true
-
-#feed 15m http://identi.ca/frederik/rss
-#        define_name Frederik Gladhorn [identi.ca]
-#        define_microblog true
-
 feed 15m http://www.eivanov.com/feeds/posts/default/-/planetkde
         define_name Evgeniy Ivanov (powerfox/pfx)
 
-#feed 15m http://identi.ca/jrepin/rss
-#        define_name Jure Repinc [identi.ca]
-#        define_microblog true
-
-# Blog server is down
 feed 15m http://estan.dose.se/tag/planetkde/feed
         define_name Elvis Stansvik (estan)
         define_face hackergotchi/estan.png
@@ -1878,10 +1808,6 @@ feed 15m http://looksblo.wordpress.com/category/planetkde/feed/atom/
 #        #define_facewidth 80
 #        #define_faceheight 80
 
-#feed 15m http://identi.ca/api/statuses/user_timeline/tdfischer.rss
-#        define_name Trever Fischer [identi.ca]
-#        define_microblog true
-
 feed 15m http://kdepepo.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
         define_name Christoph Feck (kdepepo)
         define_face hackergotchi/cfeck.png
@@ -1893,10 +1819,6 @@ feed 15m http://trueg.wordpress.com/feed/?mrss=off
         define_face hackergotchi/trueg.jpg
         define_facewidth 80
         define_faceheight 80
-
-#feed 15m http://identi.ca/blauzahl/rss
-#        define_name A. L. Spehr (blauzahl) [identi.ca]
-#        define_microblog true
 
 #feed 15m http://blusrcu.ba/nookie/?feed=rss2
 #        define_name Mensur Zahirovic (Nookie)
@@ -2080,10 +2002,6 @@ feed 15m http://martinsandsmark.wordpress.com/feed/?mrss=off
 feed 15m http://thomasmcguire.wordpress.com/feed/?mrss=off
         define_name Thomas McGuire
 
-#feed 15m http://identi.ca/tmcguire/rss
-#        define_name Thomas McGuire [identi.ca]
-#        define_microblog true
-
 feed 15m http://dimula73.blogspot.com/feeds/posts/default/-/KDE
         define_name Dmitry Kazakov (dmitryK)
 
@@ -2170,10 +2088,6 @@ feed 15m http://blogs.fsfe.org/mario/?feed=rss2&tag=kde
 
 feed 15m http://blog.rburchell.com/feeds/posts/default/-/kde?alt=rss
         define_name Robin Burchell (w00t)
-
-#feed 15m http://identi.ca/w00t/rss
-#	define_name Robin Burchell [identi.ca]
-#	define_microblog true
 
 feed 15m http://hobbyblobby.wordpress.com/category/planet/feed/?mrss=off&category_name=planet
         define_name Felix Lemke (HobbyBlobby)
@@ -2295,10 +2209,6 @@ feed 15m https://blogs.kde.org/blog/7305/feed
 #    define_face hackergotchi/neomantra.jpeg
 #    define_facewidth 96
 #    define_faceheight 96
-
-#feed 15m http://identi.ca/neomantra/rss
-#        define_name Justin Kirby [identi.ca]
-#        define_microblog true
 
 feed 15m http://feeds.feedburner.com/ThisWeekInKrita
         define_name Boudewijn Rempt's Krita blog
@@ -2750,10 +2660,6 @@ feed 15m http://blogs.fsfe.org/drdanz/?cat=514&feed=rss2
         define_facewidth 80
         define_faceheight 80
 
-#feed 15m http://identi.ca/drdanz/rss
-#        define_name Daniele E. Domenichelli [identi.ca]
-#        define_microblog true
-
 #timeout
 #feed 15m http://blog.binarylooks.com/tag/kde/feed/
 #        define_name Christophe Olinger (binarylooks)
@@ -3072,14 +2978,6 @@ feed 15m http://blog.davidedmundson.co.uk/taxonomy/term/1/0/feed
 feed 15m http://www.javierllorente.com/category/english/feed/
         define_name Javier Llorente
 
-#feed 15m http://identi.ca/api/statuses/user_timeline/100031.rss
-#        define_name Javier Llorente [identi.ca]
-#        define_microblog true
-
-#feed 15m https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=javierllorente
-#        define_name Javier Llorente [twitter]
-#        define_microblog true
-
 feed 15m http://mrybczynska.wordpress.com/category/english/feed/?mrss=off&category_name=english
         define_name Marta Rybczyńska
         define_feedclass polish
@@ -3176,11 +3074,6 @@ feed 15m http://the-user.org/category/planetkde/feed
 #        define_face hackergotchi/rullzer.png
 #        define_facewidth 62
 #        define_faceheight 80
-
-# Server down; kdesysadmin; bcooksley; 2012-02-13
-#feed 15m http://status.famdouma.nl/roeland/rss
-#        define_name Roeland Douma [identi.ca]
-#        define_microblog true
 
 # Blog server is down (not listening on port 80)
 #feed 15m http://blogs.freebsdish.org/avilla/tag/kde/feed/
@@ -3752,10 +3645,6 @@ feed 15m http://marcuzzokde.blogspot.com/feeds/posts/default?alt=rss
         define_facewidth 80
         define_faceheight 80
 
-#feed 15m http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=jriddell
-#        define_name Jonathan Riddell [twitter]
-#        define_microblog true
-
 feed 15m http://ruedigergad.com/tag/planetkde/feed/?mrss=off&tag=planetkde
         define_name Ruediger Gad (rcg)
         define_face hackergotchi/ruedigergad.png
@@ -3832,10 +3721,6 @@ feed 15m http://gkbhat.blogspot.in/feeds/posts/default/-/KDE
         define_face hackergotchi/sysadmins.png
         define_facewidth 80
         define_faceheight 80
-
-#feed 15m http://identi.ca/api/statuses/user_timeline/372643.rss
-#        define_name Sysadmins [identi.ca]
-#        define_microblog true
 
 feed 15m http://andreasschilling.tumblr.com/search/kde/rss
         define_name Andreas Schilling
