@@ -3251,7 +3251,7 @@ feed 15m http://clauschr.wordpress.com/feed/?mrss=off
 feed 15m http://kyofel.wordpress.com/category/KDE/feed/?mrss=off
     define_name Philip Muškovac (yofel)
 
-feed 45 http://www.progdan.cz/tag/kde/feed/
+feed 45 http://www.dvratil.cz/tag/kde/feed/
     define_name Dan Vratil (dvratil)
 
 feed 15m http://kshadeslayer.wordpress.com/category/KDE/feed/?mrss=off
