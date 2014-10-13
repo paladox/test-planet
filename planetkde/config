@@ -1164,11 +1164,12 @@ feed 15m http://myrizio.wordpress.com/feed/?mrss=off
 feed 15m http://www.lfranchi.com/rss-kde.php
         define_name Leo Franchi (lfranchi)
 
-feed 15m http://feeds.feedburner.com/gamaral-kde
-        define_name Guillermo Amaral (gamaral)
-        define_face hackergotchi/gamaral.gif
-        define_facewidth 80
-        define_faceheight 80
+# 404
+#feed 15m http://feeds.feedburner.com/gamaral-kde
+#        define_name Guillermo Amaral (gamaral)
+#        define_face hackergotchi/gamaral.gif
+#        define_facewidth 80
+#        define_faceheight 80
 
 feed 15m http://flavio.castelli.name/atom.xml
         define_name Flavio Castelli
