@@ -3859,7 +3859,7 @@ feed 15m http://ematirov.blogspot.com/feeds/posts/default/-/kde
         define_facewidth 64
         define_faceheight 80
 
-feed 15m http://www.blog.kaiserapps.com/feeds/posts/default/-/kde
+feed 15m http://blog.kaiserapps.com//feeds/posts/default/-/kde
         define_name Benjamin Kaiser (benkaiser)
         define_face hackergotchi/benjamin-kaiser.jpg
         define_facewidth 78
