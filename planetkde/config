@@ -437,6 +437,7 @@ feed 15m http://zrusin.blogspot.com/rss.xml
 
 feed 15m http://www.heliocastro.info/?cat=17&feed=rss2
         define_name Helio Castro (heliocastro)
+        define_face hackergotchi/helio_castro.png
 
 feed 15m https://blogs.kde.org/blog/70/feed
         define_name Waldo Bastian (zogje)
