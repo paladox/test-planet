@@ -3534,11 +3534,12 @@ feed 15m http://timotheegiet.com/blog/tag/kde/feed
 feed 15m http://mkuettler.blogspot.com/feeds/posts/default/-/planetkde
         define_name Martin Küttler (mkuettler)
 
-feed 15m http://blogs.deusto.es/gsoc-deustotech/feed/
-        define_name Ander Pijoan (ander)
-        define_face hackergotchi/pijoan.jpg
-        define_facewidth 80
-        define_faceheight 80
+# 404
+#feed 15m http://blogs.deusto.es/gsoc-deustotech/feed/
+#        define_name Ander Pijoan (ander)
+#        define_face hackergotchi/pijoan.jpg
+#        define_facewidth 80
+#        define_faceheight 80
 
 feed 15m http://kokeroulis.wordpress.com/tag/planetkde/feed/
         define_name Antonis Tsiapaliokas (kokeroulis)
