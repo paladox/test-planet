@@ -387,7 +387,7 @@ feed 15m http://saidinesh5.wordpress.com/tag/kde-planet/feed/?mrss=off&tag=kde-p
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://cgbdx.wordpress.com/feed/?mrss=off
+feed 15m https://cgbdx.wordpress.com/feed/?mrss=off
         define_name Christophe Giboudeaux (krop)
 
 feed 15m https://blogs.kde.org/blog/8251/feed

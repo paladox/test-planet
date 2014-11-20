@@ -3947,7 +3947,7 @@ feed 15m http://mrupanjana.wordpress.com/feed/
 feed 15m http://ziemin.wordpress.com/feed/
         define_name Marcin Zieminski
 
-feed 15m http://akulichalexandr.wordpress.com/feed/
+feed 15m https://akulichalexandr.wordpress.com/feed/
         define_name Alexandr Akulich
         define_face hackergotchi/akulichalexandr.png
         define_facewidth 47
