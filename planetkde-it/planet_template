@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" href="http://planetkde.org/rawdog.css" type="text/css" title="Fixed Width" />
+    <link rel="stylesheet" href="https://planetkde.org/rawdog.css" type="text/css" title="Fixed Width" />
     <link rel="stylesheet" href="it.css" type="text/css" title="Fixed Width" />
-    <link rel="alternate stylesheet" href="http://planetkde.org/rawdog-variable.css" type="text/css" title="Variable Width" />
+    <link rel="alternate stylesheet" href="https://planetkde.org/rawdog-variable.css" type="text/css" title="Variable Width" />
     <title>Planet KDE Italia</title>
     <link rel="alternate" type="application/rss+xml" title="Planet KDE Italia" href="http://planetkde.org/it/rss20.xml" />
 
