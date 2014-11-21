@@ -463,6 +463,12 @@ feed 15m https://blogs.kde.org/blog/57/feed
         define_facewidth 68
         define_faceheight 97
 
+feed 15m http://jriddell.org/feed/?tag=planetkde
+        define_name Jonathan Riddell (riddell)
+        define_face hackergotchi/riddell.png
+        define_facewidth 68
+        define_faceheight 97
+
 feed 15m https://blogs.kde.org/blog/432/feed
         define_name Till Adam
 
