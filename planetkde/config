@@ -4108,3 +4108,9 @@ feed 15m http://nitul1991.wordpress.com/feed/
 
 feed 45m http://harishnavnit.wordpress.com/tag/kde/feed/ 
         define_name R.Harish Navnit (rharish)
+
+feed 15m http://rahulc93.wordpress.com
+	define_name Rahul Chowdhury (rahulch)
+	define_face hackergotchi/rahul.png
+	define_facewidth 80
+
