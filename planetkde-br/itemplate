@@ -1,6 +1,6 @@
 
 <div class="channelgroup">
-    __if_face__ <img class="face" src="__face__" align="right" /> __endif__
+    __if_face__ <img class="face" src="pt-br/__face__" align="right" /> __endif__
     <h3><span class="namehead"><a href="__blogurl__">__name__ __if_handle__(__handle__)__endif__</a></span></h3>
 	<div class="entrygroup" class="item feed-__feed_hash__ feed-__feed-id__" id="item-__hash__">
 	    <h4><span class="blogtitle"><a href="__url__">__title_no_link__</a></span></h4>
