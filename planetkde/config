@@ -4118,5 +4118,5 @@ feed 15m http://rahulc93.wordpress.com
 feed 15m http://blog.geekaliens.com/feed/?tag=cat-kde
 	define_name Ovidiu-Florin Bogdan (ovidiu-florin)
 
-feed 45m http://blog.ashish-bansal.in/feeds/posts/default
+feed 45m http://blog.ashish-bansal.in/feeds/posts/default/-/KDE
     define_name Ashish Bansal (mrphantom)
