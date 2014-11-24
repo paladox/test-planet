@@ -4120,3 +4120,9 @@ feed 15m http://blog.geekaliens.com/feed/?tag=cat-kde
 
 feed 45m http://blog.ashish-bansal.in/feeds/posts/default/-/KDE
     define_name Ashish Bansal (mrphantom)
+
+feed 15m http://ignotus.github.io/feed.xml
+	define_name Minh Ngo (ignotus)
+	define_face hackergotchi/nlminhtl.png
+	define_facewidth 80
+
