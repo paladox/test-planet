@@ -4154,3 +4154,9 @@ feed 15m http://pinak.github.io/feed.xml
         define_face hackergotchi/pinak.png
         define_facewidth 67
         define_faceheight 80
+        
+feed 15m http://subhajitmukherjee.wordpress.com/feed/
+        define_name Subhajit Mukherjee (bukai)
+        define_face hackergotchi/subhajitmukherjee.png
+        define_facewidth 80
+        define_faceheight 80
