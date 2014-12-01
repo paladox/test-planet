@@ -4182,3 +4182,6 @@ feed 15m http://anu-mittal.blogspot.com/feeds/posts/default/-/Planet%20KDE
 
 feed 15m http://dassouvik.wordpress.com/feed/
     define_name Souvik Das (sd__)
+    define_face hackergotchi/Souvik-Das.jpg
+    define_facewidth 70
+    define_faceheight 76
