@@ -3603,7 +3603,7 @@ feed 15m http://logofn.blogspot.com/feeds/posts/default
         define_facewidth 80
         define_faceheight 64
 
-feed 15m http://cezarmocan.wordpress.com/feed/
+feed 15m https://cezarmocan.wordpress.com/feed/
         define_name Cezar Mocan (CezarMocan)
 
 feed 15m http://smitr.blogspot.com/feeds/posts/default/-/kde
@@ -3922,7 +3922,7 @@ feed 15m http://kfunk.org/tag/kde/rss/
 feed 15m http://sklin0.wordpress.com/tag/gsoc/
         define_name Sergey Kalinichev (klins)
 
-feed 15m http://abhgangwar.wordpress.com/feed/
+feed 15m https://abhgangwar.wordpress.com/feed/
         define_name Abhinav Gangwar
 
 feed 15m http://ashishmadeti.github.io/feed.xml
