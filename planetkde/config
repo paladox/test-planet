@@ -3486,7 +3486,7 @@ feed 15m https://grulja.wordpress.com/tag/kde/feed/
 feed 15m http://playgfx.blogspot.com/feeds/posts/default/-/kdestuff
         define_name Claudio Desideri (snizzo)
 
-feed 15m http://boringtalk.wordpress.com/feed/
+feed 15m https://boringtalk.wordpress.com/feed/
         define_name Arjun Basu (ultimatrix)
 
 feed 15m http://strohel.blogspot.com/feeds/posts/default/-/kde
@@ -3603,7 +3603,7 @@ feed 15m http://logofn.blogspot.com/feeds/posts/default
         define_facewidth 80
         define_faceheight 64
 
-feed 15m http://cezarmocan.wordpress.com/feed/
+feed 15m https://cezarmocan.wordpress.com/feed/
         define_name Cezar Mocan (CezarMocan)
 
 feed 15m http://smitr.blogspot.com/feeds/posts/default/-/kde
@@ -3922,7 +3922,7 @@ feed 15m http://kfunk.org/tag/kde/rss/
 feed 15m http://sklin0.wordpress.com/tag/gsoc/
         define_name Sergey Kalinichev (klins)
 
-feed 15m http://abhgangwar.wordpress.com/feed/
+feed 15m https://abhgangwar.wordpress.com/feed/
         define_name Abhinav Gangwar
 
 feed 15m http://ashishmadeti.github.io/feed.xml
@@ -3937,7 +3937,7 @@ feed 15m https://bharathbrat.wordpress.com/category/gsoc-2014-kde/feed/
         define_facewidth 80
         define_faceheight 79
 
-feed 15m http://calincruceru.wordpress.com/feed/
+feed 15m https://calincruceru.wordpress.com/feed/
         define_name Călin Cruceru (crucerucalin)
 
 feed 15m http://n1kam.wordpress.com/feed/
@@ -3981,7 +3981,7 @@ feed 15m https://gcompris.wordpress.com/category/KDE/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://harshimistry.wordpress.com/feed/
+feed 15m https://harshimistry.wordpress.com/feed/
         define_name Harshita Mistry
 
 feed 15m http://blog.karanluthra.in/feeds/kde.atom.xml
@@ -4203,3 +4203,7 @@ feed 15m https://aarseeaeron.wordpress.com/feed/
     define_face hackergotchi/Aarsee-Aeron.jpg
     define_facewidth 78
     define_faceheight 80
+
+feed 15m http://davidrosca.blogspot.com/feeds/posts/default/-/planetkde
+    define_name David Rosca (nowrep)
+
