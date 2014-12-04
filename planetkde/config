@@ -4185,3 +4185,6 @@ feed 15m http://dassouvik.wordpress.com/feed/
     define_face hackergotchi/Souvik-Das.jpg
     define_facewidth 70
     define_faceheight 76
+
+feed 15m http://davidrosca.blogspot.com/feeds/posts/default/-/planetkde
+    define_name David Rosca (nowrep)
