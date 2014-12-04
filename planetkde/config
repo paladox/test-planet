@@ -4185,3 +4185,21 @@ feed 15m http://dassouvik.wordpress.com/feed/
     define_face hackergotchi/Souvik-Das.jpg
     define_facewidth 70
     define_faceheight 76
+
+feed 15m http://blog.ranveeraggarwal.com/feeds/kde.xml
+    define_name Ranveer Aggarwal (ranveeraggarwal)
+    define_face hackergotchi/Ranveer-Aggarwal.jpg
+    define_facewidth 80
+    define_faceheight 94
+
+feed 15m https://thegreatercode.wordpress.com/feed/
+    define_name Utkarsh Simha (usimha)
+    define_face hackergotchi/Utkarsh-Simha.jpg
+    define_facewidth 80
+    define_faceheight 80
+
+feed 15m https://aarseeaeron.wordpress.com/feed/
+    define_name Aarsee Aeron (aarsee)
+    define_face hackergotchi/Aarsee-Aeron.jpg
+    define_facewidth 78
+    define_faceheight 80
