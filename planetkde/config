@@ -3946,10 +3946,9 @@ feed 15m http://n1kam.wordpress.com/feed/
 feed 15m http://mrupanjana.wordpress.com/feed/
         define_name Rupanjana Mitra (mrupanjana)
 
-# Timeout
-#feed 15m http://chakraos.org/news/index.php?/categories/1-KDE
-#        define_name Chakra OS
-#        define_feedclass news
+feed 15m http://chakraos.org/news/index.php?/feeds/categories/1-KDE.rss
+        define_name Chakra OS
+        define_feedclass news
 
 feed 15m http://ziemin.wordpress.com/feed/
         define_name Marcin Zieminski
