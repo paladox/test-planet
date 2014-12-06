@@ -1570,8 +1570,8 @@ feed 15m http://fmontesi.blogspot.com/feeds/posts/default/-/kde
         define_facewidth 64
         define_faceheight 80
 
-feed 15m http://blog.uninstall.it/category/planetkde/feed/
-        define_name Davide Bettio (WindowsUninstall)
+#feed 15m http://blog.uninstall.it/category/planetkde/feed/
+#        define_name Davide Bettio (WindowsUninstall)
 
 feed 15m http://blog.morpheuz.cc/category/kde/feed/
         define_name Artur Souza (MoRpHeUz)
@@ -2115,7 +2115,7 @@ feed 15m http://feeds.feedburner.com/homelinux/kde
 
 feed 15m http://zajec.net/blog/atom/kde
         define_name Rafał Miłecki (Zajec)
-        define_face hackergotchi/zajec.png
+        3define_face hackergotchi/zajec.png
         define_facewidth 77
         define_faceheight 80
 
@@ -2138,11 +2138,11 @@ feed 15m http://savago.wordpress.com/feed/?mrss=off
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://rix.si/planetkde.xml
-        define_name Ryan Rix (rrix)
-        define_face http://rix.si/files/ryan_headshot_small.jpg
-        define_facewidth 80
-        define_facewidth 80
+#feed 15m http://rix.si/planetkde.xml
+#        define_name Ryan Rix (rrix)
+#        define_face http://rix.si/files/ryan_headshot_small.jpg
+#        define_facewidth 80
+#        define_facewidth 80
 
 # 404
 #feed 15m http://blog.qt.digia.com/author/danimo/feed/
