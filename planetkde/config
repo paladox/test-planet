@@ -2115,7 +2115,7 @@ feed 15m http://feeds.feedburner.com/homelinux/kde
 
 feed 15m http://zajec.net/blog/atom/kde
         define_name Rafał Miłecki (Zajec)
-        3define_face hackergotchi/zajec.png
+        define_face hackergotchi/zajec.png
         define_facewidth 77
         define_faceheight 80
 
