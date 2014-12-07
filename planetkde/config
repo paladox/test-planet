@@ -2687,8 +2687,8 @@ feed 15m http://lamarque-lvs.blogspot.com/feeds/posts/default/-/kde
 feed 15m http://acetonik.blogspot.com/feeds/posts/default/-/KDE
         define_name Peter Schiffer (aceton)
 
-feed 15m http://pentalis.org/kritablog/?feed=rss2
-        define_name José Luis Vergara Toloza (Pentalis)
+#feed 15m http://pentalis.org/kritablog/?feed=rss2
+#        define_name José Luis Vergara Toloza (Pentalis)
 
 #feed 15m http://tridactyla.org/tags/gsoc2010.xml
 #        define_name Michael Forney (tridactyla)
