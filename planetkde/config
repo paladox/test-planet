@@ -1212,7 +1212,7 @@ feed 15m http://blog.loic.corbasson.fr/feed/tag/KDE/rss2
 #feed 15m http://blog.lukrop.bplaced.net/feeds/categories/planetKDE.rss
 #        define_name Lukas Kropatschek
 
-feed 15m http://darktears.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
+feed 15m https://darktears.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
         define_name Alexis Menard (darktears)
         define_face hackergotchi/alexis-menard.jpg
         define_facewidth 80
@@ -1372,7 +1372,7 @@ feed 15m http://yarpen.cz/rants/?feed=rss2
 #        define_facewidth 64
 #        define_faceheight 79
 
-feed 15m http://dimsuz.wordpress.com/feed/?mrss=off
+feed 15m https://dimsuz.wordpress.com/feed/?mrss=off
         define_name Dmitry Suzdalev (dimsuz)
 
 #feed 15m http://www.jespersaur.com/drupal/taxonomy/term/21/0/feed
@@ -1611,7 +1611,7 @@ feed 15m http://blog.froglogic.com/author/koos/feed/atom/?cat=5%2C6
 #        define_faceheight 76
 
 # Here's my old one. Keeping it just in case.
-feed 15m http://drfav.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
+feed 15m https://drfav.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
         define_name Dario Freddi (drf__)
         define_face hackergotchi/drf.png
         define_facewidth 80
@@ -1746,7 +1746,7 @@ feed 15m http://borntobeopen.blogspot.com/feeds/posts/default/-/KDE
 #feed 15m http://emilsedgh.info/blog/index.php?/feeds/index.rss2
 #        define_name Emil Sedgh (emilsedgh)
 
-feed 15m http://dragotin.wordpress.com/feed/?mrss=off
+feed 15m https://dragotin.wordpress.com/feed/?mrss=off
         define_name Klaas Freitag (dragotin)
         define_face hackergotchi/freitag75.png
         define_facewidth 75
@@ -2178,7 +2178,7 @@ feed 15m http://colin.guthr.ie/tag/kde/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://dantti.wordpress.com/feed/?mrss=off
+feed 15m https://dantti.wordpress.com/feed/?mrss=off
         define_name Daniel Nicoletti (dantti)
         define_face hackergotchi/dantti.png
         define_facewidth 96
@@ -2236,7 +2236,7 @@ feed 15m http://user-prompt.com/kde-feeds/
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://darioandreskde.wordpress.com/feed/?mrss=off
+feed 15m https://darioandreskde.wordpress.com/feed/?mrss=off
         define_name Dario Andres Rodriguez (Dario_Andres)
         define_face hackergotchi/darioandresr.png
         define_facewidth 80
@@ -3361,7 +3361,7 @@ feed 15m https://blogs.kde.org/blog/8457/feed/
 feed 15m http://ljaskiewicz.wordpress.com/feed/?mrss=0ff&category_name=planetkde
         define_name Łukasz Jaśkiewicz (ljaskiewicz)
 
-feed 15m http://djarvie.wordpress.com/category/kde,planetkde/feed/?mrss=off
+feed 15m https://djarvie.wordpress.com/category/kde,planetkde/feed/?mrss=off
     define_name David Jarvie (djarvie)
 
 #feed 15m http://atuljha.com/blog/tag/kde/feed/
@@ -3406,7 +3406,7 @@ feed 15m http://www.oyranos.org/category/kde/feed/
         define_facewidth 64
         define_faceheight 64
 
-feed 15m http://diggy128.wordpress.com/tag/kde/feed/
+feed 15m https://diggy128.wordpress.com/tag/kde/feed/
         define_name Dimitrios T. Tanis (diggy)
         define_face hackergotchi/dimitrios-tanis.jpg
         define_facewidth 80
