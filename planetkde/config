@@ -891,8 +891,8 @@ feed 15m http://blog.cberger.net/category/open-source/feed/?mrss=off
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://www.jowenn.at/blog/feed_en.rdf
-        define_name Joseph Wenninger
+#feed 15m http://www.jowenn.at/blog/feed_en.rdf
+#        define_name Joseph Wenninger
 
 feed 15m http://clarencedang.blogspot.com/atom.xml
         define_name Clarence Dang
@@ -3113,7 +3113,7 @@ feed 15m http://jonanp.wordpress.com/feed/
 feed 15m http://sri13atkritadevel.wordpress.com/feed/?mrss=off
             define_name Srikanth Tiyyagura
 
-feed 15m http://sinny.in/?tag=kde&feed=rss2
+feed 15m http://sinny.in/tag/kde/feed/
        define_name Sinny Kumari (ksinny)
        define_face hackergotchi/sinny.png
        define_facewidth 80
