@@ -4149,7 +4149,7 @@ feed 15m http://skoushik.wordpress.com/tag/kde/feed/
     define_facewidth 80
     define_faceheight 80
 
-feed 15m http://pinak.github.io/feed.xml
+feed 15m http://pinak.github.io/feed.kde.xml
         define_name Pinak Ahuja (pinak)
         define_face hackergotchi/pinak.png
         define_facewidth 67
