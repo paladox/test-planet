@@ -1419,11 +1419,11 @@ feed 15m http://feeds.feedburner.com/nixternal-kde
 feed 15m https://blogs.kde.org/blog/2904/feed
         define_name Sebastian Trueg
 
-feed 15m http://www.baggerspion.net/category/fs/kde/feed/
-        define_name Paul Adams
-        define_face hackergotchi/padams.png
-        define_facewidth 80
-        define_faceheight 79
+#feed 15m http://www.baggerspion.net/category/fs/kde/feed/
+#        define_name Paul Adams
+#        define_face hackergotchi/padams.png
+#        define_facewidth 80
+#        define_faceheight 79
 
 feed 15m http://notmart.org/blog/tag/kde/feed/
         define_name Marco Martin (notmart)
