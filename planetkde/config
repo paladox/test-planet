@@ -3889,7 +3889,7 @@ feed 15m http://wheeldesign.blogspot.com/feeds/posts/default?alt=rss
         define_facewidth 80
         define_faceheight 80
 
-#feed 15m http://geekaliens.com/blog/en/feed/?tag=cat-kde
+#feed 15m http://ovidiu.geekaliens.com/en/tag/kde-en/
 #        define_name Ovidiu-Florin Bogdan (ovidiu-florin)
 #        define_face hackergotchi/ovidiu-florin.jpeg
 #        define_facewidth 80
