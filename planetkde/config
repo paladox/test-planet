@@ -352,11 +352,11 @@ feed 15m http://sujithh.info/feed/?tag=KDE-dev%2CPlasma-dev
         define_facewidth 64
         define_faceheight 81
 
-#feed 15m http://blog.jasondonenfeld.com/planetkde
-#        define_name Jason A. Donenfeld (zx2c4/jdonenfeld)
-#        define_face hackergotchi/jdonenfeld.png
-#        define_facewidth 61
-#        define_faceheight 70
+feed 15m http://blog.jasondonenfeld.com/planetkde
+        define_name Jason A. Donenfeld (zx2c4/jdonenfeld)
+        define_face hackergotchi/jdonenfeld.png
+        define_facewidth 61
+        define_faceheight 70
 
 # 404
 #feed 15m http://www.monroe.nu/tag/kde/atom
