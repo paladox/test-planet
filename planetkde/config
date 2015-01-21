@@ -3940,7 +3940,7 @@ feed 15m https://bharathbrat.wordpress.com/category/gsoc-2014-kde/feed/
 feed 15m https://calincruceru.wordpress.com/feed/
         define_name Călin Cruceru (crucerucalin)
 
-feed 15m http://n1kam.wordpress.com/feed/
+feed 15m https://n1kam.wordpress.com/feed/
         define_name Abhijeet Nikam (nikam08)
 
 feed 15m https://mrupanjana.wordpress.com/feed/
@@ -4152,7 +4152,7 @@ feed 15m http://pinak.github.io/feed.kde.xml
         define_facewidth 67
         define_faceheight 80
         
-feed 15m http://subhajitmukherjee.wordpress.com/feed/
+feed 15m https://subhajitmukherjee.wordpress.com/feed/
         define_name Subhajit Mukherjee (bukai)
         define_face hackergotchi/subhajitmukherjee.png
         define_facewidth 80
