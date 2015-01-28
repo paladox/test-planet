@@ -574,7 +574,7 @@ class DayWriter:
 	def start_day(self, tm):
 		print >>self.file, '<div class="day">'
 		day = safe_ftime(self.config["dayformat"], tm)
-		print >>self.file, '<h2>' + day + '</h2>'
+		print >>self.file, '<h3 class="dayform">' + day + '</h3>'
 		self.counter += 1
 
 	def start_time(self, tm):
@@ -1459,7 +1459,7 @@ __description__
 		bits["refresh"] = """<meta http-equiv="Refresh" """ + 'content="' + str(refresh) + '"' + """>"""
 
 		f = StringIO()
-		print >>f, """<table id="feeds">
+		print >>f, """<table class="table" id="feeds">
 <tr id="feedsheader">
 <th>Feed</th><th>RSS</th><th>Last fetched</th><th>Next fetched after</th>
 </tr>"""
@@ -1499,7 +1499,7 @@ __description__
 			filename = config["outputfile"].split("/")[-1:][0] # get the filename only
 			filename = filename.split(".html")
 			outputfile = filename[0] + str(oldpage+1) + ".html"
-			f.write('<p style="text-align: right; margin-right: 2ex;"><a href="'+outputfile+'">Older blog entries</a></p>')
+			f.write('<br><p><a href="'+outputfile+'" class="btn btn-mat"><span class="icon-kdeArrowLeft"></span> Older blog entries</a></p>')
 
 		bits = self.get_main_template_bits(config)
 		bits["items"] = f.getvalue()
