@@ -4030,7 +4030,7 @@ feed 15m https://mohamedanwer.wordpress.com/tag/kde/feed/
         define_facewidth 53
         define_faceheight 80
 
-feed 15m http://blog.yangqiao.fr/category/kdeconnect/feed/
+feed 15m https://yangqiao.wordpress.com/category/kdeconnect/feed/
         define_name YANG Qiao (yangqiao)
 
 feed 15m http://codingyuga.blogspot.com/feeds/posts/default
