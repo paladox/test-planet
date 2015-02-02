@@ -4230,3 +4230,6 @@ feed 15m http://kranzer-d.tumblr.com/tagged/kde/rss
         define_face hackergotchi/Daniel-Pastushchak.png
         define_facewidth 66
         define_faceheight 69
+
+feed 15m http://blog.broulik.de/category/planetkde/feed/
+        define_name Kai Uwe Broulik (kbroulik)
