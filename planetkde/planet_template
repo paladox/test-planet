@@ -121,7 +121,7 @@
                 if (ele[i].style.display == "block") {
                     ele[i].style.display = "none";
                     document.getElementById("togglefrench").checked = false;
-                    eraseCookie("french")
+                    createCookie("french", "none", 360)
                 } else {
                     ele[i].style.display = "block";
                     document.getElementById("togglefrench").checked = true;
@@ -135,7 +135,7 @@
                 if (ele[i].style.display == "block") {
                     ele[i].style.display = "none";
                     document.getElementById("togglespanish").checked = false;
-                    eraseCookie("spanish")
+                    createCookie("spanish", "none", 360)
                 } else {
                     ele[i].style.display = "block";
                     document.getElementById("togglespanish").checked = true;
@@ -150,7 +150,7 @@
                 if (ele[i].style.display == "block") {
                     ele[i].style.display = "none";
                     document.getElementById("togglepolish").checked = false;
-                    eraseCookie("polish")
+                    createCookie("polish", "none", 360)
                 } else {
                     ele[i].style.display = "block";
                     document.getElementById("togglepolish").checked = true;
@@ -164,7 +164,7 @@
                 if (ele[i].style.display == "block") {
                     ele[i].style.display = "none";
                     document.getElementById("toggleportuguese").checked = false;
-                    eraseCookie("portuguese")
+                    createCookie("portuguese", "none", 360)
                 } else {
                     ele[i].style.display = "block";
                     document.getElementById("toggleportuguese").checked = true;
@@ -178,7 +178,7 @@
                 if (ele[i].style.display == "block") {
                     ele[i].style.display = "none";
                     document.getElementById("toggleitalian").checked = false;
-                    eraseCookie("italian")
+                    createCookie("italian", "none", 360)
                 } else {
                     ele[i].style.display = "block";
                     document.getElementById("toggleitalian").checked = true;
@@ -192,7 +192,7 @@
                 if (ele[i].style.display == "block") {
                     ele[i].style.display = "none";
                     document.getElementById("togglechinese").checked = false;
-                    eraseCookie("chinese")
+                    createCookie("chinese", "none", 360)
                 } else {
                     ele[i].style.display = "block";
                     document.getElementById("togglechinese").checked = true;
@@ -220,7 +220,7 @@
                 if (ele[i].style.display == "block") {
                     ele[i].style.display = "none";
                     document.getElementById("toggleuser").checked = false;
-                    eraseCookie("user")
+                    createCookie("user", "none", 360)
                 } else {
                     ele[i].style.display = "block";
                     document.getElementById("toggleuser").checked = true;
@@ -261,12 +261,22 @@
                     (ele[i].style.display = "block");
                 document.getElementById("togglefrench").checked = true;
             };
+            if (french == "none") {
+                for (var i = 0, j = ele.length; i < j; i++)
+                    (ele[i].style.display = "none");
+                document.getElementById("togglefrench").checked = false;
+            };
             var ele = document.getElementsByClassName("spanish");
             var spanish = readCookie("spanish");
             if (spanish == "block") {
                 for (var i = 0, j = ele.length; i < j; i++)
                     (ele[i].style.display = "block");
                 document.getElementById("togglespanish").checked = true;
+            };
+            if (spanish == "none") {
+                for (var i = 0, j = ele.length; i < j; i++)
+                    (ele[i].style.display = "none");
+                document.getElementById("togglespanish").checked = false;
             };
             var ele = document.getElementsByClassName("polish");
             var polish = readCookie("polish");
@@ -275,6 +285,11 @@
                     (ele[i].style.display = "block");
                 document.getElementById("togglepolish").checked = true;
             };
+            if (polish == "none") {
+                for (var i = 0, j = ele.length; i < j; i++)
+                    (ele[i].style.display = "none");
+                document.getElementById("togglepolish").checked = false;
+            };
             var ele = document.getElementsByClassName("portuguese");
             var portuguese = readCookie("portuguese");
             if (portuguese == "block") {
@@ -282,12 +297,22 @@
                     (ele[i].style.display = "block");
                 document.getElementById("toggleportuguese").checked = true;
             };
+            if (portuguese == "none") {
+                for (var i = 0, j = ele.length; i < j; i++)
+                    (ele[i].style.display = "none");
+                document.getElementById("toggleportuguese").checked = false;
+            };
             var ele = document.getElementsByClassName("italian");
             var italian = readCookie("italian");
             if (italian == "block") {
                 for (var i = 0, j = ele.length; i < j; i++)
                     (ele[i].style.display = "block");
                 document.getElementById("toggleitalian").checked = true;
+            };
+            if (italian == "none") {
+                for (var i = 0, j = ele.length; i < j; i++)
+                    (ele[i].style.display = "none");
+                document.getElementById("toggleitalian").checked = false;
             };
             var ele = document.getElementsByClassName("news");
             var news = readCookie("news");
@@ -308,12 +333,22 @@
                     (ele[i].style.display = "block");
                 document.getElementById("toggleuser").checked = true;
             };
+            if (user == "none") {
+                for (var i = 0, j = ele.length; i < j; i++)
+                    (ele[i].style.display = "none");
+                document.getElementById("toggleuser").checked = false;
+            };
             var ele = document.getElementsByClassName("chinese");
             var chinese = readCookie("chinese");
             if (chinese == "block") {
                 for (var i = 0, j = ele.length; i < j; i++)
                     (ele[i].style.display = "block");
                 document.getElementById("togglechinese").checked = true;
+            };
+            if (chinese == "none") {
+                for (var i = 0, j = ele.length; i < j; i++)
+                    (ele[i].style.display = "none");
+                document.getElementById("togglechinese").checked = false;
             };
         }
     </script>
