@@ -4006,8 +4006,9 @@ feed 15m http://eddiesaenz.net/planetKDEposts.xml
 feed 15m http://debjitmondal.blogspot.in/feeds/posts/default/-/kde
         define_name Debjit Mondal (debjit)
 
-feed 15m http://paalsteek.de/gsoc/atom.xml
-        define_name Stephan Platz (paalsteek)
+# 404, blog software seems to be gone
+#feed 15m http://paalsteek.de/gsoc/atom.xml
+#        define_name Stephan Platz (paalsteek)
 
 feed 15m https://aniketanvit.wordpress.com/tag/planetkde/feed/
         define_name Aniket Anvit (packo)
