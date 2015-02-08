@@ -1292,8 +1292,9 @@ feed 15m https://blogs.kde.org/blog/4326/feed
 feed 15m http://psychobrain.blogspot.com/rss.xml
         define_name Andreas Ramm (psychobrain)
 
-feed 15m http://en.blog.influx.kr/rss.xml
-        define_name Joon-Kyu Park
+# timeout
+#feed 15m http://en.blog.influx.kr/rss.xml
+#       define_name Joon-Kyu Park
 
 feed 15m https://randomguy3.wordpress.com/tag/kde/feed/?mrss=off
         define_name Alex Merry
