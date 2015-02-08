@@ -3575,11 +3575,12 @@ feed 15m https://shivaramanaiyer.wordpress.com/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://yashshah.com/blog/category/kde/feed/
-        define_name Yash Shah (yashshah)
-        define_face hackergotchi/yashshah.jpg
-        define_facewidth 69
-        define_faceheight 100
+# 522; Cloudflare can't reach backend server
+#feed 15m http://yashshah.com/blog/category/kde/feed/
+#        define_name Yash Shah (yashshah)
+#        define_face hackergotchi/yashshah.jpg
+#        define_facewidth 69
+#        define_faceheight 100
 
 #feed 15m http://blog.puneetgoyal.co.in/feed/
 #        define_name Puneet Goyal (puneetgoyal)
