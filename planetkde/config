@@ -3952,7 +3952,7 @@ feed 15m http://chakraos.org/news/index.php?/feeds/categories/1-KDE.rss
         define_name Chakra OS
         define_feedclass news
 
-feed 15m http://ziemin.wordpress.com/feed/
+feed 15m https://ziemin.wordpress.com/feed/
         define_name Marcin Zieminski
 
 feed 15m https://akulichalexandr.wordpress.com/feed/
