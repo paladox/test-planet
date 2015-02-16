@@ -3371,8 +3371,8 @@ feed 15m https://djarvie.wordpress.com/category/kde,planetkde/feed/?mrss=off
 #	define_facewidth 96
 #	define_faceheight 96
 
-feed 15m http://guillaume.martres.me/blog/index.php?feed/tag/planetkde/atom
-        define_name Guillaume Martres (smarter)
+#feed 15m http://guillaume.martres.me/blog/index.php?feed/tag/planetkde/atom
+#        define_name Guillaume Martres (smarter)
 
 feed 15m http://sebastian-doerner.de/?cat=4&feed=rss2&mrss=off
         define_name Sebastian Dörner
