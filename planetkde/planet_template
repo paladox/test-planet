@@ -232,12 +232,12 @@
         function applyConfig() {
             if (document.cookie === "") {
                 createCookie("dot", "block", 360);
-                createCookie("french", "block", 360);
-                createCookie("spanish", "block", 360);
-                createCookie("polish", "block", 360);
-                createCookie("portuguese", "block", 360);
-                createCookie("italian", "block", 360);
-                createCookie("chinese", "block", 360);
+                createCookie("french", "none", 360);
+                createCookie("spanish", "none", 360);
+                createCookie("polish", "none", 360);
+                createCookie("portuguese", "none", 360);
+                createCookie("italian", "none", 360);
+                createCookie("chinese", "none", 360);
                 createCookie("news", "block", 360);
                 createCookie("user", "block", 360);
             };
