@@ -9,6 +9,14 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 20px;	
+}
+
 .navbar-default {
   border-bottom:2px solid #3daee9;
 }
@@ -85,6 +93,10 @@ blockquote{
     padding-bottom:10px; 
     border-bottom:1px solid #3daee9;
     margin-bottom: 15px;
+}
+
+.dayform h3{
+	font-size: 24px;
 }
 
 .bluebor{

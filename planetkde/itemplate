@@ -5,7 +5,9 @@
 			    	
 			    <div class="row" style="border-bottom:1px solid #BDC3C7; margin-bottom:1%;">
 			    	<div class="col-md-1 col-xs-3" style="margin-bottom:1%;">
-			    		__if_face__ <img src="__face__"/> __endif__
+			    		__if_face__ <img src="__face__"/> 
+			    		__else__ <img src="def.png"/>
+			    		__endif__
 			    	</div>
 			    	<div class="col-md-11 col-xs-9" style="margin-top:1%;">
 			    		<div class="row">
