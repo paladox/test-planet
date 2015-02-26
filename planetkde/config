@@ -4039,7 +4039,7 @@ feed 15m https://yangqiao.wordpress.com/category/kdeconnect/feed/
 feed 15m http://codingyuga.blogspot.com/feeds/posts/default
         define_name Vijay Dhameliya (vijay13)
 
-feed 15m https://stikonas.eu/wordpress/?feed=rss2&tag=kde
+feed 15m https://stikonas.eu/wordpress/tag/kde/feed/
         define_name Andrius Štikonas
         define_face hackergotchi/stikonas.png
         define_facewidth 67
