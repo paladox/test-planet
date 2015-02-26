@@ -4245,3 +4245,9 @@ feed 15m https://rajeeshknambiar.wordpress.com/feed/
         define_face hackergotchi/rajeesh.png
         define_facewidth 80
         define_faceheight 80
+
+feed 15m https://macawmovies.wordpress.com/feed/
+        define_name Macaw-Movies
+        define_face hackergotchi/macaw-movies.png
+        define_facewidth 80
+        define_faceheight 80
