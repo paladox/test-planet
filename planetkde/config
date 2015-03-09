@@ -1518,8 +1518,8 @@ feed 15m https://metelliuscode.wordpress.com/feed/?mrss=off
 #feed 15m http://www.binaryelysium.com/blog/tag/amarok/feed/
 #        define_name Casey Link (ramblurr)
 
-feed 15m https://irregularexpression.wordpress.com/category/kdeamarok/feed/?mrss=off&category_name=kdeamarok
-        define_name William Viana (Liw-)
+#feed 15m https://irregularexpression.wordpress.com/category/kdeamarok/feed/?mrss=off&category_name=kdeamarok
+#        define_name William Viana (Liw-)
 
 # timeout, toma, kdesysadmin, aug 12th 2010
 #feed 15m http://blog.danielwinter.de/archives/tag/kde/feed
