@@ -352,11 +352,11 @@ feed 15m http://sujithh.info/feed/?tag=KDE-dev%2CPlasma-dev
         define_facewidth 64
         define_faceheight 81
 
-feed 15m http://blog.jasondonenfeld.com/planetkde
-        define_name Jason A. Donenfeld (zx2c4/jdonenfeld)
-        define_face hackergotchi/jdonenfeld.png
-        define_facewidth 61
-        define_faceheight 70
+#feed 15m http://blog.jasondonenfeld.com/planetkde
+#        define_name Jason A. Donenfeld (zx2c4/jdonenfeld)
+#        define_face hackergotchi/jdonenfeld.png
+#        define_facewidth 61
+#        define_faceheight 70
 
 # 404
 #feed 15m http://www.monroe.nu/tag/kde/atom
@@ -2098,8 +2098,8 @@ feed 15m https://momeny.wordpress.com/category/planetkde/feed/?mrss=off&category
 feed 15m http://blogs.fsfe.org/mario/?feed=rss2&tag=kde
         define_name Mario Fux (unormal)
 
-feed 15m http://blog.rburchell.com/feeds/posts/default/-/kde?alt=rss
-        define_name Robin Burchell (w00t)
+#feed 15m http://blog.rburchell.com/feeds/posts/default/-/kde?alt=rss
+#        define_name Robin Burchell (w00t)
 
 feed 15m https://hobbyblobby.wordpress.com/category/planet/feed/?mrss=off&category_name=planet
         define_name Felix Lemke (HobbyBlobby)
