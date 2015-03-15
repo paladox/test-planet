@@ -897,7 +897,7 @@ feed 15m http://blog.cberger.net/category/open-source/feed/?mrss=off
 feed 15m http://clarencedang.blogspot.com/atom.xml
         define_name Clarence Dang
 
-feed 15m http://vladimir_prus.blogspot.com/feeds/posts/default/-/kde
+feed 15m http://blog.vladimirprus.com/feeds/posts/default/-/kde
         define_name Vladimir Prus
 
 # disappeared
