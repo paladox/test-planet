@@ -4238,8 +4238,8 @@ feed 15m http://www.aelog.org/tag/kde/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://ianda.eu/tag/planetkde/feed/
-    define_name Christian Dávid (chris_hd)
+#feed 15m http://ianda.eu/tag/planetkde/feed/
+#        define_name Christian Dávid (chris_hd)
 
 feed 15m http://richardhartmann.de/tags/tech/KDE/index.rss
         define_name Richard Hartmann (RichiH)
