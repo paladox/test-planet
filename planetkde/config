@@ -1156,7 +1156,7 @@ feed 15m http://neksa.blogspot.com/rss.xml
 feed 15m https://apaku.wordpress.com/feed/?mrss=off
         define_name Andreas Pakulat
 
-feed 15m http://blogs.fsfe.org/ruphy/?feed=rss2
+feed 15m http://blogs.fsfe.org/ruphy/feed/
         define_name Riccardo Iaconelli (ruphy)
 
 feed 15m https://apachelog.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
