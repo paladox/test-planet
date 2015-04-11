@@ -642,8 +642,11 @@ feed 15m https://blogs.kde.org/blog/175/feed
         define_facewidth 77
         define_faceheight 85
 
-#feed 15m http://blog.chris.de/feeds/categories/5-KDE.rss
-#        define_name Christian Muehlhaeuser (muesli)
+feed 15m http://blog.chris.de/?feed=rss2&cat=63
+        define_name Christian Muehlhaeuser (muesli)
+        define_face hackergotchi/muesli.jpg
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m https://blogs.kde.org/blog/311/feed
         define_name Cristian Tibirna (Inorog)
