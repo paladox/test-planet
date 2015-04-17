@@ -1041,7 +1041,7 @@ feed 15m http://kdemonkey.blogspot.com/feeds/posts/default
 #        define_facewidth 80
 #        define_faceheight 80
 
-feed 15m http://ivan.fomentgroup.org/blog/tag/planetKDE/feed/atom/
+feed 15m http://cukic.co/feeds/tag:planetkde.xml
         define_name Ivan Čukić (ivan)
         define_face hackergotchi/ivan.png
         define_facewidth 80
@@ -4095,7 +4095,7 @@ feed 15m http://scarlettgatelyclark.com/feed/
         define_face hackergotchi/sgclark.png
         define_facewidth 80
         define_faceheight 80
-        
+
 feed 15m http://the2ring.blogspot.de/feeds/posts/default
         define_name Patrick von Reth (TheOneRing)
         define_face hackergotchi/theonering.png
@@ -4128,7 +4128,7 @@ feed 15m https://nitul1991.wordpress.com/feed/
         define_facewidth 59
         define_faceheight 80
 
-feed 45m https://harishnavnit.wordpress.com/tag/kde/feed/ 
+feed 45m https://harishnavnit.wordpress.com/tag/kde/feed/
         define_name R.Harish Navnit (rharish)
 
 feed 45m http://woboq.com/feed/planetkde.rss
@@ -4153,7 +4153,7 @@ feed 15m https://sinceeverybodyhasablog.wordpress.com/category/KDE/feed/
 	define_name Dinu Kumarasiri (sandarumk)
 
 feed 15m http://alltypesofhacking.blogspot.in/feeds/posts/default
-	define_name Sayan Biswas 
+	define_name Sayan Biswas
 	define_face hackergotchi/sayan.png
 	define_facewidth 80
 	define_faceheight 80
@@ -4175,7 +4175,7 @@ feed 15m http://blog.pinak.me/feed.kde.xml
         define_face hackergotchi/pinak.png
         define_facewidth 67
         define_faceheight 80
-        
+
 feed 15m https://subhajitmukherjee.wordpress.com/feed/
         define_name Subhajit Mukherjee (bukai)
         define_face hackergotchi/subhajitmukherjee.png
