@@ -1724,11 +1724,11 @@ feed 15m https://saschpe.wordpress.com/category/opensource/kde/feed/?mrss=off&ca
 feed 15m http://www.eivanov.com/feeds/posts/default/-/planetkde
         define_name Evgeniy Ivanov (powerfox/pfx)
 
-feed 15m http://estan.dose.se/tag/planetkde/feed
-        define_name Elvis Stansvik (estan)
-        define_face hackergotchi/estan.png
-        define_facewidth 77
-        define_faceheight 80
+#feed 15m http://estan.dose.se/tag/planetkde/feed
+#        define_name Elvis Stansvik (estan)
+#        define_face hackergotchi/estan.png
+#        define_facewidth 77
+#        define_faceheight 80
 
 feed 15m http://shield008.blogspot.com/feeds/posts/default/-/KDE
         define_name John-Paul Stanford (jp)
@@ -2067,11 +2067,11 @@ feed 15m https://blogs.kde.org/blog/7020/feed
 feed 15m http://blog.hanschen.org/category/planetkde/feed/?mrss=off&category_name=planetkde
         define_name Hans Chen (Mogger)
 
-feed 15m http://www.enricoros.com/blog/tag/planetkde/feed/
-        define_name Enrico Ros
-        define_face hackergotchi/eros.png
-        define_facewidth 80
-        define_faceheight 80
+#feed 15m http://www.enricoros.com/blog/tag/planetkde/feed/
+#        define_name Enrico Ros
+#        define_face hackergotchi/eros.png
+#        define_facewidth 80
+#        define_faceheight 80
 
 #feed 15m http://blog.daniel-laidig.de/category/planetkde/feed/
 #	define_name Daniel Laidig (dani_l)
@@ -3531,8 +3531,8 @@ feed 15m http://blog.rishab.in/feeds/kde.rss.xml
         define_facewidth 79
         define_faceheight 83
 
-feed 15m http://luisgabriel.me/category/planet-kde/feed/
-        define_name Luís Gabriel Lima (luisgabriel)
+#feed 15m http://luisgabriel.me/category/planet-kde/feed/
+#        define_name Luís Gabriel Lima (luisgabriel)
 
 feed 15m http://arthursribeiro.blogspot.com.br/feeds/posts/default/-/kde
         define_name Arthur Ribeiro (arthurribeiro)
