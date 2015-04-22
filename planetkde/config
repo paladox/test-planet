@@ -4000,8 +4000,8 @@ feed 15m https://gcompris.wordpress.com/category/KDE/feed/
 feed 15m https://harshimistry.wordpress.com/feed/
         define_name Harshita Mistry
 
-feed 15m http://blog.karanluthra.in/feeds/kde.atom.xml
-        define_name Karan Luthra (luthrak)
+#feed 15m http://blog.karanluthra.in/feeds/kde.atom.xml
+#        define_name Karan Luthra (luthrak)
 
 feed 15m https://nil1511.wordpress.com/feed/
         define_name Nilesh Suthar (nil1511)
