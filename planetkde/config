@@ -4283,3 +4283,5 @@ feed 60m http://labplot.sourceforge.net/feed/
 feed 60m https://dfighter1985.wordpress.com/category/planetkde/feed/
         define_name dfighter
 
+feed 3h http://feinstaub.github.io/blog/feed.kde.xml
+        define_name gregormi (gregormi)
