@@ -4013,8 +4013,9 @@ feed 15m https://nil1511.wordpress.com/feed/
 #feed 15m http://yellowscrolls.wordpress.com/category/kde/feed/
 #        define_name Avik Pal (avikpal)
 
-feed 15m http://alasin.github.io/atom.xml
-        define_name Anuj Pahuja (alasin)
+# Discontinued
+#feed 15m http://alasin.github.io/atom.xml
+#        define_name Anuj Pahuja (alasin)
 
 feed 15m http://eddiesaenz.net/planetKDEposts.xml
         define_name Simon at Facebook Open Academy
