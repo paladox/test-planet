@@ -4286,3 +4286,6 @@ feed 60m https://dfighter1985.wordpress.com/category/planetkde/feed/
 
 feed 3h http://feinstaub.github.io/blog/feed.kde.xml
         define_name gregormi (gregormi)
+
+feed 60m http://kritaanimation.blogspot.com/feeds/posts/default
+	define_name Jouni Pentikäinen (tyyppi)
