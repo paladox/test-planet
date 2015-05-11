@@ -4289,3 +4289,6 @@ feed 3h http://feinstaub.github.io/blog/feed.kde.xml
 
 feed 60m http://kritaanimation.blogspot.com/feeds/posts/default
 	define_name Jouni Pentikäinen (tyyppi)
+
+feed 15m http://wolfcliff.blogspot.com/feeds/posts/default/-/kdestuff
+        define_name Francesco Wofford (woffy)
