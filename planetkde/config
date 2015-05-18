@@ -3988,8 +3988,8 @@ feed 15m http://calligra-author-outliner.blogspot.ru/feeds/posts/default
 feed 15m https://kritawithmohit.wordpress.com/feed/
         define_name Mohit Goyal (mohit)
 
-feed 15m http://kbhaskar.in/tag/kde/rss/
-        define_name Bhaskar Kandiyal
+#feed 15m http://kbhaskar.in/tag/kde/rss/
+#        define_name Bhaskar Kandiyal
 
 feed 15m https://gcompris.wordpress.com/category/KDE/feed/
         define_name Bruno Coudoin (bdoin)
