@@ -4297,4 +4297,10 @@ feed 45m http://www.msadityan.com/feed/?cat=kde
 	define_name M.S.Adityan (drawkward) 
 	define_face hackergotchi/msadityan.png 
 	define_facewidth 80 
-	define_faceheight 80 
+	define_faceheight 80
+
+feed 45m http://sahebpreet-kde.blogspot.in/atom.xml
+    define_name Saheb Preet Singh (sahebpreet) 
+    define_face hackergotchi/sahebpreet.png
+    define_facewidth 80
+    define_faceheight 80
