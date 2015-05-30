@@ -1783,7 +1783,7 @@ feed 15m http://blog.chatonka.com/category/computers/linux/kde4/planetkde/feed/
         define_facewidth 47
         define_faceheight 80
 
-feed 15m https://www.dennogumi.org/category/kde/feed/
+feed 15m https://www.dennogumi.org/category/kde/feed/atom.xml
         define_name Luca Beltrame (einar77)
 
 feed 15m http://blog.neverendingo.de/?feed=rss2&cat=4
