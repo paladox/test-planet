@@ -1147,8 +1147,8 @@ feed 15m http://domseichter.blogspot.com/feeds/posts/default
 feed 15m http://milliams.com/?q=rss.xml
         define_name Matt Williams
 
-feed 15m http://blog.pinaraf.info/category/kde/feed/
-        define_name Pierre Ducroquet
+#feed 15m http://blog.pinaraf.info/category/kde/feed/
+#        define_name Pierre Ducroquet
 
 feed 15m http://chehrlic.blogspot.com/rss.xml
         define_name Christian Ehrlicher
@@ -1308,8 +1308,8 @@ feed 15m https://randomguy3.wordpress.com/tag/kde/feed/?mrss=off
 #feed 15m http://groundferret.blogspot.com/rss.xml
 #        define_name Dan Borne
 
-feed 15m http://www.layt.net/john/taxonomy/term/4/0/feed
-        define_name John Layt
+#feed 15m http://www.layt.net/john/taxonomy/term/4/0/feed
+#        define_name John Layt
 
 #feed 15m http://wire.dattitu.de/rss.php?category=1
 #        define_name Dirk Mueller
@@ -4207,11 +4207,11 @@ feed 15m https://dassouvik.wordpress.com/feed/
     define_facewidth 70
     define_faceheight 76
 
-feed 15m http://blog.ranveeraggarwal.com/tagged/kde/rss
-    define_name Ranveer Aggarwal (ranveeraggarwal)
-    define_face hackergotchi/Ranveer-Aggarwal.jpg
-    define_facewidth 80
-    define_faceheight 94
+#feed 15m http://blog.ranveeraggarwal.com/tagged/kde/rss
+#    define_name Ranveer Aggarwal (ranveeraggarwal)
+#    define_face hackergotchi/Ranveer-Aggarwal.jpg
+#    define_facewidth 80
+#    define_faceheight 94
 
 feed 15m https://thegreatercode.wordpress.com/feed/
     define_name Utkarsh Simha (usimha)
