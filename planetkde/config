@@ -4141,8 +4141,8 @@ feed 15m https://rahulc93.wordpress.com/tag/kde/feed/
 	define_facewidth 80
         define_faceheight 80
 
-feed 45m http://blog.ashish-bansal.in/feeds/posts/default/-/KDE
-    define_name Ashish Bansal (mrphantom)
+#feed 45m http://blog.ashish-bansal.in/feeds/posts/default/-/KDE
+#    define_name Ashish Bansal (mrphantom)
 
 feed 15m https://fedorapeople.org/~minh/feed.kde.xml
 	define_name Minh Ngo (ignotus)
