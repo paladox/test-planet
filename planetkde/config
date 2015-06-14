@@ -987,11 +987,11 @@ feed 15m http://kemistry-desktop.blogspot.com/atom.xml
 #feed 15m http://impul.se/~kling/blog/?feed=rss2
 #        define_name Andreas Kling (kling)
 
-feed 15m http://gis-blog.leonde.de/index.php/category/kde/feed/
-        define_name Carsten Pfeiffer (gis)
-        define_face hackergotchi/pfeiffer.png
-        define_facewidth 64
-        define_faceheight 80
+#feed 15m http://gis-blog.leonde.de/index.php/category/kde/feed/
+#        define_name Carsten Pfeiffer (gis)
+#        define_face hackergotchi/pfeiffer.png
+#        define_facewidth 64
+#        define_faceheight 80
 
 feed 15m http://blog.bisect.de/atom.xml
         define_name Danny Kukawka
