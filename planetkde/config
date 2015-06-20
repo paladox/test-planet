@@ -4296,6 +4296,12 @@ feed 3h http://feinstaub.github.io/blog/feed.kde.xml
 feed 60m http://kritaanimation.blogspot.com/feeds/posts/default
 	define_name Jouni Pentikäinen (tyyppi)
 
+feed 60m http://http://wolthera.info/?cat=98&feed=rss2
+    deine_name Wolthera van Hövell tot Westerflier (Wolthera)
+    define_face hackergotchi/Wolthera.png
+    define_facewidth 80
+    define_faceheight 80
+
 feed 15m http://wolfcliff.blogspot.com/feeds/posts/default/-/kdestuff
         define_name Francesco Wofford (woffy)
         
