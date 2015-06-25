@@ -4213,11 +4213,11 @@ feed 15m https://dassouvik.wordpress.com/feed/
     define_facewidth 70
     define_faceheight 76
 
-#feed 15m http://blog.ranveeraggarwal.com/tagged/kde/rss
-#    define_name Ranveer Aggarwal (ranveeraggarwal)
-#    define_face hackergotchi/Ranveer-Aggarwal.jpg
-#    define_facewidth 80
-#    define_faceheight 94
+feed 15m http://ranveeraggarwal.com/blog/tag/kde/feed/
+    define_name Ranveer Aggarwal (ranveeraggarwal)
+    define_face hackergotchi/Ranveer-Aggarwal.jpg
+    define_facewidth 80
+    define_faceheight 94
 
 feed 15m https://thegreatercode.wordpress.com/feed/
     define_name Utkarsh Simha (usimha)
