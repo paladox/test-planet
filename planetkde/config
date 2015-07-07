@@ -1576,8 +1576,8 @@ feed 15m http://fmontesi.blogspot.com/feeds/posts/default/-/kde
 #feed 15m http://blog.uninstall.it/category/planetkde/feed/
 #        define_name Davide Bettio (WindowsUninstall)
 
-feed 15m http://blog.morpheuz.cc/category/kde/feed/
-        define_name Artur Souza (MoRpHeUz)
+#feed 15m http://blog.morpheuz.cc/category/kde/feed/
+#        define_name Artur Souza (MoRpHeUz)
 
 # Blog down, 503 error
 #feed 15m http://web.mornfall.net/planet/kde.rss
