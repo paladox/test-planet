@@ -4003,9 +4003,6 @@ feed 15m https://gcompris.wordpress.com/category/KDE/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 15m https://harshimistry.wordpress.com/feed/
-        define_name Harshita Mistry
-
 #feed 15m http://blog.karanluthra.in/feeds/kde.atom.xml
 #        define_name Karan Luthra (luthrak)
 
