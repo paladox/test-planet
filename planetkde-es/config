@@ -328,7 +328,7 @@ changeconfig true
 #feed 3h http://proxyfeed.example.com/proxied.rss http_proxy=http://localhost:1234/
 #feed 3h http://dupsfeed.example.com/duplicated.rss allowduplicates=true
 
-feed 15m http://abenitobethencourt.blogspot.com/feeds/posts/default?alt=rss
+feed 15m http://es.toscalix.com/feeds/posts/default?alt=rss
         define_name Agustín Benito Bethencourt
 
 feed 15m http://aucahuasi.blogspot.com/feeds/posts/default
