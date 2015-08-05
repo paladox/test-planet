@@ -1329,7 +1329,7 @@ feed 15m http://feeds.feedburner.com/slashrosha/en/kde
         define_facewidth 96
         define_faceheight 96
 
-feed 15m http://toscalix.blogspot.com/feeds/posts/default?alt=rss
+feed 15m http://blog.toscalix.com/feeds/posts/default?alt=rss
         define_name Agustin Benito Bethencourt
 
 feed 15m http://elcuco2.blogspot.com/feeds/posts/default
@@ -2873,7 +2873,7 @@ feed 15m https://krita.org/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://abenitobethencourt.blogspot.com/feeds/posts/default?alt=rss
+feed 15m http://es.toscalix.com/feeds/posts/default?alt=rss
         define_name Agustín Benito Bethencourt
         define_feedclass spanish
 
