@@ -353,6 +353,11 @@
             };
         }
     </script>
+    <!--donation-banner-->
+    <link rel="stylesheet" href="./donations/banner.css" type="text/css" />
+    <script type="text/javascript" src="//cdn.kde.org/js/jquery.js"></script>
+    <script type="text/javascript" src="./donations/banner.js"></script>
+    <!--/donation-banner-->
 </head>
 
 
@@ -401,6 +406,25 @@
             <!--/.nav-collapse -->
         </div>
     </nav>
+    <!--donation-banner-->
+    <div align="center">
+        <div id="donation-banner" data-campaign="18045">
+            <div id="donation-graph">
+                <div id="donation-bar"></div>
+            </div>
+            <div id="donation-bar-txt">
+                <span id="donation-goal">
+                    &#8364; 38500
+                </span>
+                &#8364; <span id="donation-goal-amt">0.00</span>
+            </div>
+            <div id="donation-text">
+                Please donate what you can to help make the Randa Meetings 2015 possible.
+                <a href="https://www.kde.org/fundraisers/kdesprints2015/">Read more</a>.
+            </div>
+        </div>
+    </div>
+    <!--/donation-banner-->
     <div class="container">
         <!--div class="row">
             <div class="col-lg-4 col-xs-offset-4">

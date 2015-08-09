@@ -1,6 +1,7 @@
 #donation-banner {
+  position: relative;
+  top: -20px;
   width: 800px;
-  height: 90px;
   background: url('banner.png');
   text-align: center;
   padding-top: 10px;
@@ -17,7 +18,7 @@
 }
 #donation-bar {
   background: #999;
-  height: 12px;
+  height: 11px;
   width: 0;
   -webkit-transition: 0.6s ease-in-out width;
   -moz-transition: 0.6s ease-in-out width;

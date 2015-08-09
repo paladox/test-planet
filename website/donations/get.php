@@ -13,7 +13,7 @@ header('Access-Control-Allow-Origin: *');
 
 // Get the campaign data
 $dom = new simple_html_dom();
-$dom->load_file("http://www.kde.org/fundraisers/randameetings2014/");
+$dom->load_file("https://www.kde.org/fundraisers/kdesprints2015/");
 
 $content = $dom->find('.formholder p', 0)->plaintext;
 $chunks = explode(' ', $content);
@@ -23,7 +23,7 @@ $goal = floatval(substr($goal, 3));
 // Output the data in JSON format
 $data = array(
     "goal" => $goal,
-    "pcnt" => $goal / 200,
+    "pcnt" => $goal / 385,
 );
 
 echo json_encode($data);
