@@ -4141,7 +4141,7 @@ feed 15m https://rahulc93.wordpress.com/tag/kde/feed/
 #feed 45m http://blog.ashish-bansal.in/feeds/posts/default/-/KDE
 #    define_name Ashish Bansal (mrphantom)
 
-feed 15m https://fedorapeople.org/~minh/feed.kde.xml
+feed 15m https://fedorapeople.org/~minh/tag/feed/kde.html
 	define_name Minh Ngo (ignotus)
 	define_face hackergotchi/nlminhtl.png
 	define_facewidth 74
