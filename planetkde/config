@@ -4398,7 +4398,7 @@ feed 15m https://vyacheslav-matyushin.blogspot.ru/feeds/posts/default/-/kde
         define_facewidth 80
         define_faceheight 80
         
-feed 45m http://shouryasgupta.blog.com/feed/
+feed 45m http://support-kde-randa.blogspot.com/feeds/posts/default
          define_name Shourya Singh Gupta
          define_face hackergotchi/shourya.jpg
          define_facewidth 60
