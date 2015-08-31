@@ -2909,7 +2909,7 @@ feed 15m http://tsdgeos-es.blogspot.com/atom.xml
 #        define_facewidth 80
 #        define_faceheight 102
 
-feed 15m http://www.kubuntu.org/news/rss-feed
+feed 15m http://kubuntu.org/news/feed
         define_name Kubuntu News
         define_feedclass news
         define_face hackergotchi/kubuntu-logo.png
