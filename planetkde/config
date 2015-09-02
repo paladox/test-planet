@@ -4405,5 +4405,5 @@ feed 45m http://support-kde-randa.blogspot.com/feeds/posts/default
          define_faceheight 80
 
 
-feed 15m https://exote.ch/blogs/sandro/tag/kde/rss
+feed 15m https://exote.ch/blogs/sandro/tag/kde/rss/
 	define_name Sandro Knauß (hefee)
