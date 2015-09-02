@@ -4407,3 +4407,6 @@ feed 45m http://support-kde-randa.blogspot.com/feeds/posts/default
 
 feed 15m https://exote.ch/blogs/sandro/tag/kde/rss/
 	define_name Sandro Knauß (hefee)
+	define_face hackergotchi/hefee.png
+	define_facewidth 89
+	define_faceheight 72
