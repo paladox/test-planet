@@ -1659,11 +1659,11 @@ feed 15m http://socceroosd.blogspot.com/feeds/posts/full/-/kde
 #        define_facewidth 55
 #        define_faceheight 80
 
-feed 15m http://blog.gokmengoksel.com/tag/planet-kde/feed/
-        define_name Gokmen Goksel (gokmen)
-        define_face hackergotchi/gokmen.png
-        define_facewidth 64
-        define_faceheight 77
+#feed 15m http://blog.gokmengoksel.com/tag/planet-kde/feed/
+#        define_name Gokmen Goksel (gokmen)
+#        define_face hackergotchi/gokmen.png
+#        define_facewidth 64
+#        define_faceheight 77
 
 # Service terminated by Opera
 #feed 15m http://my.opera.com/it-s/xml/rss/blog/kde
