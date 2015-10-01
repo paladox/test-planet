@@ -426,12 +426,12 @@
     </div> -->
     <!--/donation-banner-->
     <div class="container">
-        <div class="row">
+        <!--div class="row">
             <div class="col-lg-4 col-xs-offset-4">
                 <img src="images/header.png" class="img img-responsive">
             </div>
         </div>
-        <hr style="height:10px; background-color: #333;">
+        <hr style="height:10px; background-color: #333;" -->
          __items__
 
         <hr class="blueline">
