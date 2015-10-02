@@ -4412,7 +4412,7 @@ feed 15m https://exote.ch/blogs/sandro/tag/kde/rss/
 	define_facewidth 89
 	define_faceheight 72
 
-feed 15m https://blogs.kde.org/blogs/htietze
+feed 15m https://blogs.kde.org/blog/10432/feed
 	define_name Heiko Tietze (htietze)
 	define_face hackergotchi/htietze.png
 	define_facewidth 67
