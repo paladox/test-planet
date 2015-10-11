@@ -340,7 +340,7 @@ changeconfig true
 #feed 3h http://proxyfeed.example.com/proxied.rss http_proxy=http://localhost:1234/
 #feed 3h http://dupsfeed.example.com/duplicated.rss allowduplicates=true
 
-feed 15m https://afiestas.org/category/floss/kde/feed/
+feed 15m http://afiestas.org/category/floss/kde/feed/
         define_name Alex Fiestas (afiestas)
         define_face hackergotchi/afiestas.png
         define_facewidth 59
