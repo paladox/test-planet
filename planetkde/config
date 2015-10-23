@@ -3391,11 +3391,11 @@ feed 15m https://djarvie.wordpress.com/category/kde,planetkde/feed/?mrss=off
 feed 15m http://sebastian-doerner.de/?cat=4&feed=rss2&mrss=off
         define_name Sebastian Dörner
 
-#feed 15m http://blog.tenstral.net/category/planet/planetkde/feed
-#        define_name Matthias Klumpp (ximion)
-#        define_face hackergotchi/matthias_ximion.png
-#        define_facewidth 80
-#        define_faceheight 75
+feed 15m http://blog.tenstral.net/category/planet/planetkde/feed
+        define_name Matthias Klumpp (ximion)
+        define_face hackergotchi/matthias_ximion.png
+        define_facewidth 80
+        define_faceheight 75
 
 feed 15m http://letsfollowthewhiterabbit.blogspot.com/feeds/posts/default
         define_name Luca Tringali (lucatringali)
