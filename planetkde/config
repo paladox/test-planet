@@ -3631,8 +3631,8 @@ feed 15m http://kdeblog.mageprojects.com/feed/
 feed 15m http://www.aegiap.eu/kdeblog/category/planetkde/feed/?mrss=off
         define_name Laurent Montel (mlaurent)
 
-feed 15m http://www.mssola.com/feeds/posts/default
-        define_name Miquel Sabaté (mssola)
+#feed 15m http://www.mssola.com/feeds/posts/default
+#        define_name Miquel Sabaté (mssola)
 
 feed 15m https://hashpling.wordpress.com/tag/planetkde/feed/?mrss=off&tag=planetkde
         define_name Anant Kamath (flak37)
