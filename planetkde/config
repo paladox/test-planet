@@ -2948,62 +2948,6 @@ feed 15m https://mrybczynska.wordpress.com/category/english/feed/?mrss=off&categ
 feed 15m http://bcooksley.blogspot.com/feeds/posts/default
         define_name Ben Cooksley (bcooksley)
 
-#feed 15m http://kdepi.wordpress.com/category/planetkde-portugues-araceletorres/feed/
-#        define_name Aracele Torres (araceletorres)
-#        define_face hackergotchi/araceletorres.jpg
-#        define_facewidth 75
-#        define_faceheight 80
-#        define_feedclass portuguese
-
-#feed 15m http://kdepi.wordpress.com/category/planetkde-portugues-filipesaraiva/feed/
-#        define_name Filipe Saraiva (filipesaraiva)
-#        define_face hackergotchi/filipesaraiva.png
-#        define_facewidth 80
-#        define_faceheight 80
-#        define_feedclass portuguese
-
-#feed 15m http://kdepi.wordpress.com/category/planetkde-portugues-chicao/feed/
-#        define_name Francisco Fernandes (chicao)
-#        define_face hackergotchi/chicao.png
-#        define_facewidth 80
-#        define_faceheight 80
-#        define_feedclass portuguese
-
-#feed 15m http://kde-mg.org/author/lamarque/feed/
-#        define_name Lamarque Souza (lamarque ou lvsouza)
-#        define_face hackergotchi/lamarque.png
-#        define_facewidth 74
-#        define_faceheight 80
-#        define_feedclass portuguese
-
-#feed 15m http://kde-mg.org/author/amandacsi/feed/
-#        define_name Amanda (amandacsi)
-#        define_face hackergotchi/amandacsi.jpg
-#        define_facewidth 53
-#        define_faceheight 80
-#        define_feedclass portuguese
-
-#feed 15m http://kde-mg.org/author/lombra/feed/
-#        define_name Felipe Ribeiro (lombra)
-#        define_face hackergotchi/lombra.jpg
-#        define_facewidth 80
-#        define_faceheight 80
-#        define_feedclass portuguese
-
-#feed 15m http://kde-mg.org/author/don/feed/
-#        define_name Daniel O. Nascimento (don)
-#        define_face hackergotchi/don.jpg
-#        define_facewidth 60
-#        define_faceheight 80
-#        define_feedclass portuguese
-
-#feed 15m http://kde-mg.org/author/tuliom/feed/
-#        define_name Tulio Magno (tuliom)
-#        define_face hackergotchi/tuliom.png
-#        define_facewidth 48
-#        define_faceheight 48
-#        define_feedclass portuguese
-
 feed 15m https://kders.wordpress.com/category/planetkde-pt-wagner/feed/
         define_name Wagner Reck (wiglot)
         define_face hackergotchi/wagner.png
