@@ -2523,18 +2523,6 @@ feed 15m https://btux1984.wordpress.com/category/kde/feed/
         define_facewidth 70
         define_faceheight 80
 
-feed 15m https://liveblue.wordpress.com/category/planetkde-araceletorres/feed/?mrss=off&category_name=planetkde-araceletorres
-        define_name Aracele Torres (araceletorres)
-        define_face hackergotchi/araceletorres.jpg
-        define_facewidth 75
-        define_faceheight 80
-
-#feed 15m http://kdepi.wordpress.com/category/planetkde-araceletorres/feed/
-#        define_name Aracele Torres (araceletorres)
-#        define_face hackergotchi/araceletorres.jpg
-#        define_facewidth 75
-#        define_faceheight 80
-
 feed 15m https://cibermundi.wordpress.com/category/planetkde-araceletorres/feed/
         define_name Aracele Torres (araceletorres)
         define_face hackergotchi/araceletorres.jpg
