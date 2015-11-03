@@ -2283,12 +2283,6 @@ feed 15m http://www.tm-travolta.net/cat/kde/feed
         define_facewidth 64
         define_faceheight 64
 
-feed 15m https://liveblue.wordpress.com/category/planetkde-vinicius/feed/?mrss=off&category_name=planetkde-vinicius
-        define_name Vinicius Azevedo (stdcout)
-        define_face hackergotchi/viniciusazevedo.jpg
-        define_facewidth 80
-        define_faceheight 80
-
 # feed not found, toma, kdesysadmin, aug 12th 2010
 #feed 15m http://jmho4.wordpress.com/category/kde/feed/?mrss=off
 #        define_name Jens-Michael Hoffmann (jmho)
