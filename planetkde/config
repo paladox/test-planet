@@ -2541,12 +2541,6 @@ feed 15m https://kders.wordpress.com/category/planetkde-wagner/feed/?mrss=off&ca
         define_facewidth 80
         define_faceheight 80
 
-feed 15m https://liveblue.wordpress.com/category/planetkde-luizromario/feed/?mrss=off&category_name=planetkde-luizromario
-        define_name Luiz Romário (luizromario)
-        define_face hackergotchi/luizromario.jpg
-        define_facewidth 80
-        define_faceheight 80
-
 #feed 15m http://developer.pardus.org.tr/people/ozan/blog/?feed=rss2&tag=kde
 #        define_name Ozan Çağlayan (ozancaglayan)
 #        define_face hackergotchi/ozan.png
@@ -2558,18 +2552,6 @@ feed 15m https://kders.wordpress.com/category/planetkde-camila/feed/?mrss=off&ca
         define_face hackergotchi/camilaayres.png
         define_facewidth 80
         define_faceheight 80
-
-feed 15m https://liveblue.wordpress.com/category/planetkde-filipesaraiva/feed/?mrss=off&category_name=planetkde-filipesaraiva
-        define_name Filipe Saraiva (filipesaraiva)
-        define_face hackergotchi/filipesaraiva.png
-        define_facewidth 80
-        define_faceheight 80
-
-#feed 15m http://kdepi.wordpress.com/category/planetkde-filipesaraiva/feed/
-#        define_name Filipe Saraiva (filipesaraiva)
-#        define_face hackergotchi/filipesaraiva.png
-#        define_facewidth 80
-#        define_faceheight 80
 
 feed 15m http://blog.filipesaraiva.info/?tag=planetkde-english&feed=rss2
         define_name Filipe Saraiva (filipesaraiva)
