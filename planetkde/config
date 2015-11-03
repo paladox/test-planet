@@ -2541,12 +2541,6 @@ feed 15m https://kders.wordpress.com/category/planetkde-wagner/feed/?mrss=off&ca
         define_facewidth 80
         define_faceheight 80
 
-feed 15m https://liveblue.wordpress.com/category/planetkde-alexraymond/feed/?mrss=off&category_name=planetkde-alexraymond
-        define_name Alex Raymond (alexraymond)
-        define_face hackergotchi/alexraymond.jpg
-        define_facewidth 80
-        define_faceheight 80
-
 feed 15m https://liveblue.wordpress.com/category/planetkde-luizromario/feed/?mrss=off&category_name=planetkde-luizromario
         define_name Luiz Romário (luizromario)
         define_face hackergotchi/luizromario.jpg
