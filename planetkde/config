@@ -4295,6 +4295,9 @@ feed 45m https://brprint3d.wordpress.com/author/lays147/feed/
 feed 45 https://brprint3d.wordpress.com/author/ayrtoncavalieri/feed/
 	 define_name Ayrton (BR-Print3D)
 
+feed 45 https://brprint3d.wordpress.com/author/phenonart/feed/ 
+	define_name Guilherme Razgriz (BR-Print3D)
+
 feed 45m http://support-kde-randa.blogspot.com/feeds/posts/default
          define_name Shourya Singh Gupta
          define_face hackergotchi/shourya.jpg
