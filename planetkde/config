@@ -484,11 +484,11 @@ feed 15m https://daniel.molkentin.net/category/1-kde/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 15m https://exote.ch/blogs/aseigo/rss/
-        define_name Aaron Seigo (aseigo)
-        define_face hackergotchi/aseigo.png
-        define_facewidth 64
-        define_faceheight 81
+#feed 15m https://exote.ch/blogs/aseigo/rss/
+#        define_name Aaron Seigo (aseigo)
+#        define_face hackergotchi/aseigo.png
+#        define_facewidth 64
+#        define_faceheight 81
 
 feed 15m https://blogs.kde.org/blog/102/feed
         define_name Brad Hards (bradh)
@@ -4304,11 +4304,11 @@ feed 45m http://support-kde-randa.blogspot.com/feeds/posts/default
          define_facewidth 60
          define_faceheight 80
 
-feed 15m https://exote.ch/blogs/sandro/tag/kde/rss/
-	define_name Sandro Knauß (hefee)
-	define_face hackergotchi/hefee.png
-	define_facewidth 89
-	define_faceheight 72
+#feed 15m https://exote.ch/blogs/sandro/tag/kde/rss/
+#	define_name Sandro Knauß (hefee)
+#	define_face hackergotchi/hefee.png
+#	define_facewidth 89
+#	define_faceheight 72
 
 feed 15m https://blogs.kde.org/blog/10432/feed
 	define_name Heiko Tietze (htietze)
