@@ -3764,7 +3764,7 @@ feed 15m https://www.csslayer.info/wordpress/tag/planetkde/feed/
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://bhush9.github.io/feed.xml
+feed 15m http://blog.bshah.in/feed.xml
         define_name Bhushan Shah (bshah)
         define_face hackergotchi/bshah.jpg
         define_facewidth 80
