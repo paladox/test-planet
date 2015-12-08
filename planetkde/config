@@ -3125,6 +3125,12 @@ feed 15m https://kdenlive.org/blog/vpinon/feed
         define_facewidth 60
         define_faceheight 62
 
+feed 15m https://kdenlive.org/blog/unormal/feed
+        define_name Mario Fux (unormal)
+        define_face hackergotchi/kdenlive.png
+        define_facewidth 60
+        define_faceheight 62
+
 feed 15m https://kdenlive.org/blog/1010284/feed
         define_name Gurjot Singh Bhatti (bhattigurjot)
         define_face hackergotchi/kdenlive.png
