@@ -398,3 +398,10 @@ feed 15m https://blogs.kde.org/blog/8251/feed
 
 feed 30m https://blogs.kde.org/blog/8457/feed/
         define_name Torgny Nyblom (tnyblom)
+
+feed 15m https://exote.ch/blogs/sandro/tag/kontact/rss/
+	define_name Sandro Knauß (hefee)
+	define_face hackergotchi/hefee.png
+	define_facewidth 89
+	define_faceheight 72
+
