@@ -106,18 +106,18 @@
 
           <p>To have your blog
           added <a href="http://bugs.kde.org/enter_bug.cgi?product=planet%20kde">file
-          a bug in Bugzilla</a> listing your name, svn account (if you
+          a bug in Bugzilla</a> listing your name, git account (if you
           have one), IRC nick (if you have one), RSS or Atom feed and
           what you do in KDE.  Attach a photo of your face for hackergotchi.</p>
 
-          <p>Alternatively, Planet KDE PIM is kept in KDE's SVN.  If you
+          <p>Alternatively, Planet KDE PIM is kept in KDE's GIT.  If you
           have an account you can add or edit your own feed:</p>
 
             <ul>
 	      <li><em>git clone kde:websites/planet-kde-org</em>
 
               <li>Put your hackergotchi in <em>website/hackergotchi/</em>.
-              A hackergotchi should be a photo of your face smaller than 80x80 pixels with a transparent background. <em>svn add</em> the file.</li>
+              A hackergotchi should be a photo of your face smaller than 80x80 pixels with a transparent background. <em>git add</em> the file.</li>
 
               <li>At the end of the <em>planetkdepim/config</em> file add your details (the name in brackets is your IRC nick):</li>
                  <div id="addmebox">
