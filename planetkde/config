@@ -1459,7 +1459,7 @@ feed 15m http://www.gnuton.org/blog/category/myprojects/kde-dev/feed/atom/
 feed 15m https://arindamghosh.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
         define_name Arindam Ghosh
 
-feed 15m http://pindablog.wordpress.com/feed/?mrss=off
+feed 15m https://pindablog.wordpress.com/feed/?mrss=off
         define_name Rob Scheepmaker (pinda)
 
 feed 15m https://edulix.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
