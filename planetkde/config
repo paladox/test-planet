@@ -402,9 +402,6 @@ feed 15m http://ltinkl.blogspot.com/atom.xml
 feed 15m https://blogs.kde.org/blog/89/feed
         define_name Richard Dale
 
-feed 15m http://benjamin-meyer.blogspot.com/feeds/posts/default/-/KDE
-        define_name Benjamin Meyer (icefox)
-
 feed 15m http://greeneg.blogspot.com/feeds/posts/default/-/KDE
         define_name Gary Greene (greeneg)
 
