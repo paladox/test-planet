@@ -119,7 +119,7 @@
               <li>Put your hackergotchi in <em>website/hackergotchi/</em>.
               A hackergotchi should be a photo of your face smaller than 80x80 pixels with a transparent background. <em>git add</em> the file.</li>
 
-              <li>At the end of the <em>planetkdepim/config</em> file add your details (the name in brackets is your IRC nick):</li>
+              <li>At the end of the <em>planetkde-pim/config</em> file add your details (the name in brackets is your IRC nick):</li>
                  <div id="addmebox">
 feed 15m http://path.to/my/feed.rss
         define_name Konqi Konqueror (konqi)
