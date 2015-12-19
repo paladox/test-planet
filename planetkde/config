@@ -2265,8 +2265,8 @@ feed 15m http://c2143.blogspot.com/feeds/posts/default/-/KDE
         define_facewidth 70
         define_faceheight 80
 
-feed 15m http://blog.m-hias.de/feed/
-        define_name Mathias Kraus (hias)
+#feed 15m http://blog.m-hias.de/feed/
+#        define_name Mathias Kraus (hias)
 
 #feed 15m http://jussi01.com/category/kde/feed/
 #        define_name Jussi Schultink (jussi01)
