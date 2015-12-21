@@ -405,3 +405,9 @@ feed 15m https://exote.ch/blogs/sandro/tag/kontact/rss/
 	define_facewidth 89
 	define_faceheight 72
 
+feed 15m http://ervin.ipsquad.net/atom.xml
+        define_name Kevin Ottens (ervin)
+
+feed 15m https://zanshin.kde.org/atom.xml
+        define_name Zanshin Announcements
+        define_feedclass news
