@@ -3925,11 +3925,11 @@ feed 15m https://aniketanvit.wordpress.com/tag/planetkde/feed/
         define_facewidth 67
         define_faceheight 80
 
-feed 15m http://vedant.instanoapp.com/feeds/posts/default
-        define_name Vedant Agarwala (vedu)
-        define_face hackergotchi/vedant-agarwala.png
-        define_facewidth 66
-        define_faceheight 80
+#feed 15m http://vedant.instanoapp.com/feeds/posts/default
+#        define_name Vedant Agarwala (vedu)
+#        define_face hackergotchi/vedant-agarwala.png
+#        define_facewidth 66
+#        define_faceheight 80
 
 feed 15m http://anditosan.com/blog/feed/
         define_name Andres Betts (anditosan)
