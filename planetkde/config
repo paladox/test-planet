@@ -3098,41 +3098,46 @@ feed 15m https://cordlandwehr.wordpress.com/feed/?mrss=off&tag=kde
 feed 15m https://samxan.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
         define_name Samikshan Bairagya (samxan)
 
-feed 15m https://kdenlive.org/blogs/j-b-m/feed
-        define_name Jean-Baptiste Mardelle (j-b-m)
-
-feed 15m https://kdenlive.org/blogs/granjow/feed
-        define_name Simon A. Eugster (Granjow)
-        define_face hackergotchi/Granjow.png
-        define_facewidth 80
-        define_faceheight 80
-
-feed 15m https://kdenlive.org/blogs/ttill/feed
-        define_name Till Theato (ttill)
-
-feed 15m https://kdenlive.org/blogs/avilla/feed
-        define_name Alberto Villa (avilla)
-        define_face hackergotchi/avilla.png
-        define_facewidth 80
-        define_faceheight 80
-
-feed 15m https://kdenlive.org/blog/vpinon/feed
-        define_name Vincent Pinon (vpinon)
-        define_face hackergotchi/kdenlive.png
-        define_facewidth 60
-        define_faceheight 62
-
-feed 15m https://kdenlive.org/blog/unormal/feed
-        define_name Mario Fux (unormal)
-        define_face hackergotchi/kdenlive.png
-        define_facewidth 60
-        define_faceheight 62
-
-feed 15m https://kdenlive.org/blog/1010284/feed
-        define_name Gurjot Singh Bhatti (bhattigurjot)
-        define_face hackergotchi/kdenlive.png
-        define_facewidth 60
-        define_faceheight 62
+#feed 15m https://kdenlive.org/blogs/j-b-m/feed
+#        define_name Jean-Baptiste Mardelle (j-b-m)
+#
+#feed 15m https://kdenlive.org/blogs/granjow/feed
+#        define_name Simon A. Eugster (Granjow)
+#        define_face hackergotchi/Granjow.png
+#        define_facewidth 80
+#        define_faceheight 80
+#
+#feed 15m https://kdenlive.org/blogs/ttill/feed
+#        define_name Till Theato (ttill)
+#
+#feed 15m https://kdenlive.org/blogs/avilla/feed
+#        define_name Alberto Villa (avilla)
+#        define_face hackergotchi/avilla.png
+#        define_facewidth 80
+#        define_faceheight 80
+#
+#feed 15m https://kdenlive.org/blog/vpinon/feed
+#        define_name Vincent Pinon (vpinon)
+#        define_face hackergotchi/kdenlive.png
+#        define_facewidth 60
+#        define_faceheight 62
+#
+#feed 15m https://kdenlive.org/blog/unormal/feed
+#        define_name Mario Fux (unormal)
+#        define_face hackergotchi/kdenlive.png
+#        define_facewidth 60
+#        define_faceheight 62
+#
+#feed 15m https://kdenlive.org/blog/1010284/feed
+#        define_name Gurjot Singh Bhatti (bhattigurjot)
+#        define_face hackergotchi/kdenlive.png
+#        define_facewidth 60
+#        define_faceheight 62
+feed 15m https://kdenlive.org/rss.xml
+        define_name Kdenlive
+        define_face hackergotchi/kdenlive.svgz
+        define_facewidth 48
+        define_faceheight 48
 
 feed 15m http://laxstrom.name/blag/category/kde/feed/
         define_name Niklas Laxström (Nikerabbit)
