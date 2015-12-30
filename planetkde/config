@@ -4347,3 +4347,7 @@ feed 15m http://inandoutkde.blogspot.com/feeds/posts/default
 
 feed 15m http://divitgulati.blogspot.com/feeds/posts/default
     define_name Divit Gulati
+
+feed 15m http://experiencewithkde.blogspot.de/feeds/posts/default
+    define_name Hristiyan Kyosev
+
