@@ -4194,53 +4194,53 @@ feed 60m http://wolthera.info/?cat=98&feed=rss2
 
 feed 15m http://wolfcliff.blogspot.com/feeds/posts/default/-/kdestuff
         define_name Francesco Wofford (woffy)
-        
-feed 45m http://www.msadityan.com/feed/?cat=kde 
-	define_name M.S.Adityan (drawkward) 
-	define_face hackergotchi/msadityan.png 
-	define_facewidth 80 
+
+feed 45m http://www.msadityan.com/feed/?cat=kde
+	define_name M.S.Adityan (drawkward)
+	define_face hackergotchi/msadityan.png
+	define_facewidth 80
 	define_faceheight 80
 
 feed 45m http://sahebpreet-kde.blogspot.in/atom.xml
-    define_name Saheb Preet Singh (sahebpreet) 
+    define_name Saheb Preet Singh (sahebpreet)
     define_face hackergotchi/sahebpreet.png
     define_facewidth 80
     define_faceheight 80
 
 feed 45m http://binaryspring.blogspot.com/feeds/posts/default/-/kde
-    define_name Aroonav Mishra (roguedragon) 
+    define_name Aroonav Mishra (roguedragon)
     define_face hackergotchi/aroonav.jpg
     define_facewidth 80
     define_faceheight 80
 
-feed 45m http://koldavidgsoc.blogspot.com/feeds/posts/default 
-    define_name David Kolozsvari (koldavid) 
-    define_face hackergotchi/koldavid.png 
-    define_facewidth 80 
+feed 45m http://koldavidgsoc.blogspot.com/feeds/posts/default
+    define_name David Kolozsvari (koldavid)
+    define_face hackergotchi/koldavid.png
+    define_facewidth 80
     define_faceheight 80
 
-feed 45m http://mariusoc.blogspot.com/feeds/posts/default 
-    define_name Marius Stanciu (stancium) 
-    define_face hackergotchi/mariusoc.png 
-    define_facewidth 80 
+feed 45m http://mariusoc.blogspot.com/feeds/posts/default
+    define_name Marius Stanciu (stancium)
+    define_face hackergotchi/mariusoc.png
+    define_facewidth 80
     define_faceheight 80
 
 feed 45m http://pgabor.blogspot.com/feeds/posts/default/-/GSOC
-    define_name Gábor Péterffy (pgabor) 
-    define_face hackergotchi/pgabor.png 
-    define_facewidth 80 
+    define_name Gábor Péterffy (pgabor)
+    define_face hackergotchi/pgabor.png
+    define_facewidth 80
     define_faceheight 80
 
 feed 45m https://danielgsoc.wordpress.com/feed/?mrss=off
-    define_name Daniel Leu (daniel_leu) 
-    define_face hackergotchi/leu.jpg 
-    define_facewidth 80 
+    define_name Daniel Leu (daniel_leu)
+    define_face hackergotchi/leu.jpg
+    define_facewidth 80
     define_faceheight 80
-    
+
 feed 45m https://thebinarybin.wordpress.com/tag/kde/feed/
-    define_name Vineet Garg (vineet) 
-    define_face hackergotchi/vineet-garg.png 
-    define_facewidth 76 
+    define_name Vineet Garg (vineet)
+    define_face hackergotchi/vineet-garg.png
+    define_facewidth 76
     define_faceheight 75
 
 feed 45m https://amezin.github.io/feed.xml
@@ -4272,17 +4272,17 @@ feed 15m http://vhanda.in/blog/tag/planetkde/rss/
     define_face hackergotchi/vhanda.png
     define_facewidth 80
     define_faceheight 80
-    
-feed 45m http://datapicker.blogspot.in/feeds/posts/default 
-    define_name Ankit Wagadre (ankitw) 
-    define_face hackergotchi/ankitw.jpg 
-    define_facewidth 80 
+
+feed 45m http://datapicker.blogspot.in/feeds/posts/default
+    define_name Ankit Wagadre (ankitw)
+    define_face hackergotchi/ankitw.jpg
+    define_facewidth 80
     define_faceheight 80
 
-feed 30m https://blogs.kde.org/blog/10431/feed
+feed 30m https://blog.baloneygeek.com/feeds/rss.xml
     define_name Boudhayan Gupta (BaloneyGeek)
     define_face hackergotchi/bgupta.png
-    define_facewidth 80 
+    define_facewidth 80
     define_faceheight 80
 
 feed 15m http://sagaragarwal94.github.io/atom.xml
@@ -4303,7 +4303,7 @@ feed 45m https://brprint3d.wordpress.com/author/lays147/feed/
 feed 45 https://brprint3d.wordpress.com/author/ayrtoncavalieri/feed/
 	 define_name Ayrton (BR-Print3D)
 
-feed 45 https://brprint3d.wordpress.com/author/phenonart/feed/ 
+feed 45 https://brprint3d.wordpress.com/author/phenonart/feed/
 	define_name Guilherme Razgriz (BR-Print3D)
 
 feed 45m http://support-kde-randa.blogspot.com/feeds/posts/default
@@ -4343,7 +4343,7 @@ feed 30m https://liveblue.wordpress.com/category/planetkde-fernandoteles/feed/
     define_faceheight 80
 
 feed 15m http://inandoutkde.blogspot.com/feeds/posts/default
-    define_name Russell Greene 
+    define_name Russell Greene
 
 feed 15m http://divitgulati.blogspot.com/feeds/posts/default
     define_name Divit Gulati
