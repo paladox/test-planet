@@ -571,7 +571,7 @@ feed 15m http://tsdgeos.blogspot.com/atom.xml
 #        define_facewidth 64
 #        define_faceheight 70
 
-feed 15m http://duncan.mac-vicar.com/feed/?tag=newkde
+feed 15m https://duncan.mac-vicar.com/feed/?tag=newkde
         define_name Duncan Mac-Vicar (duncanmv)
 
 feed 15m https://blogs.kde.org/blog/55/feed
