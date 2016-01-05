@@ -1593,9 +1593,8 @@ feed 15m https://majewsky.wordpress.com/feed/?mrss=off
         define_facewidth 59
         define_faceheight 80
 
-# mjansen: 01/2014. About to update my homepage. hopefully will remember to enable it again.
-#feed 15m http://michael-jansen.biz/blog/feed.rss
-#        define_name Michael Jansen
+feed 15m http://michael-jansen.name/feeds/all.atom.xml
+        define_name Michael Jansen
 
 feed 15m http://blog.froglogic.com/author/koos/feed/atom/?cat=5%2C6
         define_name Koos Vriezen
