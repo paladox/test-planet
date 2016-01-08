@@ -4355,3 +4355,7 @@ feed 23m https://t-fischer.dreamwidth.org/data/rss?tag=kbibtex
     define_face hackergotchi/thomasfischer.png
     define_facewidth 80
     define_faceheight 80
+
+feed 18m https://stanfordlin.wordpress.com/feed/
+    define_name Stanford Lin
+
