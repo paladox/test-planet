@@ -4359,3 +4359,6 @@ feed 23m https://t-fischer.dreamwidth.org/data/rss?tag=kbibtex
 feed 18m https://stanfordlin.wordpress.com/feed/
     define_name Stanford Lin
 
+feed 15m https://hultnuno.wordpress.com/feed/
+    define_name Nuno Hultberg
+
