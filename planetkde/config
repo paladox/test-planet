@@ -3628,11 +3628,11 @@ feed 15m http://tolszak-dev.blogspot.com/feeds/posts/default/-/planetkde
 feed 15m https://martinbriza.wordpress.com/tag/kde/feed/?mrss=off
         define_name Martin Bříza (mbriza)
 
-feed 15m http://barlog.rusu.info/valentin/blog/?feed=rss2&tag=planetkde
-        define_name Valentin Rusu (valir)
-        define_face hackergotchi/valir.png
-        define_facewidth 52
-        define_faceheight 80
+#feed 15m http://barlog.rusu.info/valentin/blog/?feed=rss2&tag=planetkde
+#        define_name Valentin Rusu (valir)
+#        define_face hackergotchi/valir.png
+#        define_facewidth 52
+#        define_faceheight 80
 
 feed 15m https://sysadmin.kde.org/category/planet/feed/
         define_name KDE Sysadmins
