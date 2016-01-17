@@ -4364,3 +4364,9 @@ feed 15m https://hultnuno.wordpress.com/feed/
 
 feed 15m http://netslaughters.de/?feed=rss2&cat=2
     define_name Gilbert Assaf 
+
+feed 15m https://gotolabeladi.wordpress.com/tag/sok/
+    define_name Aditya Dev Sharma (g33kyaditya)
+    define_face hackergotchi/aditya-dev-sharma.jpg
+    define_facewidth 68
+    define_faceheight 80
