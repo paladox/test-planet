@@ -334,7 +334,7 @@ feed 30m http://morice.ipsquad.net/feed.xml
         define_facewidth 80
         define_faceheight 80
 
-feed 30m http://www.aegiap.eu/kdeblog/category/planetkde-fr/feed/?mrss=off
+feed 30m http://famillemontel.org/index.php/category/planetkde-fr/feed/?mrss=off
         define_name Laurent Montel (mlaurent)
 
 feed 30m http://gnumdk-fr.blogspot.com/feeds/posts/default
