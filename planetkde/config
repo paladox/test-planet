@@ -3134,7 +3134,7 @@ feed 15m https://samxan.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
 #        define_faceheight 62
 feed 15m https://kdenlive.org/rss.xml
         define_name Kdenlive
-        define_face hackergotchi/kdenlive.svgz
+        define_face hackergotchi/kdenlive.png
         define_facewidth 48
         define_faceheight 48
 
