@@ -3993,7 +3993,7 @@ feed 15m http://scarlettgatelyclark.com/feed/
         define_faceheight 80
 
 feed 15m http://the2ring.blogspot.de/feeds/posts/default
-        define_name Patrick von Reth (TheOneRing)
+        define_name Hannah von Reth (TheOneRing)
         define_face hackergotchi/theonering.png
         define_facewidth 64
         define_faceheight 64
