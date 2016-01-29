@@ -4370,3 +4370,6 @@ feed 15m https://gotolabeladi.wordpress.com/tag/sok/
     define_face hackergotchi/aditya-dev-sharma.jpg
     define_facewidth 68
     define_faceheight 80
+
+feed 30m https://delsalife.wordpress.com/feed/
+    define_name Andrea Del Sarto
