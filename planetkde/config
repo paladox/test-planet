@@ -714,7 +714,7 @@ feed 15m https://kamikazow.wordpress.com/feed/?mrss=off
 feed 15m http://www.macieira.org/blog/author/thiago/feed/
         define_name Thiago Macieira (thiago)
 
-feed 15m https://liquidat.wordpress.com/feed/?mrss=off
+feed 15m https://liquidat.wordpress.com/category/kde/feed/?mrss=off
         define_name Roland Wolters (liquidat)
 
 feed 15m http://jucato.logbert.org/rss/?section=blog&category=foss
