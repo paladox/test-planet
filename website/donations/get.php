@@ -6,7 +6,7 @@
 * @copyright (c) 2014 Sayak Banerjee <sayakb@kde.org>
 */
 
-include("simple_html_dom.php");
+/*include("simple_html_dom.php");
 
 // Allow access from different domains
 header('Access-Control-Allow-Origin: *');
@@ -26,7 +26,7 @@ $data = array(
     "pcnt" => $goal / 385,
 );
 
-echo json_encode($data);
+echo json_encode($data);*/
 exit;
 
 ?>
