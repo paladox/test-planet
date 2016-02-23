@@ -3391,8 +3391,8 @@ feed 15m http://isemenov.blogspot.com/feeds/posts/default?alt=rss
 feed 15m https://freininghaus.wordpress.com/category/kde/feed/?mrss=off
        define_name Frank Reininghaus
 
-feed 15m https://grulja.wordpress.com/tag/kde/feed/
-        define_name Jan Grulich (grulja)
+feed 15m http://jgrulich.cz/tag/kde/feed/
+        define_name Jan Grulich (jgrulich)
 
 feed 15m http://playgfx.blogspot.com/feeds/posts/default/-/kdestuff
         define_name Claudio Desideri (snizzo)
