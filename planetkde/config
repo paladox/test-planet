@@ -4297,7 +4297,16 @@ feed 15m https://vyacheslav-matyushin.blogspot.ru/feeds/posts/default/-/kde
         define_faceheight 80
 
 feed 45m https://brprint3d.wordpress.com/author/lays147/feed/
-	 define_name Lays (BR-Print3D)
+	define_name Lays Rodrigues(BR-Print3D)
+	define_face hackergotchi/lays-rodrigues.png
+	define_facewidth 55
+	define_faceheight 80
+
+feed 45 https://3dprinterchat.com/author/lays147/feed/
+	define_name Lays Rodrigues(BR-Print3D)
+	define_face hackergotchi/lays-rodrigues.png
+	define_facewidth 55
+	define_faceheight 80
 
 feed 45 https://brprint3d.wordpress.com/author/ayrtoncavalieri/feed/
 	 define_name Ayrton (BR-Print3D)
