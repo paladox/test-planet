@@ -4385,3 +4385,6 @@ feed 30m https://delsalife.wordpress.com/feed/
 
 feed 45m http://www.arnavdhamija.blogspot.com/feeds/posts/default/-/KDE
 	define_name Arnav Dhamija (shortstheory)
+	
+feed 15m http://donkeyshot.eu/blog.rss
+    define_name DonkeyShot
