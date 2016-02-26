@@ -4388,3 +4388,6 @@ feed 45m http://www.arnavdhamija.blogspot.com/feeds/posts/default/-/KDE
 	
 feed 15m http://donkeyshot.eu/blog.rss
     define_name DonkeyShot
+    
+feed 15m http://alittledeveloper.blogspot.com/feeds/posts/default/?q=label:KDE
+    define_name Alessandro Tundo
