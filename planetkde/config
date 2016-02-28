@@ -4387,10 +4387,14 @@ feed 45m http://www.arnavdhamija.blogspot.com/feeds/posts/default/-/KDE
 	define_name Arnav Dhamija (shortstheory)
 	
 feed 15m http://donkeyshot.eu/blog.rss
-    define_name DonkeyShot
+    define_name DonkeyShot (Irene Cortinovis, Gianluca Rigoletti and Davide Valsecchi)
     define_face hackergotchi/donkeyshot.png
     define_facewidth 80
     define_faceheight 80
     
 feed 15m http://alittledeveloper.blogspot.com/feeds/posts/default/?q=label:KDE
     define_name Alessandro Tundo
+
+feed 15m https://atakanzblog.wordpress.com/tag/wikitolearn/feed/
+    define_name Daniele Pannozzo
+
