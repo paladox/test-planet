@@ -4410,6 +4410,6 @@ feed 16m http://martinadestefani.blogspot.com/feeds/posts/default/-/KDE/?alt=rss
     define_facewidth 80
     define_faceheight 80
 
-feed 17m http://blog.wikitolearn.org/category/vincenzo/feed
+feed 17m https://blog.wikitolearn.org/author/vincenzo/feed/
     define_name Vincenzo Eduardo Padulano
 
