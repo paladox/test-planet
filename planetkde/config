@@ -2565,7 +2565,7 @@ feed 15m http://igortrindade.wordpress.com/category/kde/feed/?mrss=off&category_
 #        define_faceheight 113
 #        define_microblog true ArnaudDupuis
 
-feed 15m http://www.andreascarpino.it/feed.xml
+feed 15m https://www.andreascarpino.it/feed.xml
         define_name Andrea Scarpino (ilpianista)
 
 feed 15m https://ronnyml.wordpress.com/category/planet-kde/feed/?mrss=off&category_name=planet-kde
