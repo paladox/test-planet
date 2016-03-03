@@ -4413,3 +4413,5 @@ feed 16m http://martinadestefani.blogspot.com/feeds/posts/default/-/KDE/?alt=rss
 feed 17m https://blog.wikitolearn.org/author/vincenzo/feed/
     define_name Vincenzo Eduardo Padulano
 
+feed 17m https://blog.wikitolearn.org/author/lodo_ravi/feed/
+    define_name Lodovico Filippo Ravizza
