@@ -4439,3 +4439,6 @@ feed 17m https://blog.wikitolearn.org/author/Xadhoom/feed/
 
 feed 17m http://baldi.me/blog/feed-kde.xml
     define_name Cristian Baldi
+
+feed 17m https://blog.wikitolearn.org/author/irenedaloia/feed/
+    define_name Irene D'aloia
