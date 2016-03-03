@@ -4436,3 +4436,6 @@ feed 17m https://blog.wikitolearn.org/author/scimmiaspaziale/feed/
 
 feed 17m https://blog.wikitolearn.org/author/Xadhoom/feed/
     define_name Sofia Liguori
+
+feed 17m http://baldi.me/blog/feed-kde.xml
+    define_name Cristian Baldi
