@@ -3704,11 +3704,11 @@ feed 15m https://ciypro.wordpress.com/category/kde-gsoc2013/feed/?mrss=off
 #        define_facewidth 80
 #        define_faceheight 80
 
-feed 15m http://www.d34dl0ck.me/feeds/posts/default/-/KDE
-        define_name Sven Assmann
-        define_face hackergotchi/svenassmann.png
-        define_facewidth 80
-        define_faceheight 106
+#feed 15m http://www.d34dl0ck.me/feeds/posts/default/-/KDE
+#        define_name Sven Assmann
+#        define_face hackergotchi/svenassmann.png
+#        define_facewidth 80
+#        define_faceheight 106
 
 # 401 - blog is private
 #feed 15m http://heenamahour.blogspot.in/feeds/posts/default/-/gsoc
