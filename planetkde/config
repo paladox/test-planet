@@ -657,43 +657,43 @@ feed 15m https://blogs.kde.org/blog/699/feed
 feed 15m https://blogs.kde.org/blog/1089/feed
         define_name Rob Buis (rwlbuis)
 
-feed 15m http://kate-editor.org/author/cullmann/feed/
+feed 15m https://kate-editor.org/author/cullmann/feed/
         define_name Christoph Cullmann (cullmann)
         define_face hackergotchi/cullmann.png
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://kate-editor.org/author/jowenn/feed/
+feed 15m https://kate-editor.org/author/jowenn/feed/
         define_name Joseph Wenninger (jowenn)
 
-feed 15m http://kate-editor.org/author/shaheed/feed/
+feed 15m https://kate-editor.org/author/shaheed/feed/
         define_name Shaheed Haque (shaheed)
 
-feed 15m http://kate-editor.org/author/lungu/feed/
+feed 15m https://kate-editor.org/author/lungu/feed/
         define_name Adrian Lungu (lungu)
 
-feed 15m http://kate-editor.org/author/dianat/feed/
+feed 15m https://kate-editor.org/author/dianat/feed/
         define_name Diana Tiriplica (dianat)
 
-feed 15m http://kate-editor.org/author/max/feed/
+feed 15m https://kate-editor.org/author/max/feed/
         define_name Maximilian Löffler (max)
 
-feed 15m http://kate-editor.org/author/fjellstrom/feed/
+feed 15m https://kate-editor.org/author/fjellstrom/feed/
         define_name Thomas Fjellstrom (fjellstrom)
 
-feed 15m http://kate-editor.org/author/mentasti/feed/
+feed 15m https://kate-editor.org/author/mentasti/feed/
         define_name Marco Mentasti (mentasti)
 
-feed 15m http://kate-editor.org/author/ksars/feed/
+feed 15m https://kate-editor.org/author/ksars/feed/
         define_name Kåre Särs (ksars)
 
-feed 15m http://kate-editor.org/author/bouthenot/feed/
+feed 15m https://kate-editor.org/author/bouthenot/feed/
         define_name Emmanuel Bouthenot (bouthenot)
 
-feed 15m http://kate-editor.org/author/pcobos/feed/
+feed 15m https://kate-editor.org/author/pcobos/feed/
         define_name Pablo Martín Cobos (pcobos)
 
-feed 15m http://kate-editor.org/author/ssj/feed/
+feed 15m https://kate-editor.org/author/ssj/feed/
         define_name Simon St James (ssj)
 
 feed 15m https://blogs.kde.org/blog/16/feed
@@ -735,7 +735,7 @@ feed 15m https://blogs.kde.org/blog/1186/feed
 feed 15m https://blogs.kde.org/blog/531/feed
         define_name Alexander Neundorf
 
-feed 15m http://kate-editor.org/author/neundorf/feed/
+feed 15m https://kate-editor.org/author/neundorf/feed/
         define_name Alexander Neundorf
 
 feed 15m https://blogs.kde.org/blog/1192/feed
@@ -941,7 +941,7 @@ feed 15m https://frinring.wordpress.com/category/kde/feed/?mrss=off&category_nam
         define_facewidth 64
         define_faceheight 64
 
-feed 15m http://kate-editor.org/author/haumann/feed/
+feed 15m https://kate-editor.org/author/haumann/feed/
         define_name Dominik Haumann
 
 #needs authorisation
@@ -1490,7 +1490,7 @@ feed 15m http://ekaia.org/blog/category/english/kde/feed/
 #        define_facewidth 80
 #        define_faceheight 82
 
-feed 15m http://kate-editor.org/author/Erlend/feed/
+feed 15m https://kate-editor.org/author/Erlend/feed/
         define_name Erlend Hamberg
         define_face hackergotchi/ehamberg.png
         define_facewidth 80
@@ -3253,7 +3253,7 @@ feed 15m http://uwg.kde.org/category/blogs/feed/?mrss=off
 #feed 15m http://kpsfoo.in/blog/tag/planet-kde/feed/
 #    define_name Karan Pratap Singh
 
-feed 15m http://kate-editor.org/author/kuzmich/feed/
+feed 15m https://kate-editor.org/author/kuzmich/feed/
     define_name Svyatoslav Kuzmich
     define_face hackergotchi/Svyatoslav-Kuzmich.jpg
     define_facewidth 80
@@ -3813,7 +3813,7 @@ feed 15m http://ovidiu.geekaliens.com/en/feed/?tag=kde-en
 feed 15m http://zaufi.github.io/rss-kde.xml
         define_name Alex Turbov (zaufi)
 
-feed 15m http://kate-editor.org/author/dav1d/feed/
+feed 15m https://kate-editor.org/author/dav1d/feed/
         define_name David Herberth (dav1d)
 
 feed 15m https://blogs.gnome.org/kittykat/tag/kde/feed/
