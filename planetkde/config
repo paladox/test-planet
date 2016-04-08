@@ -920,7 +920,7 @@ feed 15m http://jefferai.org/atom.xml
 feed 15m https://blogs.kde.org/blog/1813/feed
         define_name Mirko Boehm (miroslav)
 
-feed 15m http://creative-destruction.me/category/kde/feed/
+feed 15m https://creative-destruction.me/category/kde/feed/
         define_name Mirko Boehm
         define_face hackergotchi/mirkoboehm.jpg
         define_facewidth 96
@@ -2061,7 +2061,7 @@ feed 15m http://www.arnorehn.de/blog/feed/
 feed 15m https://blogs.kde.org/blog/7020/feed
         define_name Ramon Zarazua (_killerfox_)
 
-feed 15m http://blog.hanschen.org/category/planetkde/feed/?mrss=off&category_name=planetkde
+feed 15m https://blog.hanschen.org/category/planetkde/feed/?mrss=off&category_name=planetkde
         define_name Hans Chen (Mogger)
 
 #feed 15m http://www.enricoros.com/blog/tag/planetkde/feed/
@@ -2456,7 +2456,7 @@ feed 15m https://www.digikam.org/blog/149/feed
         define_facewidth 69
         define_faceheight 80
 
-feed 15m http://aditya.bhatts.org/tag/kde-planet/feed/?mrss=off&tag=kde-planet
+feed 15m https://aditya.bhatts.org/tag/kde-planet/feed/?mrss=off&tag=kde-planet
         define_name Aditya Bhatt (adityab)
         define_face hackergotchi/adityab.png
         define_facewidth 80
@@ -2580,7 +2580,7 @@ feed 15m https://saidinesh5.wordpress.com/tag/kde-planet/feed/?mrss=off&tag=kde-
         define_facewidth 79
         define_faceheight 72
 
-feed 15m http://blog.shantanu.io/tag/kde/feed/
+feed 15m https://blog.shantanu.io/tag/kde/feed/
         define_name Shantanu Tushar (shantanu)
         define_face hackergotchi/shantanu.png
         define_facewidth 64
@@ -3003,7 +3003,7 @@ feed 15m https://jonanp.wordpress.com/feed/
 feed 15m https://sri13atkritadevel.wordpress.com/feed/?mrss=off
             define_name Srikanth Tiyyagura
 
-feed 15m http://sinny.io/tag/kde/feed/
+feed 15m https://sinny.io/tag/kde/feed/
        define_name Sinny Kumari (ksinny)
        define_face hackergotchi/sinny.png
        define_facewidth 80
@@ -3570,7 +3570,7 @@ feed 15m http://marcuzzokde.blogspot.com/feeds/posts/default?alt=rss
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://ruedigergad.com/tag/planetkde/feed/?mrss=off&tag=planetkde
+feed 15m https://ruedigergad.com/tag/planetkde/feed/?mrss=off&tag=planetkde
         define_name Ruediger Gad (rcg)
         define_face hackergotchi/ruedigergad.png
         define_facewidth 72
