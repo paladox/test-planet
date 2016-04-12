@@ -1054,8 +1054,8 @@ feed 15m http://blog.froglogic.com/author/porten/feed/atom/?cat=5%2C6
 #feed 15m http://labs.qt.nokia.com/feed/?author_name=Morten
 #        define_name Morten S&oslash;rvig
 
-feed 15m http://blog.qt.digia.com/blog/2009/02/13/bnilsenflush/feed/
-        define_name Bj&oslash;rn Erik Nilsen (bnilsen)
+#feed 15m http://blog.qt.digia.com/blog/2009/02/13/bnilsenflush/feed/
+#        define_name Bj&oslash;rn Erik Nilsen (bnilsen)
 
 # 404; 03/09/2012
 #feed 15m http://www.koffice.org/author/zander/feed/
