@@ -4432,6 +4432,11 @@ feed 17m https://blog.wikitolearn.org/author/Lucieferr/feed/
 feed 17m https://blog.wikitolearn.org/author/m.bona/feed/
     define_name Matteo Bonanomi
 
+feed 45m https://ayushashah.wordpress.com/feed/	
+         define_name Ayush Shah (ayushshah)
+         define_face hackergotchi/ayushshah.jpg
+         define_facewidth 80 define_faceheight 80
+
 feed 17m https://blog.wikitolearn.org/author/matteo_marcoli/feed/
     define_name Matteo Marcoli
 
