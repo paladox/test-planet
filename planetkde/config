@@ -554,6 +554,12 @@ feed 15m http://tsdgeos.blogspot.com/atom.xml
         define_facewidth 80
         define_faceheight 80
 
+feed 45m http://www.angrycane.com.br/category/programming/feed
+	define_name Tomaz Canabrava (tomaz)
+	define_face hackergotchi/tomaz-canabrava.png
+	define_facewidth 80
+	define_faceheight 80
+
 #disappeared
 #feed 15m http://sirtaj.net/blog/?flav=rss
 #        define_name Sirtaj Singh Kang (taj)
@@ -1792,12 +1798,6 @@ feed 15m https://adjamblog.wordpress.com/category/international/feed/?mrss=off&c
         define_face hackergotchi/adjam.png
         define_facewidth 46
         define_faceheight 48
-
-feed 15m https://liveblue.wordpress.com/category/planetkde-tomazcanabrava/feed/?mrss=off&category_name=planetkde-tomazcanabrava
-        define_name Tomaz Canabrava (tomaz)
-        define_face hackergotchi/tomaz.png
-        define_facewidth 80
-        define_faceheight 80
 
 feed 15m http://amroth.coldshock.net/kmess/blog/feed/
         define_name Valerio Pilo (Amroth)
