@@ -4523,3 +4523,9 @@ feed 45m https://raphaelcojocaru.wordpress.com/feed/?tag=kde
 feed 45m https://juliacantor.blogspot.ru/feeds/posts/default?alt=rss
 	define_name Ivan Lakhtanov (vaness)
 
+feed 45m http://keenlearner.worpress.com/?feed=rss
+	define_name Abhimanyu Shekhawat (abhimanyushekhawat)
+        define_face hackergotchi/abhimanyushekhawat.png
+        define_facewidth 80
+        define_faceheight 80
+
