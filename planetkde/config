@@ -2702,11 +2702,11 @@ feed 15m https://siddharthkde.wordpress.com/feed/?mrss=off
 #        define_facewidth 80
 #        define_faceheight 90
 
-feed 15m http://blog.ben2367.fr/feeds/en-kde.atom.xml
-        define_name Benjamin Port (ben2367)
-        define_face hackergotchi/bport.png
-        define_facewidth 60
-        define_faceheight 80
+#feed 15m http://blog.ben2367.fr/feeds/en-kde.atom.xml
+#        define_name Benjamin Port (ben2367)
+#        define_face hackergotchi/bport.png
+#        define_facewidth 60
+#        define_faceheight 80
 
 # NS server recursion - unresolvable domain
 #feed 15m https://wordpress.hubnerd.com/?feed=rss2&mrss=off&tag=planet-kde
@@ -4121,11 +4121,11 @@ feed 15m http://kstplot.blogspot.com/feeds/posts/default/
     define_faceheight 80
     define_feedclass news
 
-feed 15m http://www.aelog.org/tag/kde/feed/
-        define_name Elvis Angelaccio (elvisangelaccio)
-        define_face hackergotchi/elvis.png
-        define_facewidth 80
-        define_faceheight 80
+#feed 15m http://www.aelog.org/tag/kde/feed/
+#        define_name Elvis Angelaccio (elvisangelaccio)
+#        define_face hackergotchi/elvis.png
+#        define_facewidth 80
+#        define_faceheight 80
 
 #feed 15m http://ianda.eu/tag/planetkde/feed/
 #        define_name Christian Dávid (chris_hd)
