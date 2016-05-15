@@ -4423,22 +4423,22 @@ feed 16m http://martinadestefani.blogspot.com/feeds/posts/default/-/KDE/?alt=rss
     define_facewidth 80
     define_faceheight 80
 
-feed 17m https://blog.wikitolearn.org/author/vincenzo/feed/
+feed 17m https://blogs.wikitolearn.org/author/vincenzo/feed/
     define_name Vincenzo Eduardo Padulano
 
-feed 17m https://blog.wikitolearn.org/author/lodo_ravi/feed/
+feed 17m https://blogs.wikitolearn.org/author/lodo_ravi/feed/
     define_name Lodovico Filippo Ravizza
 
-feed 17m https://blog.wikitolearn.org/author/f.quarenghi/feed/
+feed 17m https://blogs.wikitolearn.org/author/f.quarenghi/feed/
     define_name Filippo Quarenghi
 
-feed 17m https://blog.wikitolearn.org/author/jmotta1/feed/
+feed 17m https://blogs.wikitolearn.org/author/jmotta1/feed/
     define_name Jona Motta
 
-feed 17m https://blog.wikitolearn.org/author/Lucieferr/feed/
+feed 17m https://blogs.wikitolearn.org/author/Lucieferr/feed/
     define_name Lucie Ferretti
 
-feed 17m https://blog.wikitolearn.org/author/m.bona/feed/
+feed 17m https://blogs.wikitolearn.org/author/m.bona/feed/
     define_name Matteo Bonanomi
 
 feed 45m https://ayushashah.wordpress.com/feed/
@@ -4446,19 +4446,19 @@ feed 45m https://ayushashah.wordpress.com/feed/
          define_face hackergotchi/ayushshah.jpg
          define_facewidth 80 define_faceheight 80
 
-feed 17m https://blog.wikitolearn.org/author/matteo_marcoli/feed/
+feed 17m https://blogs.wikitolearn.org/author/matteo_marcoli/feed/
     define_name Matteo Marcoli
 
-feed 17m https://blog.wikitolearn.org/author/scimmiaspaziale/feed/
+feed 17m https://blogs.wikitolearn.org/author/scimmiaspaziale/feed/
     define_name Riccardo A Gilardi
 
-feed 17m https://blog.wikitolearn.org/author/Xadhoom/feed/
+feed 17m https://blogs.wikitolearn.org/author/Xadhoom/feed/
     define_name Sofia Liguori
 
 feed 17m http://baldi.me/blog/feed-kde.xml
     define_name Cristian Baldi
 
-feed 17m https://blog.wikitolearn.org/author/irenedaloia/feed/
+feed 17m https://blogs.wikitolearn.org/author/irenedaloia/feed/
     define_name Irene D'aloia
 
 feed 60m http://patrickjp.com/feed/
