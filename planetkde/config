@@ -4281,12 +4281,6 @@ feed 30m https://blog.baloneygeek.com/feeds/rss.xml
     define_facewidth 80
     define_faceheight 80
 
-feed 30m https://priyasatbhayaweb.wordpress.com/tag/kde/feed/atom/
-    define_name Priya Satbhaya (priya)
-    define_face hackergotchi/psatbhaya.png
-    define_facewidth 80
-    define_faceheight 80
-
 #feed 15m http://sagaragarwal94.github.io/atom.xml
 #        define_name Sagar Chand Agarwal (sagaragarwal94)
 #        define_face hackergotchi/sagar.png
@@ -4382,7 +4376,7 @@ feed 15m https://hultnuno.wordpress.com/feed/
     define_name Nuno Hultberg
 
 feed 15m http://netslaughters.de/?feed=rss2&cat=2
-    define_name Gilbert Assaf
+    define_name Gilbert Assaf 
 
 feed 15m https://g33kyaditya.wordpress.com/tag/kde/feed/
     define_name Aditya Dev Sharma (g33kyaditya)
@@ -4395,7 +4389,7 @@ feed 30m https://delsalife.wordpress.com/feed/
 
 feed 45m http://www.arnavdhamija.blogspot.com/feeds/posts/default/-/KDE
 	define_name Arnav Dhamija (shortstheory)
-
+	
 feed 15m http://donkeyshot.eu/blog.rss
     define_name DonkeyShot (Irene Cortinovis, Gianluca Rigoletti and Davide Valsecchi)
     define_face hackergotchi/donkeyshot.png
@@ -4404,7 +4398,7 @@ feed 15m http://donkeyshot.eu/blog.rss
 
 feed 15m http://srijanfoss2k16.blogspot.in/search/label/KDE/feed
     define_name Srijan Agarwal
-
+    
 feed 15m http://alittledeveloper.blogspot.com/feeds/posts/default/?q=label:KDE
     define_name Alessandro Tundo
 
@@ -4441,7 +4435,7 @@ feed 17m https://blogs.wikitolearn.org/author/Lucieferr/feed/
 feed 17m https://blogs.wikitolearn.org/author/m.bona/feed/
     define_name Matteo Bonanomi
 
-feed 45m https://ayushashah.wordpress.com/feed/
+feed 45m https://ayushashah.wordpress.com/feed/	
          define_name Ayush Shah (ayushshah)
          define_face hackergotchi/ayushshah.jpg
          define_facewidth 80 define_faceheight 80
