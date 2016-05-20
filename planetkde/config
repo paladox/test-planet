@@ -3242,10 +3242,6 @@ feed 15m https://kmix5.wordpress.com/feed/?mrss=off
     define_faceheight 64
     define_feedclass news
 
-feed 15m http://uwg.kde.org/category/blogs/feed/?mrss=off
-    define_name KDE User Working Group
-    define_feedclass news
-
 # 404
 #feed 15m http://kpsfoo.in/blog/tag/planet-kde/feed/
 #    define_name Karan Pratap Singh
