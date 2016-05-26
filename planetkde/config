@@ -4020,7 +4020,7 @@ feed 15m https://nitul1991.wordpress.com/feed/
 feed 45m https://harishnavnit.wordpress.com/tag/kde/feed/
         define_name R.Harish Navnit (rharish)
 
-feed 45m http://woboq.com/feed/planetkde.rss
+feed 45m https://woboq.com/feed/planetkde.rss
         define_name Olivier Goffart (Gof)
 
 feed 15m https://rahulc93.wordpress.com/tag/kde/feed/
