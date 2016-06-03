@@ -4548,3 +4548,9 @@ feed 45m https://prakritibhardwajblog.wordpress.com/tag/kde/feed/
 
 feed 45m https://bhavishadhruve.wordpress.com/feed/?tag=kde
     define_name Bhavisha Dhruve (bdhruve)
+    
+feed 45m http://krajszgsoc.blogspot.com/feeds/posts/default?alt=rss
+    define_name Fábián Kristóf (krajsz)
+    define_face hackergotchi/krajsz.png
+    define_facewidth 59
+    define_faceheight 78
