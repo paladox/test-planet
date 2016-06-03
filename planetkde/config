@@ -4552,5 +4552,5 @@ feed 45m https://bhavishadhruve.wordpress.com/feed/?tag=kde
 feed 45m http://krajszgsoc.blogspot.com/feeds/posts/default?alt=rss
     define_name Fábián Kristóf (krajsz)
     define_face hackergotchi/krajsz.png
-    define_facewidth 59
-    define_faceheight 78
+    define_facewidth 79
+    define_faceheight 69
