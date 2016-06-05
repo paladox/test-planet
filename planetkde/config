@@ -1392,8 +1392,8 @@ feed 15m https://dimsuz.wordpress.com/feed/?mrss=off
 #feed 15m http://whilos.blogsite.org/?cat=4&feed=atom
 #        define_name Christian Weilbach (whilo)
 
-feed 15m https://www.piggz.co.uk/?q=blog/rss
-        define_name Adam Pigg
+#feed 15m https://www.piggz.co.uk/?q=blog/rss
+#        define_name Adam Pigg
 
 feed 15m http://rbitanga.blogspot.com/rss.xml
         define_name Ryan Bitanga
