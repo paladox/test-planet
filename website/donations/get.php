@@ -6,27 +6,26 @@
 * @copyright (c) 2014 Sayak Banerjee <sayakb@kde.org>
 */
 
-/*include("simple_html_dom.php");
+include("simple_html_dom.php");
 
 // Allow access from different domains
 header('Access-Control-Allow-Origin: *');
 
 // Get the campaign data
 $dom = new simple_html_dom();
-$dom->load_file("https://www.kde.org/fundraisers/kdesprints2015/");
+$dom->load_file("https://www.kde.org/fundraisers/randameetings2016/");
 
-$content = $dom->find('.formholder p', 0)->plaintext;
+$content = $dom->find('.progress-bar', 0)->style;
 $chunks = explode(' ', $content);
-$goal = $chunks[0];
-$goal = floatval(substr($goal, 3));
+$percent = $chunks[1];
+$percent = substr($percent, 0, -2);
+$percent = floatval($percent);
 
 // Output the data in JSON format
 $data = array(
-    "goal" => $goal,
-    "pcnt" => $goal / 385,
+    "pcnt" => $percent,
 );
 
-echo json_encode($data);*/
-exit;
+echo json_encode($data);
 
 ?>

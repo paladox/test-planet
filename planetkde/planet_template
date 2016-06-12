@@ -407,23 +407,22 @@
         </div>
     </nav>
     <!--donation-banner-->
-    <!-- <div align="center">
-        <div id="donation-banner" data-campaign="18045">
+     <div align="center">
+        <div id="donation-banner">
             <div id="donation-graph">
                 <div id="donation-bar"></div>
             </div>
             <div id="donation-bar-txt">
                 <span id="donation-goal">
-                    &#8364; 38500
+                    &#8364; 24000
                 </span>
-                &#8364; <span id="donation-goal-amt">0.00</span>
             </div>
             <div id="donation-text">
-                Please donate what you can to help make the Randa Meetings 2015 possible.
-                <a href="https://www.kde.org/fundraisers/kdesprints2015/">Read more</a>.
+                Please donate what you can to help make the Randa Meetings 2016 possible.
+                <a href="https://www.kde.org/fundraisers/randameetings2016/">Read more</a>.
             </div>
         </div>
-    </div> -->
+    </div>
     <!--/donation-banner-->
     <div class="container">
         <!--div class="row">
