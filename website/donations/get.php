@@ -21,9 +21,13 @@ $percent = $chunks[1];
 $percent = substr($percent, 0, -2);
 $percent = floatval($percent);
 
+$content = $dom->find('.current-amount', 0)->plaintext;
+$current = substr($content, 6);
+
 // Output the data in JSON format
 $data = array(
     "pcnt" => $percent,
+    "current" => $current
 );
 
 echo json_encode($data);
