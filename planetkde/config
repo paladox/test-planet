@@ -4561,5 +4561,5 @@ feed 45m https://blogs.s-osg.org/author/mchehab/feed/?tag=kde
     define_facewidth 80
     define_faceheight 80
     
-feed 45m https://swatilodha.wordpress.com/feeds/posts/default
+feed 45m https://swatilodha.wordpress.com/feed/
 	define_name Swati Lodha (swati_27)
