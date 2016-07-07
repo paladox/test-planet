@@ -589,8 +589,8 @@ feed 15m http://marccramdal.blogspot.com/atom.xml
 feed 15m https://blogs.kde.org/blog/278/feed
         define_name Allan Sandfeld Jensen (carewolf)
 
-feed 15m http://ariya.ofilabs.com/tag/qt/feed
-        define_name Ariya Hidayat
+#feed 15m http://ariya.ofilabs.com/tag/qt/feed
+#        define_name Ariya Hidayat
 
 feed 15m http://theobromas.blogspot.com/atom.xml
         define_name Janet Theobroma (theobroma)
