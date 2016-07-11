@@ -2070,8 +2070,8 @@ feed 15m https://blog.hanschen.org/category/planetkde/feed/?mrss=off&category_na
 #feed 15m http://blog.daniel-laidig.de/category/planetkde/feed/
 #	define_name Daniel Laidig (dani_l)
 
-feed 15m http://blog.nikhilism.com/feeds/posts/default/-/kde
-        define_name Nikhil Marathe (nsm)
+#feed 15m http://blog.nikhilism.com/feeds/posts/default/-/kde
+#        define_name Nikhil Marathe (nsm)
 
 feed 15m http://thinkmoult.com/tag/planetkde/feed/
         define_name Dion Moult (Moult)
