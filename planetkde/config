@@ -3627,13 +3627,6 @@ feed 15m https://martinbriza.wordpress.com/tag/kde/feed/?mrss=off
 #        define_facewidth 52
 #        define_faceheight 80
 
-feed 15m https://sysadmin.kde.org/category/planet/feed/
-        define_name KDE Sysadmins
-        define_face hackergotchi/sysadmins.png
-        define_facewidth 64
-        define_faceheight 64
-        define_feedclass news
-
 feed 15m http://gkbhat.blogspot.in/feeds/posts/default/-/KDE
         define_name Gopalakrishna Bhat
         define_face hackergotchi/sysadmins.png
