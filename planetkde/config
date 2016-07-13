@@ -1163,8 +1163,8 @@ feed 15m http://neksa.blogspot.com/rss.xml
 feed 15m https://apaku.wordpress.com/feed/?mrss=off
         define_name Andreas Pakulat
 
-feed 15m http://blogs.fsfe.org/ruphy/feed/
-        define_name Riccardo Iaconelli (ruphy)
+#feed 15m http://blogs.fsfe.org/ruphy/feed/
+#        define_name Riccardo Iaconelli (ruphy)
 
 feed 15m https://apachelog.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
         define_name Harald Sitter (apachelogger)
@@ -1284,8 +1284,8 @@ feed 15m https://blogs.kde.org/blog/4267/feed
 #feed 15m http://nodalpoint.madfire.net/feed/kde/
 #        define_name Stanislav Karchebny (berkus)
 
-feed 15m http://blogs.fsfe.org/gladhorn/category/KDE/feed/
-        define_name Frederik Gladhorn (fregl)
+#feed 15m http://blogs.fsfe.org/gladhorn/category/KDE/feed/
+#        define_name Frederik Gladhorn (fregl)
 # 404
 #feed 15m http://blog.qt.digia.com/author/frederik/feed/
 #        define_name Frederik Gladhorn (fregl)
@@ -1673,11 +1673,11 @@ feed 15m http://socceroosd.blogspot.com/feeds/posts/full/-/kde
 #feed 15m http://gkmeyer.com/wordpress/?feed=rss2
 #        define_name Greg Meyer (oggb4mp3)
 
-feed 15m http://blogs.fsfe.org/myriam/feed/
-        define_name Myriam Schweingruber (Mamarok)
-        define_face hackergotchi/mamarok.png
-        define_facewidth 87
-        define_faceheight 100
+#feed 15m http://blogs.fsfe.org/myriam/feed/
+#        define_name Myriam Schweingruber (Mamarok)
+#        define_face hackergotchi/mamarok.png
+#        define_facewidth 87
+#        define_faceheight 100
 
 feed 15m https://kstars.wordpress.com/feed/?mrss=off&category_name=gnulinuxfoss%2Fkde%2Fplanetkde-kde-gnulinuxfoss
         define_name Akarsh Simha (kstar)
@@ -2091,8 +2091,8 @@ feed 15m https://momeny.wordpress.com/category/planetkde/feed/?mrss=off&category
         define_facewidth 68
         define_faceheight 80
 
-feed 15m http://blogs.fsfe.org/mario/?feed=rss2&tag=kde
-        define_name Mario Fux (unormal)
+#feed 15m http://blogs.fsfe.org/mario/?feed=rss2&tag=kde
+#        define_name Mario Fux (unormal)
 
 #feed 15m http://blog.rburchell.com/feeds/posts/default/-/kde?alt=rss
 #        define_name Robin Burchell (w00t)
@@ -2595,11 +2595,11 @@ feed 15m http://pauloromulo.blogspot.com/feeds/posts/default?alt=rss
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://blogs.fsfe.org/drdanz/?cat=514&feed=rss2
-        define_name Daniele E. Domenichelli (drdanz)
-        define_face hackergotchi/ddomenichelli.png
-        define_facewidth 80
-        define_faceheight 80
+#feed 15m http://blogs.fsfe.org/drdanz/?cat=514&feed=rss2
+#        define_name Daniele E. Domenichelli (drdanz)
+#        define_face hackergotchi/ddomenichelli.png
+#        define_facewidth 80
+#        define_faceheight 80
 
 #timeout
 #feed 15m http://blog.binarylooks.com/tag/kde/feed/
