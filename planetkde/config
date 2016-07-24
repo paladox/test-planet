@@ -3347,11 +3347,11 @@ feed 15m https://konstantinidis.wordpress.com/category/kde/feed/
 feed 15m https://terietor.wordpress.com/tag/planetkde/feed/
         define_name Giorgos Tsiapaliokas (terietor)
 
-#feed 15m http://blogs.gentoo.org/johu/category/kde/feed/
-#        define_name Johannes Huber (johu)
-#        define_face hackergotchi/johannes-huber.jpg
-#        define_facewidth 60
-#        define_faceheight 68
+feed 15m http://blogs.gentoo.org/johu/category/kde/feed/
+        define_name Johannes Huber (johu)
+        define_face hackergotchi/johannes-huber.jpg
+        define_facewidth 60
+        define_faceheight 68
 
 feed 15m https://blogs.kde.org/blog/8948/feed
         define_name Pierre Stirnweiss (PierreSt)
