@@ -354,9 +354,9 @@
         }
     </script>
     <!--donation-banner-->
-    <link rel="stylesheet" href="./donations/banner.css" type="text/css" />
+<!--     <link rel="stylesheet" href="./donations/banner.css" type="text/css" /> -->
     <script type="text/javascript" src="//cdn.kde.org/js/jquery.js"></script>
-    <script type="text/javascript" src="./donations/banner.js"></script>
+<!--     <script type="text/javascript" src="./donations/banner.js"></script> -->
     <!--/donation-banner-->
 </head>
 
@@ -407,7 +407,8 @@
         </div>
     </nav>
     <!--donation-banner-->
-     <div align="center">
+    <!--
+    <div align="center">
         <div id="donation-banner">
             <div id="donation-graph">
                 <div id="donation-bar"></div>
@@ -424,6 +425,7 @@
             </div>
         </div>
     </div>
+    -->
     <!--/donation-banner-->
     <div class="container">
         <!--div class="row">
