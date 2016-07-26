@@ -3847,7 +3847,7 @@ feed 15m https://n1kam.wordpress.com/feed/
 feed 15m https://mrupanjana.wordpress.com/feed/
         define_name Rupanjana Mitra (mrupanjana)
 
-feed 15m https://chakraos.org/news/index.php?/feeds/categories/1-KDE.rss
+feed 15m https://chakralinux.org/news/index.php?/feeds/categories/1-KDE.rss
         define_name Chakra OS
         define_feedclass news
 
