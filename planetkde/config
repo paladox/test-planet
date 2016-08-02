@@ -4385,7 +4385,7 @@ feed 15m http://donkeyshot.eu/blog.rss
     define_facewidth 80
     define_faceheight 80
 
-feed 15m http://srijanfoss2k16.blogspot.in/search/label/KDE/feed
+feed 15m http://srijanfoss2k16.blogspot.com/feeds/posts/default/-/KDE
     define_name Srijan Agarwal
 
 feed 15m http://alittledeveloper.blogspot.com/feeds/posts/default/?q=label:KDE
