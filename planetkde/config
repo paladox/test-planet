@@ -4296,11 +4296,11 @@ feed 15m http://blogs.churlaud.com/somefoobar/tag/kde/feed/
         define_facewidth 67
         define_faceheight 67
 
-#feed 30m http://www.alexl.netsons.org/category/blogposts/feed/?mrss=off&tag=planetkde
-#    define_name Alessandro Longo
-#    define_face hackergotchi/alexl.png
-#    define_facewidth 80
-#    define_faceheight 80
+feed 30m http://www.alexl.netsons.org/category/blogposts/feed/?mrss=off&tag=planetkde
+    define_name Alessandro Longo
+    define_face hackergotchi/alexl.png
+    define_facewidth 80
+    define_faceheight 80
 
 feed 30m https://liveblue.wordpress.com/category/planetkde-fernandoteles/feed/
     define_name Fernando Teles
