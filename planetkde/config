@@ -4552,3 +4552,6 @@ feed 15m https://blog.qt.io/blog/category/loop/feed/
 
 feed 15m http://choqok.gnufolks.org/feed/
         define_name Choqok
+
+feed 15m https://plasma-mobile.org/feed/
+    define_name Plasma Mobile blog
