@@ -4555,3 +4555,6 @@ feed 15m http://choqok.gnufolks.org/feed/
 
 feed 15m https://plasma-mobile.org/feed/
     define_name Plasma Mobile blog
+    define_face hackergotchi/plasma-mobile.png
+    define_facewidth 80
+    define_faceheight 30
