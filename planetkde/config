@@ -2753,8 +2753,8 @@ feed 15m https://blogs.kde.org/blog/7855/feed
         define_facewidth 79
         define_faceheight 79
 
-feed 15m http://en.munknex.net/feeds/posts/default/-/KDE
-        define_name Cyril Oblikov (munknex)
+#feed 15m http://en.munknex.net/feeds/posts/default/-/KDE
+#        define_name Cyril Oblikov (munknex)
 
 #feed 15m http://blog.eyecreate.org/index.php?/feeds/categories/1-kde.rss
 #	define_name Kevin Whitaker (eyecreate)
