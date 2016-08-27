@@ -4296,7 +4296,7 @@ feed 15m https://blogs.kde.org/blog/10432/feed
 	define_facewidth 67
 	define_faceheight 67
 
-feed 15m http://blogs.churlaud.com/somefoobar/tag/kde/feed/
+feed 15m https://blogs.churlaud.com/somefoobar/tag/kde/feed/
         define_name Olivier Churlaud (ochurlaud)
         define_face hackergotchi/ochurlaud.jpg
         define_facewidth 67
