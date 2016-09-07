@@ -4265,7 +4265,7 @@ feed 45m http://support-kde-randa.blogspot.com/feeds/posts/default
          define_facewidth 60
          define_faceheight 80
          
-feed 45 https://rizzitello.wordpress.com/author/sithlord48/feed
+feed 45 https://rizzitello.wordpress.com/author/sithlord48/feed/
     define_name Chris Rizzitello
 
 feed 15m https://exote.ch/blogs/sandro/tag/kde/rss/
