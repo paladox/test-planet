@@ -4121,7 +4121,7 @@ feed 15m https://macawmovies.wordpress.com/tag/kde/feed/
         define_faceheight 80
         define_feedclass news
 
-feed 60m http://labplot.sourceforge.net/feed/
+feed 60m http://labplot.kde.org/feed/
         define_name Alexander Semke
         define_facewidth 80
         define_faceheight 80
