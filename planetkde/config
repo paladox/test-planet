@@ -1346,7 +1346,7 @@ feed 15m http://elcuco2.blogspot.com/feeds/posts/default
 #feed 15m http://www.datenex.de/index.php?/feeds/categories/1-KDE.rss
 #        define_name Andreas Hartmetz
 
-feed 15m http://moiji-mobile.com/tag/kde/feed/
+feed 15m http://www.moiji-mobile.com/tag/kde/feed/
         define_name Holger Freyther (zecke)
 
 feed 15m http://fboudra.free.fr/wordpress/wp-rss2.php?cat=6
