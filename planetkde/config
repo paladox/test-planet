@@ -1252,7 +1252,7 @@ feed 15m http://blog.hartwork.org/?feed=rss2&cat=23
 
 feed 15m http://jpwhiting.blogspot.com/feeds/posts/default/-/kde
         define_name Jeremy Whiting (jpwhiting)
-        define_face hackergotchi/jpwhiting.png
+        define_face hackergotchi/jpwhiting.jpg
         define_facewidth 80
 
 # NXDOMAIN
