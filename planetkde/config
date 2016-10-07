@@ -1107,7 +1107,7 @@ feed 15m http://commonideas.blogspot.com/feeds/posts/default/-/KDE
 #feed 15m http://elektron.et.tudelft.nl/~cmlot/rss.xml
 #        define_name Claire Lotion
 
-feed 15m http://ervin.ipsquad.net/atom.xml
+feed 15m https://ervin.ipsquad.net/atom.xml
         define_name Kevin Ottens (ervin)
 
 feed 15m https://zanshin.kde.org/atom.xml
