@@ -3625,11 +3625,11 @@ feed 15m https://konkiewiczm.wordpress.com/feed/?mrss=off
         define_facewidth 100
         define_faceheight 127
 
-feed 15m http://blog.somsubhra.com/tagged/kde/rss
-        define_name Somsubhra Bairi (somsubhra)
-        define_face hackergotchi/somsubhra.png
-        define_facewidth 72
-        define_faceheight 80
+#feed 15m http://blog.somsubhra.com/tagged/kde/rss
+#        define_name Somsubhra Bairi (somsubhra)
+#        define_face hackergotchi/somsubhra.png
+#        define_facewidth 72
+#        define_faceheight 80
 
 feed 15m https://oinig.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
         define_name Oindrila Gupta (oini)
