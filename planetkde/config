@@ -1054,7 +1054,7 @@ feed 15m http://cukic.co/feeds/tag:planetkde.xml
 feed 15m http://blog.froglogic.com/author/frerich/feed/atom/?cat=5%2C6
         define_name Frerich Raabe
 
-feed 15m http://blog.froglogic.com/author/porten/feed/atom/?cat=5%2C6
+feed 15m https://www.froglogic.com/author/porten/feed/atom/?cat=5%2C6
         define_name Harri Porten
 
 #feed 15m http://labs.qt.nokia.com/feed/?author_name=Morten
@@ -1599,7 +1599,7 @@ feed 15m https://majewsky.wordpress.com/feed/?mrss=off
 feed 15m http://michael-jansen.name/feeds/all.atom.xml
         define_name Michael Jansen
 
-feed 15m http://blog.froglogic.com/author/koos/feed/atom/?cat=5%2C6
+feed 15m https://www.froglogic.com/author/koos/feed/atom/?cat=5%2C6
         define_name Koos Vriezen
 
 # Blog server seems to be down
