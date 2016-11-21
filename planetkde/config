@@ -1051,7 +1051,7 @@ feed 15m http://cukic.co/feeds/tag:planetkde.xml
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://blog.froglogic.com/author/frerich/feed/atom/?cat=5%2C6
+feed 15m https://www.froglogic.com/author/frerich/feed/atom/?cat=5%2C6
         define_name Frerich Raabe
 
 feed 15m https://www.froglogic.com/author/porten/feed/atom/?cat=5%2C6
