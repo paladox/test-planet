@@ -13,16 +13,18 @@ header('Access-Control-Allow-Origin: *');
 
 // Get the campaign data
 $dom = new simple_html_dom();
-$dom->load_file("https://www.kde.org/fundraisers/randameetings2016/");
+$dom->load_file("https://www.kde.org/fundraisers/yearend2016/");
 
-$content = $dom->find('.progress-bar', 0)->style;
-$chunks = explode(' ', $content);
-$percent = $chunks[1];
-$percent = substr($percent, 0, -2);
-$percent = floatval($percent);
+// Current fundraiser doesn't have a percentage
+// $content = $dom->find('.progress-bar', 0)->style;
+// $chunks = explode(' ', $content);
+// $percent = $chunks[1];
+// $percent = substr($percent, 0, -2);
+// $percent = floatval($percent);
+$percent = 0;
 
 $content = $dom->find('.current-amount', 0)->plaintext;
-$current = substr($content, 6);
+$current = substr($content, 0, -7);
 
 // Output the data in JSON format
 $data = array(

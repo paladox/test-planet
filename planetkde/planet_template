@@ -354,9 +354,9 @@
         }
     </script>
     <!--donation-banner-->
-<!--     <link rel="stylesheet" href="./donations/banner.css" type="text/css" /> -->
+    <link rel="stylesheet" href="./donations/banner.css" type="text/css" />
     <script type="text/javascript" src="//cdn.kde.org/js/jquery.js"></script>
-<!--     <script type="text/javascript" src="./donations/banner.js"></script> -->
+    <script type="text/javascript" src="./donations/banner.js"></script>
     <!--/donation-banner-->
 </head>
 
@@ -407,7 +407,7 @@
         </div>
     </nav>
     <!--donation-banner-->
-    <!--
+    <!-- This is with a target goal
     <div align="center">
         <div id="donation-banner">
             <div id="donation-graph">
@@ -426,6 +426,16 @@
         </div>
     </div>
     -->
+    <!-- This is without a target goal -->
+    <div align="center">
+        <div id="donation-banner" style="height: 100px;">
+            <div id="donation-text">
+                People have donated <span id="donation-current-amount">€ 0</span> to make the world a better place!
+                <a href="https://www.kde.org/fundraisers/yearend2016/">See how you can help :)</a>
+            </div>
+        </div>
+    </div>
+    <!-- -->
     <!--/donation-banner-->
     <div class="container">
         <!--div class="row">
