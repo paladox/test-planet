@@ -1086,7 +1086,7 @@ feed 15m http://ksvladimir.blogspot.com/atom.xml
 feed 15m http://jarlesdraw-log.blogspot.com/atom.xml
         define_name Jarle Akselsen
 
-feed 15m http://blog.jospoortvliet.com/atom.xml
+feed 15m http://blog.jospoortvliet.com/feeds/posts/default/-/kde/?alt=rss
         define_name Jos Poortvliet
         define_face hackergotchi/jospoortvliet.png
         define_facewidth 65
