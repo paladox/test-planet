@@ -3293,8 +3293,8 @@ feed 15m http://philipp.knechtges.com/?cat=3&feed=rss2
 #feed 15m http://akreuzkamp.de/tag/planetkde/feed/
 #        define_name Anton Kreuzkamp (akreuzkamp)
 
-feed 15m http://jangmarker.de/tag/planetkde/feed/
-        define_name Jan Gerrit Marker (jangmarker)
+#feed 15m http://jangmarker.de/tag/planetkde/feed/
+#        define_name Jan Gerrit Marker (jangmarker)
 
 feed 15m http://deepsky28.blogspot.com/feeds/posts/default?alt=rss
         define_name Florentina Musat (chrome)
