@@ -3337,11 +3337,11 @@ feed 15m http://joerg-weblog.blogspot.com/feeds/posts/default/-/KDE
 #        define_facewidth 69
 #        define_faceheight 80
 
-feed 15m http://algorithmsforthekitchen.com/blog/?tag=kde-2&feed=rss2
-       define_name Alessandro Cosentino (cosenal)
-       define_face hackergotchi/cosenal.png
-       define_facewidth 53
-       define_faceheight 60
+#feed 15m http://algorithmsforthekitchen.com/blog/?tag=kde-2&feed=rss2
+#       define_name Alessandro Cosentino (cosenal)
+#       define_face hackergotchi/cosenal.png
+#       define_facewidth 53
+#       define_faceheight 60
 
 feed 15m http://isemenov.blogspot.com/feeds/posts/default?alt=rss
         define_name Ignat Semenov (isemenov)
