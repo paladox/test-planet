@@ -4322,7 +4322,7 @@ feed 18m https://stanfordlin.wordpress.com/feed/
 feed 15m https://hultnuno.wordpress.com/feed/
     define_name Nuno Hultberg
 
-feed 15m http://netslaughters.de/?feed=rss2&cat=2
+feed 45m http://programmer-pit.de/?feed=rss2&cat=2
     define_name Gilbert Assaf
 
 feed 15m https://g33kyaditya.wordpress.com/tag/kde/feed/
