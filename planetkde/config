@@ -4513,8 +4513,8 @@ feed 45m http://krajszgsoc.blogspot.com/feeds/posts/default?alt=rss
     define_facewidth 79
     define_faceheight 69
 
-feed 19m http://mte90.net/en/kde/feed/
-    define_name Daniele Scasciafratte (Mte90)
+#feed 19m http://mte90.net/en/kde/feed/
+#    define_name Daniele Scasciafratte (Mte90)
 
 feed 45m https://blogs.s-osg.org/author/mchehab/feed/?tag=kde
     define_name Mauro Carvalho Chehab (mchehab)
