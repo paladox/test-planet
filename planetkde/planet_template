@@ -354,9 +354,9 @@
         }
     </script>
     <!--donation-banner-->
-    <link rel="stylesheet" href="./donations/banner.css" type="text/css" />
+<!--     <link rel="stylesheet" href="./donations/banner.css" type="text/css" /> -->
     <script type="text/javascript" src="//cdn.kde.org/js/jquery.js"></script>
-    <script type="text/javascript" src="./donations/banner.js"></script>
+<!--     <script type="text/javascript" src="./donations/banner.js"></script> -->
     <!--/donation-banner-->
 </head>
 
@@ -426,7 +426,7 @@
         </div>
     </div>
     -->
-    <!-- This is without a target goal -->
+    <!-- This is without a target goal
     <div align="center">
         <div id="donation-banner" style="height: 100px;">
             <div id="donation-text">
@@ -435,7 +435,7 @@
             </div>
         </div>
     </div>
-    <!-- -->
+    -->
     <!--/donation-banner-->
     <div class="container">
         <!--div class="row">
