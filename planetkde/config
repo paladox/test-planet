@@ -1125,7 +1125,7 @@ feed 15m http://www.proli.net/feed/
 #feed 15m http://www.stepin.name/feed/
 #        define_name Igor Stepin
 
-feed 15m https://blog.cryos.co.uk/categories/kde/index.xml
+feed 15m https://cryos.net/categories/kde/index.xml
         define_name Marcus Hanwell (cryos)
 
 feed 15m https://ksounds.wordpress.com/feed/?mrss=off
