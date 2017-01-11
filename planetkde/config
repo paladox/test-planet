@@ -2227,7 +2227,7 @@ feed 15m http://roideuniverse.blogspot.com/feeds/posts/default/-/kde
 feed 15m https://michalm.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
         define_name Michał Małek (mmalek)
 
-feed 15m http://user-prompt.com/kde-feeds/
+feed 15m https://user-prompt.com/kde-feeds/
         define_name Björn Balazs
         define_face hackergotchi/bbalazs.png
         define_facewidth 80
