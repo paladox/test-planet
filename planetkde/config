@@ -2814,7 +2814,7 @@ feed 15m http://es.toscalix.com/feeds/posts/default?alt=rss
 #        define_name Percy Camilo Triveño Aucahuasi
 #        define_feedclass spanish
 
-feed 15m http://www.kdeblog.com/feed/
+feed 15m http://www.kdeblog.com/feed
         define_name KDE Blog - Baltasar Ortega
         define_feedclass spanish
         define_face hackergotchi/kdeblog.png
