@@ -334,7 +334,7 @@ feed 15m http://es.toscalix.com/feeds/posts/default?alt=rss
 #feed 15m http://aucahuasi.blogspot.com/feeds/posts/default
 #        define_name Percy Camilo Triveño Aucahuasi
 
-feed 15m http://www.kdeblog.com/feed
+feed 15m http://www.kdeblog.com/feed/
         define_name KDE Blog (Baltasar Ortega)
 
 #403
