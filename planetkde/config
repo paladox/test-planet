@@ -475,11 +475,11 @@ feed 15m https://blogs.kde.org/blog/457/feed
         define_facewidth 70
         define_faceheight 70
 
-feed 15m https://daniel.molkentin.net/category/1-kde/feed/
-        define_name Daniel Molkentin (danimo)
-        define_face hackergotchi/danimo-qt.jpg
-        define_facewidth 80
-        define_faceheight 80
+#feed 15m https://daniel.molkentin.net/category/1-kde/feed/
+#        define_name Daniel Molkentin (danimo)
+#        define_face hackergotchi/danimo-qt.jpg
+#        define_facewidth 80
+#        define_faceheight 80
 
 feed 15m https://exote.ch/blogs/aseigo/rss/
         define_name Aaron Seigo (aseigo)
