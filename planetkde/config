@@ -3482,8 +3482,8 @@ feed 15m http://smitr.blogspot.com/feeds/posts/default/-/kde
 #feed 15m http://kdeblog.mageprojects.com/feed/
 #        define_name Mark Gaiser (markg)
 
-feed 15m http://famillemontel.org/index.php/category/planetkde/feed/?mrss=off
-        define_name Laurent Montel (mlaurent)
+#feed 15m http://famillemontel.org/index.php/category/planetkde/feed/?mrss=off
+#        define_name Laurent Montel (mlaurent)
 
 #feed 15m http://www.mssola.com/feeds/posts/default
 #        define_name Miquel Sabaté (mssola)
