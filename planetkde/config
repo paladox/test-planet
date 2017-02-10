@@ -4576,3 +4576,15 @@ feed 45m http://rahulyadav170923.blogspot.com/feeds/posts/default/
         define_face hackergotchi/rahulyadav.png
         define_facewidth 80
         define_faceheight 80
+
+feed 45m http://rahulyadav170923.blogspot.com/feeds/posts/default/
+	define_name Rahul Yadav (rahulyadav)
+        define_face hackergotchi/rahulyadav.png
+        define_facewidth 80
+        define_faceheight 80
+
+feed 15m http://www.subdiff.de/feed.kde.xml
+	define_name Roman Gilg
+        define_face hackergotchi/roman-gilg.png
+        define_facewidth 80
+        define_faceheight 80
