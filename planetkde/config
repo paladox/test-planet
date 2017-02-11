@@ -4341,7 +4341,7 @@ feed 15m https://g33kyaditya.wordpress.com/tag/kde/feed/
 feed 30m https://delsalife.wordpress.com/feed/
     define_name Andrea Del Sarto
 
-feed 45m http://www.arnavdhamija.blogspot.com/feeds/posts/default/-/KDE
+feed 45m http://arnavdhamija.com/feeds/atom.xml
 	define_name Arnav Dhamija (shortstheory)
 
 #feed 15m http://donkeyshot.eu/blog.rss
