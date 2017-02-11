@@ -4343,6 +4343,9 @@ feed 30m https://delsalife.wordpress.com/feed/
 
 feed 45m http://arnavdhamija.com/feeds/atom.xml
 	define_name Arnav Dhamija (shortstheory)
+    define_face hackergotchi/arnavdhamija.jpg
+    define_facewidth 80
+    define_faceheight 80
 
 #feed 15m http://donkeyshot.eu/blog.rss
 #    define_name DonkeyShot (Irene Cortinovis, Gianluca Rigoletti and Davide Valsecchi)
