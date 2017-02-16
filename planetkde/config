@@ -4591,3 +4591,9 @@ feed 15m http://www.subdiff.de/feed.kde.xml
         define_face hackergotchi/roman-gilg.png
         define_facewidth 80
         define_faceheight 80
+
+feed 45m http://aiix.tk/feed/
+	define_name Aditya Mehra
+        define_face hackergotchi/aditya.jpg
+        define_facewidth 72
+        define_faceheight 72
