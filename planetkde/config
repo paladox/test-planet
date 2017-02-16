@@ -781,11 +781,11 @@ feed 15m http://kath-leinir.blogspot.com/feeds/posts/default/-/kde
         define_facewidth 80
         define_faceheight 80
 
-feed 15m http://www.icon-king.com/tag/kde/feed/
-        define_name David Vignoni (davigno)
-        define_face hackergotchi/davigno.png
-        define_facewidth 80
-        define_faceheight 80
+#feed 15m http://www.icon-king.com/tag/kde/feed/
+#        define_name David Vignoni (davigno)
+#        define_face hackergotchi/davigno.png
+#        define_facewidth 80
+#        define_faceheight 80
 
 #feed 15m http://blog.gulinux.net/category/planet-kde/feed/
 #        define_name Marco Gulino (RockMan)
