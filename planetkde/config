@@ -4604,3 +4604,16 @@ feed 45m http://aiix.tk/feed/
         define_face hackergotchi/aditya.jpg
         define_facewidth 72
         define_faceheight 72
+
+feed 30m https://guoyunhe.me/en/t/kde/feed
+    define_name Guo Yunhe
+    define_face hackergotchi/guoyunhe.jpg
+    define_facewidth 80
+    define_faceheight 80
+
+feed 30m https://guoyunhe.me/zh/t/kde/feed
+    define_name Guo Yunhe
+    define_feedclass chinese
+    define_face hackergotchi/guoyunhe.jpg
+    define_facewidth 80
+    define_faceheight 80
