@@ -3723,11 +3723,18 @@ feed 15m http://kdesvn.alwins-world.de/feed/
 feed 15m https://shahimoji.wordpress.com/feed/?mrss=off
         define_name Mojtaba Shahi Senobari (moji)
 
-feed 15m https://www.csslayer.info/wordpress/tag/planetkde/feed/
+feed 45m https://www.csslayer.info/wordpress/tag/planetkde/feed/
         define_name Weng Xuetian (csslayer)
         define_face hackergotchi/xuetianweng.png
         define_facewidth 80
         define_faceheight 80
+
+feed 45m https://www.csslayer.info/wordpress/category/kde/feed/
+        define_name CS Slayer
+        define_face hackergotchi/xuetianweng.png
+        define_facewidth 80
+        define_faceheight 80
+        define_feedclass chinese
 
 feed 15m http://blog.bshah.in/feed.xml
         define_name Bhushan Shah (bshah)
