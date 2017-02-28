@@ -4364,9 +4364,6 @@ feed 45m http://arnavdhamija.com/feeds/rss.xml
 #    define_facewidth 80
 #    define_faceheight 80
 
-feed 15m http://srijanfoss2k16.blogspot.com/feeds/posts/default/-/KDE
-    define_name Srijan Agarwal
-
 feed 15m http://alittledeveloper.blogspot.com/feeds/posts/default/?q=label:KDE
     define_name Alessandro Tundo
 
