@@ -4348,11 +4348,7 @@ feed 15m https://g33kyaditya.wordpress.com/tag/kde/feed/
 feed 30m https://delsalife.wordpress.com/feed/
     define_name Andrea Del Sarto
 
-<<<<<<< HEAD
 feed 45m http://arnavdhamija.com/feeds/atom.xml
-=======
-feed 45m http://arnavdhamija.com/feeds/rss.xml
->>>>>>> 574198680aa569154280f1f4ee012a34d41d3f3d
 	define_name Arnav Dhamija (shortstheory)
     define_face hackergotchi/arnavdhamija.jpg
     define_facewidth 80
