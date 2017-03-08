@@ -4620,3 +4620,10 @@ feed 15m http://www.srijanagarwal.me/tag/kde/index.xml
     define_face hackergotchi/srijan.jpg
     define_facewidth 80
     define_faceheight 80
+
+feed 45m http://iamutkarshtiwari.wordpress.com/season-of-kde-2016/feed/
+        define_name Utkarsh Tiwari (iamutkarshtiwari)
+        define_face hackergotchi/utkarshtiwari.jpg
+        define_facewidth 80
+        define_faceheight 80
+
