@@ -2093,6 +2093,10 @@ feed 15m https://momeny.wordpress.com/category/planetkde/feed/?mrss=off&category
 
 #feed 15m http://blogs.fsfe.org/mario/?feed=rss2&tag=kde
 #        define_name Mario Fux (unormal)
+# Old one, might be reactivated 
+
+feed 15m https://blogs.kde.org/blog/10441/feed
+        define_name Mario Fux (unormal)
 
 #feed 15m http://blog.rburchell.com/feeds/posts/default/-/kde?alt=rss
 #        define_name Robin Burchell (w00t)
