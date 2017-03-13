@@ -4348,8 +4348,8 @@ feed 15m https://g33kyaditya.wordpress.com/tag/kde/feed/
 feed 30m https://delsalife.wordpress.com/feed/
     define_name Andrea Del Sarto
 
-feed 45m http://arnavdhamija.com/feeds/atom.xml
-	define_name Arnav Dhamija (shortstheory)
+feed 45m http://arnavdhamija.com/feeds/tag_kde.rss.xml
+    define_name Arnav Dhamija (shortstheory)
     define_face hackergotchi/arnavdhamija.jpg
     define_facewidth 80
     define_faceheight 80
@@ -4626,12 +4626,9 @@ feed 45m https://iamutkarshtiwari.wordpress.com/season-of-kde-2016/feed/
         define_face hackergotchi/utkarshtiwari.jpg
         define_facewidth 80
         define_faceheight 80
-        
+
 feed 45m https://nitish18blog.wordpress.com/2017/03/08/feed/
         define_name Nitish Chauhan (nitish)
         define_face hackergotchi/nitish.jpg
         define_facewidth 80
-        define_faceheight 80        
-        
-        
-
+        define_faceheight 80
