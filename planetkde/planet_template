@@ -101,256 +101,84 @@
             }
         }
 
-        function toggledot() {
-            var ele = document.getElementsByClassName("dot");
+        function applyFilter(cname) {
+            var filter = readCookie(cname);
+            var ele = document.getElementsByClassName(cname);
             for (var i = 0, j = ele.length; i < j; i++)
-                if (ele[i].style.display == "block") {
-                    ele[i].style.display = "none";
-                    document.getElementById("toggledot").checked = false;
-                    createCookie("dot", "none", 360)
-                } else {
-                    ele[i].style.display = "block";
-                    document.getElementById("toggledot").checked = true;
-                    createCookie("dot", "block", 360)
-                }
+                ele[i].style.display = filter;
+            document.getElementById("toggle" + cname).checked = (filter == "none");
+        }
+
+        function toggleFilter(cname) {
+            var filter = readCookie(cname);
+            if (filter == "block") {
+                filter = "none";
+            } else {
+                filter = "block";
+            }
+            createCookie(cname, filter, 360);
+            applyFilter(cname);
+        }
+
+        function toggledot() {
+            toggleFilter("dot");
         }
 
         function togglefrench() {
             console.log("french");
-            var ele = document.getElementsByClassName("french");
-            for (var i = 0, j = ele.length; i < j; i++)
-                if (ele[i].style.display == "block") {
-                    ele[i].style.display = "none";
-                    document.getElementById("togglefrench").checked = false;
-                    createCookie("french", "none", 360)
-                } else {
-                    ele[i].style.display = "block";
-                    document.getElementById("togglefrench").checked = true;
-                    createCookie("french", "block", 360)
-                }
+            toggleFilter("french");
         }
 
         function togglespanish() {
-            var ele = document.getElementsByClassName("spanish");
-            for (var i = 0, j = ele.length; i < j; i++)
-                if (ele[i].style.display == "block") {
-                    ele[i].style.display = "none";
-                    document.getElementById("togglespanish").checked = false;
-                    createCookie("spanish", "none", 360)
-                } else {
-                    ele[i].style.display = "block";
-                    document.getElementById("togglespanish").checked = true;
-
-                    createCookie("spanish", "block", 360)
-                }
+            toggleFilter("spanish");
         }
 
         function togglepolish() {
-            var ele = document.getElementsByClassName("polish");
-            for (var i = 0, j = ele.length; i < j; i++)
-                if (ele[i].style.display == "block") {
-                    ele[i].style.display = "none";
-                    document.getElementById("togglepolish").checked = false;
-                    createCookie("polish", "none", 360)
-                } else {
-                    ele[i].style.display = "block";
-                    document.getElementById("togglepolish").checked = true;
-                    createCookie("polish", "block", 360)
-                }
+            toggleFilter("polish");
         }
 
         function toggleportuguese() {
-            var ele = document.getElementsByClassName("portuguese");
-            for (var i = 0, j = ele.length; i < j; i++)
-                if (ele[i].style.display == "block") {
-                    ele[i].style.display = "none";
-                    document.getElementById("toggleportuguese").checked = false;
-                    createCookie("portuguese", "none", 360)
-                } else {
-                    ele[i].style.display = "block";
-                    document.getElementById("toggleportuguese").checked = true;
-                    createCookie("portuguese", "block", 360)
-                }
+            toggleFilter("portuguese");
         }
 
         function toggleitalian() {
-            var ele = document.getElementsByClassName("italian");
-            for (var i = 0, j = ele.length; i < j; i++)
-                if (ele[i].style.display == "block") {
-                    ele[i].style.display = "none";
-                    document.getElementById("toggleitalian").checked = false;
-                    createCookie("italian", "none", 360)
-                } else {
-                    ele[i].style.display = "block";
-                    document.getElementById("toggleitalian").checked = true;
-                    createCookie("italian", "block", 360)
-                }
+            toggleFilter("italian");
         }
 
         function togglechinese() {
-            var ele = document.getElementsByClassName("chinese");
-            for (var i = 0, j = ele.length; i < j; i++)
-                if (ele[i].style.display == "block") {
-                    ele[i].style.display = "none";
-                    document.getElementById("togglechinese").checked = false;
-                    createCookie("chinese", "none", 360)
-                } else {
-                    ele[i].style.display = "block";
-                    document.getElementById("togglechinese").checked = true;
-                    createCookie("chinese", "block", 360)
-                }
+            toggleFilter("chinese");
         }
 
         function togglenews() {
-            var ele = document.getElementsByClassName("news");
-            for (var i = 0, j = ele.length; i < j; i++)
-                if (ele[i].style.display == "block") {
-                    ele[i].style.display = "none";
-                    document.getElementById("togglenews").checked = false;
-                    createCookie("news", "none", 360)
-                } else {
-                    ele[i].style.display = "block";
-                    document.getElementById("togglenews").checked = true;
-                    createCookie("news", "block", 360)
-                }
+            toggleFilter("news");
         }
 
         function toggleuser() {
-            var ele = document.getElementsByClassName("user");
-            for (var i = 0, j = ele.length; i < j; i++)
-                if (ele[i].style.display == "block") {
-                    ele[i].style.display = "none";
-                    document.getElementById("toggleuser").checked = false;
-                    createCookie("user", "none", 360)
-                } else {
-                    ele[i].style.display = "block";
-                    document.getElementById("toggleuser").checked = true;
-                    createCookie("user", "block", 360)
-                }
+            toggleFilter("user");
         }
 
         /*onLoad show microblog block if it was shown before*/
         function applyConfig() {
+            var filters = {
+                "dot": "block",
+                "french": "none",
+                "spanish": "none",
+                "polish": "none",
+                "portuguese": "none",
+                "italian": "none",
+                "chinese": "none",
+                "news": "block",
+                "user": "block",
+            };
             if (document.cookie === "") {
-                createCookie("dot", "block", 360);
-                createCookie("french", "none", 360);
-                createCookie("spanish", "none", 360);
-                createCookie("polish", "none", 360);
-                createCookie("portuguese", "none", 360);
-                createCookie("italian", "none", 360);
-                createCookie("chinese", "none", 360);
-                createCookie("news", "block", 360);
-                createCookie("user", "block", 360);
+                for (name in filters) {
+                    createCookie(name, filters[name], 360);
+                }
             };
 
-            var ele = document.getElementsByClassName("dot");
-            var dot = readCookie("dot");
-            if (dot == "block") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "block");
-                document.getElementById("toggledot").checked = true;
-            };
-            if (dot == "none") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "none");
-                document.getElementById("toggledot").checked = false;
-            };
-            var ele = document.getElementsByClassName("french");
-            var french = readCookie("french");
-            if (french == "block") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "block");
-                document.getElementById("togglefrench").checked = true;
-            };
-            if (french == "none") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "none");
-                document.getElementById("togglefrench").checked = false;
-            };
-            var ele = document.getElementsByClassName("spanish");
-            var spanish = readCookie("spanish");
-            if (spanish == "block") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "block");
-                document.getElementById("togglespanish").checked = true;
-            };
-            if (spanish == "none") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "none");
-                document.getElementById("togglespanish").checked = false;
-            };
-            var ele = document.getElementsByClassName("polish");
-            var polish = readCookie("polish");
-            if (polish == "block") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "block");
-                document.getElementById("togglepolish").checked = true;
-            };
-            if (polish == "none") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "none");
-                document.getElementById("togglepolish").checked = false;
-            };
-            var ele = document.getElementsByClassName("portuguese");
-            var portuguese = readCookie("portuguese");
-            if (portuguese == "block") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "block");
-                document.getElementById("toggleportuguese").checked = true;
-            };
-            if (portuguese == "none") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "none");
-                document.getElementById("toggleportuguese").checked = false;
-            };
-            var ele = document.getElementsByClassName("italian");
-            var italian = readCookie("italian");
-            if (italian == "block") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "block");
-                document.getElementById("toggleitalian").checked = true;
-            };
-            if (italian == "none") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "none");
-                document.getElementById("toggleitalian").checked = false;
-            };
-            var ele = document.getElementsByClassName("news");
-            var news = readCookie("news");
-            if (news == "block") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "block");
-                document.getElementById("togglenews").checked = true;
-            };
-            if (news == "none") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "none");
-                document.getElementById("togglenews").checked = false;
-            };
-            var ele = document.getElementsByClassName("user");
-            var user = readCookie("user");
-            if (user == "block") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "block");
-                document.getElementById("toggleuser").checked = true;
-            };
-            if (user == "none") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "none");
-                document.getElementById("toggleuser").checked = false;
-            };
-            var ele = document.getElementsByClassName("chinese");
-            var chinese = readCookie("chinese");
-            if (chinese == "block") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "block");
-                document.getElementById("togglechinese").checked = true;
-            };
-            if (chinese == "none") {
-                for (var i = 0, j = ele.length; i < j; i++)
-                    (ele[i].style.display = "none");
-                document.getElementById("togglechinese").checked = false;
-            };
+            for (name in filters) {
+                applyFilter(name);
+            }
         }
     </script>
     <!--donation-banner-->
