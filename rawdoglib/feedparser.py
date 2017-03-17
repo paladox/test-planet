@@ -2323,10 +2323,10 @@ class _HTMLSanitizer(_BaseHTMLProcessor):
       'option', 'p', 'pre', 'progress', 'q', 's', 'samp', 'section', 'select',
       'small', 'sound', 'source', 'spacer', 'span', 'strike', 'strong', 'sub',
       'sup', 'table', 'tbody', 'td', 'textarea', 'time', 'tfoot', 'th', 'thead',
-      'tr', 'tt', 'u', 'ul', 'var', 'video', 'noscript']
+      'tr', 'tt', 'u', 'ul', 'var', 'video', 'noscript', 'iframe']
 
     acceptable_attributes = ['abbr', 'accept', 'accept-charset', 'accesskey',
-      'action', 'align', 'alt', 'autoplay', 'autocomplete', 'autofocus', 'axis',
+      'action', 'align', 'allowfullscreen', 'alt', 'autoplay', 'autocomplete', 'autofocus', 'axis',
       'background', 'balance', 'bgcolor', 'bgproperties', 'border',
       'bordercolor', 'bordercolordark', 'bordercolorlight', 'bottompadding',
       'cellpadding', 'cellspacing', 'ch', 'challenge', 'char', 'charoff',
