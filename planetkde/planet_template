@@ -264,14 +264,6 @@
         </div>
     </div>
     -->
-    <!-- Twitter feeds on the right -->
-    <div class="pull-right socfeeds collapse in" id="socfeeds" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
-        <a class="twitter-timeline" data-height="2000" data-width="300"  href="https://twitter.com/hashtag/kde" data-widget-id="843875810612252672">#kde Tweets</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <p>&nbsp;</p>
-        <a class="twitter-timeline" data-height="2000" data-width="300" href="https://twitter.com/kdecommunity">Tweets by kdecommunity</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
 
     <!--/donation-banner-->
     <div class="container">
@@ -283,7 +275,19 @@
         <hr style="height:10px; background-color: #333;" -->
          __items__
 
-        <hr class="blueline">
+    <!-- Twitter feeds on the right -->
+    <div class="row socfeeds collapse in" id="socfeeds" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="col-md-6">
+            <a class="twitter-timeline" data-height="2000" data-width="300"  href="https://twitter.com/hashtag/kde" data-widget-id="843875810612252672">#kde Tweets</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="col-md-6">
+            <a class="twitter-timeline" data-height="2000" data-width="300" href="https://twitter.com/kdecommunity">Tweets by kdecommunity</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+
+    <hr class="blueline" />
         <div>
         	<p>
             Planet KDE is made from the blogs of KDE's contributors. The opinions it contains are those of the contributor. This site is powered by <a href="http://offog.org/code/rawdog.html">Rawdog</a> and <a href="https://launchpad.net/rawdog-rss">Rawdog RSS</a>. Feed readers can read Planet KDE with <a href="rss20.xml">RSS</a>, <a href="foafroll.xml">FOAF</a> or <a href="opml.xml">OPML</a>.
