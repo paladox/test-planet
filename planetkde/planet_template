@@ -206,7 +206,7 @@
                     </li>
                     <li><a href="#addmore" data-toggle="modal" data-target="#addmore">Add your Blog</a>
                     </li>
-                    <li><a href="#socfeeds" data-toggle="modal" data-target="#socfeeds">Microblogging Feed</a>
+                    <li><a href="#socfeeds" data-toggle="collapse" data-target="#socfeeds">Microblogging Feed</a>
                     </li>
                     <li><a href="http://dot.kde.org/">KDE Dot News</a>
                     </li>
@@ -264,6 +264,15 @@
         </div>
     </div>
     -->
+    <!-- Twitter feeds on the right -->
+    <div class="pull-right socfeeds collapse in" id="socfeeds" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+        <a class="twitter-timeline" data-height="2000" data-width="300"  href="https://twitter.com/hashtag/kde" data-widget-id="843875810612252672">#kde Tweets</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <br />
+        <a class="twitter-timeline" data-height="2000" data-width="300" href="https://twitter.com/kdecommunity">Tweets by kdecommunity</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
     <!--/donation-banner-->
     <div class="container">
         <!--div class="row">
@@ -296,27 +305,6 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Dismiss</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade socfeeds" id="socfeeds" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="row">
-            	<div class="col-md-12">
-            		<center>
-	                    <a class="twitter-timeline" href="https://twitter.com/hashtag/kde" data-widget-id="559456680266567680">#kde Tweets</a>
-						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-						</script>
-	                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        <br>
-                        <a class="twitter-timeline" href="https://twitter.com/kdecommunity" data-widget-id="560371561471807489">Tweets by @kdecommunity</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	                	<br>
-	                	<button type="button" class="btn btn-default" data-dismiss="modal">Dismiss</button>
-                	</center>
                 </div>
             </div>
         </div>
