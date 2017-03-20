@@ -269,7 +269,7 @@
         <a class="twitter-timeline" data-height="2000" data-width="300"  href="https://twitter.com/hashtag/kde" data-widget-id="843875810612252672">#kde Tweets</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <br />
+        <p>&nbsp;</p>
         <a class="twitter-timeline" data-height="2000" data-width="300" href="https://twitter.com/kdecommunity">Tweets by kdecommunity</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 
