@@ -3806,8 +3806,8 @@ feed 15m http://kfunk.org/tag/kde/rss/
 feed 15m https://www.kdevelop.org/news/feed
         define_name KDevelop
         define_face hackergotchi/kdevelop.png
-        define_facewidth 48
-        define_faceheight 48
+        define_facewidth 80
+        define_faceheight 80
 
 feed 15m https://sklin0.wordpress.com/tag/gsoc/
         define_name Sergey Kalinichev (klins)
