@@ -106,7 +106,7 @@
             var ele = document.getElementsByClassName(cname);
             for (var i = 0, j = ele.length; i < j; i++)
                 ele[i].style.display = filter;
-            document.getElementById("toggle" + cname).checked = (filter == "none");
+            document.getElementById("toggle" + cname).checked = (filter == "block");
         }
 
         function toggleFilter(cname) {
