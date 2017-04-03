@@ -4636,3 +4636,10 @@ feed 45m https://nitish18blog.wordpress.com/2017/03/08/feed/
         define_face hackergotchi/nitish.jpg
         define_facewidth 80
         define_faceheight 80
+
+feed 45m https://mgallienkde.wordpress.com/feed/
+        define_name Matthieu Gallien (mgallien)
+        define_face hackergotchi/mgallien.png
+        define_facewidth 80
+        define_faceheight 80
+
