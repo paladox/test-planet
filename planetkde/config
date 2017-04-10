@@ -2988,6 +2988,12 @@ feed 45m https://ayushashah.wordpress.com/feed/
 feed 17m https://blogs.wikitolearn.org/author/matteo_marcoli/feed/
     define_name Matteo Marcoli
 
+feed 14m https://blogs.wikitolearn.org/author/ruphy/feed/
+    define_name Riccardo Iaconelli (ruphy)
+    define_face hackergotchi/ruphy.png
+    define_facewidth 80
+    define_faceheight 80
+
 feed 17m https://blogs.wikitolearn.org/author/scimmiaspaziale/feed/
     define_name Riccardo A Gilardi
 
