@@ -2430,9 +2430,6 @@ feed 30m http://blog.filipesaraiva.info/?tag=planetkde-portugues&feed=rss2
         define_faceheight 80
 	define_feedclass portuguese
 
-feed 15m https://igortrindade.wordpress.com/category/kde/feed/?mrss=off&category_name=kde
-        define_name Igor Trindade Oliveira
-
 #feed 15m http://www.codepreneur.org/feeds/posts/default/-/kde
 #        define_name Arnaud Dupuis (Arno[Slack])
 #        define_face hackergotchi/arnaud-dupuis.jpg
