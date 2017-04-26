@@ -3226,3 +3226,9 @@ feed 45m https://mgallienkde.wordpress.com/feed/
     define_facewidth 80
     define_faceheight 80
 
+feed 45m https://yuenhoe.com/blog/tag/planetkde/feed/
+    define_name Lim Yuen Hoe (moofang)
+    define_face hackergotchi/yuenhoe.jpg
+    define_facewidth 80
+    define_faceheight 80
+
