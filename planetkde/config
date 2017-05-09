@@ -3243,3 +3243,10 @@ feed 45m rudranilbasu.github.io/blog/feed.kde.xml
         define_face hackergotchi/rudra.jpg
         define_facewidth 80
         define_faceheight 80
+
+feed 45m http://rivadavide.blogspot.com/feeds/posts/default?alt=rss
+	define_name Davide Riva (davider)
+        define_face hackergotchi/davide-riva.png
+        define_facewidth 80
+        define_faceheight 80
+
