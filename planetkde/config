@@ -3244,3 +3244,8 @@ feed 45m https://eliakincosta.github.io/feed.xml
     define_facewidth 80
     define_faceheight 80
 
+feed 45m http://rudranilbasu.github.io/blog/feed.kde.xml
+	define_name Rudra Nil Basu (rudra)
+        define_face hackergotchi/rudra.jpg
+        define_facewidth 80
+        define_faceheight 80
