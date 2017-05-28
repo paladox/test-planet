@@ -1963,7 +1963,7 @@ feed 15m https://kdenlive.org/category/news/feed/
     define_facewidth 100
     define_faceheight 75
 
-feed 15m http://laxstrom.name/blag/category/kde/feed/
+feed 15m https://laxstrom.name/blag/category/kde/feed/
     define_name Niklas Laxström (Nikerabbit)
 
 feed 15m https://mmessmer.wordpress.com/tag/kde/feed/?mrss=off&tag=kde
