@@ -3290,7 +3290,7 @@ feed 45m https://perplexinglyemma.blogspot.co.uk/feeds/posts/default/-/kde?alt=r
     define_faceheight 80
 
 feed 45m https://blog.neon.kde.org/index.php/feed/
-    define_name KDE neon
+    define_name KDE neon Blog
     define_feedclass news
     define_face hackergotchi/neon.png
     define_facewidth 80
