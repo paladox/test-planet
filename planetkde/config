@@ -3298,6 +3298,6 @@ feed 45m https://blog.neon.kde.org/index.php/feed/
 
 feed 45m http://kecsapgsoc2017.blogspot.com/feeds/posts/default?alt=rss
     define_name kecsap (GSOC 2017)
-    define_face hackergotchi/kecsap.png
+    define_face hackergotchi/kecsap.jpg
     define_facewidth 80
     define_faceheight 80
