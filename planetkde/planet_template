@@ -328,7 +328,7 @@
 
                     <p>We also include feeds in different categories, currently Dot News, Project News feeds, User Blogs, french Language, Spanish Language, Polish Language and Portuguese Language KDE blogs. If you have a feed which falls into these categories (or another non-English language) please file a bug as below.</p>
 
-                    <p>Planet KDE is kept in <a href="https://projects.kde.org/projects/websites/planet-kde-org">KDE's
+                    <p>Planet KDE is kept in <a href="https://commits.kde.org/websites/planet-kde-org">KDE's
           Git</a>. If you have an account you can add or edit your own feed:</p>
 
                     <ul>
