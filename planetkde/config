@@ -3320,4 +3320,6 @@ feed 45m https://akapust1n.github.io/feed.xml
     define_facewidth 80
     define_faceheight 80
 
-            
+feed 45m http://atulsharma.me/feed.xml
+    define_name Atul Sharma
+
