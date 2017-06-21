@@ -3323,5 +3323,5 @@ feed 45m https://akapust1n.github.io/feed.xml
 feed 45m http://atulsharma.me/feed.xml
     define_name Atul Sharma
 
-feed 45m https://zoltanp.github.io/feed.xml
+feed 45m https://zoltanp.github.io/category/kde_feed.xml
     define_name Zoltan Padrah
