@@ -3325,3 +3325,9 @@ feed 45m http://atulsharma.me/feed.xml
 
 feed 45m https://zoltanp.github.io/category/kde_feed.xml
     define_name Zoltan Padrah
+
+feed 45m https://shazaismailkaoud.wordpress.com/tag/kde/feed/
+    define_name Shaza Ismail Kaoud (shazaismailkaoud)
+    define_face hackergotchi/shaza-ismail.png
+    define_facewidth 53
+    define_faceheight 80
