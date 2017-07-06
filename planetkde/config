@@ -3333,7 +3333,7 @@ feed 45m https://shazaismailkaoud.wordpress.com/tag/kde/feed/
     define_faceheight 80
 
 
-#feed 15m https://vasudhamathur.wordpress.com/tag/kde/feed/
+#feed 15m https://vasudhamathur.wordpress.com/feed/
 #        define_name Vasudha (vasudhamathur)
 #        define_face hackergotchi/vasudha.jpg
 #        define_facewidth 73
