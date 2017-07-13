@@ -990,7 +990,7 @@ feed 15m http://feeds.feedburner.com/slashrosha/en/kde
     define_facewidth 96
     define_faceheight 96
 
-feed 15m http://blog.toscalix.com/feeds/posts/default?alt=rss
+feed 15m https://toscalix.com/feed/?alt=rss
     define_name Agustin Benito Bethencourt
 
 feed 15m http://elcuco2.blogspot.com/feeds/posts/default
