@@ -267,6 +267,9 @@
 
     <!--/donation-banner-->
     <div class="container">
+      <div class="row" id="twocolumn">
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+
         <!--div class="row">
             <div class="col-lg-4 col-xs-offset-4">
                 <img src="images/header.png" class="img img-responsive">
@@ -274,18 +277,6 @@
         </div>
         <hr style="height:10px; background-color: #333;" -->
          __items__
-
-    <!-- Twitter feeds on the right -->
-    <div class="row socfeeds collapse in" id="socfeeds" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="col-md-6">
-            <a class="twitter-timeline" data-height="2000" data-width="300"  href="https://twitter.com/hashtag/kde" data-widget-id="843875810612252672">#kde Tweets</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-        <div class="col-md-6">
-            <a class="twitter-timeline" data-height="2000" data-width="300" href="https://twitter.com/kdecommunity">Tweets by kdecommunity</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-    </div>
 
     <hr class="blueline" />
         <div>
@@ -312,6 +303,16 @@
                 </div>
             </div>
         </div>
+
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <a class="twitter-timeline" data-height="2000" data-width="300"  href="https://twitter.com/hashtag/kde" data-widget-id="843875810612252672">#kde Tweets</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a class="twitter-timeline" data-height="2000" data-width="300" href="https://twitter.com/kdecommunity">Tweets by kdecommunity</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div> <!-- twocolumn -->
+
     </div>
 
     <!-- Modal -->
