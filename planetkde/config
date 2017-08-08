@@ -3314,6 +3314,9 @@ feed 45m https://tantsevov.wordpress.com/feed/?mrss=off
     define_facewidth 80
     define_faceheight 80
 
+feed 45m https://anditosan.wordpress.com/feed/?mrss=off
+    define_name andy b
+
 #feed 15m https://vasudhamathur.wordpress.com/feed/
 #        define_name Vasudha (vasudhamathur)
 #        define_face hackergotchi/vasudha.jpg
