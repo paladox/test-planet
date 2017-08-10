@@ -3324,3 +3324,5 @@ feed 45m https://anditosan.wordpress.com/feed/?mrss=off
 #        define_faceheight 80
 
 
+feed 15m http://good-horse.blogspot.com/feeds/posts/default/-/KDE
+        define_name Franklin Weng
