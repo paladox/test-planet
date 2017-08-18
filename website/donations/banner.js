@@ -1,5 +1,5 @@
 $(function() {
-    $.getJSON('https://planetkde.org/donations/get.php', function(data) {
+    $.getJSON('https://planet.kde.org/donations/get.php', function(data) {
         $('#donation-current-amount').html(data.current);
         $('#donation-bar').css({
             'width': data.pcnt + '%',
