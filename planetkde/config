@@ -3318,11 +3318,11 @@ feed 45m https://tantsevov.wordpress.com/feed/?mrss=off
 feed 45m https://anditosan.wordpress.com/feed/?mrss=off
     define_name andy b
 
-#feed 15m https://vasudhamathur.wordpress.com/feed/
-#        define_name Vasudha (vasudhamathur)
-#        define_face hackergotchi/vasudha.jpg
-#        define_facewidth 73
-#        define_faceheight 80
+feed 15m https://vasudhamathur.wordpress.com/feed/
+        define_name Vasudha (vasudhamathur)
+        define_face hackergotchi/vasudha.jpg
+        define_facewidth 73
+        define_faceheight 80
 
 
 feed 15m http://good-horse.blogspot.com/feeds/posts/default/-/KDE
