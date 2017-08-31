@@ -2490,10 +2490,6 @@ feed 15m https://n1kam.wordpress.com/feed/
 feed 15m https://mrupanjana.wordpress.com/feed/
     define_name Rupanjana Mitra (mrupanjana)
 
-feed 15m https://community.chakralinux.org/c/news?/feeds/categories/1-KDE.rss
-    define_name Chakra OS
-    define_feedclass news
-
 feed 15m https://ziemin.wordpress.com/feed/
     define_name Marcin Zieminski
 
