@@ -552,7 +552,10 @@ feed 15m https://blogs.kde.org/blog/460/feed
     define_name Kurt Hindenburg
 
 feed 15m http://euroquis.nl/bobulate/?feed=rss2
-    define_name Adriaan de Groot (adridg)
+    define_name Adriaan de Groot ([ade])
+    define_face hackergotchi/adridg.png
+    define_facewidth 72
+    define_faceheight 65
 
 feed 15m https://blogs.kde.org/blog/20/feed
     define_name Andras Mantia
