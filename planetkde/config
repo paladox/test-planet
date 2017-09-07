@@ -2380,6 +2380,9 @@ feed 15m https://ahmedabouelhamayed.wordpress.com/category/kde/feed/?mrss=off
 
 feed 15m https://blogs.kde.org/blog/193/feed
     define_name Eike Hein (Sho)
+    define_face hackergotchi/eike-hein.jpg
+    define_facewidth 80
+    define_faceheight 80
 
 feed 15m https://nikhatzi.gr/?feed=rss2&cat=3
     define_name Nikolaos Chatzidakis
