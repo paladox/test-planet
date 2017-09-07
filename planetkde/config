@@ -2535,6 +2535,9 @@ feed 15m https://aniketanvit.wordpress.com/tag/planetkde/feed/
 
 feed 15m http://anditosan.com/blog/feed/
     define_name Andres Betts (anditosan)
+    define_face hackergotchi/andres-betts.jpg
+    define_facewidth 80
+    define_faceheight 80
 
 feed 15m https://mohamedanwer.wordpress.com/tag/kde/feed/
     define_name Mohamed Anwer (tootis)
