@@ -2533,12 +2533,6 @@ feed 15m https://aniketanvit.wordpress.com/tag/planetkde/feed/
     define_facewidth 67
     define_faceheight 80
 
-feed 15m http://anditosan.com/blog/feed/
-    define_name Andres Betts (anditosan)
-    define_face hackergotchi/andres-betts.jpg
-    define_facewidth 80
-    define_faceheight 80
-
 feed 15m https://mohamedanwer.wordpress.com/tag/kde/feed/
     define_name Mohamed Anwer (tootis)
     define_face hackergotchi/mohamed-anwer.png
@@ -3321,14 +3315,16 @@ feed 45m https://tantsevov.wordpress.com/feed/?mrss=off
     define_faceheight 80
 
 feed 45m https://anditosan.wordpress.com/feed/?mrss=off
-    define_name andy b
+    define_name Andres Betts (anditosan)
+    define_face hackergotchi/andres-betts.jpg
+    define_facewidth 80
+    define_faceheight 80
 
 feed 15m https://vasudhamathur.wordpress.com/feed/
         define_name Vasudha (vasudhamathur)
         define_face hackergotchi/vasudha.jpg
         define_facewidth 73
         define_faceheight 80
-
 
 feed 15m http://good-horse.blogspot.com/feeds/posts/default/-/KDE
         define_name Franklin Weng
