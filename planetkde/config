@@ -1787,7 +1787,7 @@ feed 15m http://tsdgeos-es.blogspot.com/atom.xml
     define_faceheight 80
     define_feedclass spanish
 
-feed 15m http://kubuntu.org/news/feed
+feed 15m https://kubuntu.org/news/feed
     define_name Kubuntu News
     define_feedclass news
     define_face hackergotchi/kubuntu-logo.png
