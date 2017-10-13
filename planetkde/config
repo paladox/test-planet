@@ -894,7 +894,7 @@ feed 15m https://jaham.wordpress.com/category/kde/feed/?mrss=off&category_name=k
 feed 15m http://domseichter.blogspot.com/feeds/posts/default
     define_name Dominik Seichter
 
-feed 15m http://milliams.com/?q=rss.xml
+feed 15m https://milliams.com/?q=rss.xml
     define_name Matt Williams
 
 feed 15m http://chehrlic.blogspot.com/rss.xml
