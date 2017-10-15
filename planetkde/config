@@ -913,9 +913,6 @@ feed 15m https://apachelog.wordpress.com/category/kde/feed/?mrss=off&category_na
 feed 15m https://myrizio.wordpress.com/feed/?mrss=off
     define_name Maurizio Monge
 
-feed 15m http://flavio.castelli.name/atom.xml
-    define_name Flavio Castelli
-
 feed 15m https://meson10.wordpress.com/feed/?mrss=off
     define_name Piyush Verma
 
