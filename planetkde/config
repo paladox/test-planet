@@ -2523,10 +2523,6 @@ feed 15m https://nil1511.wordpress.com/feed/
     define_facewidth 57
     define_faceheight 80
 
-feed 15m http://eddiesaenz.net/planetKDEposts.xml
-    define_name Simon at Facebook Open Academy
-    define_feedclass news
-
 feed 15m http://debjitmondal.blogspot.in/feeds/posts/default/-/kde
     define_name Debjit Mondal (debjit)
 
