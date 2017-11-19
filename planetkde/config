@@ -1831,6 +1831,9 @@ feed 15m http://blog.davidedmundson.co.uk/blog/category/kde/feed/
     define_facewidth 64
     define_faceheight 80
 
+feed 15m http://www.javierllorente.com/category/english/feed/
+    define_name Javier Llorente
+
 feed 15m https://mrybczynska.wordpress.com/category/english/feed/?mrss=off&category_name=english
     define_name Marta Rybczyńska
     define_feedclass polish
