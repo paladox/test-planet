@@ -367,8 +367,8 @@ feed 15m http://www.purinchu.net/wp/feed/
 feed 15m https://blogs.kde.org/blog/11/feed
     define_name Maksim Orlovich (SadEagle)
 
-feed 15m http://www.valdyas.org/fading/index.cgi/index.rss
-    define_name Boudewijn Rempt (boud)
+#feed 15m http://www.valdyas.org/fading/index.cgi/index.rss
+#    define_name Boudewijn Rempt (boud)
 
 feed 15m http://ramblingsofpsn.blogspot.com/feeds/posts/default
     define_name Peter Simonsson (psn)
