@@ -1711,7 +1711,7 @@ feed 15m https://morice.ipsquad.net/blog/?cat=3&feed=rss2
     define_facewidth 80
     define_faceheight 80
 
-feed 15m http://bergie.iki.fi/blog/category/kde/rss.xml
+feed 15m https://bergie.iki.fi/blog/category/kde/rss.xml
     define_name Henri Bergius (bergie)
     define_face hackergotchi/bergie.png
     define_facewidth 101
