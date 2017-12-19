@@ -182,9 +182,9 @@
         }
     </script>
     <!--donation-banner-->
-<!--     <link rel="stylesheet" href="./donations/banner.css" type="text/css" /> -->
+    <link rel="stylesheet" href="./donations/banner.css" type="text/css" />
     <script type="text/javascript" src="//cdn.kde.org/js/jquery.js"></script>
-<!--     <script type="text/javascript" src="./donations/banner.js"></script> -->
+    <script type="text/javascript" src="./donations/banner.js"></script>
     <!--/donation-banner-->
 </head>
 
@@ -235,7 +235,7 @@
         </div>
     </nav>
     <!--donation-banner-->
-    <!-- This is with a target goal
+    <!-- This is with a target goal -->
     <div align="center">
         <div id="donation-banner">
             <div id="donation-graph">
@@ -248,12 +248,12 @@
                 &#8364; <span id="donation-current-amount">0.00</span>
             </div>
             <div id="donation-text">
-                Please donate what you can to help make the Randa Meetings 2017 possible.
-                <a href="https://www.kde.org/fundraisers/randameetings2017/">Read more</a>.
+                Please donate what you can to the KDE End of Year 2017 Fundraising.
+                <a href="https://www.kde.org/fundraisers/yearend2017/">Read more</a>.
             </div>
         </div>
     </div>
-    -->
+    <!-- -->
     <!-- This is without a target goal
     <div align="center">
         <div id="donation-banner" style="height: 100px;">
