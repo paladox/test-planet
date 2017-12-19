@@ -25,6 +25,7 @@ $percent = floatval($percent);
 $content = $dom->find('.text__blue', 0)->plaintext;
 $content = substr($content, strpos($content, "Raised:"));
 $content = substr($content, 8);
+$content = str_replace(",", "", $content);
 $current = substr($content, 0, strpos($content, " "));
 
 // Output the data in JSON format
