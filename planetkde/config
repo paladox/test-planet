@@ -3255,12 +3255,6 @@ feed 45m http://kecsapgsoc2017.blogspot.com/feeds/posts/default?alt=rss
     define_facewidth 80
     define_faceheight 80
 
-feed 45m https://www.mnafees.me/feed.kde.xml
-    define_name Mohammed Nafees
-    define_face hackergotchi/mohammed-nafees.jpg
-    define_facewidth 80
-    define_faceheight 80
-
 feed 45m https://nitish18blog.wordpress.com/2017/06/14/feed/
     define_name Nitish Chauhan (nitish)
     define_face hackergotchi/nitish.jpg
