@@ -3329,3 +3329,9 @@ feed 60m http://neofytosk.com/categories/kde/index.xml
     define_face hackergotchi/neofytosk.png
     define_facewidth 80
     define_faceheight 80
+
+feed 45m https://amankumargupta.wordpress.com/category/gcompris/
+    define_name Aman Kumar Gupta (gupta2140[m])
+    define_face hackergotchi/amankumargupta.jpg
+    define_facewidth 55
+    define_faceheight 80
